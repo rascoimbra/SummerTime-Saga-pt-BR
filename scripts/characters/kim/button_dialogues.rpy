@@ -2,8 +2,8 @@ label kim_button_dialogue_intro:
     show player 13 at left
     show kim 2 at right
     with dissolve
-    kim "Herro there!"
-    kim "What can I do to get you into a new vehicle today?"
+    kim "Herro lá!"
+    kim "O que posso fazer para entrar em um veículo novo hoje?"
     show kim 1
     show player 10
     player_name "Oh, uhh..."
@@ -12,59 +12,59 @@ label kim_button_dialogue_intro:
 
 label kim_button_dialogue_button:
     show player 14 with dissolve
-    player_name "I like your button."
-    player_name "You a fan of {b}Mayor Rump{/b}?"
+    player_name "Gostei do seu botão."
+    player_name "Você é fã do {b}prefeito Rump{/b}?"
     show player 13
     show kim 2
-    kim "Oh, {b}Mayor Rump{/b} is numba 1, best mayor."
-    kim "Him and {b}Kim{/b} good friends!"
+    kim "Oh, o {b}prefeito Rump{/b} é o numero 1, o melhor prefeito."
+    kim "Ele e {b}Kim{/b} são bons amigos!"
     show kim 3
     show player 10
-    player_name "You're friends with {b}Mayor Rump{/b}?"
+    player_name "Você é amigo do {b}prefeito Rump{/b}?"
     show player 13
     show kim 2
-    kim "Yes, I herp him with his poricies in exchange for funding."
+    kim "Sim, eu o ajudo com seus poricies em troca de financiamento."
     show kim 6 with dissolve
-    kim "When I ascend to my throne!"
+    kim "Quando eu subir ao meu trono!"
     show kim 3 with dissolve
     show player 10
-    player_name "... Throne?"
+    player_name "... Trono?"
     show player 5
     show kim 2
-    kim "Yes!"
-    kim "When I take over this dearership, I will erect a mighty throne."
+    kim "Sim!"
+    kim "Quando eu assumir esse cargo, erigirei um poderoso trono."
     show kim 5 with dissolve
     kim "Hue hue hue hue!"
     show player 12
-    player_name "Well, good luck with all that..."
+    player_name "Bem, boa sorte com tudo isso ..."
     show player 5
     show kim 2 with dissolve
-    kim "I no need ruck..."
+    kim "Eu não preciso de rock ..."
     hide kim with dissolve
     show player 10
-    player_name "Hmm, why would our {b}Mayor{/b} be hanging out with that guy?"
+    player_name "Hmm, por que o nosso {b}prefeito{/b} estaria com esse cara?"
     show player 12
-    player_name "... Weird."
+    player_name "... Estranho."
     hide player with dissolve
     return
 
 label kim_button_dialogue_browsing:
     show player 14 with dissolve
-    player_name "I'm just here to browse."
+    player_name "Estou aqui apenas para navegar."
     show player 13
     show kim 2
-    kim "Hmmph, a browser, eh?"
-    kim "Very well."
-    kim "... But should you wish to purchase something, I insist you speak with me and no one erse!"
-    kim "You understand?!"
+    kim "Hmmph, um navegador, não é?"
+    kim "Muito bem."
+    kim "... Mas se você quiser comprar alguma coisa, eu insisto que você fale comigo e ninguém se oponha!"
+    kim "Você entende ?!"
     show kim 1
     show player 10
-    player_name "Uhh, yeah..."
-    player_name "Sure thing."
+    player_name "Uhh, sim ..."
+    player_name "Com certeza."
     show player 5
     show kim 2
-    kim "Good."
-    kim "I will be watching!"
+    kim "Bom".
+    kim "Eu estarei assistindo!"
     hide kim
     hide player
     with dissolve
@@ -72,39 +72,39 @@ label kim_button_dialogue_browsing:
 
 label kim_button_dialogue_sign:
     show player 14 with dissolve
-    player_name "Is that you on the sign?"
+    player_name "É você que está no letreiro?"
     show player 13
     show kim 5 with dissolve
-    kim "Oh, you notice sign, eh?!"
-    kim "Yes, {b}Kim{/b} is numba 1, best car salesman!"
-    kim "Soon, I own this prace."
+    kim "Oh, você percebe sinal, hein ?!"
+    kim "Sim, {b}Kim{/b} é o número 1, melhor vendedor de carros!"
+    kim "Em breve, eu possuo esse privilégio."
     show kim 4
     show player 12
-    player_name "Oh yeah?"
+    player_name "Ah, é??"
     show player 13
     show kim 6 with dissolve
-    kim "Oh yes... I will conquer this Car Dearership!"
-    kim "I will expand it, into national chain!"
+    kim "Ah, sim ... eu vou conquistar esse carro caridade!"
+    kim "Vou expandi-lo para a cadeia nacional!"
     show player 11
-    kim "One day, I will cover the entire pranet with my Dearerships!!"
+    kim "Um dia, irei cobrir toda a pranet com minhas concessionarias!"
     show kim 3
     show player 3
     with dissolve
     player_name "..."
     show kim 5 with dissolve
     kim "Hue hue hue hue!"
-    kim "I will be a dearership GOD!!!"
+     kim "Eu serei uma amado DEUS!!!"
     show kim 4
     show player 10 with dissolve
-    player_name "... Right."
-    player_name "Well, I'm gonna go look around now..."
+    player_name "... Certo."
+    player_name "Bem, eu vou dar uma olhada agora ..."
     show player 5
     show kim 2 with dissolve
-    kim "Yes, you go rook."
-    kim "Come find me if you want make purchase."
+    kim "Sim, você vai à torre."
+    kim "Venha me encontrar se quiser fazer uma compra."
     hide kim with dissolve
     show player 12
-    player_name "What an odd fellow."
+    player_name "Que sujeito estranho."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

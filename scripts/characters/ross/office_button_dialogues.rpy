@@ -3,14 +3,14 @@ label button_ross_office_generic_pre_hscene:
     show ross 11 at left
     show player 1f at right
     with dissolve
-    ross "Well hello there, {b}[firstname]{/b}."
-    ross "Nice of you to visit me!"
+    ross "Bem Olá, {b}[firstname]{/b}."
+    ross "Bom da sua parte me visitar! "
     show ross 10
     show player 2f
-    player_name "Hey, {b}Miss Ross{/b}."
+    player_name "Ei, {b}Miss Ross{/b}."
     show ross 11
     show player 1f
-    ross "What can I do for you?"
+    ross "O que posso fazer para você?"
     return
 
 label button_ross_office_generic_post_hscene:
@@ -18,43 +18,43 @@ label button_ross_office_generic_post_hscene:
     show ross 10 at left
     show player 2f at right
     with dissolve
-    player_name "Hey, {b}Miss Ross{/b}!"
+    player_name "Ei, {b}Miss Ross{/b}!"
     show player 1f
     show ross 27 with dissolve
-    ross "{b}[firstname]{/b}! It's so good to see you!"
+    ross "{b}[firstname]{/b}! É tão bom ver você! "
     show ross 13 with dissolve
-    ross "... I hope you're here for another private lesson?"
+    ross "... Espero que você esteja aqui para outra aula particular? "
     return
 
 label ross_dialogue_office_private_lessons:
     show ross 12
     show player 2f
-    player_name "Yeah, I'd love that!"
+    player_name "Sim, eu adoraria isso! "
     show ross 13
     show player 1f
-    ross "Mmm, hurry and lock the door!"
+    ross "Mmm, se apresse e tranque a porta! "
     show ross 12
     show player 2f
-    player_name "O-okay..."
+    player_name "O-ok..."
     return
 
 label ross_dialogue_office_leave:
     scene expression player.location.background_closeup
     show ross 10 at left
     show player 2f at right
-    player_name "Oh, I don't need anything."
-    player_name "Sorry to bother you."
+    player_name "Oh, eu não preciso de nada. "
+    player_name "Desculpe incomodá-la."
     show ross 11
     show player 1f
-    ross "It's no bother, {b}[firstname]{/b}!"
-    ross "Helping talented young artists is my specialty after all!"
+    ross "Não incomoda, {b}[firstname]{/b}!"
+    ross "Afinal, ajudar jovens artistas talentosos é minha especialidade! "
     show ross 10
     show player 2f
-    player_name "Heh, okay."
-    player_name "I should get going..."
+    player_name "Heh, ok. "
+    player_name "Eu devo ir ..."
     show ross 11
     show player 1f
-    ross "Aww, alright."
-    ross "Bye, {b}[firstname]{/b}."
+    ross "Aww, tudo bem. "
+    tchau "tchau, {b}[firstname]{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

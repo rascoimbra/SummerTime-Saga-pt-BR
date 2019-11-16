@@ -3,165 +3,165 @@ label button_okita_intro:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Alright, {b}Miss Okita{/b}. What do I have to do to get my grades up?"
+    player_name "Tudo bem, {b}Miss Okita{/b}. O que preciso fazer para obter minhas notas? "
     show player 1
     show okita 5
-    okita "You're going to help me break free of my imposed banishment to the land of deficients."
+    okita "Você vai me ajudar a me libertar do banimento imposto à terra dos deficientes. "
     show player 10
     show okita 4
-    player_name "Huh? Banishment? What in the world are you on about?"
+    player_name "Hã? Banimento? Sobre o que você está falando? "
     show player 11
     show okita 3
-    okita "Do you actually believe somebody of my intelligence belongs here, teaching basic science to a bunch of Neanderthals?"
+    okita "Você realmente acredita que alguém da minha inteligência pertence aqui, ensinando ciência básica a um monte de neandertais? "
     show player 10
     show okita 4
     player_name "Uhh..."
     show player 11
     show okita 3
-    okita "You think this is what I aspire to do with my life?!"
+    okita "Você acha que é isso que aspiro fazer com a minha vida ?! "
     show player 30
     show okita 4
-    player_name "... No?"
+    player_name "... Não?"
     show player 11
     show okita 11
-    okita "I used to be the bleeding edge, {b}[firstname]{/b}!"
-    okita "I worked alongside some of the brightest minds on the planet, striving to forward humanity into the future!"
+    okita "Eu costumava ser a borda do sangramento, {b}[firstname]{/b}!"
+    okita "Eu trabalhei ao lado de algumas das mentes mais brilhantes do planeta, esforçando-me para encaminhar a humanidade para o futuro! "
     show player 2
     show okita 11b
-    player_name "That sounds... Intense! How did you end up here?"
+    player_name "Isso parece ... Intenso! Como você acabou aqui? "
     show player 1
     show okita 11
-    okita "One day my colleagues forced me out!"
+    okita "Um dia meus colegas me forçaram a sair! "
     show player 10
     show okita 11b
-    player_name "What?! Why did they do that?"
+    player_name "Um dia meus colegas me forçaram a sair! "
     show player 11
     show okita 5
-    okita "Well, they claimed I was losing sight of the bigger picture."
-    okita "That I'd become too concerned with advancing the science and less aware of the ethics I'd sworn to uphold."
+    okita "Bem, eles alegaram que eu estava perdendo de vista o quadro geral ".
+    okita "Que eu me preocupei demais com o avanço da ciência e menos consciente da ética que jurei defender."
     show okita 4
     player_name "..."
     show okita 11
-    okita "The truth of the matter, is that they were just intimidated by my intelligence!"
-    okita "They couldn't keep up so they banded together and got me blacklisted."
+    okita "A verdade é que eles foram intimidados pela minha inteligência! "
+    okita "Eles não conseguiam acompanhar, então se uniram e me colocaram na lista negra."
     show player 30
     show okita 11b
-    player_name "Blacklisted? What does that mean?"
+    player_name "Na lista negra? O que isso significa?"
     show player 11
     show okita 3
-    okita "It means no worthwhile scientific institution will have me!"
+    okita "Isso significa que nenhuma instituição científica que vale a pena me aceitará! "
     show okita 11
-    okita "I've been ostracized to live out a dull existence in a monotonous place like this..."
+    okita "Fui banido de uma vida monótona em um lugar monótono como este ... "
     show player 10
     show okita 11b
-    player_name "Well that's a sad story and all but how am I supposed to help you?"
+    player_name "Bem, essa é uma história triste e tudo, mas como devo ajudá-lo? "
     show player 11
     show okita 3
-    okita "Yes, well it's simple really."
+    okita "Sim, bem, na verdade é simples. "
     show okita 5
-    okita "I just need to finish what I started."
+    okita "Eu só preciso terminar o que comecei. "
     show player 10
     show okita 4
     player_name "Huh?"
     show player 11
     show okita 2
-    okita "My inventions! The ones I was working on at {b}Cuntech{/b} before those morons blacklisted me."
-    okita "If I could just prove they work and get one of them published."
+    okita "Minhas invenções! Aqueles em que eu estava trabalhando {b}Cuntech{/b} antes daqueles idiotas me colocarem na lista negra. "
+    okita "Se eu pudesse provar que eles funcionam e publicar um deles ".
     show player 10
     show okita 1
-    player_name "You think that would get you your job back?"
+    player_name "Você acha que isso lhe daria seu emprego de volta? "
     show player 11
     show okita 11
-    okita "... I don't care about the job!"
-    okita "I want to show those backstabbers just how foolish they were, dismissing {b}Tori Okita{/b}!"
+    okita "... Eu não ligo para o trabalho! "
+    okita "Eu quero mostrar a esses traidores o quão tolos eles eram, descartando {b}Tori Okita{/b}!"
     show okita 5
-    okita "Besides, if even one of my inventions works. It'll be worth a fortune!"
+    okita "Além disso, se pelo menos uma de minhas invenções funcionar. Vai valer uma fortuna! "
     show okita 2
-    okita "I'll buy my own lab!"
+    okita "Eu comprarei meu próprio laboratório! "
     show player 30
     show okita 1
-    player_name "... Still not seeing how I fit into all of this."
+    player_name "... Ainda não estou vendo como me encaixo em tudo isso. "
     show player 11
     show okita 5
-    okita "Well, first off, I need you to {b}help me get into my office{/b}."
+    okita "Bem, primeiro, eu preciso que você {b}me ajude a entrar no meu escritório{/b}."
     show player 10
     show okita 4
-    player_name "You're locked out of your own office?"
+    player_name "Você está trancado em seu próprio escritório? "
     show player 11
     show okita 5
-    okita "Yeah, That tyrant {b}Principal Smith{/b} locked me out!"
+    okita "Sim, aquele tirano {b}Principal Smith{/b} me trancou! "
     show player 10
     show okita 4
-    player_name "The principal?!"
-    player_name "Why would she do that?"
+    player_name "O diretor da escola?!"
+    player_name "Por que ela faria isso?"
     show player 10
     show okita 5
-    okita "She doesn't want me pursuing my pet projects during the school term."
+    okita "Ela não quer que eu prossiga meus projetos de estimação durante o período escolar ".
     show okita 9
-    okita "... Says I should remain one-hundred percent focused on the curriculum."
+    okita "... Diz que devo permanecer cem por cento focado no currículo ".
     show okita 11
-    okita "It's utter nonsense!"
+    okita "É um  absurdo total! "
     show player 10
     show okita 4
-    player_name "... How am I supposed to get you in?"
+    player_name "... Como eu devo entrar com você? "
     show player 11
     show okita 5
-    okita "With the {b}keycode{/b} of course. {b}Principal Smith{/b} will have it {b}stashed away somewhere in her office{/b}, I'm sure."
+    okita "Com o {b}Código chave{/b} claro. {b}Principal Smith{/b} vai ter {b}escondido em algum lugar em seu escritório{/b}, Tenho certeza."
     show player 10
     show okita 4
-    player_name "You want me to {b}break into the principal's office and steal from her{/b}?!"
+    player_name "Você quer que eu {b}invadir o escritório do diretor e roubar dela{/b}?!"
     show player 11
     show okita 5
-    okita "It's not really stealing... I just need you to figure out the code."
+    okita "Não é realmente roubo ... só preciso que você descubra o código. "
     show okita 3
-    okita "Besides, you have nothing to lose... Remember?"
+    okita "Além disso, você não tem nada a perder ... Lembra? "
     show player 12
     show okita 4
-    player_name "She could expel me!"
+    player_name "Ela poderia me expulsar! "
     show player 11
     show okita 5
-    okita "Would it really matter? You'll be stuck here for another year regardless if you flunk my class..."
+    okita "Isso realmente importa? Você ficará preso aqui por mais um ano, independentemente de reprovar minha aula ... "
     show player 10
     show okita 4
-    player_name "Yeah, but..."
+    player_name "Sim mas..."
     show player 11
     show okita 3
-    okita "Don't be foolish. This is a good deal! If you get the blueprints out of my office, help me build what's on them, and run a few tests to prove they work..."
+    okita "Não seja tolo. Este é um bom negócio! Se você tirar as plantas do meu escritório, ajude-me a criar o que há nelas e faça alguns testes para provar que elas funcionam ... "
     show okita 5
-    okita "... I'll give you an A+ in my class."
+    okita "... Vou te dar um A + na minha turma. "
     show player 14
     show okita 4
-    player_name "An A+!?"
+    player_name "Um A + !? "
     show player 30
     player_name "Hmm..."
     show player 10
-    player_name "So basically, either I help you do this or I'm stuck with a failing grade?"
+    player_name "Então, basicamente, ou eu ajudo você a fazer isso ou estou com uma nota baixa? "
     show player 11
     show okita 3
-    okita "Yeah, without my help I calculate your odds of passing my class to be about 3,720 to 1."
+    okita "Sim, sem a minha ajuda, calculo suas chances de passar na classe em 3.720 a 1. "
     show player 12
     show okita 4
-    player_name "Sheesh, well it's not like I have much choice then."
+    player_name "Nossa, bem, não é como se eu tivesse muita escolha então. "
     show player 11
     show okita 7
-    okita "You're finally starting to get a grasp on the situation!"
+    okita "Você está finalmente começando a entender a situação! "
     show player 12
     show okita 6
-    player_name "So how do I get the keycode from {b}Principal Smith's office{/b}?"
+    player_name "Então, como obtenho o código-chave de {b}Escritório do diretor Smith{/b}?"
     show player 11
     show okita 5
-    okita "That's your problem."
+    okita "Esse é o seu problema. "
     show player 16
     show okita 4
     player_name "..."
     show player 12
-    player_name "Wonderful."
+    player_name "Maravilhoso."
     show player 16
     show okita 7
-    okita "Best of luck, {b}[firstname]{/b}!"
+    okita "Boa sorte, {b}[firstname]{/b}!"
     show okita 5
-    okita "... Oh and while you're in my office, why don't you grab a {b}lab coat{/b} and a {b}pair of safety glasses{/b}."
-    okita "You're gonna need them."
+    okita "... Ah, e enquanto você estiver no meu escritório, por que você não pega um {b}bata de laboratório{/b} e um {b}par de óculos de segurança{/b}."
+    okita "Você vai precisar deles. "
     hide okita
 
     hide player
@@ -169,7 +169,7 @@ label button_okita_intro:
     show player 24 at Position(xpos=0.45, ypos=1.0) with dissolve
     player_name "Ugh..."
     show player 34
-    player_name "( I'll have to wait for {b}Principal Smith to leave her office if I want to search it properly{/b}. )"
+    player_name "( Vou ter que esperar {b}Diretora Smith para deixar seu escritório, se eu quiser procurá-lo adequadamente{/b}. )"
 
     return
 
@@ -177,16 +177,16 @@ label button_okita_get_keycode:
     scene location_school_science_closeup
     show player 1 at left
     show okita 3 at right
-    okita "Any luck getting that keycode?"
+    okita "Alguma sorte em obter esse código de chave? "
     show player 2
     show okita 4
-    player_name "I'm still working on it."
+    player_name "Ainda estou trabalhando nisso."
     show player 1
     show okita 3
-    okita "Well, time is ticking."
+    okita "Bem, o tempo está passando. "
     show player 12
     show okita 4
-    player_name "I know..."
+    player_name "Eu sei..."
     show player 16
     show okita 9
     okita "Tch..."
@@ -197,7 +197,7 @@ label button_okita_get_keycode:
 
     player_name "Ugh..."
     show player 34
-    player_name "( I'll have to wait for {b}Principal Smith to leave her office if I want to search it properly{/b}. )"
+    player_name "( Vou ter que esperar {b}Diretora Smith para deixar seu escritório, se eu quiser procurá-lo adequadamente{/b}. )"
     return
 
 label button_okita_foam_misshap:
@@ -205,134 +205,134 @@ label button_okita_foam_misshap:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "Good, you're here. We can get started."
+    okita "Bom, você está aqui. Nós podemos começar. "
     show player 2
     show okita 4
-    player_name "Yeah, alright."
-    player_name "So what are we building first?"
+    player_name "Sim, está bem."
+    player_name "Então, o que estamos construindo primeiro?"
     show okita 5
-    okita "I'll show you."
+    okita "Eu vou te mostrar."
     show player 109f zorder 0 at Position(xpos=0.25, ypos=1.0)
     show okita 12 zorder 1 at Position(xpos=0.85, ypos=1.0)
     with dissolve
 
-    okita "I call these beauties, the Okitatron Oculars."
+    okita "Eu chamo essas belezas de oculares de Okitatron. "
 
     show bp 1 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
-    player_name "Glasses?"
-    okita "Hah, not glasses..."
+    player_name "Óculos?"
+    okita "Hah, não óculos ..."
 
     hide bp with dissolve
     show player 109f
     show okita 12
-    okita "These are an optical head-mounted display, a true ubiquitous computer."
+    okita "Trata-se de um monitor óptico montado na cabeça, um verdadeiro computador onipresente ".
     show player 10
     show okita 13
-    player_name "I don't understand."
+    player_name "Eu não entendo "
     show player 10 at left
     show okita 9 at right
     with dissolve
-    okita "Of course you don't. You're an imbecile."
+    okita "Claro que não. Você é um imbecil. "
     show player 5
     show okita 5
-    okita "Let me just put it this way, the Okitatron Oculars will soon replace every smart phone on the planet."
+    okita "Deixe-me colocar dessa maneira: os oculares Okitatron em breve substituirão todos os smartphones do planeta ".
     show player 10
     show okita 4
-    player_name "So it's a phone?"
+    player_name "Então é um telefone? "
     show player 11
     show okita 3
-    okita "*sigh*"
+    okita "*suspiro*"
     show okita 5
-    okita "Let's just focus on building it and once it's complete I'll show you what it does..."
+    okita "Vamos nos concentrar na construção e, quando estiver completo, mostrarei o que ele faz ... "
     show player 2
     show okita 4
-    player_name "Works for me."
+    player_name "Funciona para mim."
     show player 10
-    player_name "How do we start?"
+    player_name "Como começamos? "
     show player 11
     show okita 10b with dissolve
     okita "Hmm."
     show okita 10c
-    okita "Well, I'm missing a few components..."
+    okita "Bem, estou faltando alguns componentes ... "
     show okita 10b
     okita "..."
     show okita 5 with dissolve
-    okita "I can gather up most of what we need on my own."
+    okita "Posso reunir a maior parte do que precisamos por conta própria ".
     show okita 3
-    okita "Could you {b}find me a pair of lenses{/b}?"
+    okita "Você poderia {b}encontre-me um par de lentes{/b}?"
     show player 10
     show okita 4
-    player_name "{b}Lenses{/b}? Like in a telescope?"
+    player_name "{b}Lentes{/b}?Como em um telescópio? "
     show player 11
     show okita 5
-    okita "Not from a telescope. I need {b}lenses{/b} from a pair of spectacles. Specifically {b}Varifocal lenses{/b}."
+    okita "Não de um telescópio. eu preciso {b}Lentes{/b} de um par de óculos. Especificamente {b}Varifocal Lentes{/b}."
     show player 10
     show okita 4
     player_name "{b}Varifocal{/b}?"
     show player 11
     show okita 3
-    okita "Yes, that means it's a {b}lense{/b} with two different prescriptions; A top and a bottom."
+    okita "Sim, isso significa que é um {b}lente{/b} com duas prescrições diferentes; Um topo e um fundo ".
     show player 10
     show okita 4
-    player_name "Like for someone who is both nearsighted and farsighted?"
+    player_name "Como para alguém que tem míopia e astigmatismo? "
     show player 11
     show okita 2
-    okita "Precisely!"
+    okita "Precisamente! "
     show player 2
     show okita 1
-    player_name "Hmm, I might be able to track something like that down."
+    player_name "Hmm, talvez eu consiga rastrear algo assim. "
     show player 1
     show okita 3
-    okita "Might?"
+    okita "Poderia?"
     show player 2
     show okita 1
-    player_name "I mean, I know a few people who wear glasses. Maybe one of them have a spare set."
+    player_name "Quero dizer, conheço algumas pessoas que usam óculos. Talvez um deles tenha um conjunto de reposição. "
     show player 1
     show okita 2
-    okita "Very good. Report back to me here, {b}in the science lab{/b}, once you have them."
+    okita "Muito bom. Informe-me aqui, {b}no laboratório de ciências{/b}, depois de tê-los. "
     show player 2
     show okita 1
-    player_name "Alright."
+    player_name "Tudo bem."
     return
 
-label button_okita_get_bifocal_lenses:
+label button_okita_get_bifocal_Lentes:
     scene location_school_science_closeup
     show player 1 at left
     show okita 3 at right
     with dissolve
-    okita "Did you find what we need?"
+    okita "Você encontrou o que precisamos? "
     show player 2
     show okita 4
-    player_name "What did you want me to find again?"
+    player_name "O que você queria que eu encontrasse novamente? "
     show player 1
     show okita 3
-    okita "Pfft, you have one task to do and you've forgotten it?"
+    okita "Pfft, você tem uma tarefa a fazer e a esqueceu? "
     show player 10
     show okita 4
-    player_name "I-I guess so..."
+    player_name "Acho que sim ... "
     show player 11
     show okita 9
-    okita "Typical."
+    okita "Típico."
     show okita 5
-    okita "I need you to find a pair of {b}Varifocal lenses{/b}."
+    okita "Eu preciso que você encontre um par de {b}Varifocal Lentes{/b}."
     show player 10
     show okita 4
-    player_name "Oh, right! Both farsighted and nearsighted."
+    player_name "Oh, certo! Ambos míopes e míopes. "
     show player 11
     show okita 5
-    okita "Correct."
+    okita "Correto."
     show okita 3
-    okita "Perhaps I should write it backwards on your forehead, so you won't forget?"
+    okita "Talvez eu deva escrever na sua testa, para que você não esqueça? "
     show player 10
     show okita 4
-    player_name "... No, that's alright. I've got it now."
+    player_name "... Não, está tudo bem. Eu tenho agora. "
     show player 11
     okita "Mmmhmm."
     hide okita with dissolve
 
     show player 35 at Position(xpos=0.35, ypos=1.0) with dissolve
-    player_name "Hmm, I should {b}check around school{/b} and see if someone has a spare set of {b}Varifocal lenses{/b}."
+    player_name "Hmm, eu deveria {b}verifique em torno da escola{/b} e veja se alguém tem um conjunto de {b}Varifocal Lentes{/b}."
 
 
     return
@@ -342,91 +342,91 @@ label button_okita_get_faptic_engine:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}. Have you solved the problem with the Glasses?"
+    player_name "Ei, {b}Miss Okita{/b}. Você resolveu o problema com os óculos? "
     show player 1
     show okita 3
-    okita "You mean the {b}Okitatron Oculars{/b}?"
+    okita "Você quer dizer o {b}Okitatron Oculars{/b}?"
     show player 2
     show okita 4
-    player_name "Yeah, sorry. T-that's what I meant."
+    player_name "Sim, desculpe-me. foi isso que eu quis dizer."
     show player 1
     show okita 5
-    okita "Yes, I sorted it out. I'm in the process of patenting them now."
+    okita "Sim, eu resolvi isso. Estou no processo de patentear eles agora. "
     show player 2
     show okita 4
-    player_name "That's good news, right?"
+    player_name "Boas notícias, certo? "
     show player 1
     show okita 5
-    okita "It's good for a start."
+    okita "É bom para começar. "
     show okita 3
-    okita "... But nevermind the Oculars, {b}[firstname]{/b}!"
+    okita "... Mas deixa pra lá os oculares, {b}[firstname]{/b}!"
     show player 11
-    okita "Yesterday's news!"
+    okita "Notícias de ontem! "
     show player 10
     show okita 1
     player_name "... O-okay."
     show player 11
     show okita 2
-    okita "Today I've got something truly innovative!"
+    okita "Hoje eu tenho algo verdadeiramente inovador! "
     show player 10
     show okita 1
-    player_name "More innovative than X-Ray glasses?"
+    player_name "Mais inovador que os óculos de raio X? "
     show player 11
     show okita 3
-    okita "Oh, please. X-Ray technology hasn't been innovative since the 1980's."
+    okita "Oh, por favor. A tecnologia de raios X não é inovadora desde os anos 80 ".
     show okita 1
     player_name "..."
 
     show player 109f zorder 0 at Position(xpos=0.25, ypos=1.0)
     show okita 12 zorder 1 at Position(xpos=0.85, ypos=1.0)
     with dissolve
-    okita "I call this, the {b}Okitatron Belt{/b}."
+    okita "Eu chamo isso, o {b}Cinto de Okitatron{/b}."
     show bp 2 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
-    player_name "... Belt?"
-    okita "Yeah, the name could use some work..."
+    player_name "... Cinto?"
+    okita "Sim, o nome poderia usar algum trabalho ... "
     hide bp with dissolve
     show player 109f
     show okita 12
-    okita "But I'll worry about that later!"
-    okita "For now, let's focus on what the device does."
+    okita "Mas eu vou me preocupar com isso mais tarde!"
+    okita "Por enquanto, vamos nos concentrar no que o dispositivo faz."
     show player 11 at left
     show okita 2 at right
     with dissolve
-    okita "The Okitatron Belt is gonna revolutionize the way people keep in shape!"
+    okita "O Cinto Okitatron vai revolucionar a maneira como as pessoas se mantêm em forma! "
     show okita 1
     player_name "..."
     show player 10
-    player_name "You mean it's a work-out device?"
+    player_name "Você quer dizer que é um dispositivo de treino? "
     show player 11
     show okita 2
-    okita "No. This is going to make exercise a thing of the past!"
-    okita "It targets all of the major muscle groups with undetectable micro-vibrations!"
-    okita "It stimulates muscle growth so you'll never have to work out again!"
+    okita "Não. Isso fará do exercício uma coisa do passado! "
+    okita "É direcionado a todos os principais grupos musculares com micro vibrações indetectáveis!"
+    okita "Estimula o crescimento muscular, para que você nunca mais precise se exercitar!"
     show player 2
     show okita 1
-    player_name "That sounds incredible!"
+    player_name "Isso parece incrível! "
     show player 1
     show okita 9
-    okita "Well of course it's incredible! Who do you think you're talking to?"
+    okita "Bem, é claro que é incrível! Com quem você pensa que está falando? "
     show okita 1
     player_name "..."
     show okita 2
-    okita "However, I'm missing a key component."
+    okita "No entanto, estou faltando um componente-chave ".
     show player 10
     show okita 1
-    player_name "... Which is where I come in?"
+    player_name "... Qual é o lugar onde eu entro? "
     show player 11
     show okita 2
-    okita "Precisely!"
+    okita "Precisamente! "
     show okita 3
-    okita "These micro-vibrations have to be fine-tuned to a very specific frequency otherwise it won't work."
+    okita "Essas micro vibrações precisam ser ajustadas para uma frequência muito específica, caso contrário, não funcionará ".
     show player 10
     show okita 1
-    player_name "Okay, so how do we do that."
+    player_name "Ok, então como fazemos isso. "
     show player 11
     show okita 2
-    okita "We'll need a {b}Faptic Engine{/b}."
+    okita "Vamos precisar de um {b}Faptic Engine{/b}."
     show player 10
     show okita 1
     player_name "... Huh?"
@@ -436,18 +436,18 @@ label button_okita_get_faptic_engine:
     show okita 1
     player_name "..."
     show okita 9
-    okita "*sigh*"
+    okita "*suspiro*"
     show okita 5
-    okita "{b}Go find June{/b}. She's helped me out with tough projects in the past."
-    okita "Tell her I sent you for a {b}Faptic Engine{/b}."
-    okita "She'll know what to do."
+    okita "{b}Vá encontrar June{/b}. Ela me ajudou com projetos difíceis no passado. "
+    okita "Diga a ela que lhe enviei um {b}Faptic Engine{/b}."
+    okita "Ela saberá o que fazer. "
     show player 2
     show okita 4
-    player_name "{b}Faptic Engine{/b}. Alright, I'll be back."
+    player_name "{b}Faptic Engine{/b}. Tudo bem, eu voltarei. "
     hide player with dissolve
 
     show okita 9
-    okita "Poor kid is dumber than a box of rocks..."
+    okita "O pobre garoto é mais burro do que uma caixa de pedras ... "
 
     return
 
@@ -456,18 +456,18 @@ label button_okita_get_faptic_engine_repeat:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "Back already? Do you have it?"
+    okita "Já voltou? Você tem?"
     show player 10
     show okita 4
-    player_name "Where am I supposed to get this, {b}Faptic Engine{/b} thingy again?"
+    player_name "Onde eu devo conseguir essa, {b}Faptic Engine{/b} de novo? "
     show player 11
     show okita 9
-    okita "*sigh*"
+    okita "*suspiro*"
     show okita 5
-    okita "Just go talk to {b}June{/b}; She will explain."
+    okita "Apenas vá falar com {b}June{/b}; Ela vai explicar. "
     show player 2
     show okita 4
-    player_name "Oh, right! I'll be right back."
+    player_name "Oh, certo! Eu volto já."
     return
 
 label button_okita_tired_from_belt:
@@ -475,135 +475,135 @@ label button_okita_tired_from_belt:
     show player 2 at left
     show okita 1 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}! Are you feeling any better?"
+    player_name "Ei, {b}Miss Okita{/b}! Você está se sentindo melhor?"
     show player 1
     show okita 2
-    okita "Nevermind that, {b}[firstname]{/b}."
-    okita "I'm glad you're here, there's work to be done!"
+    okita "Esqueça isso, {b}[firstname]{/b}."
+    okita "Fico feliz que você esteja aqui, há trabalho a ser feito! "
     show player 10
     show okita 1
-    player_name "*sigh* You never let up, do you?"
+    player_name "*suspiro * Você nunca desiste, não é? "
     show player 11
     show okita 5
-    okita "I'll let up when my inventions are published and those Cuntech creeps are eating a big bowl of crow!"
+    okita "Eu vou desistir quando minhas invenções forem publicadas e esses arrepios da Cuntech estiverem comendo uma grande tigela de corvo! "
     show player 10
     show okita 4
-    player_name "... Fine."
-    player_name "What crazy invention are we working on this time?"
+    player_name "... Bem."
+    player_name "Em que invenção maluca estamos trabalhando neste momento?"
     show player 11
     show okita 10c at Position(xpos=0.98, ypos=1.0) with dissolve
-    okita "Hmm, we'll have to take a detour from the inventions for the time being."
-    okita "At least until we get {b}Principal Smith{/b} off of my case!"
+    okita "Hmm, teremos que desviar das invenções por enquanto. "
+    okita "Pelo menos até tirarmos {b}Principal Smith{/b} do meu caso! "
     show player 10
     show okita 10b
-    player_name "How are we supposed to accomplish that?"
+    player_name "Como vamos conseguir isso? "
     show player 11
     show okita 10c
-    okita "I've been pondering that myself..."
+    okita "Itenho pensado nisso ... "
     show okita 2 at right with dissolve
-    okita "I think a simple {b}Mind Wipe Serum{/b} is our best course."
+    okita "Eu acho que um simples {b}Mind Wipe Serum{/b} é o nosso melhor curso. "
     show player 10
     show okita 1
-    player_name "{b}Mind Wipe{/b}? That doesn't sound good..."
+    player_name "{b}Mind Wipe{/b}? Isso não parece bom ... "
     show player 11
     show okita 2
-    okita "Bah, it's perfectly safe! So long as you follow my directions to the letter!"
-    okita "The only thing she'll forget is her aversion to my experiments."
+    okita "Bah, é perfeitamente seguro! Contanto que você siga minhas instruções à risca! "
+    okita "A única coisa que ela esquecerá é a aversão a minhas experiências."
     show player 10
     show okita 1
-    player_name "You're sure?"
+    player_name "Você tem certeza?"
     show player 11
     show okita 3
-    okita "Well, there's no way to be entirely sure without proper testing..."
+    okita "Bem, não há como ter certeza absoluta sem testes adequados ... "
     show okita 4
     player_name "..."
     show okita 9
-    okita "She'll be fine!"
+    okita "Ela vai ficar bem! "
     show player 10
     show okita 4
-    player_name "... What do you need me to do?"
+    player_name "... O que voce precisa que eu faca?"
     show player 11
     show okita 5
-    okita "You'll start by gathering the ingredients we need."
+    okita "Você começará reunindo os ingredientes que precisamos ".
     show player 10
     show okita 4
-    player_name "Ugh, alright. How many?"
+    player_name "Ugh, tudo bem. Quantos?"
     show player 11
     show okita 5
-    okita "We'll need {b}five{/b} in total."
+    okita "Vamos precisar de {b}cinco{/b} no total."
     show okita 101 at Position(xpos=1.01, ypos=1.0) with dissolve
-    okita "Here's a list."
+    okita "Aqui está uma lista. "
 
 
     show player 556
     show okita 4 at right
     with dissolve
-    player_name "{b}Falicum Mushroom{/b}, {b}Horny Toad Extract{/b}, {b}Psychotropic Euphorbia{/b}, {b}Base Liquid{/b}..."
+    player_name "{b}Cogumelo Falicum{/b}, {b}Extrato de sapo com tesão{/b}, {b}Eufórbia psicotrópica{/b}, {b}Base Líquida{/b}..."
     show player 557
-    player_name "I've never even heard of these things before!"
+    player_name "Eu nunca ouvi falar dessas coisas antes! "
     show player 11 with dissolve
     show okita 2
-    okita "Well the {b}Falicum Mushroom{/b} grow in the forest here in Summerville."
+    okita "Bem o {b}cogumelo Falicum{/b} crescer na floresta aqui em Summerville ".
     show okita 3
-    okita "They are easy to spot because of their phallic shape."
+    okita "Eles são fáceis de detectar por causa de sua forma fálica ".
     show player 10
     show okita 1
-    player_name "... Gross."
+    player_name "... Bruto."
     show player 11
     show okita 2
-    okita "The {b}Horny Toad{/b} and {b}Psychotropic Euphorbia{/b} can also be found in the forest."
+    okita "O {b}Sapo com tesão{/b} e a {b}Eufórbia psicotrópica{/b} também pode ser encontrado na floresta ".
     show player 10
     show okita 1
-    player_name "Psychotropic what?"
+    player_name "Psicotrópico, o que? "
     show player 11
     show okita 2
-    okita "It's a luminescent flower... You might know it as the, 'Forget Me Not Blossom.'"
+    okita "É uma flor luminescente ... Você pode conhecê-la como 'Não me esqueça da flor'. "
     show player 10
     show okita 1
-    player_name "Nope, never heard of it."
-    show player 11
-    show okita 3
-    okita "Really?"
-    show okita 2
-    okita "You'll only find it in {b}dark places{/b}. Your best bet would be a {b}cave{/b}."
-    show player 10
-    show okita 1
-    player_name "There are caves in Summerville?"
+    player_name "Não, nunca ouvi falar disso. "
     show player 11
     show okita 3
-    okita "Of course."
+    okita "Realmente?"
     show okita 2
-    okita "As for the {b}Horny Toad{/b}, it's their breeding season. So look for a {b}pond or stream.{/b}"
-    okita "They should be easily identifiable by their lumpy purple backsides."
+    okita "Você o encontrará apenas em {b}lugares escuros{/b}. Sua melhor aposta seria uma {b}caverna{/b}."
     show player 10
     show okita 1
-    player_name "Okay, that's not too bad but What about this base liquid? What is that?"
+    player_name "Existem cavernas em Summerville? "
+    show player 11
+    show okita 3
+    okita "Claro."
+    show okita 2
+    okita "Quanto ao {b}Sapo com tesão{/b}, é a época de reprodução deles. Então procure um {b}lago ou riacho.{/b}"
+    okita "Eles devem ser facilmente identificáveis ​​pelas partes traseiras roxas e grumosas ".
+    show player 10
+    show okita 1
+    player_name "Ok, isso não é tão ruim, mas e esse líquido básico? O que é isso?"
     show player 11
     show okita 2
-    okita "We just need something mild to act as a base for the serum. Vegetable stock would work best."
-    okita "You should be able to pick some up at {b}Consumr{/b}."
+    okita "Só precisamos de algo leve para atuar como base para o soro. O estoque de vegetais funcionaria melhor. "
+    okita "Você deve conseguir algumas {b}Consumidoras{/b}."
     show player 10
     show okita 1
-    player_name "What about this last ingredient?"
+    player_name "E esse último ingrediente? "
     show player 30
-    player_name "{b}Principal Smith's DNA{/b}!?"
+    player_name "{b}DNA do diretor Smith{/b}!?"
     show player 10
-    player_name "How the heck am I supposed to get that!?"
+    player_name "Como diabos eu vou conseguir isso !? "
     show player 11
     show okita 3
-    okita "... Yeah, that's gonna be the difficult one."
+    okita "... Sim, isso será difícil. "
     show okita 2
-    okita "A hair or saliva sample would work best."
-    okita "I'm sure you'll figure something out..."
+    okita "Uma amostra de cabelo ou saliva funcionaria melhor ".
+    okita "Tenho certeza que você descobrirá algo ..."
     show player 12
     show okita 1
-    player_name "Great..."
+    player_name "Ótimo..."
     show player 10
-    player_name "Well I guess I had better get started."
+    player_name "Bem, acho melhor começar. "
     show player 11
     show okita 2
-    okita "Come talk to me if you need help finding any of the ingredients."
+    okita "Venha conversar comigo se precisar de ajuda para encontrar algum dos ingredientes. "
     show okita 5
-    okita "... And hurry up! We gotta get this done before {b}Principal Smith{/b} changes the code to my office again!"
+    okita "... E se apresse! Temos que fazer isso antes {b}Principal Smith{/b} altera o código para o meu escritório novamente! "
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

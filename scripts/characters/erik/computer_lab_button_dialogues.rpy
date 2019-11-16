@@ -7,86 +7,86 @@ label erik_dialogue_intro:
 
 label erik_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "I'm helping Okita out with a project."
+    player_name "Estou ajudando Okita com um projeto."
     show player 1
     show erik 4
-    eri "Really? Awesome!"
-    eri "What kinda project is it?"
+    eri "Realmente fantástico!"
+    eri "Que tipo de projeto é esse?"
     show player 2
     show erik 1
-    player_name "Uhh, I don't think I'm supposed to say..."
+    player_name "Uhh, acho que não devo dizer ..."
     show player 1
     show erik 4
-    eri "Oh, top secret research?"
-    eri "Cool, can I help?"
+    eri "Oh, pesquisa secreta?"
+    eri "Legal, posso ajudar?"
     show player 2
     show erik 1
-    player_name "Actually Yes!"
-    player_name "I need to find a couple of thick {b}lenses{/b}."
-    player_name "You wouldn't happen to have a spare set of glasses, would you?"
+    player_name "Na verdade sim!"
+    player_name "Eu preciso encontrar um par de {b}lenses{/b}."
+    player_name "Você não teria um par extra de óculos, teria?"
     show player 1
     show erik 4
-    eri "You kidding?"
-    eri "Do you know how many times {b}Dexter{/b} has broken this pair?"
-    eri "I always keep a spare set close."
+    eri "Está brincando?"
+    eri "Você sabe quantas vezes {b}Dexter{/b} quebrou esse par? "
+    eri "Eu sempre mantenho um conjunto sobressalente por perto."
     show player 2
     show erik 1
-    player_name "Great!!"
-    player_name "Would you let me have them?"
+    player_name "Ótimo!!"
+    player_name "Você me deixaria tê-los?"
     show player 1
     show erik 4
     eri "Sure!"
     show player 2
     show erik 1
-    player_name "Thanks, man!"
+    player_name "Obrigado, cara!"
     show player 1
     show erik 4
-    eri "No problem, {b}[firstname]{/b}! What are friends for?"
+    eri "Não tem problema, {b}[firstname]{/b}! Para que São os amigos?"
     show player 10
     show erik 1
-    player_name "... Oh, wait!"
+    player_name "... Oh, espera!"
     show player 29 with dissolve
-    player_name "I forgot, they need to be {b}Varifocal lenses{/b}..."
+    player_name "Eu esqueci, eles precisam ser {b}Varifocal lenses{/b}..."
     show player 3
     show erik 5
-    eri "Vari- What?"
+    eri "o que?"
     show player 10 with dissolve
     show erik 1
-    player_name "Are you farsighted or nearsighted?"
+    player_name "Você é míope ou hipermetropico?"
     show player 11
     show erik 5
-    eri "Nearsighted. Why?"
+    eri "Míope. Por quê?"
     show player 10
     show erik 1
-    player_name "Crap! I need lenses from someone who is both."
+    player_name "Merda! Eu preciso de lentes de alguém que é ambos."
     show player 11
     show erik 5
     eri "Oh."
     show player 24
     show erik 1
-    player_name "*sigh*"
+    player_name "*suspiro*"
     show player 10
-    player_name "I guess I'll have to keep looking."
+    player_name "Acho que vou ter que continuar procurando."
     show player 11
     show erik 5
-    eri "Sorry, {b}[firstname]{/b}."
+    eri "Desculpa, {b}[firstname]{/b}."
     show player 2
     show erik 1
-    player_name "It's alright, {b}Erik{/b}. Thanks anyways."
+    player_name "Está tudo bem, {b}Erik{/b}. Obrigado de qualquer forma."
     show player 1
     show erik 4
-    eri "Anytime, Man."
+    eri "A qualquer momento, cara."
     return
 
 label erik_dialogue_leave:
     show player 14
-    player_name "Oh, nothing!"
-    player_name "Just saying hi."
+    player_name "Oh nada!"
+    player_name "Só dizendo Oi."
     show player 1
     show erik 4
-    june "Oh, okay then..."
+    june "Oh, ok então ..."
     show erik 1
     show player 29 at Position(xoffset=8)
-    player_name "Err... I'll see you later!"
+    player_name "Err ... te vejo mais tarde!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

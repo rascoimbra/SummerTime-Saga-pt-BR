@@ -6,80 +6,80 @@ label button_ross_make_collage:
     show fruit 1 zorder 0 at Position(xpos=0.6, ypos=1.0)
     show cloth 1 zorder 1 at Position(xpos=0.605, ypos=0.85)
     with dissolve
-    ross "... You know the female body can have upwards of 30 different erogenous zones."
+    ross "...Você sabe que o corpo feminino pode ter mais de 30 zonas erógenas diferentes".
     show ross 12
     show mia 61
-    mia "Really?"
+    mia "Serio?"
     show ross 13
     show mia 60
-    ross "Oh, absolutely!"
+    ross "Ah, absolutamente!"
     show ross 56 with dissolve
     show mia 60b
-    ross "We're complex creatures, {b}Mia{/b}."
-    ross "You wouldn't believe how powerful the orgasms can get if the right buttons are being pressed."
+    ross "Somos criaturas complexas, {b}Mia{/b}."
+    ross "Você não acreditaria no quão poderoso os orgasmos podem ficar se os botões certos estiverem sendo pressionados".
     show ross 56b
     mia "..."
     show ross 56
-    ross "I could show you sometime, if you're interested?"
+    ross "Eu poderia te mostrar algum dia, se você estiver interessada?"
     show ross 56b
 
     show mia 61b
-    mia "Oh, I don't know..."
-    mia "I don't think I'm ready fo-"
+    mia "Ah, eu não sei ... "
+    mia "Acho que não estou pronta para-"
     show mia 60b
     show player 595f
-    player_name "{b}*Ahem*{/b} ... I'm back!"
+    player_name "{b}*Ahem*{/b} ... Estou de volta!"
     hide ross
     show ross 11 zorder 2 at Position(xpos=0.30, ypos=1.0)
     show mia 60bf zorder 3 at left
     with dissolve
     show player 594f
-    ross "Hey there, {b}[firstname]{/b}."
-    ross "It looks like you found us some magazines?"
+    ross "Olá, {b}[firstname]{/b}."
+    ross "Parece que você encontrou algumas revistas"
     show ross 10
     show player 595f
-    player_name "You wouldn't believe how much trouble it was!"
-    player_name "I managed to get a pretty good stack though."
+    player_name "Você não acreditaria em quantos problemas! "
+    player_name "Eu consegui uma pilha muito boa. "
     show ross 46 at Position(xpos=0.32, ypos=1.0)
     show player 1f
     with dissolve
-    ross "I see that..."
-    ross "Cooking, Masculine work-out, and..."
+    ross "Eu vejo isso..."
+    ross "Culinária, treino masculino e ... "
     show mia 61cf
     show ross 51
     with dissolve
-    ross "Oh, goodness."
+    ross "Oh, meu Deus. "
     show ross 52
     show player 10f
-    player_name "Yeah, sorry."
+    player_name "Sim, desculpe-me."
     show player 11f
     show ross 53
-    ross "Haha, don't be sorry, {b}[firstname]{/b}!"
-    ross "Sex is a natural and important part of life."
+    ross "Haha, não se desculpe, {b}[firstname]{/b}!"
+    ross "O sexo é uma parte natural e importante da vida ".
     show ross 53b
-    ross "{b}Mia{/b} and I are big girls, we can handle it. Right {b}Mia{/b}?"
+    ross "{b}Mia{/b} e eu somos meninas grandes, nós podemos lidar com isso. Direito né {b}Mia{/b}?"
     show ross 52b
     pause
     show ross 53b
-    ross "... {b}*Ahem*{/b} Right, {b}Mia{/b}?!"
+    ross "... {b}*Ahem*{/b} Certo, {b}Mia{/b}?!"
 
     show ross 52b
     show mia 61bf
     mia "Huh? Oh!"
-    mia "Heh, umm... Y-yeah, of course."
+    mia "Heh, umm ... S-sim, é claro. "
     show ross 53b
     show mia 60bf
     ross "Hehe..."
     show mia 60bf
     show ross 11 with dissolve
-    ross "... We should probably get started on those collages, huh?"
+    ross "... Provavelmente deveríamos começar nessas colagens, hein? "
     show ross 10
     show player 2f
-    player_name "Sounds good."
+    player_name "Parece bom."
     show player 1f
     show mia 60f
     show ross 57 at Position(xpos=0.3525, ypos=1.0) with dissolve
-    ross "So I want you guys to take a look at this..."
+    ross "Então, eu quero que vocês dêem uma olhada nisso ... "
     hide cloth
     show ross 29 at Position(xpos=0.343, ypos=1.0)
     with dissolve
@@ -88,56 +88,56 @@ label button_ross_make_collage:
 
     mia "..."
     show player 10f
-    player_name "Fruit?"
+    player_name "Fruta?"
     show player 11f
     show ross 13
-    ross "Isn't it beautiful?"
+    ross "Não é lindo? "
     show ross 13c
-    ross "Just look at the girth on that banana, {b}Mia{/b}!"
+    ross "Basta olhar para a circunferência nessa banana, {b}Mia{/b}!"
     show ross 12b
     show mia 60bf
     mia "..."
     show ross 13c
-    ross "He's a thick one, isn't he?"
+    ross "Ela é grossa, não é? "
     show ross 13
-    ross "... And {b}[firstname]{/b}. What do you think of that succulent peach?"
+    ross "... E {b}[firstname]{/b}. O que você acha desse pêssego suculento? "
     show ross 12
     show player 10f
-    player_name "Umm, I don't know?"
+    player_name "Umm, eu não sei? "
     show ross 13
     show player 11f
-    ross "It's so juicy looking... Don't you just want to give it a little nibble?"
+    ross "É tão suculento ... Você não quer apenas dar uma mordidinha? "
     show ross 12
     show player 10f
-    player_name "... I guess?"
+    player_name "... Eu acho que"
     show ross 13
     show player 11f
-    ross "That's alright, you can take all the time you need."
+    ross "Tudo bem, você pode levar o tempo que precisar. "
     show ross 13c
-    ross "I want you both to look very closely..."
+    ross "Quero que vocês olhem de perto ... "
     show ross 13
-    ross "... And the instant you think you're ready..."
+    ross "... E no instante em que você pensa que está pronto ... "
     show ross 58 at Position(xpos=0.38, ypos=1.0) with dissolve
-    ross "... We'll start on the collages!"
-    ross "I want you to capture exactly how these, shapely and delicious fruits, make you feel."
+    ross "... Vamos começar com as colagens! "
+    ross "Quero que você capture exatamente como essas frutas bem torneadas e delicadas fazem você se sentir. "
     show ross 12 at Position(xpos=0.32, ypos=1.0) with dissolve
     show player 10f
-    player_name "... Okay."
+    player_name "... Ok."
     show player 11f
     show ross 12b
     show mia 61bf
-    mia "Yes, Ma'am."
+    mia "Sim, senhora."
     show ross 58 at Position(xpos=0.38, ypos=1.0) with dissolve
-    ross "Very good! Just do whatever feels natural."
+    ross "Muito bom! Apenas faça o que parecer natural. "
 
 
     scene location_school_art_cutscene05
     with fade
-    show text "I wasn't entirely sure what {b}Miss Ross{/b} was hoping the fruits would make me feel..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Eu não tinha certeza do que {b}Miss Ross{/b} estava esperando que as frutas me fizessem sentir..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... But I had a ton of fun working on my collage!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... Mas eu me diverti bastante trabalhando na minha colagem!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I wonder how {b}Mia{/b} did on hers?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "me pergunto como {b}Mia{/b} fez no dela?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -147,124 +147,124 @@ label button_ross_make_collage:
     show player 604 zorder 2 at left
     show ross 27f zorder 1 at Position(xpos=0.45, ypos=1.0)
     with dissolve
-    ross "This is truly remarkable work, {b}[firstname]{/b}!"
-    ross "You have such a vivid imagination!"
+    ross "Este é um trabalho verdadeiramente notável, {b}[firstname]{/b}!"
+    ross "Você tem uma imaginação tão vívida! "
     show player 605
     show ross 26f
-    player_name "Thanks, {b}Miss Ross{/b}."
+    player_name "Obrigado, {b}Miss Ross{/b}."
     show player 604
     show ross 27 at Position(xpos=0.35, ypos=1.0) with dissolve
-    ross "How are you doing over there {b}Mia{/b}?"
+    ross "Como vai você por aí {b}Mia{/b}?"
 
     show ross 26
     show mia 12b zorder 2 at right
     show miascraps 1 zorder 3 at Position(xpos=0.88, ypos=0.65)
     with dissolve
     mia "Uhh..."
-    mia "... I'm just, sorta making a mess, really..."
+    mia "... Eu só estou meio que fazendo uma bagunça, realmente ... "
     show mia 8b
     show ross 27
-    ross "Hehe, you just can't help but be adorable, can you?"
+    ross "Hehe, você não pode deixar de ser adorável, pode? "
     show ross 26
     show mia 8
     mia "..."
     show ross 11 with dissolve
-    ross "What do you think of {b}[firstname]'s{/b} collage?"
+    ross "O que você acha da colagem de {b}[firstname]'s{/b}?"
     show ross 10
     show mia 8b
 
     mia "..."
     show mia 10
-    mia "It's very umm... Captivating?"
+    mia "É muito hum ... Cativante? "
     show ross 11
     show mia 8b
-    ross "That's a very good choice of words, Dear!"
+    ross "Essa é uma ótima escolha de palavras, querida! "
     show ross 10
     show mia 12
-    mia "I should probably go take a shower..."
+    mia "Eu provavelmente deveria tomar um banho ... "
     show ross 11
-    ross "Hehe, that's a good idea."
+    ross "Hehe, é uma boa ideia. "
     show ross 13
     show mia 8b
-    ross "Would you like me to come with and wash your back?"
+    ross "Você gostaria que eu fosse e lavasse suas costas? "
     show ross 12
     show mia 56 with dissolve
-    mia "N-no, that's okay. I'd prefer to shower alone."
+    mia "N-não, está tudo bem. Eu preferiria tomar banho sozinha. "
     show ross 13
     show mia 55
-    ross "Suit yourself, Cutie pie."
+    ross "Se adapte, torta fofa."
     show ross 12
     show mia 56
-    mia "See ya, {b}[firstname]{/b}."
+    mia "Até mais, {b}[firstname]{/b}."
     show mia 55
     show player 605
-    player_name "Bye, {b}Mia{/b}."
+    player_name "Tchau, {b}Mia{/b}."
     hide mia
     hide miascraps
     show ross 4f at Position(xpos=0.55, ypos=1.0)
     show player 1
     with dissolve
 
-    ross "You know, I'm very pleased with your progress, {b}[firstname]{/b}."
+    ross "Sabe, estou muito satisfeito com o seu progresso, {b}[firstname]{/b}."
     show ross 3f
     show player 2
-    player_name "Yeah, I'm having a good time!"
+    player_name "Sim, estou me divertindo!"
     show player 1
     show ross 4f
-    ross "I've always found it so exciting, watching a young Artist at work!"
-    ross "Girls are really drawn to men with talent."
+    ross "Eu sempre achei tão emocionante assistir um jovem artista trabalhando! "
+    ross "As meninas são realmente atraídas por homens com talento ".
     show player 2
     show ross 3f
-    player_name "They are?"
+    player_name "Eles são?"
     show player 1
     show ross 4f
-    ross "Oh yes! You keep coming to me for sessions and you'll have to fight them off with a stick."
+    ross "Ai sim! Você continua vindo a mim para sessões e terá que lutar com eles com uma vara. "
     show ross 5f with dissolve
     show player 12
-    player_name "Heh, I dunno..."
+    player_name "Heh, eu não sei ... "
     show ross 6f at Position(xpos=0.58, ypos=1.0) with dissolve
     pause
     show ross 7f at Position(xpos=0.57, ypos=1.0)
     pause
     show ross 9f at Position(xpos=0.6, ypos=1.0) with dissolve
-    ross "{b}*Gulp*{/b}"
+    ross "{b}*Gole*{/b}"
     show player 23
     show ross 12f with dissolve
     player_name "( !!! )" with hpunch
     show player 10
-    player_name "... Did you just swallow that entire thing?"
+    player_name "... Você acabou de engolir essa coisa toda? "
     show player 11
     show ross 13f
-    ross "... Maybe."
+    ross "...Talvez."
     show ross 12f
     show player 10
-    player_name "Where did you learn to do that?!"
+    player_name "Onde você aprendeu a fazer isso ?! "
 
     show player 11
     show ross 56f at Position(xpos=0.37, ypos=1.0) with dissolve
-    ross "Oh, Honey. I have lots of talents you don't know about."
-    ross "I spent a year in India studying Tantric sex with Buddhist monks."
-    ross "They taught me how to overcome my gag reflex."
+    ross "Oh querido. Eu tenho muitos talentos que você não conhece. "
+    ross "Passei um ano na Índia estudando sexo tântrico com monges budistas ".
+    ross "Eles me ensinaram como superar meu reflexo de vômito. "
     show player 10
     show ross 56bf
-    player_name "That's pretty cool!"
+    player_name "Isso é bem legal!"
     show player 11
     show ross 56f
-    ross "Isn't it?"
+    ross "Não é? "
     show ross 11f at Position(xpos=0.55, ypos=1.0) with dissolve
-    ross "Oh my, it's getting late."
-    ross "You'd better get yourself home."
+    ross "Oh meu Deus, está ficando tarde. "
+    ross "É melhor você ir para casa. "
     show ross 10f
     show player 2
-    player_name "Yeah, that's probably a good idea."
-    player_name "Thanks for the lesson, {b}Miss Ross{/b}."
+    player_name "Sim, provavelmente é uma boa ideia ".
+    player_name "Obrigado pela lição, {b}Miss Ross{/b}."
     show player 1
     show ross 58f at Position(xpos=0.49, ypos=1.0) with dissolve
-    ross "Oh, remember to pick up some of that Quinoa I mentioned next time you're at the store!"
-    ross "It's really healthy for you, {b}[firstname]{/b} and I want you to try it!"
+    ross "Ah, lembre-se de pegar um pouco daquela quinoa que mencionei na próxima vez que você estiver na loja! "
+    ross "É realmente saudável pra você, {b}[firstname]{/b} e eu quero que você tente! "
     show player 2
     show ross 10f at Position(xpos=0.55, ypos=1.0) with dissolve
-    player_name "Okay, {b}Miss Ross{/b}."
+    player_name "Ok, {b}Miss Ross{/b}."
     return
 
 label button_ross_get_easels:
@@ -272,54 +272,54 @@ label button_ross_get_easels:
     show ross 11 zorder 1 at left
     show mia 8b zorder 0 at Position(xpos=0.435, ypos=1.0)
     with dissolve
-    ross "... Goodness no, with the right amount of lubricant it will slide right in, Dear."
+    ross "... Meu Deus, não, com a quantidade certa de lubrificante, ele deslizará direto, querida. "
     show ross 10
     show mia 12b
-    mia "Doesn't it hurt though?"
+    mia "Mas não dói? "
     show ross 11
     show mia 8b
-    ross "Not if do things right. Pre-heat the oven a bit and take things slow."
+    ross "Não se fizer as coisas certas. Pré-aqueça o forno um pouco e leve as coisas devagar. "
     show ross 13
-    ross "It can feel extremely pleasurable!"
+    ross "Pode parecer extremamente agradável! "
     show ross 12
     show mia 12b
-    mia "Yeah, but the bible says-"
+    mia "Sim, mas a Bíblia diz- "
     show ross 13
     show mia 8
-    ross "Oh pish posh!"
-    ross "If God didn't want us sticking things up there he would have given the anus a gag reflex..."
+    ross "Oh, pique chique! "
+    ross "Se Deus não quisesse que colocássemos as coisas lá em cima, ele teria dado ao ânus um reflexo de vômito ... "
     show ross 10
     show player 1f at right with dissolve
     ross "..."
     show ross 11
-    ross "Hey there, {b}[firstname]{/b}."
+    ross "Olá, {b}[firstname]{/b}."
     show ross 10
     show mia 56f at Position(xpos=0.35, ypos=1.0) with dissolve
     mia "{b}[firstname]{/b}!"
-    mia "Oh my gosh, how long have you been standing there?!"
+    mia "Oh meu Deus, há quanto tempo você está aí? "
     show player 2f
     show mia 55f
-    player_name "Not long, why?"
+    player_name "Não muito tempo, por quê? "
     show player 1f
     show ross 11
-    ross "Did you {b}finish the Easels already{/b}?"
+    ross "Você {b}terminou os Cavaletes já{/b}?"
     show player 2f
     show ross 10
-    player_name "Nope, still working on them."
+    player_name "Não, ainda estou trabalhando neles. "
     show player 1f
     show ross 11
-    ross "Oh, well shoo! We're having girl talk here!"
+    ross "Oh, tudo bem! Estamos conversando sobre garotas aqui! "
     show player 10f
     show ross 10
-    player_name "My bad."
+    player_name "Minha culpa."
     hide ross
     hide mia
     hide player
     show player 34
     with dissolve
 
-    player_name "I just need to get my {b}Dad's tools out of the garage and some wood from Erik's old tree house{/b}!"
-    player_name "Then I can get those {b}Easels{/b} built in no time!"
+    player_name "Eu só preciso pegar meu {b}As ferramentas do papai fora da garagem e um pouco de madeira da antiga casa na árvore de Erik{/b}!"
+    player_name "Então eu posso pegar aqueles {b}Cavaletes{/b} construído em pouco tempo! "
     return
 
 label button_ross_need_easels:
@@ -328,107 +328,107 @@ label button_ross_need_easels:
     show player 1f zorder 1 at right
     show mia 7 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "There you two are!"
+    ross "Lá estão vocês dois! "
     show ross 27 with dissolve
-    ross "I've got the most exciting news!"
+    ross "Eu tenho as notícias mais emocionantes! "
     show ross 26
     show player 2f
-    player_name "What is it?"
+    player_name "O que é isso?"
     show player 1f
     show ross 27
-    ross "I met the nicest lady in the mall last night and we got to talking."
-    ross "It turns out, she's done some nude modeling before and she agreed to come here and model for us."
+    ross "Eu conheci a mulher mais legal do shopping ontem à noite e começamos a conversar. "
+    ross "Acontece que ela já fez algumas modelagens nuas antes e concordou em vir aqui e ser modelo para nós. "
     show player 10f
     show mia 8b
     show ross 26
-    player_name "Really?"
+    player_name "Serio?"
     show player 11f
     show mia 56 at Position(xpos=0.635, ypos=1.0)
-    mia "... Did you say nude modeling?"
+    mia "... Você disse modelagem nua? "
     show mia 55
     show ross 27
 
-    ross "Yeah! She's gonna do it for free too! I couldn't believe it!"
+    ross "sim! Ela vai fazer isso de graça também! Eu não podia acreditar! "
     show player 2f
     show ross 26
-    player_name "That's awesome!"
+    player_name "Fantástico!"
     show player 17f
-    player_name "Isn't that awesome, {b}Mia{/b}?"
+    player_name "Isso não é incrível, {b}Mia{/b}?"
     show player 13f
     show mia 56
-    mia "Y-yeah, awesome."
+    mia "Sim, incrível. "
     show mia 55
     show ross 27
-    ross "We can finally do some real art!"
+    ross "Podemos finalmente fazer arte real! "
     show ross 25 with dissolve
-    ross "It's too bad all we have are these old broken down easels."
+    ross "É uma pena que tudo o que temos são esses velhos cavaletes quebrados. "
     show ross 24
     show player 10f
     show mia 8b at Position(xpos=0.65, ypos=1.0) with dissolve
-    player_name "How are we gonna work on those old things?"
-    player_name "They're practically falling apart..."
+    player_name "Como vamos trabalhar nessas coisas antigas? "
+    player_name "Eles estão praticamente desmoronando ... "
     show player 11f
     show ross 25
-    ross "Hmm, I dunno. We might just have to work on the floor."
+    ross "Hmm, eu não sei. Talvez tenhamos que trabalhar no chão ".
     show ross 25b
-    ross "It's really not ideal..."
+    ross "Realmente não é o ideal ... "
     show player 2f
     show ross 24
-    player_name "... What if I built us a couple new ones?"
+    player_name "... E se eu construísse alguns novos? "
     show player 1f
     show mia 7
     show ross 11
-    ross "Really?"
+    ross "Serio?"
     show player 2f
     show ross 10
-    player_name "Sure, why not."
+    player_name "Claro, por que não."
     show player 1f
     show ross 27 with dissolve
-    ross "Oh, that would be amazing, {b}[firstname]{/b}!"
+    ross "Oh, isso seria incrível, {b}[firstname]{/b}!"
 
     hide player
     show ross 21 at Position(xpos=0.45, ypos=1.0)
     show mia 7f at Position(xpos=0.25, ypos=1.0)
     with dissolve
-    ross "You are just the sweetest student I've ever had!"
+    ross "Você é apenas o aluno mais doce que já tive! "
     show ross 20
     show mia 10f
     mia "Aww..."
     show mia 7f
     pause
     show ross 21
-    ross "... And it'll give {b}Mia{/b} and I some time for more girl talk!"
+    ross "... E vai dar tempo para {b}Mia{/b} e eu termos mais conversas sobre garotas! "
     show mia 8f
     pause
     show ross 10f zorder 0 at Position(xpos=0.55, ypos=1.0)
     show player 1f at right
     show mia 12f
     with dissolve
-    mia "Oh, I dunno..."
+    mia "Ah, eu não sei ... "
     show mia 12f
-    mia "I should probably help, {b}[firstname]{/b}, right?"
+    mia "Eu provavelmente deveria ajudar, {b}[firstname]{/b}, certo?"
     show player 2f
     show mia 8bf
     player_name "Hmm?"
-    player_name "No, it's okay. I can handle the easels, no problem."
+    player_name "Não, está tudo bem. Eu posso lidar com os cavaletes, sem problemas. "
     show player 17f
-    player_name "You just have fun!"
+    player_name "Você apenas se diverte! "
     show player 1f
     show mia 8f
     mia "..."
     show mia 12bf
-    mia "Right."
-    mia "Hurry back, please!"
+    mia "Certo."
+    mia "Volte, por favor! "
     show player 17f
-    player_name "Will do."
+    player_name "Vai se divertir."
 
     hide ross
     hide mia
     hide player
     show player 34
     with dissolve
-    player_name "( Hmm, it should be easy enough to build a couple easels. )"
-    player_name "( {b}Dad's tools should be in my garage and I can find wood at Erik's old tree house{/b}! )"
+    player_name "( Hmm, deve ser fácil construir alguns cavaletes. )"
+    player_name "( {b}As ferramentas do papai devem estar na minha garagem e eu posso encontrar madeira na antiga casa na árvore de Erik{/b}! )"
 
     return
 
@@ -437,130 +437,130 @@ label button_ross_has_easels:
     show ross 13 zorder 2 at left
     show mia 8b zorder 1 at Position(xpos=0.435, ypos=1.0)
     with dissolve
-    ross "... Oh, sure. I've done two at once before."
-    ross "Three at once even. Well, a couple times actually..."
+    ross "... Ah com certeza. Eu já fiz duas de uma vez antes. "
+    ross "Três de uma só vez. Bem, algumas vezes na verdade ... "
     show ross 11
     show mia 8
-    ross "Some girls really enjoy that kind of thing but I find it to be a bit too overwhelming..."
+    ross "Algumas garotas realmente gostam desse tipo de coisa, mas acho que é um pouco esmagador demais ... "
     show ross 12
     show mia 12
-    mia "Wow, that sounds crazy."
+    mia "Uau, isso parece loucura. "
     show ross 13
     show mia 8
-    ross "That's why I recommend going the other direction. So much easier to relax and enjoy the sensations when there's just one penis involved."
+    ross "É por isso que eu recomendo ir na outra direção. Muito mais fácil para relaxar e apreciar as sensações quando há apenas um pênis envolvido".
     show mia 8b
-    ross "Women are much gentler too."
+    ross "As mulheres também são muito mais gentis. "
     show ross 12
     show mia 12b
-    mia "Okay, but don't you get jealous?"
+    mia "Ok, mas você não fica com ciúmes? "
     show ross 13
     show mia 8b
-    ross "Jealous?! No way! I love to watch! It's art in motion, Dear!"
+    ross "Com ciumes?! De jeito nenhum! Eu amo assistir! É arte em movimento, querida! "
     show ross 12
     show player 1f zorder 2 at right with dissolve
     mia "..."
 
     show ross 11
-    ross "Oh look, {b}[firstname]'s{/b} back!"
+    ross "Veja, {b}[firstname]'s{/b} está de volta!"
     show mia 55f at Position(xpos=0.35, ypos=1.0) with dissolve
-    ross "How did you fare with those easels?"
+    ross "Como você se saiu com esses cavaletes? "
     show player 2f
     show ross 10
-    player_name "Have a look for yourself..."
+    player_name "Dê uma olhada por si mesmo ... "
     show player 1f
     show mia 56f
     show easel 1f zorder 0 at Position(xpos=0.65, ypos=1.0) with dissolve
-    mia "{b}*Gasp*{/b} Wow, it's so pretty!"
+    mia "{b}*Suspiro*{/b} Uau, é tão bonito! "
     show ross 13
     show mia 7f at Position(xpos=0.34, ypos=1.0) with dissolve
-    ross "An artist through and through!"
+    ross "Um artista completamente! "
     show ross 11
-    ross "These will work great! Just lemme go check on our model."
+    ross "Estes irão funcionar muito bem! Apenas deixe-me ver o nossa modelo. "
     hide ross
     show mia 7f at Position(xpos=0.55, ypos=1.0)
     with dissolve
     show player 2f
 
-    player_name "So did you have fun with {b}Miss Ross{/b}?"
+    player_name "Então você se divertiu com {b}Miss Ross{/b}?"
     show player 1f
     show mia 10f
-    mia "Actually, I did."
+    mia "Na verdade, sim. "
     show mia 9f
-    mia "I guess I'm starting to get used to her."
+    mia "Acho que estou começando a me acostumar com ela. "
     show player 2f
     show mia 7f
-    player_name "See, I knew you would!"
+    player_name "Veja, eu sabia que você se divirtiria! "
     show player 1f
     show mia 10f
-    mia "She's a little eccentric but she's also so knowledgable!"
+    mia "Ela é um pouco excêntrica, mas também é muito qualificada! "
     show player 2f
     show mia 7f
-    player_name "What did you guys talk about?"
+    player_name "Sobre o que vocês conversaram? "
     show player 2f
     show mia 56f at Position(xpos=0.57, ypos=1.0) with dissolve
-    mia "Oh, umm... You know, this and that?"
+    mia "Oh, umm ... Você sabe, isso e aquilo? "
     show mia 55f
     player_name "..."
 
     show ross 25 at left with dissolve
-    ross "You're not gonna believe this..."
+    ross "Você não vai acreditar nisso ... "
     show ross 23
     show mia 7 at Position(xpos=0.65, ypos=1.0) with dissolve
-    ross "She backed out on me!"
+    ross "Ela desistiu de mim! "
     show ross 22
     show mia 12
     mia "Huh?"
     show mia 8
     show player 10f
-    player_name "The model cancelled?"
+    player_name "A modelo cancelou? "
     show player 11f
     show ross 23
-    ross "Yeah!"
-    ross "Apparently she thought I was going to pay her."
-    ross "I never told her that!"
+    ross "Sim!"
+    ross "Aparentemente, ela pensou que eu pagaria a ela. "
+    ross "Eu nunca disse isso a ela! "
     show ross 22
     show player 10f
-    player_name "So what now?"
+    player_name "E agora?"
     show player 11f
     show ross 25
-    ross "I don't know..."
-    ross "Our next lesson really requires a nude model..."
+    ross "Eu não sei..."
+    ross "Nossa próxima lição realmente exige um modelo nu ... "
     show ross 24
     mia "..."
     show ross 25
-    ross "Do you guys know anybody that would do it?"
+    ross "Vocês conhecem alguém que faria isso? "
     show ross 24
     show player 10f
-    player_name "... I don't think so."
+    player_name "... Acho que não."
     show player 11f
     show mia 10
-    mia "{b}We could ask around?{/b}"
+    mia "{b}Poderíamos perguntar por aí?{/b}"
     show mia 7
     show player 10f
-    player_name "Who would we even ask?"
+    player_name "A quem perguntaríamos? "
     show mia 10b
     show player 11f
-    mia "... Maybe someone {b}here at school{/b} will do it."
+    mia "... Talvez alguém {b}aqui na escola{/b} vai fazer isso. "
     show mia 7
     show ross 25
-    ross "You think maybe {b}one of the students{/b} would do it?"
+    ross "Você pensa que talvez {b}um dos alunos{/b} faria isso?"
     show ross 24
     show player 10f
-    player_name "I doubt it."
+    player_name "Eu duvido."
     show player 11f
     show mia 10b
-    mia "Well, it wouldn't hurt to ask."
+    mia "Bem, não faria mal perguntar. "
     show player 10f
     show mia 7
-    player_name "Yeah, I guess we could ask..."
+    player_name "Sim, acho que poderíamos perguntar ... "
     show ross 11
     show player 11f
-    ross "Why don't you two split up and {b}ask some of your classmates{/b} if they would be willing?"
+    ross "Por que vocês dois não se separaram e {b}pergunte a alguns de seus colegas de classe{/b} se eles estariam dispostos?"
     show ross 10
     show mia 9
-    mia "Sure thing!"
+    mia "Coisa certa!"
     show mia 7
     show player 2f
-    player_name "Alright."
+    player_name "Tudo bem."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

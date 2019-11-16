@@ -1,64 +1,64 @@
 label anna_dialogue_anna_dog_hunt:
     show player 11 at left with dissolve
     show anna 5 at right with dissolve
-    anna "Hey {b}[firstname]{/b}, have you seen a {b}small dog{/b} without a leash??"
+    anna "Ei {b}[firstname]{/b}, você viu um {b}cachorro pequeno{/b} sem trela ??"
     show anna 4
     show player 10
-    player_name "I don't think so..."
+    player_name "Acho que não..."
     show anna 5
     show player 11
-    anna "I think I lost him."
-    anna "I was running along the trail by the {b}forest{/b}, and when I looked back, he was gone!!"
+    anna "Eu acho que o perdi."
+    anna "Eu estava correndo ao longo da trilha pelo {b}forest{/b}, e quando olhei para trás, ele se foi !!"
     show anna 4
     show player 10
-    player_name "Have you looked along the trail?"
+    player_name "Você já olhou ao longo da trilha?"
     show anna 5
     show player 11
-    anna "Of course! I looked everywhere!"
-    anna "But I can't cover the trail and the {b}forest{/b} all by myself..."
+    anna "Claro! Eu olhei em todos os lugares!"
+    anna "Mas não posso cobrir a trilha e o {b}forest{/b} sozinho..."
     show anna 4
     show player 10
-    player_name "What does he look like?"
+    player_name "Como ele é?"
     show player 11
     show anna 6 at Position(xpos=1002)
-    anna "Oh, right. He's a {b}pug{/b}, about this big!"
+    anna "Oh, certo. Ele é um {b}pug{/b}, sobre este grande!"
     show anna 5 at right
-    anna "His name is {b}Awesomo{/b}."
-    anna "He's a bit overweight, so he couldn't have gone far."
-    anna "Please! Will you help me find him?"
+    anna "O nome dele é {b}Awesomo{/b}."
+    anna "Ele está um pouco acima do peso, então ele não poderia ter ido longe."
+    anna "Por favor! Você vai me ajudar a encontrá-lo?"
     show anna 4
     return
 
 label anna_dialogue_anna_dog_hunt_yes:
     show player 14
-    player_name "Sure. I'll look for him."
-    player_name "Is there anything I should know about him?"
-    player_name "Something that'll help me find him?"
+    player_name "Certo. Vou procurá-lo."
+    player_name "Há algo que eu deva saber sobre ele?"
+    player_name "Algo que vai me ajudar a encontrá-lo?"
     show player 1
     show anna 5
-    anna "Well... He really loves to eat {b}cookies{/b}."
-    anna "If you have some, I'm sure he'll smell them and come out..."
+    anna "Bem ... Ele realmente gosta de comer {b}cookies{/b}."
+    anna "Se você tiver alguns, tenho certeza que ele sentirá o cheiro deles e sairá..."
     show anna 11
     show player 14
-    player_name "Okay! I'll come see you if I find him!"
+    player_name "OK! Eu vou te ver se eu o encontrar!"
     show anna 12
     show player 1
-    anna "Thank you so much!"
+    anna "Muito obrigado!"
     return
 
 label anna_dialogue_anna_dog_hunt_no:
     show player 10
-    player_name "I'd love to help, but I have some things I need to attend to..."
+    player_name "Eu adoraria ajudar, mas tenho algumas coisas que preciso atender..."
     show player 11
     show anna 5
-    anna "Oh, sorry to bother you..."
+    anna "Oh, desculpe incomodá-lo..."
     return
 
 label anna_dialogue_anna_find_dog_have_dog:
     scene location_park_closeup
     show player 247 at left with dissolve
     show anna 4 at right with dissolve
-    player_name "Guess who I found?"
+    player_name "Adivinha quem eu encontrei?"
     show anna 5 with vpunch
     anna "!!!"
     show anna 12
@@ -66,39 +66,39 @@ label anna_dialogue_anna_find_dog_have_dog:
     show player 1
     show anna 9
     with dissolve
-    anna "Where did you find him?!"
+    anna "Onde você o encontrou ?!"
     show anna 8
     show player 14
-    player_name "He was in the forest nearby, just off the trail..."
-    player_name "And you were right! A few cookies did the trick."
+    player_name "Ele estava na floresta próxima, perto da trilha..."
+    player_name "E você estava certo! Alguns biscoitos fizeram o truque."
     show anna 10
     show player 1
-    anna "Thank you {b}so{/b} much!"
+    anna "Obrigado {b}tão{/b} Muito de!"
     show anna 9
-    anna "I'll be sure to repay you somehow."
+    anna "Certificarei de lhe retribuir de alguma forma."
     show anna 7
-    anna "I should get him home now. He's probably getting hungry after all this."
+    anna "Eu deveria levá-lo para casa agora. Ele provavelmente está ficando com fome depois de tudo isso."
     show anna 10
-    anna "See you around!"
+    anna "Até a próxima!"
     return
 
 label anna_dialogue_anna_find_dog_do_not_have_dog:
     show player 11 at left with dissolve
     show anna 5 at right with dissolve
-    anna "Have you found him??"
+    anna "Você o encontrou?"
     show anna 4
     show player 10
-    player_name "Not yet..."
-    player_name "Could you describe him to me again? And where could I find him?"
+    player_name "Ainda não..."
+    player_name "Você poderia descrevê-lo para mim novamente? E onde eu poderia encontrá-lo?"
     show player 11
     show anna 6 at Position(xpos=1002)
-    anna "He's about this big and he's a {b}pug{/b}!"
+    anna "Ele é desse tamanho e é um {b}pug{/b}!"
     show anna 5 at right
-    anna "He should be somewhere near the trail by the {b}forest{/b}..."
-    anna "...And he loves {b}cookies{/b}!"
-    anna "Maybe you could use some {b}cookies{/b} to lure him out."
+    anna "Ele deveria estar em algum lugar perto da trilha pelo {b}forest{/b}..."
+    anna "...E ele ama {b}cookies{/b}!"
+    anna "Talvez você possa usar algum {b}cookies{/b} para atraí-lo."
     show anna 11
     show player 14
-    player_name "Okay! I'll go look for him!"
+    player_name "OK! Eu vou procurá-lo!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

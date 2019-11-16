@@ -2,16 +2,16 @@ label bissette_dialogue_office_bissette_roxxy_exam_convince:
     show teacher 1 at right
     show player 10 at left
     with dissolve
-    player_name "What was I supposed to be doing again?"
+    player_name "O que eu deveria estar fazendo de novo?"
     show player 5
     show teacher 5
-    bis "As-tu oublié?"
-    bis "You must convince {b}Roxxy{/b} to show up for the exam."
-    bis "Otherwise the grade point average of the entire class will suffer."
+    bis "Você esqueceu?"
+    bis "Você deve convencer {b}Roxxy{/b} para aparecer no exame."
+    bis "Caso contrário, a média de notas de toda a classe sofrerá."
     show teacher 4
     show player 14
-    player_name "Oh, right!"
-    player_name "Don't worry, {b}Miss Bissette{/b}! I'm on it!"
+    player_name "Oh, certo!"
+    player_name "Não se preocupe, {b}Miss Bissette{/b}! eu estou trabalhando nisso!"
     return
 
 label bissette_dialogue_office_bissette_roxxy_convinced:
@@ -21,78 +21,78 @@ label bissette_dialogue_office_bissette_roxxy_convinced:
     player_name "{b}Miss Bissette{/b}?"
     show player 13
     show teacher 5
-    bis "Oui?"
+    bis "Sim?"
     show teacher 4
     show player 14
-    player_name "I convinced {b}Roxxy{/b} to show up for the test!"
+    player_name "eu convenci {b}Roxxy{/b} para aparecer no teste!"
     show player 13
     show teacher 2
-    bis "Truly!?"
+    bis "Verdadeiramente!?"
     show teacher 1
     show player 17
-    player_name "Yup!"
+    player_name "Sim!"
     show teacher 25 zorder 1 with dissolve
 
-    bis "Tu me sauves la vie!"
+    bis "Você salva minha vida!"
     show teacher 26 with dissolve
-    bis "Whatever would I do without you?!"
+    bis "O que eu faria sem você?!"
     show teacher 27 with dissolve
     show player 29 with dissolve
-    player_name "Heh, it's no big deal..."
+    player_name "O que eu faria sem você?..."
     show player 13
     show teacher 16
     with dissolve
-    bis "Now be sure to study the words we learned over your past assignments, yes?"
+    bis "Agora você pode ter certeza de que suas tarefas são sim?"
     show teacher 17
     show player 14
-    player_name "I will! Don't worry!"
+    player_name "Eu vou! Não se preocupe!"
     show player 13
     show teacher 16
-    bis "Très Bien! Next class we will have the test."
+    bis "Muito bom Na próxima aula teremos o teste."
     show teacher 17
     show player 14
-    player_name "Alright, {b}Miss Bissette{/b}!"
+    player_name "Certo, {b}Miss Bissette{/b}!"
     return
 
 label bissette_dialogue_office_intro:
     show teacher 3 at right
     show player 13 at left
     with dissolve
-    bis "Bonjour, {b}[firstname]{/b}!"
+    bis "Bom dia, {b}[firstname]{/b}!"
     show teacher 1
     show player 14
-    player_name "Hello, {b}Miss Bissette{/b}."
+    player_name "Oi, {b}Miss Bissette{/b}."
     show player 13
     show teacher 2
-    bis "What can I help with?"
+    bis "Com o que posso ajudar?"
     show teacher 1
     return
 
 label bissette_dialogue_office_bissette_wine_sampling:
-    player_name "I'm excited to taste that wine, {b}Miss Bissette{/b}."
+    player_name "Estou animado para provar esse vinho, {b}Miss Bissette{/b}."
     show player 13
     show teacher 12
-    bis "J'ai hâte également!"
-    bis "You will be tasting many things tonight, yes?"
+    bis "Mal posso esperar!"
+    bis "Você vai provar muitas coisas hoje à noite, sim?"
     show teacher 13
     show player 29 with dissolve
-    player_name "*Gulp* Y-Yeah..."
+    player_name "*Gole * S-Sim..."
     show player 14
     show teacher 3
-    bis "Très Bien, I'll be seeing you in my office this evening then."
+    bis "Muito bem, eu te vejo no meu escritório hoje à noite."
     show teacher 13
     show player 14 with dissolve
-    player_name "See you there!"
+    player_name "Vejo você lá!"
     return
 
 label bissette_dialogue_office_leave:
     show player 14
-    player_name "I don't think I need anything right now."
+    player_name "Acho que não preciso de nada agora."
     show player 13
     show teacher 2
-    bis "Très Bien!"
+    bis "Muito bem!"
     show teacher 1
     show player 36 with dissolve
-    player_name "Bye!"
+    player_name "Tchau!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

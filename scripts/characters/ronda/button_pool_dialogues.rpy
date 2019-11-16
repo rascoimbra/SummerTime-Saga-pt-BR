@@ -7,33 +7,33 @@ label ronda_pool_dialogue_pre_cassie_fun:
     with dissolve
     ron "..."
     show ronda f_normal_talk
-    ron "What are you even doing here?"
+    ron "O que você está fazendo aqui? "
     show ronda f_normal
     if wearing_swimsuit:
         show player 50f
     else:
         show player 17
-    player_name "Just getting some exercise!"
-    player_name "I figured I had to start somewhere, and it can help me get ready for the qualifiers!"
+    player_name "Apenas fazendo exercício! "
+    player_name "Achei que tinha que começar em algum lugar, e isso pode me ajudar a me preparar para as eliminatórias!"
     show ronda f_normal_talk
     if wearing_swimsuit:
         show player 51
     else:
         show player 11
-    ron "Look: I ain't helping you, let alone go in the water at the same time as you... So forget it, okay?"
+    ron "Olha: eu não estou ajudando você, muito menos entrar na água ao mesmo tempo que você ... Então esqueça, ok? "
     show ronda f_normal
     if wearing_swimsuit:
         show player 53
     else:
         show player 26
-    player_name "That's fine!"
-    player_name "I can manage on my own..."
+    player_name "Isso é bom!"
+    player_name "Eu posso gerenciar sozinho ..."
     show ronda f_rolleyes
     if wearing_swimsuit:
         show player 51
     else:
         show player 11
-    ron "Ugh... Whateva."
+    ron "Ugh ... tanto faz. "
     return
 
 label ronda_pool_dialogue_after_cassie_fun:
@@ -43,31 +43,31 @@ label ronda_pool_dialogue_after_cassie_fun:
     else:
         show player 1 at left
     with dissolve
-    ron "Here to pay {b}Cassie{/b} a little visit?"
+    ron "Aqui para pagar {b}Cassie{/b} uma pequena visita? "
     show ronda f_upset
     if wearing_swimsuit:
         show player 51f
     else:
         show player 12
-    player_name "Uhh... I'm just here to swim?"
+    player_name "Uhh ... eu só estou aqui para nadar! "
     show ronda f_upset_talk
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
-    ron "You can stop pretending..."
-    ron "...You ain't here to train, like I am."
+    ron "Você pode parar de fingir ... "
+    ron "... Você não está aqui para treinar, como eu."
     show ronda f_upset
     if wearing_swimsuit:
         show player 51f
     else:
         show player 12
-    player_name "Uhh... okay?"
+    player_name "Uhh ... ok?"
     show ronda f_upset_angry
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
-    ron "Ugh... you're pathetic."
+    ron "Ugh ... você é patético. "
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

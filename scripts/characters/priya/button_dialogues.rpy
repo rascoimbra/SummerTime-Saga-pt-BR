@@ -3,42 +3,42 @@ label priya_button_intro:
     show player 5 at left
     show priya f_angry a_dressed_point
     with dissolve
-    priya "You again?!"
-    priya "What are you doing here?!"
+    priya "Você novamente?!"
+    priya "O que você está fazendo aqui?!"
     show priya f_stern a_dressed_crossed with dissolve
     pause
     show priya f_angry
-    priya "Do you have some results to report?"
+    priya "Você tem alguns resultados para relatar? "
     show priya f_stern
     return
 
 label priya_button_menu_no:
     show priya f_stern a_dressed_crossed
     show player 24 at left
-    player_name "No, sorry."
-    player_name "I was just-"
+    player_name "Não, desculpe. "
+    player_name "Eu só estava-"
     show player 5
     show priya f_angry a_dressed_point with dissolve
-    priya "This is a restricted area for a reason!"
-    priya "You can't just come and go as you please..."
+    priya "Esta é uma área restrita por um motivo! "
+    priya "Você não pode simplesmente ir e vir quando quiser ..."
     show priya f_stern a_dressed_crossed with dissolve
     show player 10
-    player_name "I'm sorry, {b}Priya{/b}."
+    player_name "Eu sinto Muito, {b}Priya{/b}."
     show player 24
-    player_name "I-"
-    player_name "I'll go..."
+    player_name "EU-"
+    player_name "Eu vou ..."
     show player 5
     show priya f_facepalm_talk a_dressed_facepalm with dissolve
-    priya "{b}*Sigh*{/b}"
-    priya "No, I'm sorry... I'm sorry."
+    priya "{b}*Suspiro*{/b}"
+    priya "Não, me desculpe ... me desculpe. "
     show priya f_hopeful_talk a_dressed_sides with dissolve
-    priya "I don't mean to yell at you."
+    priya "Não quero gritar com você. "
     show priya f_normal_talk
-    priya "It's just... It's dangerous for you to be up here."
-    priya "So please, don't come back unless you have something to report."
+    priya "É só que ... é perigoso para você estar aqui em cima. "
+    priya "Então, por favor, não volte a menos que você tenha algo a relatar."
     show priya f_normal
     show player 10
-    player_name "O-okay."
+    player_name "Tudo bem. "
     hide player
     hide priya
     with dissolve

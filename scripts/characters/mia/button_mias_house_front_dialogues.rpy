@@ -3,72 +3,73 @@ label mia_dialogue_mias_house_front_intro:
     show player 14 at left
     show mia 1 at right
     with dissolve
-    player_name "Hey {b}Mia{/b}!"
+    player_name "Ei {b}Mia{/b}!"
     show mia 4
     show player 1
-    mia "Hey {b}[firstname]{/b}!"
-    mia "What're you doing here?"
+    mia "Ei {b}[firstname]{/b}!"
+    mia "O que você está fazendo aqui? "
     show mia 1
     show player 29
-    player_name "Umm... I wanted to ask you something!"
+    player_name "Umm ... eu queria te perguntar uma coisa! "
     return
 
 label mia_dialogue_mias_house_front_homework:
     show player 21
-    player_name "Do you still need help studying for the exams?"
+    player_name "Você ainda precisa de ajuda para estudar para os exames? "
     show mia 3
     show player 13
-    mia "Of course! I've been looking for {b}someone to study with{/b}..."
+    mia "Claro! Eu estive procurando {b}alguém para estudar{/b}..."
     show mia 6
     show player 11
-    mia "...But have you caught up with class yet?"
+    mia "...Mas você já alcançou a aula? "
     show mia 2
     show player 10
-    player_name "Oh! Right! I should probably get some private tutoring from {b}Miss Bissette{/b} to catch up..."
+    player_name "Oh! Direito! Eu provavelmente deveria ter aulas particulares de {b}Miss Bissette{/b} para recuperar o atraso ... "
     show mia 6
     show player 13
-    mia "Yeah, you probably should do that first!"
+    mia "Sim, você provavelmente deveria fazer isso primeiro! "
     show mia 4
-    mia "Then you can come over to my house... and we'll study in my room!"
+    mia "Então você pode vir à minha casa ... e estudaremos no meu quarto! "
     show mia 1
     show player 14
-    player_name "Ye... yeah?"
+    player_name "Sim ... sim? "
     show mia 3
     show player 1
-    mia "Sure! It'll be fun!"
+    mia "Certo! Vai ser divertido!"
     show mia 1
     show player 17
-    player_name "Alright... I'll let you know when I'm done with them!"
+    player_name "Tudo bem ... eu vou deixar você saber quando eu terminar com eles! "
     show mia 4
     show player 1
-    mia "See you soon!"
+    mia "Te vejo em breve!"
     hide mia with dissolve
     show player 5 with dissolve
-    player_name "( I should try and finish my {b}french homework{/b}, so I can study with {b}Mia{/b}. )"
+    player_name "( Eu deveria tentar terminar meu {b}lição de casa francesa{/b}, para que eu possa estudar com {b}Mia{/b}. )"
     show player 4
     pause
-    player_name "( I wonder why she picked me to help her study. )"
-    player_name "( She usually studies with {b}Judith{/b} and she's really good in french... )"
-    player_name "( ...I'm not sure how I could help her. )"
+    
+Eu me pergunto por que ela me escolheu para ajudá-la a estudar. ) "
+    player_name "(ela geralmente estuda com {b}Judith{/b} e é muito boa em francês ...)"
+    player_name "(... não sei como poderia ajudá-la.)"
     show player 13
-    player_name "( At least we'll get to hang out, and she's really cute... )"
+    player_name "( Pelo menos nós vamos sair, e ela é muito fofa ...) "
     hide player with dissolve
     return
 
 label mia_dialogue_mias_house_front_leave:
     show player 4
-    player_name "Hmm... Yeah, but I forgot!"
+    player_name "Hmm ... Sim, mas eu esqueci! "
     show mia 3
     show player 11
-    mia "Haha! You're funny~"
+    mia "Haha! Você é engraçado ~ "
     show mia 1
     show player 17
-    player_name "Sorry! I can't remember what I wanted to say!"
+    player_name "Desculpa! Não me lembro do que queria dizer! "
     show player 14
-    player_name "I should get going."
+    player_name "Eu deveria ir. "
     show mia 4
     show player 1
-    mia "Have a good night!"
+    mia "Tenha uma boa noite!"
     hide player
     hide mia
     with dissolve

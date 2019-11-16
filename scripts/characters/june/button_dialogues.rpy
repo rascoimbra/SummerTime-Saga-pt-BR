@@ -4,14 +4,14 @@ label june_dialogue_bissette_fix_printer_repeat:
     show june 17 at right
     show player 10 at left
     with dissolve
-    player_name "Hey {b}June{/b}! Have you fixed the copy machine yet?"
+    player_name "Oi {b}June{/b}! Você já consertou a copiadora?"
     show player 5
     show june 19
-    june "No, sorry. I haven't had time to mess with it at all."
+    june "Não, desculpe. Não tive tempo de mexer com isso."
     show june 17
     player_name "..."
     show player 12
-    player_name "Stupid technology!"
+    player_name "Tecnologia estúpida!"
     show player 518 with dissolve
     return
 
@@ -20,27 +20,27 @@ label june_dialogue_bissette_fix_printer_first:
     show player 10 at left
     show june 1 at right
     with dissolve
-    player_name "Hey, {b}June{/b}?"
+    player_name "Oi, {b}June{/b}?"
     show player 5
     show june 3
-    june "Yes, {b}[firstname]{/b}?"
+    june "Sim, {b}[firstname]{/b}?"
     show june 2
     show player 12
-    player_name "I'm having trouble with the printer. What does PC load letter mean?"
+    player_name "Estou tendo problemas com a impressora. O que significa carta de carregamento do PC?"
     show player 5
     show june 4
-    june "Ugh, is it doing that again?! What a piece of garbage!"
+    june "Ugh, está fazendo isso de novo ?! Que pedaço de lixo!"
     show june 2
     show player 10
-    player_name "I just need to scan a couple pages from this book and print them off."
-    player_name "Could you help me?"
+    player_name "Eu só preciso digitalizar algumas páginas deste livro e imprimi-las."
+    player_name "Você poderia me ajudar?"
     show player 5
     show june 3
-    june "Yeah, sure!"
-    june "Not to brag or anything but I'm pretty good with electronics."
+    june "Sim, claro!"
+    june "Não para me gabar nem nada, mas eu sou muito bom em eletrônica."
     show june 2
     show player 14
-    player_name "Awesome!"
+    player_name "Incrível!"
     show player 13
     scene black with fade
 
@@ -49,46 +49,46 @@ label june_dialogue_bissette_fix_printer_first:
     show player 13 at left
     show june 9f at right
     with dissolve
-    june "Oh, sometimes you just need to restart it. Let me just cycle power."
+    june "Ah, às vezes você só precisa reiniciá-lo. Deixe-me apenas ligar e desligar a energia."
     show june 10f with dissolve
     show player 108f
-    player_name "Really?"
+    player_name "Sério?"
     show player 5
     show june 9f with dissolve
-    june "Yeah, technology is picky like that."
-    june "Just waiting for it to boot up..."
+    june "Sim, a tecnologia é exigente assim."
+    june "Apenas esperando a inicialização ..."
     show player 10
-    player_name "Alright."
+    player_name "Tudo bem."
     show player 5
     pause
     pause
     show june 10f with dissolve
     show player 434
-    june "I think it should be work no-"
+    june "Eu acho que deveria dar certo"
     show june 9f with dissolve
     show player 5
-    june "Grr... PC load error?!"
+    june "Grr ... Erro no carregamento do PC ?!"
     show june 15 with dissolve
     show player 110f
-    june "You worthless piece of-"
+    june "Seu pedaço inútil de"
     show june 16 with vpunch
     pause
     show june 15 with dissolve
-    june "I guess I'll have to open it up and repair it again."
+    june "Acho que vou ter que abrir e consertar novamente."
     show player 10
-    player_name "How long will that take?"
+    player_name "Quanto tempo isso levará?"
     show player 5
     show june 19 with dissolve
-    june "It will take awhile, I don't have time to deal with it today."
+    june "Vai demorar um pouco, não tenho tempo para lidar com isso hoje."
     show june 17
     show player 10
-    player_name "Seriously?"
+    player_name "Sério?"
     show player 5
     show june 19
-    june "Yeah, this thing really is a pain in the butt..."
+    june "Sim, essa coisa realmente é uma dor na bunda ..."
     show june 17
     show player 12
-    player_name "Stupid technology!"
+    player_name "Tecnologia estúpida!"
     show player 518 with dissolve
     return
 
@@ -96,11 +96,11 @@ label june_dialogue_bissette_fix_printer_fail:
     show player 519 with vpunch
     player_name "..."
     show player 10 with dissolve
-    player_name "[str_warn]*Sigh*"
-    player_name "[str_warn]I guess I'll check back with you tomorrow then..."
+    player_name "[str_warn]*Suspiro*"
+    player_name "[str_warn]Acho que voltarei com você amanhã, então ..."
     show player 5
     show june 19
-    june "[str_warn]Sorry, {b}[firstname]{/b}."
+    june "[str_warn]Desculpe, {b}[firstname]{/b}."
     hide player
     hide june
     with dissolve
@@ -112,29 +112,29 @@ label june_dialogue_bissette_fix_printer_pass:
     show player 11 with dissolve
     player_name "!!!"
     show june 18
-    june "... Hey! It's working!"
+    june "... Ei! Está funcionando!"
     show june 17
     show player 10
-    player_name "Really?"
+    player_name "Sério?"
     show player 5
     show june 18
-    june "Yeah! You must have the midas touch, {b}[firstname]{/b}!"
+    une "Sim! Você deve ter o toque midas, {b}[firstname]{/b}!"
     show june 17
     show player 14
-    player_name "Hah, Yeah. I guess so..."
+    player_name "Hah, sim. Acho que sim ..."
     show player 13
     show june 18
-    june "Well you can copy your pages now..."
+    june "Bem, você pode copiar suas páginas agora ..."
     show june 17
     show player 14
-    player_name "Thank goodness! I really need to get this book back to {b}Judith{/b} before she gets upset."
-    player_name "Thanks for all your help, {b}June{/b}!"
+    layer_name "Graças a Deus! Eu realmente preciso levar este livro para {b}Judith{/b} antes que ela fique chateada."
+    player_name "Obrigado por toda a sua ajuda, {b}June{/b}!"
     show player 13
     show june 18
-    june "No problem."
+    june "Não tem problema."
     hide june with dissolve
     show player 518 with dissolve
-    player_name "Print!"
+    player_name "Imprimir!"
     show player 519 with vpunch
     show xtra_paper 39 at Position (xoffset=100) with dissolve
     pause .25
@@ -143,8 +143,8 @@ label june_dialogue_bissette_fix_printer_pass:
     pause
 
     show player 510 with dissolve
-    player_name "Alright! I finally have a complete French Dictionary."
-    player_name "Now I just need to get {b}Judith's{/b} book back to her and I can get started with {b}Miss Bissette's{/b} private lessons."
+    player_name "Tudo bem! Eu finalmente tenho um dicionário completo de francês."
+    player_name "Agora só preciso receber o livro de {b}Judith's{/b} para ela e posso começar com as aulas particulares de {b}Miss Bissette's{/b}."
     hide player with dissolve
     return
 
@@ -153,121 +153,121 @@ label june_dialogue_okita_faptic_engine:
     show player 2 at left
     show june 2 at right
     with dissolve
-    player_name "{b}Miss Okita{/b} wants me to get her something called a {b}Faptic Engine{/b}. She told me you could help?"
+    player_name "{b}Miss Okita{/b} quer que eu pegue algo chamado {b}Faptic Engine{/b} para ela. Ela me disse que você poderia ajudar?"
     show player 1
     show june 4
-    june "What the heck does she want with one of those?"
+    june "O que diabos ela quer com um desses?"
     show player 2
     show june 2
-    player_name "She says she needs it for her newest invention."
+    player_name "Ela diz que precisa dele para sua mais nova invenção."
     show player 1
     show june 4
-    june "Hah. What crazy thing has she come up with this time?"
+    june "Hah. Que coisa maluca ela inventou dessa vez?"
     show player 2
     show june 2
-    player_name "It sounds pretty neat actually, It's a-"
+    player_name "Parece muito legal, na verdade, é um"
     show player 1
     show june 3
-    june "No, don't tell me!. I'm sure, I don't wanna know."
+    june "Não, não me diga! Eu tenho certeza, não quero saber."
     show player 11
     show june 2
     player_name "..."
     show player 10
-    player_name "Can you help me or not?"
+    player_name "Você pode me ajudar ou não?"
     show player 11
     show june 4
-    june "I doubt it. Does it need to be authentic?"
+    june "Duvido. Precisa ser autêntico?"
     show player 10
     show june 2
-    player_name "Err, I assume so."
+    player_name "Err, suponho que sim."
     show player 11
     show june 4
-    june "Well that's gonna be hard to come by."
+    june "Bem, isso vai ser difícil de encontrar."
     show player 10
     show june 2
-    player_name "What is a {b}Faptic Engine{/b} anyways?"
+    player_name "O que é um {b}Faptic Engine{/b} de qualquer maneira?"
     show player 11
     show june 3
-    june "Oh, you don't know?"
-    june "It's a tiny piece of machinery that provides tactile sensations. They just started putting them in the top of the line Smart Phones."
+    june "Oh, você não sabe?"
+    june "É uma minúscula maquinaria que fornece sensações táteis. Eles começaram a colocá-los no topo dos smartphones inteligentes da linha".
     show player 10
     show june 2
-    player_name "Tactile Sensations?"
+    player_name "Sensações táteis?"
     show player 11
     show june 4
-    june "Sensations you feel with your skin. In this case, vibrations."
+    june "Sensações que você sente com a pele. Nesse caso, vibrações."
     show player 2
     show june 2
-    player_name "Oh, I get it now."
-    player_name "So why is it so hard to get?"
+    player_name "Oh, entendi agora."
+    player_name "Então, por que é tão difícil conseguir?"
     show player 1
     show june 3
-    june "Well, putting aside the fact that those phones are super expensive..."
+    june "Bem, deixando de lado o fato de que esses telefones são super caros ..."
     show player 11
     show june 4
-    june "They are currently sold out, like everywhere!"
+    june "Atualmente, eles estão esgotados, como em qualquer lugar!"
     show player 10
     show june 2
-    player_name "How expensive are we talking?"
+    player_name "Quão caro estamos falando?"
     show player 11
     show june 4
-    june "Around $2000."
+    june "Cerca de $ 2000".
     show player 23
     show june 2
     player_name "( !!! )" with hpunch
     show player 10
-    player_name "What!? For a phone!?"
+    player_name "O quê !? Para um telefone !?"
     show player 11
     show june 4
-    june "I told you they are top of the line."
+    june "Eu disse que eles são os melhores da linha".
     show june 3
-    june "It really doesn't matter though, didn't you hear me? They are completely sold out."
+    june "Mas realmente não importa, você não me ouviu? Eles estão completamente esgotados."
     show player 10
     show june 2
-    player_name "Well shoot! What am I gonna tell Okita?"
+    player_name "Bem, dispara! O que vou dizer à Okita?"
     show player 11
     show june 3
-    june "It's a shame she wants authentic. There are some pretty good quality knock off versions that you might be able to get your hands on."
+    june "É uma pena que ela queira ser autêntica. Há algumas versões de imitação de boa qualidade nas quais você pode conseguir."
     show player 10
     show june 2
-    player_name "Hmm, would it work as well as the authentic ones?"
+    player_name "Hmm, funcionaria tão bem quanto os autênticos?"
     show player 11
     show june 4
-    june "Well no, but pretty close. It would depend on what you're using it for."
+    june "Bem, não, mas bem perto. Depende do que você está usando."
     show june 3
-    june "In most cases, I'd say the knock off would do the trick."
+    june "Na maioria dos casos, eu diria que a imitação faria o truque."
     show june 2
     player_name "..."
     show player 10
-    player_name "Alright, where would I get the knock off version?"
+    player_name "Tudo bem, onde eu pegaria a versão imitadora?"
     show player 11
     show june 3
-    june "Well, they were putting them into those {b}Master Blaster{/b} controllers a few years ago."
+    june "Bem, eles estavam colocando-os naqueles controladores {b}Master Blaster{/b} alguns anos atrás."
     show player 10
     show june 2
-    player_name "{b}Master Blaster{/b}? Like the video game?"
+    player_name "{b}Master Blaster{/b}? Gosta do videogame?"
     show player 11
     show june 3b
-    june "Yeah! I always wanted one but my parent's couldn't afford it."
+    june "Sim! Eu sempre quis um, mas meus pais não podiam pagar."
     show player 2
     show june 2
-    player_name "You know what? My buddy {b}Erik{/b} used to have one of those!"
+    player_name "Você sabe o quê? Meu amigo {b}Erik{/b} costumava ter um desses!"
     show player 1
     show june 6
-    june "Does he still have it?"
+    june "Ele ainda o tem?"
     show player 2
     show june 5
-    player_name "No idea."
+    player_name "Não faço ideia."
     show player 1
     show june 6
-    june "Well if you manage to get your hands on one, I could take the {b}Faptic Engine{/b} out for you."
+    june "Bem, se você conseguir colocar uma mão em uma, eu posso levar o {b}Faptic Engine{/b} para você."
     show player 2
     show june 2
-    player_name "Great! I'll go talk to {b}Erik{/b} and see if he still has it."
-    player_name "Thanks for the info, {b}June{/b}."
+    player_name "Ótimo! Vou falar com {b}Erik{/b} e ver se ele ainda o possui."
+    player_name "Obrigado pela informação, {b}June{/b}."
     show player 1
     show june 3
-    june "Good luck!"
+    june "Boa sorte!
     return
 
 label june_dialogue_okita_get_controller_info:
@@ -275,20 +275,20 @@ label june_dialogue_okita_get_controller_info:
     show player 2 at left
     show june 2 at right
     with dissolve
-    player_name "What was the name of that controller again?"
+    player_name "Qual era o nome desse controlador novamente?"
     show player 1
     show june 4
     june "{b}The Master Blaster{/b}."
     show june 3
-    june "Didn't you say your buddy {b}Erik{/b} had one?"
+    june "Você não disse que seu amigo {b}Erik{/b} tinha um?"
     show player 2
     show june 2
-    player_name "Yeah, he used to..."
-    player_name "I'll go ask him about it."
-    player_name "Thanks, {b}June{/b}."
+    player_name "Sim, ele costumava ..."
+    player_name "Vou perguntar a ele sobre isso."
+    player_name "Obrigado, {b}June{/b}."
     show player 1
     show june 3
-    june "Good luck!"
+    june "Boa sorte!"
     return
 
 label june_dialogue_okita_has_controller:
@@ -296,63 +296,63 @@ label june_dialogue_okita_has_controller:
     show player 502 at left
     show june 2 at right
     with dissolve
-    player_name "Is this the thing you were talking about?"
+    player_name "É sobre isso que você estava falando?"
 
     show player 1
     show june 11
     with dissolve
-    june "Hey, you actually got one. Awesome!"
+    june "Ei, você realmente conseguiu um. Incrível!"
     show player 2
     show june 12
-    player_name "So you can take the {b}Faptic Engine{/b} out of this?"
+    player_name "Então você pode tirar o {b}Faptic Engine{/b} disso?"
     show player 1
     show june 11
-    june "Absolutely."
-    june "Just give me a few minutes to take it apart."
+    june "Absolutamente".
+    june "Apenas me dê alguns minutos para desmontá-lo."
     show player 2
     show june 12
-    player_name "Alright."
+    player_name "Tudo bem."
     show player 1
     show june 11
 
-    june "This is so cool!"
+    june "Isso é tão legal!"
 
     pause
     scene location_school_computer_day_blur
     show player 1 at left
     show june 13 at right
     with dissolve
-    june "There we go, one knock off {b}Faptic Engine.{/b}"
+    june "Lá vamos nós, uma batida no {b}Faptic Engine.{/b}"
     show player 2
     show june 14
-    player_name "That's it? It's so tiny..."
+    player_name "É isso? É tão pequeno ..."
     show player 505
     show june 18
     with dissolve
-    june "Yup, it's a little thing but it packs a punch."
+    june "Sim, é uma coisinha, mas é um soco."
     show player 506
     show june 17
-    player_name "Alright, I'd better get this to Okita."
+    player_name "Tudo bem, é melhor eu levar isso para Okita."
     show player 505
     show june 19
-    june "Say, {b}[firstname]{/b}?"
-    june "Would you mind if I keep the controller?"
+    june "Diga, {b}[firstname]{/b}?"
+    june "Você se importaria se eu mantivesse o controle?"
     show player 2 with dissolve
     show june 17
-    player_name "No, not at all. Knock yourself out!"
+    player_name "Não, de jeito nenhum. Bata-se!"
     show player 1
     show june 18
-    june "Sweet! Thanks, {b}[firstname]{/b}!"
+    june "Doce! Obrigado, {b}[firstname]{/b}!"
     return
 
 label june_dialogue_mc_intro:
     show player 14 at left
     show june 5 at right
-    player_name "Hey, {b}June{/b}!"
+    player_name "Oi, {b}June{/b}!"
     show player 1
     show june 6
-    june "Hi, {b}[firstname]{/b}!"
-    june "What's up?"
+    june "Oi, {b}[firstname]{/b}!"
+    june "O que houve?"
     show june 5
     return
 
@@ -362,389 +362,389 @@ label june_dialogue_intro:
     show june 1 at right
     show player 14 at left
     with dissolve
-    player_name "Hi!"
+    player_name "Olá!"
     show june 3
     show player 1
-    june "Oh, uh, hi?"
-    june "What's up?"
+    june "Ah, oi?"
+    june "O que houve?"
     show june 2
     return
 
 label june_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "Hey, so uhh..."
-    player_name "I'm kinda helping {b}Miss Okita{/b} with a project."
+    player_name "Ei, então uhh ..."
+    player_name "Estou meio que ajudando a {b}Miss Okita{/b} com um projeto."
     show player 1
     show june 4
-    june "{b}Miss Okita{/b} asked you for help with her designs?"
+    june "{b}Miss Okita{/b} pediu ajuda para seus desenhos?"
     show player 10
     show june 2
-    player_name "Yes."
-    player_name "... And we need some {b}lenses{/b}; Like from a pair of glasses?"
+    player_name "Sim".
+    player_name "... E precisamos de algumas {b}lentes{/b}; como de um par de óculos?"
     show player 11
     show june 4
-    june "You want my glasses?"
+     june "Você quer meus óculos?"
     show player 10
     show june 2
-    player_name "Well, I was hoping you might have a spare set?"
+    player_name "Bem, eu esperava que você tivesse um conjunto de reposição?"
     show player 11
     show june 4
-    june "Nope, just the one."
+    june "Não, apenas esse."
     show player 10
     show june 2
-    player_name "Maybe I could convince you to give me that pair?"
+    player_name "Talvez eu possa convencê-lo a me dar esse par?"
     show player 11
     show june 4
-    june "I doubt it."
+    june "Eu duvido."
     show player 10
     show june 2
-    player_name "Hmm, are you farsighted or nearsighted?"
+    player_name "Hmm, você tem míopia ou astigmatismo?"
     show player 11
     show june 3
-    june "Nearsighted."
+    june "Míope."
     show player 29 with dissolve
     show june 2
-    player_name "Oh, nevermind then."
-    player_name "I need a pair from someone who is both."
+    player_name "Oh, deixa pra lá então."
+    player_name "Eu preciso de um par de alguém que seja ambos."
     show player 3
     show june 4
-    june "I can't believe {b}Miss Okita{/b} asked {b}YOU{/b} to help with her projects..."
+    june "Não acredito que a {b}Miss Okita{/b} pediu que {b}você{/b} ajudasse em seus projetos ..."
     show player 29
     show june 2
-    player_name "Well she's kinda, forcing me..."
+    player_name "Bem, ela está meio que me forçando ..."
     show player 3
     show june 6
-    june "Yeah, that sounds more like her."
+    june "Sim, isso parece mais com ela."
     show june 3
-    june "Well, good luck."
+    june "Bem, boa sorte."
     show player 2 with dissolve
     show june 2
-    player_name "Yeah, thanks."
+    player_name "Sim, obrigado."
     return
 
 label june_dialogue_ross_ask_model:
     show player 2
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Estou trabalhando em um projeto para a {b}Miss Ross{/b} e isso requer um modelo ativo."
+    player_name "Você estaria interessada?"
     show player 1
     show june 3
-    june "Modeling?"
+    june "Modelagem?"
     show june 3b
-    june "Do I look like a model to you?"
+    june "Eu pareço modelo para você?"
     show player 10
     show june 5
-    player_name "Sure, why not?"
+    player_name "Claro, por que não?"
     show player 11
     show june 3b
-    june "Pfft, nice try."
+    june "Pfft, boa tentativa."
     show june 3
-    june "I've got other stuff planned anyways..."
+    june "Tenho outras coisas planejadas de qualquer maneira ..."
     show player 10
     show june 5
-    player_name "You do?"
+    player_name "Você sabe?"
     show june 3
     show player 11
-    june "Yeah, the expansion pack for Orcette's Dungeon launched today."
-    june "You better believe I'm getting a copy!"
+    june "Sim, o pacote de expansão para o Orcette's Dungeon foi lançado hoje."
+    june "É melhor você acreditar que estou recebendo uma cópia!"
     show player 10
     show june 5
-    player_name "Alright, have fun I guess."
+    player_name "Tudo bem, divirta-se, eu acho."
     show player 11
     show june 3b
-    june "Oh, I will!"
+    june "Oh, eu irei!"
     return
 
 label june_dialogue_hang_out:
     show player 14
-    player_name "I was wondering if you wanted to hang out at my place?"
+    player_name "Eu queria saber se você gostaria de ir na minha casa?"
     show player 1
     show june 6
-    june "Sure!"
-    june "After school?"
+    june "Claro!"
+    june "Depois da escola?"
     show player 14
     show june 5
-    player_name "Yeah."
+    player_name "Sim".
     show player 1
     show june 6
-    june "So, your room it is, then?"
+    june "Então, seu quarto é então?"
     show player 10
     show june 5
-    player_name "My room?"
+    player_name "Meu quarto?"
     show player 11
     show june 6
-    june "Yeah! We need a nice quiet place to chill and play games."
+    june "Sim! Precisamos de um lugar calmo e tranquilo para relaxar e jogar."
     show player 14
     show june 5
     player_name "Heh, okay!"
     show player 1
     show june 6
-    june "Awesome!"
-    june "I got classes coming up, I should get going."
-    june "I'll see ya after school, {b}[firstname]{/b}!"
+    june "Impressionante!"
+    june "Eu tenho aulas chegando, eu devo ir."
+    june "Vejo você depois da escola, {b}[firstname]{/b}!"
     return
 
 label june_dialogue_cosplay_no_costume:
     show player 14
-    player_name "What cosplay were you trying to make again?"
+    player_name "Que cosplay você estava tentando fazer de novo?"
     show player 1
     show june 3
-    june "Oh, it's an orcette costume."
-    june "It should have the teeth, necklace and belt!"
+    june "Oh, é uma fantasia de orcette."
+    june "Deveria ter dentes, colar e cinto!"
     show player 14
     show june 2
-    player_name "Ah, right!"
-    player_name "I think I know a place in the {b}mall{/b} that has costumes..."
+    player_name "Ah, certo!"
+    player_name "Acho que conheço um lugar no {b}shopping{/b} que tem roupas ..."
     show player 1
     show june 6
-    june "Oh yeah?"
+    june "Ah, é?"
     show player 14
     show june 5
-    player_name "I might go by there and check it out!"
+    player_name "Eu posso ir até lá e conferir!"
     show player 1
     show june 6
-    june "Cool! See ya."
+    june "Legal! Até mais."
     return
 
 label june_dialogue_cosplay_has_costume:
     show player 17
-    player_name "I think I found something you might like!"
+    player_name "Acho que encontrei algo que você pode gostar!"
     show player 1
     show june 3
     june "Huh?"
     show june 6
-    june "What is it?"
+    june "O que é isso?"
     show june 5
     show player 423 with fastdissolve
-    player_name "It's an orcette costume!!"
+    player_name "É uma fantasia de orcette !!"
     show player 422
     show june 6
-    june "For my cosplay?!"
+    june "Para o meu cosplay ?!"
     show player 1
     show june 7
     with fastdissolve
     pause
     show player 13
     show june 8
-    june "Oh my gosh!!"
-    june "It has all the missing pieces I needed!"
-    june "Those even look like real teeth!"
+    june "Oh meu Deus !!"
+    june "Tem todas as peças que faltava!"
+    june "Aqueles até parecem dentes de verdade!"
     show player 17
     show june 5 with fastdissolve
-    player_name "I'm glad you like it."
+    player_name "Estou feliz que você gostou."
     show player 14
-    player_name "It's going to look great on you!"
+    player_name "Vai ficar ótimo em você!"
     show player 1
     show june 6
-    june "Thank you so much, {b}[firstname]{/b}."
+    june "Muito obrigado, {b}[firstname]{/b}."
     show player 14
     show june 5
-    player_name "I'm just glad you'll have a cool cosplay at the comic con."
+    player_name "Estou feliz que você tenha um ótimo cosplay na Comic Con."
     show player 11
     show june 6
-    june "I'll probably get a lot of attention from the crowds, I'm sure!"
+    june "Eu provavelmente vou chamar muita atenção da multidão, tenho certeza!"
     show player 10
     show june 5
-    player_name "You mean like, guys?"
+    player_name "Você quer dizer, pessoal?"
     show player 11
     show june 6
-    june "Well, I guess, yeah..."
+    june "Bem, eu acho, sim ..."
     show june 5
     player_name "..."
     show june 6
-    june "But you know what?"
-    june "I think I should test out the cosplay before I go!"
-    june "Maybe put it on... in front of a friend?"
+    june "Mas você sabe o que?"
+    june "Acho que devo testar o cosplay antes de ir!"
+    june "Talvez colocá-lo ... na frente de um amigo?"
     show june 5
     show player 10
-    player_name "Like who?"
+    player_name "Como quem?"
     show player 11
     show june 6
-    june "You!! Silly..."
+    june "Você !! Parvo ..."
     show player 17
     show june 5
     player_name "Oh, ha ha!"
     show player 14
-    player_name "Sure, I could emm... give you some feedback!"
+    player_name "Claro, eu poderia emm ... dar um feedback!"
     show player 1
     show june 6
-    june "Great! How about we meet at your house... Like last time?"
+    june "Ótimo! Que tal nos encontrarmos em sua casa ... Como da última vez?"
     show player 14
     show june 5
-    player_name "Okay, I'll see you after school then!"
+    player_name "Ok, vejo você depois da escola!"
     show player 1
     show june 6
-    june "See you later!"
+    june "Até mais!"
     return
 
 label june_dialogue_ask_about_class:
     show player 14
-    player_name "Hey, what class are you in?"
-    player_name "I don't see you around school often."
+    player_name "Ei, em que classe você está?"
+    player_name "Não vejo você na escola com frequência."
     show player 1
     show june 3
-    june "Oh, I don't do sports."
-    june "I prefer hanging around here..."
+    june "Ah, eu não pratico esportes."
+    june "Eu prefiro ficar por aqui ..."
     show player 14
     show june 2
-    player_name "What do you do in the computer room?"
+    player_name "O que você faz na sala de computadores?"
     show player 1
     show june 3
-    june "You know, just stuff... like browsing the internet..."
-    june "... going on message boards, watching streams and playing games."
+    june "Você sabe, apenas coisas ... como navegar na internet ..."
+    june "... participando de fóruns, assistindo a transmissões e jogando."
     show june 2
     show player 14
-    player_name "Games, huh?"
+    player_name "Jogos, hein?"
     show player 1
     show june 3
-    june "Yeah."
+    june "Sim".
     show june 1
     show player 14
-    player_name "Like the one you're holding?"
+    player_name "Como o que você está segurando?"
     show player 1
     show june 3
-    june "Oh, this thing? It's just a silly game..."
+    june "Oh, essa coisa? É apenas um jogo bobo ..."
     show player 14
     show june 2
-    player_name "What's it called?"
+    player_name "Como se chama?"
     show player 1
     show june 3
-    june "It's called Orc Bork."
+    june "Chama-se Orc Bork."
     show player 14
     show june 2
-    player_name "A game about orcs?"
+    player_name "Um jogo sobre orcs?"
     show player 1
     show june 3
-    june "Yeah."
+    june "Sim".
     show june 4
-    june "It's pretty hard."
+    june "É bem difícil."
     show player 11
-    june "I've been trying to beat it for months..."
+    june "Estou tentando vencê-lo há meses ..."
     show player 14
     show june 2
-    player_name "Is it really that difficult?"
+    player_name "É realmente tão difícil?"
     show player 1
     show june 3
-    june "Well, it's easier when you play with two players."
+    june "Bem, é mais fácil quando você joga com dois jogadores."
     show june 4
-    june "I just haven't found anyone who plays these kind of games at school..."
+    june "Eu não encontrei ninguém que jogue esse tipo de jogo na escola ..."
     show june 3
-    june "Unless, maybe you know someone?"
+    june "A menos que você conheça alguém?"
     show june 1
     return
 
 label june_dialogue_erik_help:
     show player 14
-    player_name "Actually, I do!"
-    player_name "My good friend {b}Erik{/b} LOVES games with orcs in them!"
-    player_name "Especially... the orcettes."
-    player_name "I think you two should totally play together!"
+    player_name "Na verdade, sim!"
+    player_name "Meu bom amigo {b}Erik{/b} ADORA jogos com orcs neles!"
+    player_name "Especialmente ... os orcetes."
+    player_name "Acho que vocês dois deveriam jogar juntos!"
     show player 1
     show june 3
     june "{b}Erik{/b}?"
     show player 11
-    june "I don't think I know him..."
+    june "Acho que não o conheço ..."
     show player 10
     show june 1
-    player_name "He said you borrowed one of his pencils once."
+    player_name "Ele disse que você pegou emprestado um de seus lápis uma vez."
     show player 1
     show june 4
     june "Huh..."
     show player 14
     show june 5
-    player_name "Well, he spends a lot of time in his room... playing games..."
+   player_name "Bem, ele passa muito tempo em seu quarto ... jogando jogos ..."
     show player 1
     show june 6
-    june "Seriously?"
+    june "Sério?"
     show player 14
     show june 5
-    player_name "I think he could help you beat that game."
+    player_name "Acho que ele poderia ajudá-lo a vencer esse jogo."
     show player 1
     show june 6
-    june "That would be awesome."
-    june "Let me know if he's up for it!"
+    june "Isso seria incrível."
+    june "Deixe-me saber se ele está pronto para isso!"
     show player 17
     show june 5
-    player_name "Sweet!!"
+    player_name "Doce !!"
     show player 14
-    player_name "I'll definitely let him know."
+    player_name "Definitivamente vou avisá-lo."
     return
 
 label june_dialogue_mc_help:
     show player 14
-    player_name "I'm not really good at those games... But I'll try!"
+    player_name "Eu não sou muito bom nesses jogos ... Mas vou tentar!"
     show player 1
     show june 4
-    june "You... want to play with me?"
-    june "Are you sure you would like that?"
+    june "Você ... quer brincar comigo?"
+    june "Tem certeza de que gostaria disso?"
     show player 14
     show june 2
-    player_name "Sure, why not?"
+    player_name "Claro, por que não?"
     show player 11
     show june 3
-    june "Well, it's just that no one has ever asked before..."
+    june "Bem, é só que ninguém nunca perguntou antes ..."
     show player 17
     show june 2
-    player_name "I'd gladly be your first!"
+    player_name "Eu ficaria feliz em ser o seu primeiro!"
     show player 21
     show june 5
-    player_name "Err... I mean... Not like-"
+    player_name "Err ... quero dizer ... não gosto-"
     show player 11
     show june 6
-    june "Ha ha, you're funny."
+    june "Ha ha, você é engraçado."
     show june 5
     player_name "..."
     show player 14
-    player_name "So... You want to play now?"
+    player_name "Então ... você quer jogar agora?"
     show player 11
     show june 6
-    june "Umm... How about we play somewhere else?"
-    june "I'm a bit tired of spending all my time in this computer room..."
+    june "Umm ... Que tal tocar em outro lugar?"
+    june "Estou um pouco cansado de passar todo o meu tempo nesta sala de computadores ..."
     show player 14
     show june 5
-    player_name "Okay, where then?"
+    player_name "Ok, onde então?"
     show player 10
-    player_name "If we play in the hallway, {b}Annie{/b} will give us detention..."
+    player_name "Se jogarmos no corredor, {b}Annie{/b} nos dará detenção ..."
     show player 11
     show june 6
-    june "Hmm... How about we play at your house?"
+    june "Hmm ... Que tal brincar na sua casa?"
     show player 12
     show june 5
-    player_name "My... My house?!"
+    player_name "Minha ... minha casa ?!"
     show player 11
     show june 6
-    june "Yeah!"
-    june "After school?"
+    june "Sim!"
+    june "Depois da escola?"
     show player 10
     show june 5
-    player_name "Uhh... I guess we could?"
+    player_name "Uhh ... acho que poderíamos?"
     show player 11
     show june 6
-    june "Awesome!"
-    june "Thanks for wanting to play with me..."
+    june "Impressionante!"
+    june "Obrigado por querer brincar comigo ..."
     show player 13
-    june "It's... really nice of you!"
+    june "É ... muito gentil da sua parte!"
     show player 14
     show june 5
-    player_name "Oh, ha ha. It's nothing..."
+    player_name "Oh, ha ha. Não é nada ..."
     show player 1
     show june 6
-    june "Just come ask me when you're ready to hang out!"
-    june "I'll be waiting in here."
+    june "Venha me perguntar quando estiver pronto para sair!"
+    june "Estarei esperando aqui."
     show player 17
     show june 5
-    player_name "Sure!"
+    player_name "Claro!"
     return
 
 label june_dialogue_leave:
     show june 2 at right
     show player 14
-    player_name "Oh, nothing!"
-    player_name "Just saying hi."
+    player_name "Oh, nada!"
+    player_name "Apenas dizendo oi."
     show player 1
     show june 4
-    june "Oh, okay then..."
+    june "Oh, tudo bem então ..."
     show june 1
     show player 29 at Position(xoffset=8)
-    player_name "Err... I'll see you later!"
+    player_name "Err ... vejo você mais tarde!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

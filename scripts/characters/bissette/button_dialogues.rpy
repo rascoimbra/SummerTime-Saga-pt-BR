@@ -2,20 +2,20 @@ label bissette_dialogue_meet_in_office:
     show player 10 at left
     show teacher 1 at right
     with dissolve
-    player_name "{b}Miss Bissette{/b}, what did you need me to do?"
+    player_name "{b}Miss Bissette{/b}, o que você precisa que eu faça?"
     show player 5
     show teacher 12
-    bis "Oh, {b}[firstname]{/b}. Not here. {b}Come see me in my office after school{/b}, yes?"
+    bis "Oh, {b}[firstname]{/b}. Aqui não. {b}Venha me ver no meu escritório depois da escola{/b}, sim?"
     show teacher 13
     show player 14
-    player_name "Okay, I'll meet you there."
+    player_name "Ok, eu te encontro lá."
     return
 
 label bissette_dialogue_check_dictionary:
     show teacher 1 at right
     show player 10 at left
     with dissolve
-    player_name "Hey, {b}Miss Bissette{/b}. I found a dictionary at the library but it's missing a few pages."
+    player_name "Ei, {b}Miss Bissette{/b}. Encontrei um dicionário na biblioteca, mas faltam algumas páginas."
     show player 239_240 with dissolve
     pause
     show player 503 with dissolve
@@ -23,271 +23,271 @@ label bissette_dialogue_check_dictionary:
     show player 5
     show teacher 22b
     with dissolve
-    bis "Oh my!"
-    bis "This will make things very difficult, I think."
-    bis "The French to English section is intact but you are missing many words..."
-    bis "I'm afraid some of them might be crucial to the subjects we are to be studying."
+    bis "Oh meu!"
+    bis "Isso vai dificultar as coisas, acho."
+    bis "A seção Francês para Inglês está intacta, mas faltam muitas palavras..."
+    bis "Receio que alguns deles possam ser cruciais para os assuntos que iremos estudar."
     show teacher 21b
     show player 10
-    player_name "Ugh, I was afraid of that.."
+    player_name "Ugh, eu tinha medo disso.."
     show player 5
     show teacher 21
-    bis "Hmm, perhaps all is not lost. I'm sure {b}a classmate of yours{/b} would be willing to let you copy the missing pages from their dictionary."
-    bis "You can use the {b}photo copier in the computer lab{/b}."
+    bis "Hmm, talvez nem tudo esteja perdido. Tenho certeza {b}a classmate of yours{/b} estaria disposto a permitir que você copie as páginas ausentes do dicionário."
+    bis "Você pode usar o {b}photo copier in the computer lab{/b}."
     show teacher 22
     show player 14
-    player_name "That's a good idea!"
+    player_name "Essa é uma boa ideia!"
     show player 13
     show teacher 2 with dissolve
-    bis "Vous etes le bienvenu, {b}[firstname]{/b}."
-    bis "Be sure to get English words beginning with the letter 'B' for our next lesson."
+    bis "De nada, {b}[firstname]{/b}."
+    bis "Certifique-se de obter palavras em inglês que começam com a letra 'B' para a próxima lição."
     show teacher 1
     show player 14
-    player_name "Alright, time to track down another dictionary..."
+    player_name "Tudo bem, hora de rastrear outro dicionário..."
     show player 13
     show teacher 12
-    bis "Working so hard already. I can tell you are desiring the special reward, very much, yes?"
+    bis "Já trabalhando tão duro. Eu posso dizer que você está desejando a recompensa especial, muito, sim?"
     show teacher 13
     show player 10
-    player_name "Any thoughts on whose dictionary I should be asking to borrow?"
+    player_name "Quaisquer pensamentos sobre cujo dicionário eu deveria pedir emprestado?"
     show player 13
     show teacher 11
     bis "Hmm..."
     show teacher 2
-    bis "Perhaps {b}Judith{/b}?"
-    bis "She shows much talent for the French tongue..."
+    bis "Possivelmente {b}Judith{/b}?"
+    bis "Ela mostra muito talento para a língua francesa..."
     show teacher 1
     show player 14
-    player_name "Okay, I'll start with {b}Judith{/b} then."
+    player_name "Ok, eu vou começar com {b}Judith{/b} então."
     return
 
 label bissette_dialogue_intro:
     show player 1 at left
     show teacher 2 at right
     with dissolve
-    bis "Hi, {b}[firstname]{/b}!"
+    bis "Oi, {b}[firstname]{/b}!"
     show player 17 at left
     show teacher 1 at right
-    player_name "Hi, {b}Miss Bissette{/b}!"
+    player_name "Oi, {b}Miss Bissette{/b}!"
     show player 1 at left
     show teacher 2 at right
-    bis "Have you been able to catch up on your studies?"
-    bis "I really hope you do!"
-    bis "Now, is there something you wanted to talk about?"
+    bis "Você conseguiu acompanhar seus estudos?"
+    bis "Eu realmente espero que você faça!"
+    bis "Agora, há algo que você gostaria de falar?"
     show teacher 1
     return
 
 label bissette_dialogue_food_assignment_intro:
     show player 10
-    player_name "What my next assignment?"
+    player_name "Qual minha próxima tarefa?"
     show player 5
     show teacher 2
-    bis "I want you to {b}write a few paragraphs about your favorite food, en Francais{/b}."
-    bis "Then we will go over it together, yes?"
+    bis "eu quero que você {b}escreva alguns parágrafos sobre sua comida favorita, em Frances{/b}."
+    bis "Então vamos discutir isso juntos, sim?"
     show teacher 1
     show player 14
-    player_name "Oh, yeah!"
+    player_name "Oh sim!"
     return
 
 label bissette_dialogue_food_assignment_prepare_assignment:
-    player_name "I should visit that librarian again. Maybe she could find a book about {b}French food{/b} for me."
-    player_name "Then I can type something up at my computer."
-    player_name "Thanks, {b}Miss Bissette{/b}!"
+    player_name "Eu deveria visitar esse bibliotecário novamente. Talvez ela pudesse encontrar um livro sobre {b}French food{/b} para mim."
+    player_name "Então eu posso digitar algo no meu computador."
+    player_name "Obrigado, {b}Miss Bissette{/b}!"
     return
 
 label bissette_dialogue_food_assignment_do_assignment:
-    player_name "I should type something up at my computer."
-    player_name "Thanks, {b}Miss Bissette{/b}!"
+    player_name "Eu deveria digitar algo no meu computador."
+    player_name "Obrigado, {b}Miss Bissette{/b}!"
     return
 
 label bissette_dialogue_poem_assignment_intro:
     show player 10
-    player_name "Remind me, what was the assignment again?"
+    player_name "Lembre-me, qual foi a tarefa novamente?"
     show player 5
     show teacher 2
-    bis "Le quel? Tu as deja oublie?"
-    bis "{b}You are to be writing a romantic poem en Francias{/b}!"
+    bis "O que? Você já esqueceu?"
+    bis "{b}Você deve escrever um poema romântico em Frances{/b}!"
     show teacher 1
     show player 14
-    player_name "Oh, right!"
-    player_name "Thanks, {b}Miss Bissette{/b}."
+    player_name "Oh certo!"
+    player_name "Obrigado, {b}Miss Bissette{/b}."
     show player 13
     show teacher 2
-    bis "Return to me once it's complete."
-    bis "Don't keep me waiting, mon bel homme."
+    bis "Volte para mim quando estiver completo."
+    bis "Não me deixe esperando, meu homem bonito."
     return
 
 label bissette_dialogue_poem_assignment_do_assignment:
     show player 14
-    player_name "I should type something up at my computer."
+    player_name "Eu deveria digitar algo no meu computador."
     return
 
 label bissette_dialogue_poem_assignment_print_assignment:
     show player 14
-    player_name "I finished the poem, {b}Miss Bissette{/b}."
+    player_name "Eu terminei o poema, {b}Miss Bissette{/b}."
     show player 13
     show teacher 2
-    bis "Great, let me see!"
+    bis "Ótimo, deixa eu ver!"
     show teacher 1
     show player 10
-    player_name "Oh, I need to print it out first..."
+    player_name "Ah, eu preciso imprimi-lo primeiro..."
     show player 5
     show teacher 2
-    bis "Well, the printer is in the {b}computer lab{/b}, yes?"
+    bis "Bem, a impressora está no {b}computer lab{/b}, sim?"
     show teacher 1
     show player 14
-    player_name "Yup, be right back!"
+    player_name "Sim, já volto!"
     return
 
 label bissette_dialogue_private_tutoring:
     show player 10
-    player_name "Do you think we could meet in your office tonight?"
+    player_name "Você acha que poderíamos nos encontrar hoje à noite no seu escritório??"
     show player 26
-    player_name "You know, for some... Tutoring?"
+    player_name "Você sabe, para alguns ... Explicações?"
     show player 13
     show teacher 12
-    bis "Oh, tutoring. Oui!"
-    bis "I'll see you tonight for some one on one time, yes?"
+    bis "Ah, tutoria. sim!"
+    bis "Vejo você hoje à noite por alguém de uma vez, sim?"
     show teacher 13
     show player 33
-    player_name "Oui!"
+    player_name "Sim!"
     show player 13
     show teacher 12
-    bis "Très Bien, mon bel homme!"
+    bis "Muito bom, meu homem bonito!"
     return
 
 label bissette_dialogue_tutoring:
     show player 10
-    player_name "I was wondering if you were still offering private tutoring?"
+    player_name "Eu queria saber se você ainda estava oferecendo aulas particulares?"
     show player 5
     show teacher 3
-    bis "Oh, oui!"
+    bis "Ah sim!"
     show teacher 1
     show player 14
-    player_name "Awesome! When would you be availa-"
+    player_name "Impressionante! Quando você estaria disponível-"
     show player 11
     show teacher 2
-    bis "Impressionnant! You're the first student to inquire about the tutoring!"
+    bis "Impressionante! Você é o primeiro aluno a perguntar sobre o ensino!"
     show teacher 1
     show player 12
-    player_name "Really? That's weird..."
+    player_name "Realmente? Isso é estranho..."
     show player 5
     show teacher 5
-    bis "I was beginning to think nobody was interested in the special reward."
+    bis "Eu estava começando a pensar que ninguém estava interessado na recompensa especial."
     show teacher 1
     show player 12
-    player_name "Oh yeah, I forgot about the special reward..."
+    player_name "Ah sim, eu esqueci a recompensa especial..."
     show player 5
     show teacher 5
-    bis "Quoi!? You are not desiring the reward either?!"
+    bis "Quoi !? Você não está desejando a recompensa também?!"
     show teacher 4
     show player 29 with dissolve
-    player_name "Err... No, I mean... A-a special reward sounds wonderful, {b}Miss Bissette{/b}."
+    player_name "Err ... Não, quero dizer ... A-uma recompensa especial parece maravilhoso, {b}Miss Bissette{/b}."
     show player 3
     show teacher 3
-    bis "Ah superbe!"
+    bis "Super ah!"
     show teacher 2
-    bis "Then we will meet after school for some one on one lessons, yes?"
+    bis "Depois nos encontraremos depois da escola para algumas aulas individuais, sim?"
     show teacher 1
     show player 10 with dissolve
-    player_name "Ummm... Yeah, I think that will-"
+    player_name "Ummm ... Sim, acho que vai-"
     show player 11
     show teacher 2
-    bis "Tres bien!"
-    bis "Just be sure to bring your {b}French dictionary{/b} along."
+    bis "Três bons!"
+    bis "Apenas certifique-se de trazer seu {b}French dictionary{/b} ao longo."
     show teacher 1
     show player 24
-    player_name "Ah, crap. About that... {b}Miss Bissette{/b}, I can't seem to find my {b}French Dictionary{/b}."
+    player_name "Ah, merda. Sobre isso... {b}Miss Bissette{/b}, Não consigo encontrar o meu {b}French Dictionary{/b}."
     show player 25
-    player_name "It's not in my backpack, my house, or my locker..."
+    player_name "Não está na minha mochila, minha casa ou meu armário..."
     show player 5
     show teacher 5
-    bis "Oh non, this is not good!"
-    bis "Perhaps you should {b}stop by the library{/b} and see if they have one?"
+    bis "Oh não, isso não é bom!"
+    bis "Talvez você devesse {b}stop by the library{/b} e ver se eles têm um?"
     show teacher 2
-    bis "I would loan you mine, but I'm afraid I've recently spilt wine upon it."
+    bis "Eu lhe emprestaria o meu, mas receio que tenha derramado vinho recentemente sobre ele."
     show teacher 1
     show player 14
-    player_name "Oh yeah, I forgot about the library!"
+    player_name "Ah, sim, eu esqueci a biblioteca!"
     show player 13
     show teacher 2
-    bis "Oui, I go there quite often myself."
+    bis "Sim, eu vou lá muitas vezes."
     show teacher 12
-    bis "I love the feel of a good book in my hands."
-    bis "Cuddled up by the warm fire with some strong wine..."
-    bis "C'est le paradis."
+    bis "Adoro a sensação de um bom livro em minhas mãos."
+    bis "Abraçado pelo fogo quente com um pouco de vinho forte..."
+    bis "É o paraíso."
     show teacher 13
     show player 11
     player_name "..."
     show teacher 2
-    bis "Oh, silly me, babbling on and on. Just let me know when you have the dictionary, yes?"
+    bis "Oh, bobo eu, balbuciando sem parar. Deixe-me saber quando você tiver o dicionário, sim?"
     show teacher 1
     show player 14
-    player_name "Sure thing, {b}Miss Bissette{/b}."
+    player_name "Coisa certa, {b}Miss Bissette{/b}."
     return
 
 label bissette_dialogue_get_dictionary:
     show player 12
-    player_name "Remind me what I need to get before we can study together?"
+    player_name "Lembre-me do que preciso obter antes de podermos estudar juntos?"
     show player 5
     show teacher 2
-    bis "You will need a French to English dictionary."
-    bis "{b}Check the library{/b}, yes?"
+    bis "Você precisará de um dicionário de francês para inglês."
+    bis "{b}Check the library{/b}, sim?"
     show teacher 1
     show player 14
-    player_name "Oh, that's right!"
-    player_name "Thanks!"
+    player_name "Ah, está certo!"
+    player_name "Obrigado!"
     return
 
 label bissette_dialogue_replace_missing_pages:
     show player 12
-    player_name "What was I supposed to do again?"
+    player_name "O que eu deveria fazer de novo?"
     show player 5
     show teacher 2
-    bis "Copy the pages you are missing from a classmates Dictionary."
+    bis "Copie as páginas que estão faltando em um dicionário de colegas de classe."
     show teacher 1
     show player 14
-    player_name "Oh, that's right!"
+    player_name "Ah, está certo!"
     show player 13
     show teacher 2
-    bis "Check with {b}Judith{/b}. She is a very good with her French."
+    bis "Verificar com {b}Judith{/b}. Ela é muito boa com seu francês."
     show teacher 1
     show player 14
-    player_name "And then {b}the computer lab has the copy machine{/b}..."
-    player_name "Got it, thanks again!"
+    player_name "E depois {b}o laboratório de informática tem a copiadora{/b}..."
+    player_name "Entendi, obrigado novamente!"
     return
 
 label bissette_dialogue_chat:
     show player 29 at left
     show teacher 1 at right
-    player_name "{b}Miss Bissette{/b}, I just wanted to say that I really appreciate the help with catching up on my school work!"
+    player_name "{b}Miss Bissette{/b}, Eu só queria dizer que realmente aprecio a ajuda em acompanhar o meu trabalho na escola!"
     show player 13 at left
     show teacher 3 at right
-    bis "It's my pleasure! All I want is to make sure that you are motivated to perform..."
+    bis "O prazer é meu! Tudo o que eu quero é ter certeza de que você está motivado para realizar..."
     show teacher 12 at right
-    bis "...And I love rewarding hard working students!"
+    bis "...E eu amo recompensar estudantes que trabalham duro!"
     show teacher 13 at right
     show player 10 at left
-    player_name "I'll do my best. I really want to get into a good college..."
+    player_name "Eu farei o meu melhor. Eu realmente quero entrar em uma boa faculdade..."
     show teacher 2 at right
     show player 13 at left
-    bis "That's what I like to hear!"
-    bis "I can review your {b}homework{/b} with you when you hand it in, if you want!"
+    bis "Isto é o que eu gosto de ouvir!"
+    bis "Posso revisar sua {b}homework{/b} com você quando entregar, se você quiser!"
     show teacher 1 at right
     show player 17 at left
-    player_name "That sounds good, {b}Miss Bissette{/b}! Thank you!"
+    player_name "Isso soa bem, {b}Miss Bissette{/b}! Obrigado!"
     return
 
 label bissette_dialogue_leave:
     show player 14
-    player_name "No. I just wanted to say hello."
+    player_name "Não. Eu só queria dizer olá."
     show teacher 2
     show player 13
-    bis "Well, take a seat. Class will be starting soon!"
+    bis "Bem, sente-se. A aula começará em breve!"
     show teacher 3
-    bis "I've got an exciting lesson planned for today!"
+    bis "Eu tenho uma lição emocionante planejada para hoje!"
     show teacher 1
     show player 2
-    player_name "Sounds good, {b}Miss Bissette{/b}."
+    player_name "Parece bom, {b}Miss Bissette{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

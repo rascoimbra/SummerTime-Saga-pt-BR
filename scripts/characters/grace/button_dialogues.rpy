@@ -5,8 +5,8 @@ label button_grace_mia_get_tattoo:
     show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Hey there!"
-    grace "Are you here for an appointment?"
+    grace "Hey lá!"
+    grace "Você está aqui para uma consulta?"
     return
 
 label button_grace_generic:
@@ -14,84 +14,84 @@ label button_grace_generic:
     show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Hey there!"
-    grace "Are you here for an appointment?"
+    grace "Hey lá!"
+    grace "Você está aqui para uma consulta?"
     return
 
 label button_grace_tattoo:
     show mia 10f
-    mia "I'd like to get a tattoo... Now."
+    mia "Eu gostaria de obter uma tatuagem ... Agora."
     show mia 7f
     show grace f_normal_talk
-    grace "Now? I see..."
+    grace "Agora ? Eu ver ..."
     show grace f_suspicious
-    grace "Do you have a design in mind?"
+    grace "Faça você tem um projeto em mente?"
     show grace f_normal
     show mia 30f at Position (xoffset=64) with dissolve
-    mia "My friend here drew this for me, and I'd like it done today!"
+    mia "Meu amigo aqui desenhou isso para mim e eu gostaria que fosse feito hoje!"
     show mia 7f
     show grace f_normal_down_talk a_dressed_hip_paper
     with dissolve
     grace "Hmm..."
     show grace f_normal_talk
-    grace "Are you sure you want this done?"
-    grace "Tattoos are permanent, so I have to make sure my clients know what they're getting into!"
+    grace "Tem você certeza que você quer este feito?"
+    grace "As tatuagens são permanentes , de modo que eu tenho para fazer certeza meus clientes sabem o que eles estão ficando!"
     show grace f_normal
     show mia 10f
-    mia "I've been thinking about it for a long time and... Yes, I do want it."
+    mia "Eu tenho pensando sobre isso por um longo tempo e ... Sim, eu quero isso."
     show mia 7f
     show grace f_normal_talk
-    grace "Alright, sweetie. But, it aint cheap!"
+    grace "Tudo bem , querida . Mas , não é barato!"
     show grace f_normal
     show player 14
-    player_name "How much is it?"
+    player_name "Como muito é isso?"
     show player 13
     show grace f_normal_down_talk
-    grace "For that size... with colors... Around {b}$400{/b}."
+    grace "Para esse tamanho ... com cores ... Em torno de {b}$400{/b}."
     show grace f_normal
     show player 22
     show mia 12f
     mia "!!!"
-    mia "Damn... I think I only have {b}$200{/b}..."
+    mia "Droga ... acho que só tenho {b}$200{/b}..."
     show mia 8f
     show player 11
     player_name "..."
     show player 10
-    player_name "You don't have enough?"
+    player_name "Você não tem o suficiente?"
     show player 5
     show mia 12 with dissolve
-    mia "No, that's all I was able to save up."
-    mia "What do you think I should do?"
+    mia "Não, isso é tudo o que eu era capaz de salvar -se."
+    mia "O que você acha que eu deveria fazer?"
     show mia 8
     return
 
 label button_grace_tattoo_help:
     show player 14
-    player_name "I'll cover the rest."
+    player_name "Eu vou cobrir o resto."
     show player 13
     show mia 12
-    mia "Really?!"
+    mia "Sério?!"
     show mia 7
     show player 14
-    player_name "Why not."
-    player_name "I've been working lately so I have some money to spend..."
+    player_name "Por que não."
+    player_name "Eu tenho sido trabalhando ultimamente assim que eu tiver algum dinheiro para gastar..."
     show player 17
-    player_name "...And it's for a good cause!"
+    player_name "...E é por uma boa causa!"
     show player 13
     show mia 10
-    mia "That's really sweet of you..."
-    mia "...And I'll make sure to pay you back!"
+    mia "Isso é muito gentil da sua parte..."
+    mia "...E eu vou fazer certo a pagar -lhe de volta!"
     show mia 7
     show player 17
-    player_name "It's alright, ha ha."
+    player_name "Está tudo bem , ha ha."
     show player 13
     show grace f_normal_talk
-    grace "So?"
+    grace "Então?"
     show mia 7f with dissolve
-    grace "Ready to start?"
+    grace "Pronto para começar?"
     show grace f_normal
     show mia 10f
-    mia "I'm ready!"
+    mia "Estou pronto!"
     hide player
     hide mia
     hide grace
@@ -99,7 +99,7 @@ label button_grace_tattoo_help:
     with dissolve
 
     scene tattoo_cs01
-    show text "It took a while for {b}Grace{/b} to finish the work.\nI was really nervous for {b}Mia{/b}...\n...But, she seemed to be fine the whole time!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Ele levou um enquanto {b}Grace{/b} ia para terminar o trabalho.\foi realmente nervoso para {b}Mia{/b}...\n...Mas , ela parecia a ser bem o tempo todo!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -111,58 +111,58 @@ label button_grace_tattoo_help:
     show player 13 at left
     show grace f_normal_talk at right
     with dissolve
-    grace "All done!"
-    grace "I hope you guys like it."
+    grace "Tudo pronto!"
+    grace "Espero que vocês gostem."
     show grace f_normal
     show mia 10f
-    mia "It's great! And it didn't hurt as much as I thought..."
+    mia "É ótimo ! E ele não machucar como muito como eu pensava..."
     show mia 7f
     show grace f_normal_talk
-    grace "Make sure you leave the bandage on it for at least a few days."
+    grace "certeza você deixar o curativo por pelo menos por alguns poucos dias."
     show grace f_normal
     show mia 10f
-    mia "Okay, thank you!"
+    mia "Ok, graças a você!"
     show mia 7f
     show grace f_normal_talk
-    grace "Bye, guys."
+    grace "Tchau, pessoal."
     hide grace with dissolve
     pause(.25)
     hide mia
     show mia 7 at right
     with dissolve
     show player 14
-    player_name "How does it feel?"
+    player_name "Como se sente?"
     show player 13
     show mia 12
-    mia "The tattoo?"
+    mia "A tatuagem?"
     show mia 7
     show player 14
-    player_name "Yeah."
+    player_name "Sim."
     show player 13
     show mia 12
-    mia "It's fine... It just has this tingling sensation."
+    mia "Está tudo bem ... Só tem essa sensação de formigamento."
     show mia 10
-    mia "And I'm glad I did it... I can finally say I did something that I wanted."
+    mia "E eu estou feliz que eu fiz isso ... Eu posso finalmente dizer que eu fiz algo que eu queria."
     show mia 7
     show player 10
-    player_name "Are you scared your mom might find out?"
+    player_name "Tem você assustou sua mãe pode encontrar fora?"
     show player 5
     show mia 9
-    mia "Hopefully not, but it's in a well hidden spot, ha ha."
+    mia "Espero que não , mas está em um local bem escondido , ha ha."
     show mia 7
     show player 17
-    player_name "I think it's cool you did it."
+    player_name "Eu acho que é legal que você fez isso."
     show player 18
     show mia 10
-    mia "Thanks, {b}[firstname]{/b}. I'm happy you came with me."
+    mia "Graças, {b}[firstname]{/b}. Estou feliz que você veio com me."
     show player 13
-    mia "I should get going, though. Before my mom starts getting suspicious..."
+    mia "Eu deveria ficar indo , embora . Antes de minha mãe começa a ficar desconfiado..."
     show mia 7
     show player 14
-    player_name "Okay, see you at school!"
+    player_name "Ok, vejo você na escola!"
     show player 13
     show mia 10
-    mia "Bye."
+    mia "Tchau."
     hide player
     hide mia
     with dissolve
@@ -170,26 +170,26 @@ label button_grace_tattoo_help:
 
 label button_grace_tattoo_come_back:
     show player 10
-    player_name "Maybe we should come back later?"
+    player_name "Talvez nós deve vir de volta mais tarde?"
     show player 5
     mia "..."
     show mia 12
-    mia "I suppose we should."
+    mia "Suponho que deveríamos."
     show mia 8
     show player 10
-    player_name "It's okay. We can always come back another time."
+    player_name "É tudo bem. Nós podemos sempre vir para trás outra vez."
     show player 5
     show mia 12
-    mia "You're right."
+    mia "Você está certo."
     show mia 8
     show player 10
-    player_name "Sorry you couldn't get your tattoo today..."
+    player_name "Desculpe, você não conseguiu fazer sua tatuagem hoje..."
     show player 5
     show mia 12
-    mia "It's fine. I should get home now."
+    mia "Está tudo bem. Eu deveria chegar em casa agora."
     show mia 8
     show player 10
-    player_name "Alright, see you later."
+    player_name "Tudo bem , vejo você mais tarde."
     hide player
     hide mia
     hide grace
@@ -202,236 +202,236 @@ label button_grace_paint:
     show player 10 zorder 3 at left
     show xtra 26 zorder 1 at Position(xpos=0.65, ypos=1.0)
     show grace f_normal zorder 0 at right
-    player_name "May I ask you something?"
+    player_name "Posso perguntar uma coisa?"
     show player 11
     show grace f_normal_talk
-    grace "Sure!"
+    grace "Claro!"
     show player 10
     show grace f_normal
-    player_name "Well, you see..."
+    player_name "Bem , você vê..."
     show player 11
     pause
     show player 10
-    player_name "The thing is..."
+    player_name "A coisa é..."
     show player 11
     grace "..."
     show player 10
-    player_name "... Here's the thing..."
+    player_name "... Aqui está a coisa..."
     show player 11
     show eve 2f zorder 2 at Position(xpos=0.35, ypos=1.0) with dissolve
-    eve "Geez, spit it out already, {b}[firstname]{/b}!"
+    eve "Nossa , cuspir -lo já, {b}[firstname]{/b}!"
     show eve 1bf with dissolve
-    eve "What up, Raggedy Ann?"
+    eve "O que se, Raggedy Ann?"
     show eve 5f with dissolve
     show grace f_laugh
-    grace "Heh, not much."
+    grace "Heh , não muito."
     show grace f_normal_talk
-    grace "You staying outta trouble, Punk?"
+    grace "Você está ficando sem problemas , punk?"
     show eve 6bf
     show grace f_normal
-    eve "Of course not."
+    eve "Claro que não."
     show player 1
     show eve 5f
     show grace f_laugh
     grace "Hehe."
     show eve 2f
     show grace f_normal
-    eve "Look, {b}[firstname]{/b} here needs some ink."
+    eve "Veja, {b}[firstname]{/b} aqui precisa de um pouco de tinta."
     show eve 5f
     show grace f_normal_talk
-    grace "Oh, you thinking of getting a tattoo there, Stud?"
+    grace "Oh, você está pensando em fazer uma tatuagem?"
     show player 11
     show grace f_normal
     player_name "..."
     show eve 1bf with dissolve
-    eve "No, no, no. He needs actual ink! Like in bottles, ya Dummy!"
+    eve "Não, não, não. Ele precisa real de tinta ! Como em garrafas!"
     show eve 6bf
-    eve "Sorry, she can be a little slow."
+    eve "Desculpe , ela pode ser um pouco lenta."
     show eve 5f
     show grace f_suspicious
-    grace "Hey! I heard that!"
+    grace "Ei ! Eu ouvi isso!"
     show eve 6f
     show grace f_normal
-    eve "Yeah, I said it loud..."
+    eve "Sim , eu disse isso alto..."
     show eve 5f
     show grace f_laugh
-    grace "Haha, smart ass."
+    grace "Haha, pequena bunda."
     show eve 6f
     show grace f_normal
-    eve "Looove ya, Sis!"
+    eve "te amo!"
     show eve 5f
     show grace f_normal_talk
-    grace "Yeah, yeah. You're lucky you're cute."
+    grace "Sim , sim . Você é sortudo você é bonito."
     show player 1
     show grace f_normal
     show eve 1bf with dissolve
-    eve "I am, aren't I?"
+    eve "Eu sou , não sou?"
     show grace f_normal_talk
     show eve 5f with dissolve
-    grace "So, how much ink do you need, {b}[firstname]{/b}?"
+    grace "Então, como muita tinta que você precisa, {b}[firstname]{/b}?"
     show player 2
     show grace f_normal
-    player_name "Umm, I'm not sure."
-    player_name "Just enough to do one painting."
+    player_name "Umm, eu sou não tenho certeza ."
+    player_name "Apenas o suficiente para fazer uma pintura ."
     show player 1
     show grace f_normal_talk
-    grace "Ahhh, an artist, huh?"
+    grace "Ahhh , um artista , hein ?"
     show grace f_laugh
-    grace "Figures, the first guy {b}Eve{/b} brings home is an artist."
+    grace "Números, o primeiro cara que {b}Eve{/b} traz para casa é um artista."
     show player 11
     show grace f_normal
     show eve 6bf
-    eve "Tch, better than that biker freak you had hanging around here in high school."
+    eve "Tch , melhor do que o que biker assustar você tinha pendurado em torno de aqui em alta escola."
     show eve 1f
     show grace f_laugh
-    grace "Heh, you'll get no arguements there..."
+    grace "Heh , você não terá argumentos lá..."
     show grace f_normal_talk
-    grace "Would one bottle of each primary color be enough?"
+    grace "Será uma garrafa de cada primário cor ser o suficiente?"
     show grace f_suspicious
-    grace "I assume you know how to mix?"
+    grace "Eu suponho que você sabe como para misturar?"
     show player 10
     show grace f_normal
-    player_name "Mix?"
+    player_name "Misturar?"
     show player 11
     show eve 2f
-    eve "Yeah, you know? Blue and red make purple."
-    eve "Yellow and blue make green."
+    eve "Sim , você sabe ? Azul e vermelho ficam roxos."
+    eve "Amarelo e azul tornam verde."
     show player 2
     show eve 1f
-    player_name "Oh yeah, like color wheel stuff, right?"
+    player_name "Ah , sim , como coisas sobre rodas coloridas , certo?"
     show player 1
     show grace f_normal_talk
-    grace "Yeah, exactly."
+    grace "Sim , exatamente."
     show grace f_suspicious
-    grace "I guess the only question now, is what are you gonna do for me?"
+    grace "Eu acho que a única questão agora , é o que são você vai fazer por mim?"
     show grace f_normal
     show player 10
-    player_name "Oh, uhh. I dunno? What do you want me to do?"
+    player_name "Oh, uhh . Eu não sei ? O que é que você quer me a fazer?"
     show grace f_suspicious
     show player 11
-    grace "Hmm, did you happen to notice the graffiti on the side of the building when you came in?"
+    grace "Hmm , se você acontecer para perceber o grafite sobre o lado do edifício quando você chegou?"
     show player 10
     show grace f_normal
-    player_name "... Yeah, it's pretty hard to miss."
+    player_name "... Sim , é muito difícil de perder."
     show player 11
     show grace f_normal_talk
-    grace "I'll give you the paints if you can wash it off for me."
+    grace "Eu vou dar -lhe as tintas se você pode lavar -lo para mim."
     show grace f_normal
     show eve 2f
-    eve "For real?"
+    eve "De verdade?"
     show player 2
     show eve 1f
-    player_name "I can do that!"
+    player_name "Eu posso fazer isso!"
     show player 1
     show eve 6bf
-    grace "Pfft, what a waste of time!"
+    grace "Pfft , o que um desperdício de tempo!"
     show eve 1f
     show player 11
     player_name "..."
     show eve 1bf with dissolve
-    eve "It's just gonna get tagged again..."
+    eve "É apenas vai ficar marcado de novo..."
     show eve 1f
     show grace f_angry_talk a_dressed_hips_mad
     with dissolve
-    grace "Well, it's your stupid fucking friends that keep doing it!"
-    grace "You need to tell those little bitches, I'll whoop their fucking asses if it happens again!"
+    grace "Bem , ele é seus idiotas do caralho amigos que mantêm fazendo isso!"
+    grace "Você precisa de dizer essas pequenas cadelas , eu vou gritar seus malditos jumentos se isso acontece de novo!"
     show grace f_angry
     show player 10
-    player_name "Daaang, I didn't know your {b}Sister{/b} was such a bad ass!"
+    player_name "Daaang , eu não sei a sua {b}irmã{/b} tem uma bunda pequena!"
     show eve 6f
     show player 11
-    eve "Heh, you have no idea."
+    eve "Heh , você tem nenhuma idéia."
     show eve 5f
     show grace f_angry_talk
-    grace "I dunno why you hang out with those douchebags anyways..."
+    grace "Eu não sei por que você pendurar para fora com essas douchebags de qualquer maneira..."
     show eve 2f
     show grace f_angry
-    eve "... If you're going to blackmail {b}[firstname]{/b} into doing chores. You could at least have him do something useful."
-    eve "Like maybe moving all that heavy shit you ordered into the back room?"
+    eve "... Se você está indo para chantagear {b}[firstname]{/b} para fazer as tarefas. Você podia pelo menos ter -lhe fazer algo útil."
+    eve "Como se estivesse movendo toda aquela merda pesada que você pediu para a sala dos fundos?"
     show eve 6bf
     show grace f_normal a_dressed_hip with dissolve
-    eve "I don't wanna bust my vagina carrying that shit!"
+    eve "Eu não quero quebrar minha vagina carregando essa merda!"
     show eve 5f
     show grace f_suspicious
-    grace "Hmm, I suppose that's not a bad idea."
+    grace "Hum , acho que não é uma má idéia."
     show grace f_laugh
-    grace "... Especially if it gets you to shut up about your vagina! Ugh!"
+    grace "... Especialmente se ele recebe -lo a fechar -se sobre a sua vagina,! Ugh!"
     show grace f_normal
     show eve 6bf
-    eve "... Bitch."
+    eve "... Vadia."
     show eve 5f
     show grace f_laugh
-    grace "Hahaha, don't pretend like you don't love the abuse."
+    grace "Hahaha , não fingir como você não ama o abuso."
     show grace f_normal
     show eve 6bf
-    eve "Yeah, yeah..."
+    eve "Sim , sim..."
     show eve 2f
-    eve "If you'll excuse me, {b}[firstname]{/b}."
+    eve "Se você me der licença, {b}[firstname]{/b}."
     show player 1
-    eve "I'd better go warn the guys that {b}Grace{/b} is on the war path again."
+    eve "Eu melhor ir avisar os caras que {b}Grace{/b} é sobre a guerra caminho novamente."
     show eve 1f
     show grace f_laugh
-    grace "Damn right!"
+    grace "Muito certo!"
     show grace f_normal
     show eve 6f
-    eve "See ya, Sis!"
+    eve "Veja!"
     hide eve
     with dissolve
     show grace f_normal_talk
-    grace "The {b}boxes are right in front of the counter{/b}. Just {b}move them{/b} into the back for me and the paint is yours."
+    grace "Os {b}caixas estão direita na frente do balcão{/b}. Apenas {b} mover -los{/b} para a volta para mim e a pintura é sua."
     show grace f_normal
     show player 2
-    player_name "Sounds good!"
+    player_name "Parece bom!"
     return
 
 label button_grace_you_look_familiar:
     show player 10
-    player_name "You know... I think..."
+    player_name "Você sabe ... eu acho..."
     show player 12
     player_name "Uhh."
     show player 34
     show grace f_suspicious
-    grace "Is everything okay?"
+    grace "Está tudo bem?"
     show grace f_normal
     show player 30
-    player_name "Sorry, but you look... familiar."
+    player_name "Desculpe , mas você parece ... familiar."
     show player 5
     show grace f_suspicious
     grace "Huh?"
     show grace f_normal_talk
-    grace "Hmm... Maybe you're thinking of my sister?"
+    grace "Hmm ... Talvez você está pensando de minha irmã?"
     show grace f_normal
     show player 12
-    player_name "Sister?"
+    player_name "Irmã?"
     show player 11
     show grace f_suspicious
-    grace "My little sister? {b}Eve{/b}?"
+    grace "Minha pequena irmã? {b}Eve{/b}?"
     show grace f_normal
     show player 38 with dissolve
-    player_name "Oh! Of course!"
+    player_name "Oh! É claro!"
     show player 14 with dissolve
-    player_name "I can see the connection, now."
+    player_name "Eu posso ver a conexão agora."
     show player 13
     show grace f_laugh
     grace "Ha ha."
     show grace f_normal_talk
-    grace "Anyway, is there anything I can do for you?"
+    grace "De qualquer forma , é há nada que eu possa fazer por você?"
     return
 
 label button_grace_nothing:
     show player 14
-    player_name "I'm just looking around."
+    player_name "Estou apenas olhando ao redor."
     show player 13
     show grace f_normal_talk
-    grace "Cool! Have a look."
-    grace "I do all styles and designs showcased in my shop!"
-    grace "Just let me know if you ever think about getting something, and we can make an appointment!"
+    grace "Legal! Dê uma olhada."
+    grace "Eu faço todos os estilos e designs exibidos em minha loja!"
+    grace "Apenas deixe -me saber se você nunca pensar sobre obter algo , e nós pode fazer uma nomeação!"
     show grace f_normal
     show player 14
-    player_name "Okay, thanks!"
+    player_name "Ok, obrigado!"
     show player 13
     show grace f_normal_talk
-    grace "See ya."
+    grace "Veja."
     hide grace
     hide mia
     hide player

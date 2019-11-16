@@ -4,17 +4,17 @@ label jane_library_dialogue_bissette_find_dictionary:
     show xtra 42
     show player 10f at right
     with dissolve
-    player_name "I can't seem to find a {b}French dictionary{/b}."
+    player_name "Não consigo encontrar um {b}dicionário de francês{/b}."
     show player 5f
     show jane f_normal_talk
-    jan "Hmm, let me see..."
+    jan "Hmm, deixa eu ver..."
     show jane f_normal_down
     pause
     show jane f_normal_talk_down
-    jan "It should be over on there on shelf, next to the back room."
+    jan "Deve estar lá na prateleira, ao lado da sala dos fundos."
     show jane f_normal
     show player 14f
-    player_name "Alright, I'll take a look. Thanks."
+    player_name "Tudo bem, vou dar uma olhada. Obrigado."
     return
 
 label jane_library_dialogue_bissette_get_dictionary:
@@ -23,38 +23,38 @@ label jane_library_dialogue_bissette_get_dictionary:
     show xtra 42
     show player 504f at right
     with dissolve
-    player_name "Well, I found part of a French dictionary."
+    player_name "Bem, encontrei parte de um dicionário francês."
     show player 503f
     show jane f_sad_talk
-    jan "What?"
+    jan "O que?"
     show player 5f
     show jane f_complain_down a_dressed_book1
     with dissolve
-    jan "Oh no!"
-    jan "I'll have to order a new one but it'll take awhile to arrive."
+    jan "Oh não!"
+    jan "Vou precisar pedir um novo, mas levará algum tempo para chegar."
     show jane f_sad_talk
-    jan "Did you still want to check it out?"
+    jan "Você ainda queria dar uma olhada?"
     show jane f_sad
     show player 10f
-    player_name "Yeah, I'm pretty desperate. I'll just have to hope I don't need those missing pages..."
+    player_name "Sim, estou desesperado. Só espero que não precise das páginas que faltam..."
     show player 5f
     show jane f_sad_talk
-    jan "Okay, well, sorry again!"
+    jan "Ok, bem, desculpe novamente!"
     show jane f_normal_talk
-    jan "You can just keep it. It won't be much use around here..."
+    jan "Você pode ficar com ele. Não vai ser muito útil por aqui..."
     show jane f_normal a_dressed_sides with dissolve
     show player 504f with dissolve
-    player_name "Thanks!"
+    player_name "Obrigado!"
     show player 503f
     show jane f_laugh
-    jan "No problem, have a nice day!"
+    jan "Não tem problema, tenha um bom dia!"
     hide player
     hide jane
     with dissolve
 
     scene library
     show player 34 with dissolve
-    player_name "( I guess I should take this to {b}Miss Bissette{/b} and see what she thinks... )"
+    player_name "( acho que devo levar isso para {b}Miss Bissette{/b} e ver o que ela pensa... )"
     return
 
 label jane_library_dialogue_bissette_return_overdue_books:
@@ -62,39 +62,39 @@ label jane_library_dialogue_bissette_return_overdue_books:
     show xtra 42
     show player 14f at right
     with dissolve
-    player_name "I found all the overdue books!"
+    player_name "Encontrei todos os livros em atraso!"
     show player 239_240f with dissolve
     pause
     show player 507f at Position (xoffset=-9) with dissolve
     show jane f_normal_talk
-    jan "Really? Let's see..."
+    jan "Sério? Vamos ver..."
     show player 13f
     show jane f_normal_talk a_dressed_book3 with dissolve
-    jan "You did it! Thanks a lot!"
-    jan "I've got something for you too."
+    jan "Você conseguiu! Muito obrigado!"
+    jan "Eu também tenho algo para você."
     show jane f_normal
     show player 10f
-    player_name "You do?"
+    player_name "Você sabe?"
     show jane f_normal_talk a_dressed_book2 with dissolve
-    jan "Yup, that book you ordered came in."
+    jan "Sim, o livro que você pediu chegou."
     show jane f_normal
     pause
     show player 521f
     show jane f_normal a_dressed_sides
     with dissolve
-    player_name "Thanks!"
-    player_name "{b}101 Types of Cheese{/b}..."
+    player_name "Obrigado!"
+    player_name "{b}101 tipos de queijos{/b}..."
     show player 5f with dissolve
     show jane f_normal_talk
-    jan "Will that work?"
+    jan "Isso vai funcionar?"
     show jane f_normal
     show player 10f
-    player_name "Err, I'll have to make do."
+    player_name "Err, vou ter que me virar."
     show player 14f
-    player_name "Thanks again!"
+    player_name "Obrigado novamente!"
     show player 13f
     show jane f_laugh
-    jan "Come back and see us!"
+    jan "Volte e nos veja!"
     return
 
 label jane_library_dialogue_pre:
@@ -103,13 +103,13 @@ label jane_library_dialogue_pre:
     show xtra 42
     show player 1f at right
     with dissolve
-    jan "Hi! How can I help you?"
+    jan "Oi! Como posso ajudá-lo?"
     show player 2f
     show jane f_normal
-    player_name "Hi, I'm looking for a {b}book{/b}."
+    player_name "Olá, estou procurando um {b}livro{/b}."
     show player 1f
     show jane f_normal_talk
-    jan "Sure thing! Do you know the book's name?"
+    jan "Claro! Você sabe o nome do livro?"
     show jane f_normal
     return
 
@@ -120,233 +120,233 @@ label jane_library_dialogue_production_ask_librarian:
     show xtra 42
     show player 10f at right
     with dissolve
-    player_name "You wouldn't happen to have any books on increasing milking, would you?"
+    player_name "Por acaso você não tem livros sobre o aumento da ordenha, não é?"
     show player 5f
     show jane f_sad_talk
-    jan "... Umm, that's a weird question."
+    jan "... Umm, essa é uma pergunta estranha."
     show jane f_normal
     show player 29f with dissolve
-    player_name "Ehh, yeah. I suppose it is."
-    player_name "It's for my uhh... Friend."
+    player_name "Ehh, sim. Suponho que sim."
+    player_name "É para o meu uhh ... Amigo."
     show player 3f at Position (xoffset=-8)
     show jane f_laugh
-    jan "Heh, sure it is."
+    jan "Heh, com certeza é."
     show jane f_eyeroll_talk a_dressed_up with dissolve
-    jan "Umm, I don't know."
-    jan "I'm sure we have stuff on cows but as far as milking goes..."
+    jan "Umm, eu não sei."
+    jan "Tenho certeza que temos coisas para vacas, mas no que diz respeito à ordenha ..."
     show jane f_normal_talk
-    jan "{b}Try that shelf over there.{/b}"
+    jan "{b}Tente essa prateleira por lá.{/b}"
     show jane f_normal a_dressed_sides
     show player 14f
     with dissolve
-    player_name "Thanks!"
+    player_name "Obrigado!"
     hide player with dissolve
     pause
     show jane f_sad_talk
-    jan "What a weirdo..."
+    jan "Que esquisito..."
     hide jane
     with dissolve
     return
 
 label jane_library_dialogue_french_poetry:
     show player 10f
-    player_name "Do you have any French Poetry?"
+    player_name "Você tem alguma poesia francesa?"
     show player 5f
     show jane f_normal_down
     jan "Hmm..."
     show jane f_normal_talk
-    jan "Actually..."
-    jan "Some girls were here reading something like that {b}yesterday afternoon{/b}."
+    jan "Na verdade ..."
+    jan "Algumas meninas estavam aqui lendo algo assim {b}ontem à tarde{/b}."
     show jane f_normal
     show player 10f
-    player_name "Really?"
+    player_name "Serio?"
     show player 12f
-    player_name "Did they check it out?"
+    player_name "Elas deram uma olhada?"
     show player 5f
     show jane f_normal_talk
-    jan "No."
+    jan "Não."
     show jane f_normal
     show player 10f
-    player_name "Do you know where it is?"
+    player_name "Você sabe onde está?"
     show player 5f
     show jane f_normal_down
     jan "..."
     show jane f_sad_talk
-    jan "No..."
-    jan "But, maybe they'll be here again this {b}afternoon{/b}."
-    jan "You could ask one of them where they put it."
+    jan "Não..."
+    jan "Mas talvez elas estejam aqui novamente esta {b}tarde{/b}."
+    jan "Você pode perguntar a uma delas onde elas colocaram."
     show jane f_normal
     show player 12f
-    player_name "Thanks."
+    player_name "Obrigado."
     return
 
 label jane_library_dialogue_french_food_find_books:
     show player 10f
-    player_name "I was wondering if you had any books in French about food?"
+    player_name "Eu queria saber se você tem algum livro em francês sobre comida?"
     show player 13f
     show jane f_laugh
-    jan "That's an interesting subject..."
+    jan "Esse é um assunto interessante..."
     show jane f_normal
     show player 14f
-    player_name "Yeah, I need it for a school assignment."
+    player_name "Sim, preciso dele para um trabalho escolar."
     show player 13f
     show jane f_normal_talk
-    jan "Alright, let me look and see what we have."
+    jan "Tudo bem, deixe-me olhar e ver o que temos."
     show jane f_normal_down
     jan "..."
     show player 11f
     player_name "..."
     show player 5f
     show jane f_normal_talk_down
-    jan "Hmm, we don't appear to have anything like that."
+    jan "Hmm, parece que não temos nada parecido."
     show jane f_normal
     show player 12f
-    player_name "Nothing?"
+    player_name "Nada?"
     show player 5f
     show jane f_normal_talk_down
-    jan "No... Oh, wait a second!"
-    jan "It's saying our sister branch has a French book about cheese."
+    jan "Não ... Oh, espere um segundo!"
+    jan "Aqui está dizendo que nossa filial tem um livro em francês sobre queijo."
     show jane f_normal_talk
-    jan "Would that work?"
+    jan "Isso funcionaria?"
     show jane f_normal
     show player 14f
-    player_name "Sure, I love cheese! Where do I need to pick it up?"
+    player_name "Claro, eu amo queijo! Onde preciso buscá-lo?"
     show player 13f
     show jane f_normal_talk
-    jan "I can request them to send it here. Should only take a few days..."
-    jan "In the meantime, I wonder if you could you help me out with something?"
+    jan "Posso solicitar que eles enviem aqui. Deve levar apenas alguns dias ..."
+    jan "Enquanto isso, eu me pergunto se você poderia me ajudar com alguma coisa."
     show jane f_normal
     show player 10f
-    player_name "... Sure, I suppose. What is it you need?"
+    player_name "... Claro, suponho. Do que você precisa?"
     show player 5f
     show jane f_normal_talk
-    jan "{b}Some of your classmates have overdue books{/b} I'd like returned."
-    jan "I've been sending letters to their homes but that doesn't seem to be working."
-    jan "I'd hate to lose the books."
+    jan "{b}Alguns de seus colegas de classe têm livros em atraso{/b} que eu gostaria de que eles devolvessem."
+    jan "Eu tenho enviado cartas para suas casas, mas isso não parece estar funcionando."
+    jan "Eu odiaria perder os livros."
     show jane f_normal
     show player 10f
-    player_name "Yeah, I could try {b}speaking with them{/b}. What are their names?"
+    player_name "Sim, eu poderia tentar {b}falar com eles{/b}. Quais são os nomes deles?"
     show player 5f
     show jane f_normal_talk_down
-    jan "Hmm, the first is a {b}Miss Martinez{/b}."
-    jan "The second is a {b}Mr. Erik J-{/b}."
+    jan "Hmm, o primeiro é uma tal de {b}Miss Martinez{/b}."
+    jan "O segundo é um tal de {b}Mr. Erik J-{/b}."
     show jane f_normal
     show player 14f
-    player_name "{b}Erik{/b} has a book out?!"
-    player_name "Those should be easy."
+    player_name "{b}Erik{/b} tem um livro publicado?!"
+    player_name "Isso deve ser fácil."
     show player 13f
     show jane f_normal_talk_down
-    jan "...And finally..."
-    jan "Huh. It just says {b}Dexter{/b}."
-    jan "Ring any bells?"
+    jan "... e finalmente..."
+    jan "Hein. Apenas diz {b}Dexter{/b}."
+    jan "Toca alguns sinos?"
     show jane f_normal
     show player 12f
-    player_name "Oh man, not {b}Dexter{/b}... You're sure?"
+    player_name "Oh cara, não {b}Dexter{/b}... Você tem certeza?"
     show player 11f
     show jane f_normal_talk
-    jan "That's what the log says..."
+    jan "Isso é o que o sistema diz..."
     show jane f_normal
     show player 12f
-    player_name "Crap! Alright, I'll see what I can do."
+    player_name "Merda! Tudo bem, vou ver o que posso fazer."
     show player 5f
     show jane f_laugh
-    jan "Thanks, I really appreciate this!"
+    jan "Obrigado, eu realmente aprecio isso!"
     hide jane with dissolve
     show player 12 at center with dissolve
-    player_name "Ugh, why did it have to be {b}Dexter{/b}?"
+    player_name "Ugh, por que tinha que ser {b}Dexter{/b}?"
     return
 
 label jane_library_dialogue_french_food_book_holders:
     show player 10f
-    player_name "What were the students names again?"
-    player_name "You know, the ones with the overdue books."
+    player_name "Como eram os nomes dos alunos de novo?"
+    player_name "Você sabe, aqueles com os livros em atraso."
     show player 5f
     show jane f_normal_talk
     jan "One second..."
     show jane f_normal_talk_down
-    jan "Hmm, {b}Miss Martinez{/b}, {b}Mr. Erik{/b}, and a {b}Dexter{/b}."
+    jan "Hmm, {b}Miss Martinez{/b}, {b}Mr. Erik{/b}, e um {b}Dexter{/b}."
     show jane f_normal
     show player 12f
-    player_name "Ugh, I forgot about {b}Dexter{/b}..."
-    player_name "Alright, I'm on it."
+    player_name "Ugh, eu esqueci o {b}Dexter{/b}..."
+    player_name "Tudo bem, estou nisso."
     return
 
 label jane_library_dialogue_magazines_first:
     show player 2f
-    player_name "I'm making a collage for Art class and I need some old magazines."
-    player_name "Could you show me where to find some?"
+    player_name "Estou fazendo uma colagem para a aula de arte e preciso de revistas antigas."
+    player_name "Você poderia me mostrar onde encontrar algumass?"
     show player 1f
     show jane f_normal_talk
-    jan "You're out of luck I'm afraid. We stopped carrying those a few months ago."
+    jan "Acho que você está sem sorte. Paramos de carregá-las há alguns meses atrás."
     show player 10f
     show jane f_normal
-    player_name "You don't have any?"
+    player_name "Você não tem nenhuma?"
     show player 1f
     show jane f_normal_talk
-    jan "I'm afraid not. We sent all the ones we had off to be recycled."
+    jan "Receio que não. Enviamos todas as que tínhamos para serem recicladas."
     show player 10f
     show jane f_normal
-    player_name "Oh man..."
-    player_name "Thanks anyways."
+    player_name "Oh cara..."
+    player_name "De qualquer forma, obrigado."
     show player 11f
     show jane f_normal_talk
-    jan "Sorry."
+    jan "Desculpa."
 
     hide jane
     hide xtra
     hide player
     with dissolve
     show player 10 with dissolve
-    player_name "What am I gonna do now?"
+    player_name "O que eu vou fazer agora?"
     show player 11
     player_name "..."
     show player 10
-    player_name "I guess {b}I'll head back to school and look around{/b}."
-    player_name "There's gotta be some magazines somewhere."
+    player_name "Acho que {b}vou voltar para a escola e dar uma olhada{/b}."
+    player_name "Tem que haver algumas revistas em algum lugar."
     return
 
 label jane_library_dialogue_magazines_repeat:
     show player 10f
-    player_name "So don't have a single magazine around here?"
+    player_name "Então não tem uma única revista por aqui?"
     show player 11f
     show jane f_normal_talk
-    jan "Nope."
-    jan "We cancelled the subscriptions and tossed what we had out."
+    jan "Não".
+    jan "Cancelamos as assinaturas e jogamos fora o que tínhamos".
     show jane f_normal
     show player 10f
-    player_name "Okay, thanks anyways."
+    player_name "Ok, obrigado de qualquer maneira."
     hide jane
     hide xtra
     hide player
     with dissolve
     show player 10 with dissolve
-    player_name "{b}*Sigh*{/b}"
-    player_name "I guess I should {b}head back to school and look around there.{/b}"
-    player_name "... Maybe I'll get lucky?"
+    player_name "{b}*Suspiro*{/b}"
+    player_name "Acho que devo {b}voltar para a escola e procurar por lá.{/b}"
+    player_name "... Talvez eu tenha sorte?"
     return
 
 label jane_library_dialogue_return_books_pre:
     show player 14f
-    player_name "I'd like to return a book."
+    player_name "Gostaria de devolver um livro."
     show player 13f
     show jane f_laugh
-    jan "Great!"
+    jan "Ótimo!"
     return
 
 label jane_library_dialogue_return_books_first:
     show jane f_normal_talk
-    jan "Not many people do."
+    jan "Poucas pessoas fazem."
     show jane f_normal
     show player 10f
-    player_name "What happens then?"
+    player_name "O que acontece então?"
     show player 5f
     show jane f_mad_talk
-    jan "I hunt them down and break one of their legs so they don't do it again."
+    jan "Eu os caço e quebro uma das pernas para que não o façam novamente."
     show jane f_mad
     show player 22f
     player_name "!!!"
     show jane f_laugh
-    jan "Just kidding!"
+    jan "Brincadeira!"
     show jane f_normal
     show player 29f with dissolve
     player_name "Oh."
@@ -355,17 +355,17 @@ label jane_library_dialogue_return_books_first:
 
 label jane_library_dialogue_return_books_after:
     show jane f_normal_talk
-    jan "Just set the books you want to return on the counter and I'll take care of it."
+    jan "Apenas coloque os livros que você deseja devolver no balcão e eu cuidarei disso."
     show jane f_laugh
-    jan "And come back soon!"
+    jan "E volte logo!"
     return
 
 label jane_library_dialogue_leave:
     show player 24f
     show jane f_sad_talk
-    player_name "Sorry. I'll return once I remember the book's name."
+    player_name "Desculpe. Voltarei assim que me lembrar do nome do livro."
     show player 5f
     show jane f_normal_talk
-    jan "See you then."
+    jan "Vejo você então."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

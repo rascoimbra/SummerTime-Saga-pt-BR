@@ -1,9 +1,9 @@
 label annie_dialogue_music_classroom_intro:
     show player 2
-    player_name "Hey, {b}Annie{/b}."
+    player_name "Oi, {b}Annie{/b}."
     show player 1
     show annie 3
-    ann "I'm trying to concentrate."
+    ann "Estou tentando me concentrar."
     show annie 1
     show player 3
     player_name "..."
@@ -11,11 +11,11 @@ label annie_dialogue_music_classroom_intro:
     player_name "Sorr-"
     show player 3 with dissolve
     show annie 7
-    ann "I'M CONCENTRATING!"
+    ann "ESTOU CONCENTRANDO!"
     show annie 6
     show player 2f
-    player_name "And I'm leaving!"
-    player_name "Geez..."
+    player_name "E eu vou embora!"
+    player_name "Nossa..."
     hide player
     hide annie
     with dissolve
@@ -24,43 +24,43 @@ label annie_dialogue_music_classroom_intro:
 label annie_dialogue_ross_ask_model:
     show player 2 at left
     show annie 1 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Estou trabalhando em um projeto para {b}Miss Ross{/b} and it requires a live model."
+    player_name "Você estaria interessado?"
     show player 1
     show annie 3
-    ann "Can't do it. I have rounds!"
+    ann "Não pode fazer isso. Eu tenho rodadas!"
     show player 10
     show annie 1
-    player_name "Huh?"
+    player_name "Hã?"
     show player 11
     show annie 4
-    ann "I've gotta patrol for miscreants!"
-    ann "Get outta my way!"
+    ann "Eu tenho que patrulhar os malvados!"
+    ann "Saia do meu caminho!"
     hide annie
     hide player
     show player 12f
     with dissolve
 
-    player_name "Alright, sheesh!"
-    player_name "Weirdo..."
+    player_name "Tudo bem, sheesh!"
+    player_name "Esquisita..."
     return
 
 label annie_dialogue_leave:
     show player 14
-    player_name "Hey {b}Annie{/b}!"
+    player_name "Oi {b}Annie{/b}!"
     show annie 5
     show player 1
-    ann "Make it quick!"
+    ann "Faça isso rápido!"
     show annie 6
     show player 17
-    player_name "Oh, nothing... I was just saying hi!"
+    player_name "Oh, nada ... eu só estava dizendo oi!"
     show annie 4
     show player 18
-    ann "I'm on hall monitoring duty... And you're wasting my time."
+    ann "Estou no serviço de monitoramento do salão ... E você está perdendo meu tempo."
     show annie 6
     show player 11
     player_name "..."
     show player 12
-    player_name "All right. Sorry to bother you. Sheesh!"
+    player_name "Tudo certo. Desculpe incomodá-lo. Sheesh!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

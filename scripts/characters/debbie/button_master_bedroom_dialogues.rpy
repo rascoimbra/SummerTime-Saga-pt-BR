@@ -3,29 +3,29 @@ label debbie_dialogue_master_room_pre:
     show debbie 55 at left
     show player 110 at right
     with dissolve
-    deb "Hi, sweetie..."
-    deb "Were you looking for me?"
+    deb "Oi docinho..."
+    deb "Você estava me procurando?"
     show debbie 54
     show player 111
-    player_name "Yeah..."
+    player_name "Sim..."
     show player 110
     show debbie 55
-    deb "Is there something you wanted from me?"
+    deb "Há algo que você queria de mim?"
     show debbie 54
     return
 
 label debbie_dialogue_master_room_after_kiss_dialogue:
-    deb "Now, is there anything else you wanted?"
+    deb "Agora, há mais alguma coisa que você queria?"
     show debbie 54
     return
 
 label debbie_dialogue_master_room_kiss:
     show player 111 at right
     show debbie 54 at left
-    player_name "Can I have a kiss?"
+    player_name "Posso ter um beijo?"
     show player 110
     show debbie 55
-    deb "Of course, sweetie! Come here."
+    deb "Claro, querida! Venha aqui."
     scene debbie_bedroom
     show debbie 79
     with fade
@@ -35,7 +35,7 @@ label debbie_dialogue_master_room_kiss:
     show debbie 75 at Position(xpos=750)
     show player 227 at Position(xpos=200)
     with fastdissolve
-    deb "You're getting better at this!"
+    deb "Você está ficando melhor nisso!"
     scene debbie_bedroom_closeup2
     show debbie 55 at left
     show player 110 at right
@@ -44,13 +44,13 @@ label debbie_dialogue_master_room_kiss:
 
 label debbie_dialogue_master_room_shower:
     show player 111
-    player_name "Hey, {b}[deb_name]{/b}!"
-    player_name "Want to take a shower with me?"
+    player_name "Ei, {b}[deb_name]{/b}!"
+    player_name "Quer tomar um banho comigo?"
     show player 110
     show debbie 55
-    deb "It is getting pretty hot in the house..."
-    deb "Sure! A shower sounds lovely right now."
-    deb "You go ahead, sweetie. I'll be there in a minute."
+    deb "Está ficando muito quente em casa..."
+    deb "Certo! Um chuveiro parece adorável agora."
+    deb "Você vai em frente, querida. Eu estarei lá em um minuto."
     scene shower_closeup
     show debbies 27
     with dissolve
@@ -58,27 +58,27 @@ label debbie_dialogue_master_room_shower:
     show debbies 28 at Position(xpos=487,ypos=768) with dissolve
     pause
     show debbies 34 with dissolve
-    deb "Sorry to keep you waiting, sweetie..."
+    deb "Desculpe por esperar, querida..."
     return
 
 label debbie_dialogue_master_room_sex_random_true:
     show debbie 54 at left
     show player 111 at right
-    player_name "I feel like... Doing it with you again."
+    player_name "Eu sinto como ... Fazendo isso com você novamente."
     show player 110
     show debbie 55
-    deb "That's okay!"
-    deb "I was hoping you'd want to..."
+    deb "Tudo bem!"
+    deb "Eu estava esperando que você quisesse ..."
     show player 111
     show debbie 54
-    player_name "Really?"
+    player_name "Realmente?"
     show player 110
     show debbie 58 with dissolve
-    deb "Of course! You're my man, after all."
+    deb "Claro! Você é meu homem, afinal. "
     show debbie 57
     player_name "!!!"
     show debbie 58
-    deb "Take your clothes off, sweetie."
+    deb "Tire a roupa, querida."
     show debbie 57
     show player 8f
     pause
@@ -87,27 +87,27 @@ label debbie_dialogue_master_room_sex_random_true:
     show player 263
     pause
     show debbie 103
-    deb "Mmm, come get me, sweetie!"
+    deb "Mmm, venha me pegar, querida! "
     show player 262 at right
     show debbie 102 at left
-    player_name "Don't have to tell me twice..."
+    player_name "Não precisa me dizer duas vezes ... "
     return
 
 label debbie_dialogue_master_room_sex_random_false:
     show debbie 54 at left
     show player 111 at right
-    player_name "{b}[deb_name]{/b}, want to have some fun?"
+    player_name "{b}[deb_name]{/b}, quer se divertir um pouco?"
     show player 110
     show debbie 54
     deb "Oh?"
     show debbie 56 with dissolve
-    deb "Like...this kinda fun?"
+    deb "Tipo ... isso é divertido? "
     show debbie 57
     show player 111
-    player_name "Of course..."
+    player_name "Claro..."
     show player 110
     show debbie 58
-    deb "Let me see that cock of yours..."
+    deb "Deixe-me ver esse seu pau ... "
     show debbie 57
     show player 8f with dissolve
     pause
@@ -117,17 +117,17 @@ label debbie_dialogue_master_room_sex_random_false:
     show player 263 with dissolve
     pause
     show debbie 58
-    deb "It looks like you are ready!"
+    deb "Parece que você está pronto! "
     show debbie 57
     show player 262
-    player_name "I've been looking forward to this since I woke up this morning."
+    player_name "Estou ansioso por isso desde que acordei esta manhã. "
     show player 263
     show debbie 58
-    deb "Me too."
+    deb "Eu também."
     show debbie 102 with dissolve
     pause
     show debbie 103
-    deb "Come and get it, sweetie."
+    deb "Venha e pegue, querida. "
     return
 
 label debbie_dialogue_master_room_sex_after:
@@ -144,18 +144,18 @@ label debbie_dialogue_master_room_sex_after:
 label debbie_dialogue_master_room_laundry_sex:
     show debbie 54
     show player 111
-    player_name "I was wondering if you wanted some help in the basement."
+    player_name "Eu queria saber se você queria alguma ajuda no porão."
     show player 110
     show debbie 55
-    deb "In the basement? What for?"
+    deb "No porão? Pelo que?"
     show player 111
     show debbie 54
-    player_name "Maybe I can help you with laundry... Like we did last time?"
+    player_name "Talvez eu possa ajudá-lo com a roupa ... Como fizemos da última vez? "
     show player 110
     show debbie 55
-    deb "Oh, I see... I know exactly what you want!"
-    deb "Give me a minute to get ready."
-    deb "I'll meet you down there..."
+    deb "Oh, entendo ... eu sei exatamente o que você quer!"
+    deb "Me dê um minuto para me arrumar. "
+    deb "Encontro você lá embaixo ... "
     hide debbie
     hide player
     with dissolve
@@ -163,29 +163,29 @@ label debbie_dialogue_master_room_laundry_sex:
 
 label debbie_dialogue_master_room_watch_movie:
     show player 111
-    player_name "I was thinking, we should watch another movie tonight. Interested?"
+    player_name "Eu estava pensando, deveríamos assistir outro filme hoje à noite. Interessado?"
     show player 110
     show debbie 55
-    deb "Mmm, a movie night, huh?"
-    deb "That sounds like a great idea, Sweetheart!"
+    deb "Mmm, uma noite de cinema, hein? "
+    deb "Parece uma ótima idéia, querida! "
     show player 111
     show debbie 54
-    player_name "Awesome!"
-    player_name "I'll see you tonight in the living room then?"
+    player_name "Impressionante!"
+    player_name "Vejo você hoje à noite na sala, então? "
     show player 110
     show debbie 55
-    deb "I can't wait..."
+    deb "Mal posso esperar ... "
     return
 
 label debbie_dialogue_master_room_leave:
     show debbie 54
     show player 111
-    player_name "Nothing, {b}[deb_name]{/b}."
-    player_name "Just wanted to say hi."
+    player_name "Nada, {b}[deb_name]{/b}."
+    player_name "Só queria dizer oi."
     show player 110
     show debbie 55
-    deb "Oh, okay..."
-    deb "Well, come back if you'd like... I'm a bit bored..."
-    deb "We can have fun whenever you'd like."
+    deb "Ah, tudo bem ... "
+    deb "Bem, volte se quiser ... estou um pouco entediada ... "
+    deb "Podemos nos divertir sempre que você quiser. "
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

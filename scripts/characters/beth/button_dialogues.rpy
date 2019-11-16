@@ -4,48 +4,48 @@ label beth_dialogue_pre:
     show xtra 27 zorder 2 at center
     show player 1 zorder 3 at left
     with dissolve
-    beth "Howdy, mister!"
+    beth "Olá, senhor!"
     show player 14
     show beth 1
-    player_name "Hi."
+    player_name "Oi."
     show player 1
     show beth 2
-    beth "Looking to buy some sweet holes, are ya?"
+    beth "Olhando para comprar alguns buracos doces, você está?"
     show beth 1
     return
 
 label beth_dialogue_do_not_know:
     show player 14
-    player_name "Hmm... I'm not sure what I need to buy yet."
+    player_name "Hmm ... ainda não sei o que preciso comprar."
     show player 1
     show beth 2
-    beth "You don't know?"
+    beth "Voce nao sabe?"
     show player 14
     show beth 1
-    player_name "Well, I'm buying these for someone as a gift but I'm not sure what he likes."
+    player_name "Bem, eu estou comprando isso para alguém como presente, mas não tenho certeza do que ele gosta."
     show player 1
     show beth 2
-    beth "I can't help ya if you don't know what ya'd like!"
+    beth "Eu não posso te ajudar se você não sabe o que gostaria!"
     show player 14
     show beth 1
-    player_name "I'll come back later when I know the toppings."
+    player_name "Volto mais tarde quando conhecer as coberturas."
     return
 
 label beth_dialogue_want_donuts:
     show player 14
-    player_name "I'd like to buy a small box, please."
+    player_name "Eu gostaria de comprar uma caixa pequena, por favor."
     show player 1
     show beth 2
-    beth "Sure thing!"
-    beth "What kind of glaze and topping would you like on them?"
+    beth "Coisa certa!"
+    beth "Que tipo de cobertura e cobertura você gostaria neles?"
     return
 
 label beth_dialogue_leave:
     show player 14
-    player_name "I'm fine, thanks!"
-    player_name "Perhaps another time..."
+    player_name "Eu estou bem, obrigado!"
+    player_name "Talvez outra hora..."
     show player 1
     show beth 2
-    beth "Sure thing, see ya!"
+    beth "Claro, até mais!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

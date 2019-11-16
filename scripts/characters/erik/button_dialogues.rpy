@@ -1,290 +1,290 @@
 label button_erik_master_blaster:
     show player 2
-    player_name "You remember that {b}Master Blaster{/b} game {b}Mrs. Johnson{/b} bought you for Christmas a few years ago?"
+    player_name "Você se lembra que o {b}Master Blaster{/b} game {b}Sra. Johnson{/b} comprou você para o Natal há alguns anos atrás?"
     show player 1
     show erik 4
-    eri "Of course, man! We spent the entire summer playing on that thing!"
+    eri "Claro, cara! Passamos o verão inteiro brincando com essa coisa!"
     show player 2
     show erik 1
-    player_name "Do you still have it?"
+    player_name "Você ainda o tem?"
     show player 1
     show erik 5
-    eri "Yeah, I think so. Haven't used it in a long time..."
+    eri "Sim, acho que sim. Não uso há muito tempo ..."
     show erik 4
-    eri "In fact, {b}I think it's just collecting dust in our old tree house{/b}."
+    eri "De fato, {b}acho que está apenas acumulando poeira em nossa antiga casa na árvore{/b}."
     show player 2
     show erik 1
-    player_name "Would you mind if I take it?"
+    player_name "Você se importaria se eu pegasse?"
     show player 1
     show erik 4
-    eri "Sure, no problem."
+    eri "Claro, não há problema."
     show player 2
     show erik 1
-    player_name "Thanks, {b}Erik{/b}!"
+    player_name "Obrigado, {b}Erik{/b}!"
     return
 
 label button_erik_master_blaster_again:
     show player 2
-    player_name "Where did you say that controller was again?"
+    player_name "Onde você disse que o controlador estava de novo?"
     show player 1
     show erik 5
-    eri "I think I left it in our old tree house."
+    eri "Acho que deixei em nossa antiga casa na árvore."
     show player 2
     show erik 1
-    player_name "Ah, that's right. Thanks, {b}Erik{/b}!"
+    player_name "Ah, está certo. Obrigado, {b}Erik{/b}!"
     show player 1
     show erik 4
-    eri "No problem, dude!"
+    eri "Não tem problema, cara!"
     return
 
 label button_erik_make_flute:
     show player 12
-    player_name "What do I need to make a flute?"
+    player_name "O que eu preciso para fazer uma flauta?"
     show player 5
     show erik 5
-    eri "All you need is an appropriate sized {b}branch off a tree and a drill{/b}."
+    eri "Tudo que você precisa é de um ramo {b}de tamanho apropriado de uma árvore e uma broca{/b}."
     show erik 52
     show player 12
-    player_name "{b}A branch off a tree{/b}? Can't I just use the lumber at our tree house?"
+    player_name "{b}Um galho de uma árvore{/b}? Não posso simplesmente usar a madeira em nossa casa na árvore?"
     show player 5
     show erik 5
-    eri "Well you might do but I remember in the game they specifically said to {b}look for a fallen branch{/b}."
-    eri "Something about the instrument needing the spirit energy of the forest to play true."
+    eri "Bem, você pode, mas eu lembro que no jogo eles disseram especificamente para {b}procurar um galho caído{/b}."
+    eri "Algo sobre o instrumento que precisa da energia espiritual da floresta para ser verdade".
     show erik 52
     show player 14
-    player_name "That sounds like video game nonsense to me!"
+    player_name "Parece bobagem de videogame para mim!"
     show player 13
     show erik 5
-    eri "Hmm, it could be but do you really want to chance it?"
+    eri "Hmm, poderia ser, mas você realmente quer arriscar?"
     show erik 52
     show player 10
-    player_name "... No, I guess not."
-    player_name "So, I should {b}look for a fallen branch off a tree{/b}."
+    player_name "... Não, acho que não."
+    player_name "Então, eu devo {b}procurar um galho caído de uma árvore{/b}."
     show player 12
-    player_name "Then what?"
+    player_name "Então o que?"
     show player 5
     show erik 5
-    eri "Just drill out the center and then make some holes on one side."
+    eri "Apenas faça um furo no centro e faça alguns furos de um lado."
     show erik 52
     show player 14
-    player_name "Oh yeah!"
-    player_name "You know, I think {b}I've seen a drill in our garage{/b}."
+    player_name "Ah, sim!"
+    player_name "Sabe, acho que {b}vi uma broca em nossa garagem{/b}."
     show player 13
     show erik 4
-    eri "Sounds like you've got it all figured out then!"
+    eri "Parece que você já descobriu tudo!"
     return
 
 label button_erik_talent_show:
     show player 14
-    player_name "You play guitar, right?"
+    player_name "Você toca violão, certo?"
     show player 13
     show erik 3b
-    eri "Huh?"
-    eri "No. What gave you that idea?"
+    eri "Hein?"
+    eri "Não. O que lhe deu essa idéia?"
     show erik 51
     show player 10
-    player_name "Well, aren't those your guitars hanging up in your basement..."
-    player_name "I just assumed-"
+    player_name "Bem, essas guitarras não estão no seu porão ..."
+    player_name "Eu apenas assumi-"
     show player 5
     show erik 4
-    eri "Oh, right! Yeah, those are {b}Mr. Johnson's{/b} old guitars."
+    eri "Ah, certo! Sim, essas são as guitarras antigas {b}Mr. Johnson's{/b}."
     show erik 3
-    eri "He never allowed me near them."
-    eri "Didn't want me to break them, he said."
+    eri "Ele nunca me deixou perto deles."
+    eri "Não queria que eu os quebrasse, ele disse."
     eri "..."
     show erik 3b
-    eri "Sometimes, I think he loved those guitars more than {b}Mrs. Johnson{/b}."
+    eri "Às vezes, acho que ele amava mais essas guitarras do que a {b}Mrs. Johnson{/b}."
     show erik 3c
     show player 25
-    player_name "Yikes."
+    player_name "Caramba".
     show player 5
     show erik 4
-    eri "Tell me about it."
-    eri "Anyways, I have much better hobbies than music!"
+    eri "Conte-me sobre isso."
+    eri "De qualquer forma, tenho hobbies muito melhores do que música!"
     show erik 1
     show player 14
-    player_name "You mean your video games?"
+    player_name "Você quer dizer seus videogames?"
     show player 13
     show erik 4
-    eri "Heck yeah, dude!"
+    eri "Parreira sim, cara!"
     return
 
 label button_erik_borrow_guitar:
     show player
-    player_name "Hey man, I need a favor!"
+    player_name "Ei cara, eu preciso de um favor!"
     show player 13
     show erik 4
-    eri "Sure, what's up, dude?"
+    eri "Claro, o que houve, cara?"
     show erik 1
     show player 14
-    player_name "You know those guitars in your basement?"
+    player_name "Você conhece aquelas guitarras no seu porão?"
     show player 13
     show erik 5
-    eri "Yeah."
+    eri "Sim".
     show erik 1
     show player 10
-    player_name "You think I could borrow one for the talent show?"
+    player_name "Você acha que eu poderia emprestar um para o show de talentos?"
     show player 5
     show erik 5
-    eri "... You wanna borrow one of {b}Mr. Johnson's{/b} guitars?"
+    eri "... Você quer emprestar uma das guitarras do {b}Mr. Johnson's{/b}?"
     show erik 52
     show player 14
-    player_name "Yeah, if it's alright?"
-    player_name "I'll bring it back after the talent show."
+    player_name "Sim, se estiver tudo bem?"
+    player_name "Trarei de volta depois do show de talentos."
     show player 13
     show erik 50
     eri "Hmm."
     show erik 5
-    eri "Well I don't mind but I'm not sure {b}Mrs. Johnson{/b} would like the idea of me loaning out {b}Mr. Johnson's{/b} old stuff."
+    eri "eri "Bem, eu não me importo, mas não tenho certeza se a {b}Mrs. Johnson{/b} gostaria da idéia de eu emprestar as coisas antigas do {b}Mr. Johnson's{/b}."
     show erik 52
     show player 10
-    player_name "Really?"
+    player_name "Sério?"
     show player 5
     show erik 5
-    eri "Yeah, especially his guitars. They were his babies."
+    eri "Sim, especialmente as guitarras dele. Eles eram os bebês dele."
     show erik 52
     show player 34
     player_name "Hmm..."
     show player 12
-    player_name "What if she didn't know?"
+    player_name "E se ela não soubesse?"
     show player 5
     show erik 4
-    eri "I'm pretty sure she'll notice if one is missing off the wall, {b}[firstname]{/b}. She isn't blind."
+    eri eri "Eu tenho certeza que ela notará se alguém estiver faltando no muro, {b}[firstname]{/b}. Ela não é cega."
     show erik 52
     show player 33
-    player_name "Not if I replace it with a fake."
+    player_name "Não se eu o substituir por um falso."
     show player 13
     eri "..."
     show erik 5
-    eri "Seriously?"
-    eri "Where are you gonna get a fake guitar?"
+    eri "Sério?"
+    eri "Onde você vai conseguir um violão falso?"
     show erik 52
     show player 14
-    player_name "... I'll make one!"
+    player_name "... eu vou fazer um!"
     show player 13
     show erik 5
-    eri "Dude, have you lost your mind?"
+    eri "Cara, você enlouqueceu?"
     show erik 52
     show player 14
-    player_name "No, trust me this will work."
-    player_name "She won't even notice it's gone, I promise!"
+    player_name "Não, confie em mim, isso funcionará."
+    player_name "Ela nem notará que se foi, eu prometo!"
     show player 13
     show erik 5
-    eri "... If you say so. Just make sure nothing happens to the real guitar!"
+    eri "... Se você diz. Apenas certifique-se de que nada aconteça com o violão real!"
     eri "{b}Mrs. Johnson{/b} would kill me!"
     show erik 52
     show player 14
-    player_name "I'll be careful, {b}Erik{/b}. I promise."
+    player_name "Terei cuidado, {b}Erik{/b}. Eu prometo."
     show player 13
     hide erikl
     hide erik
     with dissolve
     show player 4
     if not L_diane_shed.locked:
-        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from Diane's shed.{/b} )"
+        player_name "(Hmm, eu poderia fazer um violão falso usando a madeira {b}perto da casa da árvore{b} e um pouco de {b}pintura do galpão de Diane.{/b} )"
     else:
-        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from the garage at home.{/b} )"
+        player_name player_name "(Hmm, eu posso fazer um violão falso usando a madeira {b} perto da casa da árvore{/b} e alguns {b}pintam da garagem de casa.{/b} )"
     return
 
 label button_erik_make_guitar:
     show player 13
-    eri "How's that replacement guitar coming along?"
+    eri "Como está indo a guitarra substituta?"
     show erik 1
     show player 14
-    player_name "Still a work in progress."
+    player_name "Ainda está em andamento."
     show player 13
     show erik 5
-    eri "Well just be careful with the real guitar, please."
+    eri "Bem, tenha cuidado com o violão real, por favor."
     show erik 1
     show player 14
-    player_name "Will do!"
+    player_name "Vai fazer!"
     show player 13
     hide erikl
     hide erik
     with dissolve
     show player 4
     if not L_diane_shed.locked:
-        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from Diane's shed.{/b} )"
+        player_name "(Hmm, eu poderia fazer um violão falso usando a madeira {b}perto da casa da árvore{/b} e um pouco de {b}pintura do galpão de Diane.{/b} )"
     else:
-        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from the garage at home.{/b} )"
+        player_name "(Hmm, eu posso fazer um violão falso usando a madeira {b}perto da casa da árvore{/b} e alguns {b}pintam da garagem de casa.{/b})"
     return
 
 label button_erik_ask_beer:
     show player 10
-    player_name "Hey man, could I take a case of {b}Mr. Johnson's beer{/b}?"
+    player_name "Ei cara, eu poderia tomar um caso de {b}cerveja do Mr. Johnson's {/b}?"
     show player 5
     show erik 5
-    eri "Eh, yeah I guess."
+    eri "Eh, sim, eu acho."
     show player 13
-    eri "What's it for?"
+    eri "Para que serve?"
     show erik 52
     show player 14
-    player_name "It's a bribe for {b}Eve's{/b} friends. They are gonna help us clean the graffiti off the auditorium walls."
+    player_name "É um suborno para os amigos de {b}Eve's{/b} Eles vão nos ajudar a limpar os grafites das paredes do auditório."
     show player 13
     show erik 5
-    eri "Oh, for {b}Miss Dewitt's{/b} talent show?"
+    eri "Oh, para o show de talentos da {b}Miss Dewitt's{/b}?"
     show erik 52
     show player 14
-    player_name "Yup."
+    player_name "Sim".
     show player 13
     show erik 4
-    eri "Cool!"
-    eri "Take as much as you need, dude."
+    eri "Legal!"
+    eri "Pegue o quanto precisar, cara."
     show erik 1
     show player 17
-    player_name "Thanks {b}Erik{/b}! You're a good friend!"
+    player_name "Obrigado {b}Erik{/b}! Você é um bom amigo!"
     return
 
 label button_erik_school_sneak_mission_help:
     show player 10
-    player_name "I really need your help with something big tonight, {b}Erik{/b}."
+    player_name "Eu realmente preciso da sua ajuda com algo grande hoje à noite, {b}Erik{/b}."
     show player 5
     show erik 5
-    eri "Something big?"
+    eri "Algo grande?"
     show erik 52
     show player 33
-    player_name "Yeah, Man. I'm talking like uber secret mission kinda stuff."
+    player_name "Sim, cara. Estou falando como uma missão secreta super secreta."
     show player 13
     show erik 4
-    eri "That sounds awesome! You really want my help!?"
+    eri "Isso parece incrível! Você realmente quer a minha ajuda!?"
     show erik 1
     show player 14
-    player_name "Sure!"
+    player_name "Claro!"
     show player 12
-    player_name "Everyone else chickened out on me, so... I'm kinda counting on you here."
+    player_name "Todo mundo me criticou, então ... eu estou contando com você aqui."
     show player 5
     show erik 4
-    eri "Don't worry, {b}[firstname]{/b}. I won't let you down!"
+    eri "Não se preocupe, {b}[firstname]{/b}. Eu não vou decepcioná-lo!"
     show erik 1
     show player 17
-    player_name "Thanks, dude!"
+    player_name "Obrigado, cara!"
     show player 14
-    player_name "Meet me in {b}front of the school tonight{/b}, after the sun sets."
+    player_name "Encontre-me em {b}na frente da escola hoje à noite{/b}, depois que o sol se pôr."
     show player 13
     show erik 5
-    eri "Whoa, wait a second..."
+    eri "Uau, espere um segundo ..."
     show player 5
-    eri "You wanna break into the school after dark?!"
+    eri "Você quer entrar na escola depois do anoitecer?!"
     show erik 3b
-    eri "I dunno about this..."
+    eri "Eu não sei sobre isso ..."
     show erik 52
     show player 10
-    player_name "... I have to, man."
-    player_name "If I don't, {b}Principal Smith{/b} is going to cancel the {b}Talent Show{/b} and I won't be able to get my grades up!"
+    player_name "... eu preciso, cara."
+    player_name "Se não o fizer, {b}Diretor Smith{/b} cancelará o {b}Show de talentos{/b} e não poderei obter minhas notas!"
     show player 5
     show erik 3
     eri "..."
-    eri "A-alright, {b}[firstname]{/b}. I'll help you."
+    eri "Tudo bem, {b}[firstname]{/b}. Eu ajudo você."
     show erik 3c
     show player 14
-    player_name "Yes! Thank you, {b}Erik{/b}!"
+    player_name "Sim! Obrigado, {b}Erik{/b}!"
     show erik 1
-    player_name "You're a good friend!"
+    player_name "Você é um bom amigo!"
     show player 13
     show erik 4
-    eri "Heh, no worries, dude."
+    eri "Heh, não se preocupe, cara."
     show erik 5
-    eri "I'll meet you {b}tonight in front of the school{/b}."
+    eri "Encontro você {b}hoje à noite em frente à escola{/b}."
     return
 
 label erik_book_return:
@@ -292,18 +292,18 @@ label erik_book_return:
     show erik 1 at right
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
-    player_name "I'm trying to check out a book for school but the librarian has me running errands."
-    player_name "She said you had a book that's overdue and I was hoping I could get it from you."
+     player_name "Estou tentando verificar um livro para a escola, mas o bibliotecário me faz recados."
+    player_name "Ela disse que você tinha um livro que estava atrasado e que eu esperava conseguir de você."
     show player 5
     show erik 3b
-    eri "I do?"
+    eri "eu faço?"
     show erik 3
-    eri "I don't remember-"
+    eri "Eu não lembro-"
     show erik 4
-    eri "Ohhh wait, that's right!"
-    eri "I did check one out..."
+    eri "Ohhh espera, isso mesmo!"
+    eri "Eu verifiquei um ..."
     show erik 3b
-    eri "I have no idea where it could be though. Crap!"
+    eri "Eu não tenho idéia de onde poderia estar. Merda!"
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
@@ -313,17 +313,17 @@ label erik_book_return:
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "I remember {b}reading it in my room{/b}..."
+    eri "Eu lembro de {b}ler no meu quarto{/b}..."
     show erik 3
-    eri "Urrgh, but I have no idea where it could have gotten to..."
+    eri "Urrgh, mas eu não tenho idéia de onde poderia ter chegado ..."
     show erik 3b
-    eri "Sorry, {b}[firstname]{/b}."
+    eri "Desculpe, {b}[firstname]{/b}."
     show erik 52
     show player 14
-    player_name "It's alright, I'll look around for it."
+    player_name "Está tudo bem, vou procurar por ele."
     show player 13
     show erik 4
-    eri "Okay, good luck, dude!"
+    eri "Ok, boa sorte, cara!"
     hide erik
     hide erikl
     hide player
@@ -333,20 +333,20 @@ label erik_book_return:
 label button_erik_sex_ed:
     show erik 1 at right
     show player 12 at left
-    player_name "What did {b}Mrs. Johnson{/b} want us to get again?"
+    player_name "O que {b}Sra. Johnson{/b} quer que tenhamos novamente?"
     show player 5
     show erik 5
-    eri "Hmm... I think she wants us to get {b}pills so she won't get pregnant{/b}."
-    eri "And that book? The one about sex positions..."
+    eri "Hmm ... acho que ela quer que tomemos {b}comprimidos para não engravidar{/b}."
+    eri "E esse livro? Aquele sobre posições sexuais ..."
     show erik 1
     show player 35
-    player_name "Yeah, something about {b}Kama Sutra{/b}?"
+    player_name "Sim, algo sobre o {b}Kama Sutra{/b}?"
     show player 34
     show erik 5
-    eri "I think so."
+    eri "Eu acho que sim."
     show erik 1
     show player 14
-    player_name "Alright."
+    player_name "Tudo bem."
     hide player
     hide erik
     hide erikl
@@ -355,46 +355,46 @@ label button_erik_sex_ed:
 
 label button_erik_girlfriend:
     show player 14
-    player_name "Dude, I got some great news for you!"
+    player_name "Cara, recebi ótimas notícias para você!"
     show player 1
     show erik 5
-    eri "Huh?"
+    eri "Hein?"
     show player 14
     show erik 1
-    player_name "So, I spoke to {b}June{/b}..."
+    player_name "Então, falei com {b}June{/b}..."
     show erik 4
-    eri "Oh yeah?"
+    eri "Ah, é?"
     show player 14
     show erik 1
-    player_name "Apparently, she likes to play this game called Orc Bork..."
-    player_name "... and she's been looking to play it with someone!"
+    player_name "Aparentemente, ela gosta de jogar esse jogo chamado Orc Bork ..."
+    player_name "... e ela está procurando jogar com alguém!"
     show player 1
     show erik 4
-    eri "Really?"
+    eri "Sério?"
     show player 17
     show erik 1
-    player_name "Yup!"
+    player_name "Sim!"
     show player 14
-    player_name "I even told her about you!"
-    player_name "I mentioned your name and how you could help her beat the game she's been playing."
+    player_name "Eu até contei a ela sobre você!"
+    player_name "Mencionei seu nome e como você pode ajudá-la a vencer o jogo que ela está jogando."
     show player 1
     show erik 4
     eri "Woah..."
     show erik 1
     show player 17
-    player_name "You should talk to her next time you have a chance!"
+    player_name "Você deve falar com ela na próxima vez que tiver uma chance!"
     show player 1
     show erik 4
-    eri "Yeah... I should!"
+    eri "Sim ... eu deveria!"
     show player 14
     show erik 1
-    player_name "Anyway, It's going to be great, you'll see!"
+    player_name "De qualquer forma, vai ser ótimo, você vai ver!"
     show player 1
     show erik 4
-    eri "Thanks, {b}[firstname]{/b}."
+    eri "Obrigado, {b}[firstname]{/b}."
     show player 14
     show erik 1
-    player_name "I'll talk to you later, then."
+    player_name "Falo com você mais tarde, então."
     hide player
     hide erik
     hide erikl
@@ -403,53 +403,53 @@ label button_erik_girlfriend:
 label button_erik_girlfriend_stolen:
     show erik 1 at right
     show player 10 at left
-    player_name "{b}Erik{/b}, about {b}June{/b}..."
+    player_name "{b}Erik{/b}, aproximadamente {b}June{/b}..."
     show player 5
     show erik 5
-    eri "Yeah?"
+    eri "Sim?"
     show player 10
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
-    player_name "Well, I don't think it's going to work out..."
+    player_name "Bem, acho que não vai dar certo ..."
     show player 5
     show erik 3b
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "Why? What happened?"
+    eri "Por quê? O que aconteceu?"
     show player 10
     show erik 3c
-    player_name "Well, we spoke for a while..."
+    player_name "Bem, conversamos um pouco ..."
     show player 5
     show erik 3
-    eri "And?"
+    eri "E?"
     show player 10
     show erik 3c
-    player_name "I just don't think she's that interested..."
+    player_name "Eu simplesmente não acho que ela esteja tão interessada ..."
     show player 5
     show erik 3
     eri "Oh..."
     show erik 3b
-    eri "It's alright."
-    eri "I knew she wouldn't want to anyway..."
+    eri "Está tudo bem."
+    eri "Eu sabia que ela não iria querer mesmo ..."
     show player 10
     show erik 3b
-    player_name "She, uh... she might be coming over to my house later."
+    player_name "Ela pode estar vindo para minha casa mais tarde."
     show player 5
     show erik 5
-    eri "What?!"
+    eri "O que ?!"
     show player 10
     show erik 3c
-    player_name "I'm sorry!"
-    player_name "While I was talking to her, one thing led to another..."
-    player_name "We're just going to hang out..."
+    player_name "Sinto muito!"
+    player_name "Enquanto conversava com ela, uma coisa levou a outra ..."
+    player_name "Nós apenas vamos sair ..."
     show player 5
     eri "..."
     player_name "..."
     show player 10
-    player_name "I'll, uh, talk to you later, then."
+    player_name "Eu falo com você depois, então."
     hide player
     hide erik
     hide erikl
@@ -459,46 +459,46 @@ label button_erik_girlfriend_stolen:
 label button_erik_girlfriend_intro:
     show player 14 at left
     show erik 1 at right
-    player_name "Hey, who's that girl you said you like again?"
+    player_name "Ei, quem é aquela garota que você disse que gosta de novo?"
     show erik 4
     show player 1
     eri "{b}June{/b}?"
     show player 14
     show erik 1
-    player_name "Yeah, where does she hang around?"
+    player_name "Sim, onde ela fica?"
     show player 1
     show erik 4
-    eri "She usually spends her time at {b}school{/b} in the {b}computer room{/b} on the second floor..."
+    eri "Ela geralmente passa o tempo na {b}scola{/b} na {b}sala de computadores{/b} no segundo andar ..."
     show player 14
     show erik 1
-    player_name "Ah, okay!"
-    player_name "I'll see what I can do."
+    player_name "Ah, tudo bem!"
+    player_name "Vou ver o que posso fazer."
     show player 1
     return
 
 label button_erik_message_from_dad:
     show erik 52 at right
     show player 10 at left
-    player_name "I was at the Police station not too long ago..."
+    player_name "Eu estava na delegacia há pouco tempo ..."
     show player 5
     show erik 5
-    eri "Oh yeah?"
+    eri "Ah, é?"
     show erik 52
     show player 10
-    player_name "I saw that {b}Larry{/b} guy. You know, {b}Mrs. Johnson's ex-husband{/b}?"
+    player_name "Vi aquele {b}Larry{/b} Você sabe, {b}ex-marido da sra. Johnson{/b}?"
     show player 11
     show erik 3b
-    eri "Ugh. I don't really want to think about him..."
+    eri eri "Ugh. Eu realmente não quero pensar nele ..."
     show erik 52
     show player 10
-    player_name "Well, he's locked up and he asked me to apologize to {b}Mrs. Johnson{/b} for him."
+    player_name "Bem, ele está preso e pediu que eu pedisse desculpas à {b}Sra. Johnson{/b} por ele."
     show player 5
     show erik 53
-    eri "For real?"
+    eri "De verdade?"
     show erik 52
     show player 10
-    player_name "Yeah. He just wants to say he's sorry and he hopes that one day she'll forgive him."
-    player_name "... I don't know if I should even bother telling her. What do you think?"
+    player_name "Sim. Ele só quer pedir desculpas e espera que um dia ela o perdoe."
+    player_name "... eu não sei se devo me preocupar em contar a ela. O que você acha?"
     show player 11
     show erik 2
     if player.location == L_school_scienceclassroom:
@@ -510,13 +510,13 @@ label button_erik_message_from_dad:
         show erikl 1f at right
     with dissolve
     show player 5
-    eri "Yeah, I dunno either. I don't think it will do much good, she really hates him..."
+    eri "Sim, também não sei. Acho que não fará muito bem, ela realmente o odeia ..."
     show erik 3b
     show player 13
-    eri "I'll let her know, dude."
+    eri "Eu vou avisá-la, cara."
     show erik 52
     show player 14
-    player_name "That works for me. Thanks, {b}Erik{/b}!"
+    player_name "Isso funciona para mim. Obrigado, {b}Erik{/b}!"
     hide player
     hide erik
     hide erikl
@@ -527,131 +527,131 @@ label button_erik_message_from_dad:
 label button_erik_mrsj_poker_lost:
     show player 14 at left
     show erik 1 at right
-    player_name "Hey, you know that thing we did with {b}Mrs. Johnson{/b} after the poker game?"
+    player_name "Ei, você sabe o que fizemos com {b}Sra. Johnson{/b} após o jogo de pôquer?"
     show erik 3
     show player 11
-    eri "Oh, yeah..."
+    eri "Ah, sim ..."
     show erik 3b
-    eri "I hope you don't think she is crazy or anything..."
+    eri "Espero que você não pense que ela é louca ou algo assim ..."
     show erik 1
     show player 14
-    player_name "No, of course not!"
+    player_name "Não, claro que não!"
     show player 17
-    player_name "I think she's awesome!"
+    player_name "Eu acho que ela é demais!"
     show player 14
-    player_name "But... I just wanted to be sure that you were okay with it, you know?"
+    player_name "Mas ... eu só queria ter certeza de que você estava bem com isso, sabia?"
     show erik 7
     if player.location == L_school_scienceclassroom:
         show erikl 6 at right
     with dissolve
     show player 1
-    eri "It's fine, really."
+    eri "Está tudo bem, sério."
     show erik 5
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "She's always been very touchy with me."
-    eri "I've never been close to other girls."
+    eri "Ela sempre foi muito sensível comigo."
+    eri "Eu nunca estive perto de outras garotas."
     show player 4
-    eri "I think she does it because she feels bad about me being alone all the time..."
+    eri "Eu acho que ela faz isso porque se sente mal por eu estar sozinha o tempo todo ..."
     show erik 1
     show player 14
-    player_name "How about a girlfriend?"
+    player_name "Que tal uma namorada?"
     show erik 3
     show player 11
-    eri "Who would want to hook up with me?"
+    eri "Quem iria querer ficar comigo?"
     show erik 3b
-    eri "I'm terrible at talking to girls..."
+    eri "Eu sou péssima em conversar com garotas ..."
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     show player 5
-    eri "*Sigh*"
+    eri "* Suspiro *"
     show player 14
-    player_name "Maybe someone from school you have things in common with?"
+    player_name "Talvez alguém da escola com quem você tenha coisas em comum?"
     show erik 3b
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     show player 1
-    eri "I guess..."
+    eri "Eu acho ..."
     show erik 1
     show player 14
-    player_name "Would you prefer to do stuff with {b}Mrs. Johnson{/b}?"
+    player_name "Você prefere fazer coisas com {b}Sra. Johnson{/b}?"
     show erik 5
     show player 1
-    eri "Like what?"
+    eri "Como o quê?"
     show erik 1
     show player 14
-    player_name "Like... sex? Have you thought about it?"
+    player_name "Como ... sexo? Você já pensou nisso?"
     show erik 5
     show player 1
-    eri "Seems easier... she already gives me lots of attention."
+    eri "Parece mais fácil ... ela já me dá muita atenção."
     show erik 1
     show player 14
-    player_name "Oh, yeah? What do you mean?"
+    player_name "Ah, sim? Como assim?"
     show erik 5
     show player 11
-    eri "Like touching me... letting me play with her..."
-    eri "Something like what we did after the poker game."
+    eri "Como me tocar ... me deixar brincar com ela ..."
+    eri "Algo parecido com o que fizemos após o jogo de pôquer."
     show erik 1
     show player 10
-    player_name "I knew you were breastfeeding, but I didn't know you were going that far."
+    player_name "Eu sabia que você estava amamentando, mas não sabia que você estava indo tão longe."
     show erik 4
     show player 11
-    eri "I think she likes it."
+    eri "Eu acho que ela gosta."
     show erik 1
     show player 14
-    player_name "Do you think she would do more with us?"
+    player_name "Você acha que ela faria mais conosco?"
     show erik 5
     show player 4
-    eri "I don't know... Maybe?"
+    eri "Eu não sei ... Talvez?"
     show erik 1
     show player 14
-    player_name "We could always talk to {b}Mrs. Johnson{/b} about it?"
+     player_name "Poderíamos sempre conversar com {b}Sra. Johnson{/b} sobre isso?"
     show erik 5
     show player 1
-    eri "I don't know if we should..."
+    eri "Eu não sei se deveríamos ..."
     show erik 1
     show player 14
-    player_name "Why not?"
-    player_name "Maybe she wants to..."
+    player_name "Por que não?"
+    player_name "Talvez ela queira ..."
     show erik 5
     show player 1
-    eri "Maybe?"
+    eri "Talvez?"
     show erik 1
     show player 4
     player_name "Hmm..."
     show erik 4
     show player 1
-    eri "Do you think you could ask her?"
+    eri "Você acha que poderia perguntar a ela?"
     show erik 1
     show player 23
-    player_name "Me?!"
+    player_name "Eu?!"
     show erik 4
     show player 11
-    eri "Yeah!"
-    eri "It's pretty awkward for me to ask, you know?"
+    eri "Sim!"
+    eri "É muito estranho eu perguntar, sabe?"
     show erik 1
     show player 29
-    player_name "I'll' try to bring it up and see what she says..."
+    player_name "Vou tentar trazer à tona e ver o que ela diz ..."
     show player 1
     return
 
 label button_erik_breastfeeding_in_person:
     show erik 1 at right
     show player 10 at left
-    player_name "I didn't know you and {b}Mrs. Johnson{/b} were... so close."
+    player_name "Eu não conhecia você e {b}Sra. Johnson{/b} estavam ... tão perto."
     show player 5
     show erik 3
-    eri "It's weird, I know..."
+    eri "É estranho, eu sei ..."
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
     show player 12
-    player_name "No, not at all!"
+    player_name "Não, de jeito nenhum!"
     show player 10
-    player_name "I...I think it's cool!"
+    player_name "Eu ... acho legal!"
     show player 13
     show erik 3b
     if player.location == L_school_scienceclassroom:
@@ -659,45 +659,45 @@ label button_erik_breastfeeding_in_person:
     with dissolve
     eri "..."
     show player 29 with dissolve
-    player_name "I mean, {b}Mrs. Johnson{/b} is like... really hot!"
-    player_name "I think you're kind of lucky..."
+    player_name "Quero dizer, {b}Sra. Johnson{/b} é como ... muito gostosa!"
+    player_name "Eu acho que você tem sorte ..."
     show player 13 with dissolve
     show erik 3
-    eri "I guess so."
+    eri "Acho que sim."
     show player 12
-    player_name "You guys do... anything else together?"
+    player_name "Vocês fazem ... mais alguma coisa juntos?"
     show player 11
     show erik 5
-    eri "...NO!!"
+    eri "... NÃO !!"
     show erik 3
-    eri "She just, you know, let's me touch her a lot..."
+    eri "Ela só, você sabe, deixe-me tocá-la muito ..."
     show erik 3b
     show player 23
-    player_name "Really?!"
-    player_name "Like... her whole body?"
+    player_name "Sério ?!"
+    player_name "Como ... o corpo inteiro dela?"
     show player 14
     show erik 5
-    eri "Well, sort of."
+    eri "Bem, mais ou menos."
     show erik 50
     show player 12
-    player_name "Don't you like it?"
+    player_name "Você não gosta?"
     show player 13
     show erik 5
-    eri "Of course!"
+    eri "Claro!"
     show erik 50
     show player 33
-    player_name "I know I would!"
+    player_name "Eu sei que sim!"
     show player 13
     show erik 5
-    eri "Just...please don't tell anyone alright?"
+    eri "Apenas ... por favor, não conte a ninguém, tudo bem?"
     show erik 50
     show player 14
-    player_name "{b}Erik{/b}, you're my best friend."
-    player_name "I'll keep this between us."
-    player_name "I was just... surprised, you know?"
+    player_name "{b}Erik{/b}, você é meu melhor amigo."
+    player_name "Vou manter isso entre nós."
+    player_name "Fiquei apenas ... surpreso, sabia?"
     show player 13
     show erik 5
-    eri "Thanks, {b}[firstname]{/b}. You're a good friend."
+    eri "Obrigado, {b}[firstname]{/b}. Você é um bom amigo."
     hide player
     hide erik
     hide erikl
@@ -707,90 +707,90 @@ label button_erik_breastfeeding_in_person:
 label button_erik_favor_completed:
     show erik 1 at right
     show player 17 at left
-    player_name "I have it!"
+    player_name "Eu tenho!"
     show erik 4 at right
     show player 1 at left
-    eri "Oh yeah?"
+    eri "Ah, é?"
     show erik 1 at right
     show player 33 at left
-    player_name "A brand new copy of {b}Sea Dogs SAGA{/b}!"
+    player_name "Uma nova cópia do {b}Sea Dogs SAGA{/b}!"
     show player 239_240
     pause
     show erik 4 at right
     show player 72 at left
-    eri "No way!"
+    eri "De jeito nenhum!"
     show erik 8 at right
     if player.location == L_school_scienceclassroom:
         show erikl 8 at right
     with dissolve
     show player 1 at left
-    eri "Thanks, {b}[firstname]{/b}!"
+    eri "Obrigado, {b}[firstname]{/b}!"
     show erik 9 at right
     show player 14 at left
-    player_name "Sooo... Are you gonna talk to {b}Kevin{/b}?"
+    player_name "Sooo ... Você vai falar com {b}Kevin{/b}?"
     show erik 10 at right
     show player 1 at left
-    eri "Yeah. I'll take over his cafeteria duties."
+    eri "Sim. Eu assumirei as tarefas de sua cafeteria."
     show erik 9 at right
     show player 36 at left
-    player_name "Great! Thanks {b}Erik{/b}!"
+    player_name "Ótimo! Obrigado {b}Erik{/b}!"
     return
 
 label button_erik_ask_favor:
     show erik 1 at right
     show player 29 at left
-    player_name "I need a favor, actually!"
+    player_name "Eu preciso de um favor, na verdade!"
     show erik 5 at right
     show player 13 at left
-    eri "Oh yeah?"
-    eri "What is it?"
+    eri "Ah, é?"
+    eri "O que é isso?"
     show erik 1 at right
     show player 14 at left
-    player_name "Well, you know {b}Kevin{/b} from {b}school{/b}?"
+    player_name "Bem, você conhece {b}Kevin{/b} da {b}escola{/b}?"
     show erik 5 at right
     show player 1 at left
-    eri "Sort of..."
+    eri "Mais ou menos ..."
     show erik 1 at right
     show player 17 at left
-    player_name "Ok, well. He's on cafeteria duty for another two months..."
-    player_name "...And he really needs a replacement."
+    player_name "Ok, bem. Ele está no refeitório por mais dois meses ..."
+    player_name "... E ele realmente precisa de um substituto."
     show erik 2 at right
     show player 11 at left
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
-    eri "Ugh. I {b}HATE{/b} cafeteria duty..."
+    eri eri "Ugh. Eu odeio o serviço de cafeteria ..."
     show erik 3 at right
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
     show player 10 at left
-    player_name "Look, you don't have to do it..."
+    player_name "Olha, você não precisa fazer isso ..."
     show player 14 at left
-    player_name "...But if you do, I'll get you whatever you want!"
-    player_name "Is there anything at all?"
+    player_name "... Mas se você fizer, eu vou pegar o que você quiser!"
+    player_name "Existe alguma coisa?"
     show erik 1 at right
     show player 1 at left
     eri "Hmm..."
     show erik 4 at right
     show player 11 at left
-    eri "Well, you could get me this new game that just came out I guess..."
+    eri "Bem, você poderia me dar esse novo jogo que acabou de sair, eu acho ..."
     show erik 1 at right
     show player 2 at left
-    player_name "What's it called?"
+    player_name "Como se chama?"
     show erik 4 at right
     show player 1 at left
-    eri "It's called: {b}Sea Dogs SAGA{/b}"
-    eri "...it's in store at {b}COSMIC CUMICS{/b} already..."
+    eri "É chamado: {b}Sea Dogs SAGA{/b}"
+    eri "... já está disponível no {b}COSMIC CUMICS{/b}..."
     show erik 1 at right
     show player 18 at left
-    player_name "Ok! So if I get it, you'll do it?"
+    player_name "Ok! Então, se eu conseguir, você fará?"
     show erik 3 at right
     show player 2 at left
-    eri "Yeah... I guess."
+    eri "Sim ... eu acho."
     show erik 1 at right
     show player 14 at left
-    player_name "Awesome!!!"
+    player_name "Incrível !!!"
     return
 
 label button_erik_where_is_mrsj:
@@ -801,14 +801,14 @@ label button_erik_where_is_mrsj:
     else:
         show erik 1 at right
     show player 35 at left
-    player_name "Where's {b}Mrs. Johnson{/b}?"
+    player_name "Onde está a {b}Sra. Johnson{/b}?"
     show erik 5 at right
     show player 34 at left
-    eri "... Eh, she's normally around the house somewhere. Except in the {b}afternoons{/b} when she's teaching yoga at the {b}Gym{/b}."
+    eri "... Eh, ela normalmente fica em casa em algum lugar. Exceto nas {b}tardes{/b}quando ela ensina ioga no {b}Ginásio{/b}."
     show player 1 at left
     show erik 1 at right
     show player 14 at left
-    player_name "Ah, I see."
+    player_name "Ah, entendi."
     return
 
 label button_erik_not_much:
@@ -819,30 +819,30 @@ label button_erik_not_much:
     else:
         show erik 1 at right
     show player 2 at left
-    player_name "Oh, not much."
+    player_name "Oh, não muito."
     show player 17 at left
-    player_name "Just dropping by to say hi!"
+    player_name "Apenas aparecendo para dizer oi!"
     show erik 5 at right
     show player 1 at left
-    eri "Is everyone alright at your new place?"
+    eri "Todos estão bem na sua nova casa?"
     show erik 1 at right
     show player 10 at left
-    player_name "{b}[deb_name]'s{/b} been getting {b}weird phone calls{/b} but she say's everything's fine so..."
+    player_name "{b}[deb_name]'s{/b} está recebendo {b}telefonemas estranhos{/b}, mas ela diz que está tudo bem, então ..."
     show player 24 at left
-    player_name "I think we'll be alright..."
+    player_name "Acho que ficaremos bem ..."
     show erik 5 at right
     show player 13 at left
-    eri "That's odd..."
+    eri "Isso é estranho ..."
     show erik 5 at right
     show player 24 at left
-    player_name "Yeah, I know..."
+    player_name "Sim, eu sei ..."
     show player 36 at left
-    player_name "Anyway, I'd better get going."
+    player_name "De qualquer forma, é melhor eu continuar."
     show erik 7 at right
     if player.location == L_school_scienceclassroom:
         show erikl 6 at right
     with dissolve
-    eri "Alright, then. See ya!"
+    eri "Tudo bem, então. Até mais!"
     hide player
     hide erikl
     hide erik
@@ -852,39 +852,39 @@ label button_erik_not_much:
 label button_erik_webcam_help:
     show player 29 at left
     show erik 1 at right
-    player_name "By the way... I need help with something tonight..."
+    player_name "A propósito ... preciso de ajuda com algo hoje à noite ..."
     show erik 5
-    eri "Oh yeah? What is it?"
+    eri "Oh sim? O que é isso?"
     show player 21
     show erik 1
-    player_name "It's gonna sound a bit crazy, but I need help sneak into school tonight..."
+    player_name "Vai parecer um pouco louco, mas preciso de ajuda para entrar na escola hoje à noite ..."
     show player 13
     show erik 5
-    eri "What?"
-    eri "...But why?"
+    eri "O que?"
+    eri "... mas por quê?"
     show player 10
     show erik 1
-    player_name "All you need to know is this will help me catch up with school..."
+    player_name "Tudo o que você precisa saber é que isso me ajudará a acompanhar a escola ..."
     show player 108f
-    player_name "...And I can't afford to fail, I really need to do it."
+    player_name "... E não posso me dar ao luxo de falhar, preciso mesmo fazê-lo."
     show player 5
     show erik 3
     eri "Hmm..."
-    eri "I don't know about this... Sounds like trouble."
+    eri "Eu não sei sobre isso ... Parece um problema."
     show player 10
     show erik 1
-    player_name "Please?"
+    player_name "Por favor?"
     show player 13
     show erik 5
-    eri "I guess I can help..."
+    eri "Acho que posso ajudar ..."
     show player 17
     show erik 1
-    player_name "Sweet!!!"
+    player_name "Doce !!!"
     show player 14
-    player_name "Alright, meet me at school tonight!"
+    player_name "Tudo bem, encontre-me na escola hoje à noite!"
     show player 1
     show erik 4
-    eri "Okay."
+    eri "Ok."
     hide erik
     hide erikl
     hide player
@@ -893,32 +893,32 @@ label button_erik_webcam_help:
 label button_erik_ask_model:
     show player 10 at left
     show erik 1 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Estou trabalhando em um projeto para a {b}Miss Ross{/b} e isso requer um modelo ativo."
+    player_name "Você estaria interessado?"
     show player 11
     show erik 5
-    eri "Uhh, You really think I would make a good model?"
+    eri "Uhh, você realmente acha que eu faria um bom modelo?"
     show player 10
     show erik 1
-    player_name "Hmm, no... Probably not."
+    player_name "Hmm, não ... Provavelmente não."
     show player 2
-    player_name "I'll look elsewhere."
+    player_name "Vou procurar em outro lugar."
     show player 1
     show erik 4
-    eri "Good luck, dude."
+    eri "Boa sorte, cara."
     return
 
 label button_erik_path_split:
     show player 14 at left
     show erik 1 at right
-    player_name "What should I ask {b}Mrs. Johnson{/b} again?"
+    player_name "O que devo perguntar novamente a {b}Sra. Johnson{/b}?"
     show erik 5
     show player 1
-    eri "Find out if she wants to do more stuff with us?"
+    eri "Descubra se ela quer fazer mais coisas conosco?"
     show player 14 at left
     show erik 1
-    player_name "Oh, right."
-    player_name "I'll let you know once I talk to her."
+    player_name "Ah, certo."
+    player_name "Avisarei assim que eu falar com ela."
     show player 1
     show erik 1
     return
@@ -926,7 +926,7 @@ label button_erik_path_split:
 label erik_funky_block:
     scene expression game.timer.image("erik_inside{}_b")
     show player 10 with dissolve
-    player_name "Well... I guess I should leave {b}Erik{/b} alone for a while."
+    player_name "Bem ... acho que devo deixar {b}Erik{/b} em paz por um tempo."
     hide player with dissolve
     $ game.main()
 
@@ -935,41 +935,41 @@ label button_erik_talked_to_roxxy_booze:
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     show player 10 at left
-    player_name "{b}Roxxy{/b} asked me to get some drinks for her and her friends."
-    player_name "You wouldn't mind if I took some of {b}Mr. Johnson's{/b} beer out of the basement, would you?"
+    player_name "{b}Roxxy{/b} me pediu para tomar algumas bebidas para ela e seus amigos."
+    player_name "Você não se importaria se eu pegasse um pouco de cerveja do Sr. Johnson do porão, não é?"
     show player 5
     show erik 5
-    eri "You want me to provide {b}Roxxy{/b} and her friends with alcohol?!"
+    eri "Você quer que eu forneça {b}Roxxy{/b} e seus amigos com álcool ?!"
     show erik 52
     show player 10
-    player_name "Err... Yeah?"
+    player_name "Err ... Sim?"
     show player 5
     show erik 5
-    eri "No way, dude!"
-    eri "Do you realize how much grief they give me at school?!"
+    eri "De jeito nenhum, cara!"
+    eri "Você percebe o quanto eles me dão dor na escola ?!"
     show erik 52
     show player 24
-    player_name "Yeah I know, man..."
+    player_name "Sim, eu sei, cara ..."
     show player 14
-    player_name "Think of this as a chance to get on their good side!"
+    player_name "Pense nisso como uma chance de melhorar o seu lado!"
     show player 13
     show erik 5
-    eri "Hmm, no thanks!"
+    eri "Hmm, não, obrigado!"
     show player 5
-    eri "I'm pretty sure all their sides are equally bad."
+    eri "Tenho certeza de que todos os lados são igualmente ruins."
     show erik 52
     player_name "..."
     show player 10
-    player_name "Alright, I understand. Thanks anyways."
+    player_name "Tudo bem, eu entendo. Obrigado de qualquer maneira."
     show player 5
     show erik 5
-    eri "I'm sorry, {b}[firstname]{/b}."
-    eri "You know I'll do anything for you, dude."
-    eri "Just... I don't wanna get involved with {b}Roxxy{/b}."
+    eri "Sinto muito, {b}[firstname]{/b}."
+    eri "Você sabe que eu farei qualquer coisa por você, cara."
+    eri "Apenas ... eu não quero me envolver com {b}Roxxy{/b}."
     show erik 52
     show player 14
-    player_name "No worries."
-    player_name "I'll figure something else out."
+    player_name "Não se preocupe."
+    player_name "Vou descobrir outra coisa."
     show player 5f with dissolve
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
@@ -980,28 +980,28 @@ label button_erik_talked_to_roxxy_booze:
         show erikl 1f at right
     show erik 5
     with dissolve
-    eri "Oh, wait!"
+    eri "Oh, espere!"
     show erik 52
     show player 5 with dissolve
     player_name "Hmm?"
     show erik 5
-    eri "What about a fake ID?"
+    eri "Que tal uma identificação falsa?"
     show erik 52
     show player 10
-    player_name "A fake ID?!"
-    player_name "What do you know about fake ID's, {b}Erik{/b}?!"
+    player_name "Um ID falso ?!"
+    player_name "O que você sabe sobre identificações falsas, {b}Erik{/b}?!"
     show player 5
     show erik 3
-    eri "Oh, uhh..."
-    eri "I kinda..."
+    eri "Oh, uhh ..."
+    eri "Eu meio que ..."
     show erik 3b
-    eri "... Sorta, looked into it a few years ago..."
+    eri "... Sorta, investigou isso há alguns anos atrás ..."
     show erik 52
     show player 12
-    player_name "Why in the heck would you need a fake ID?"
+    player_name "Por que diabos você precisaria de um ID falso?"
     show player 5
     show erik 3
-    eri "... For this video game I wanted."
+    eri "... Para este videogame eu queria."
     if player.location == L_school_scienceclassroom:
         show erikl 2
     show erik 2
@@ -1012,37 +1012,37 @@ label button_erik_talked_to_roxxy_booze:
         show erikl 1f at right
     show erik 3
     with dissolve
-    eri "An adult game."
+    eri "Um jogo adulto."
     show erik 52
     show player 14
-    player_name "Are you telling me you have a fake ID?"
+    player_name "Você está me dizendo que tem um ID falso?"
     show player 13
     show erik 5
-    eri "No!"
+    eri "Não!"
     show player 5
-    eri "Heh, I uhh.. Couldn't afford it."
+    eri "Heh, eu uhh .. Não podia pagar."
     show erik 4
-    eri "... But I know where you can get one!"
+    eri "... Mas eu sei onde você pode conseguir um!"
     show erik 1
     show player 14
-    player_name "Alright, where?"
+    player_name "Tudo bem, onde?"
     show player 13
     show erik 5
-    eri "I read about it online."
-    eri "There's a guy down at {b}the pier{/b} that makes them for $400."
+    eri "Eu li sobre isso online."
+    eri "Tem um cara no {b}the pier{/b} que ganha $ 400".
     show erik 52
     show player 35
-    player_name "Hmm, down at {b}the pier{/b}, huh?"
+    player_name "Hmm, lá no {b}the pier{/b}, hein?"
     show player 14
-    player_name "Alright, I'll look into it."
+    player_name "Tudo bem, eu vou dar uma olhada."
     show player 13
     show erik 4
-    eri "Good luck, dude!"
+    eri "Boa sorte, cara!"
     hide erik
     hide erikl
     with dissolve
     show player 14
-    player_name "I should {b}head back to Roxxy{/b} and see what she thinks about all this."
+    player_name "Eu deveria {b}voltar para Roxxy{/b} e ver o que ela pensa sobre tudo isso."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

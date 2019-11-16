@@ -2,58 +2,58 @@ label button_okita_ingredients_mushroom:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "The {b}Falicum Mushroom{/b} grow in the forest here in Summerville."
+    okita "O {b}Cogumelo Falicum{/b} crescer na floresta aqui em Summerville ".
     show okita 3
-    okita "They are easy to spot because of their phallic shape."
+    okita "Eles são fáceis de detectar por causa de sua forma fálica ".
     show player 10
     show okita 1
-    player_name "... Gross."
+    player_name "... Bruto."
     return
 
 label button_okita_ingredients_toad:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "It's breeding season for the {b}Horny Toad{/b}. So look for a {b}pond or stream.{/b}"
-    okita "They should be easily identifiable by their lumpy purple backsides."
+    okita "É época de reprodução para o {b}Sapo com tesão{/b}. Então procure um no {b}lago ou riacho.{/b}"
+    okita "Eles devem ser facilmente identificáveis ​​pelas partes traseiras roxas e grumosas ".
     show player 10
     show okita 1
-    player_name "Sounds like one ugly frog..."
+    player_name "Parece um sapo feio ... "
     return
 
 label button_okita_ingredients_flower:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "The {b}Psychotropic Euphorbia{/b} is a luminescent flower that grows only in dark places."
-    okita "Your best bet would be a {b}cave{/b}."
+    okita "A {b}Eufórbia psicotrópica{/b} é uma flor luminescente que cresce apenas em lugares escuros ".
+    okita "Sua melhor aposta seria uma {b}caverna{/b}."
     show player 35
     show okita 1
-    player_name "Hmm, a {b}cave{/b}..."
+    player_name "Hmm, uma {b}caverna{/b}..."
     return
 
 label button_okita_ingredients_stock:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "We'll need something mild to act as a base for the serum. Vegetable stock would work best."
-    okita "You should be able to pick some up at Consumr."
+    okita "Precisamos de algo moderado para atuar como base para o soro. O estoque de vegetais funcionaria melhor."
+    okita "Você deve conseguir alguns itens no Consumr."
     show player 2
     show okita 1
-    player_name "... At least one of the ingredients is simple."
+    player_name "... Pelo menos um dos ingredientes é simples. "
     return
 
 label button_okita_ingredients_tissue:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "A hair or saliva sample would work best."
+    okita "Uma amostra de cabelo ou saliva funcionaria melhor ".
     show player 10
     show okita 1
-    player_name "Yeah, okay but how am I supposed to get that?"
+    player_name "Sim, ok, mas como vou conseguir isso? "
     show player 11
     show okita 9
-    okita "... I'm sure you'll think of something."
+    okita "... Tenho certeza que você pensará em algo. "
     show okita 4
     player_name "..."
     return
@@ -63,38 +63,38 @@ label button_okita_got_all_ingredients:
     show player 2 at left
     show okita 1 at right
     with dissolve
-    player_name "Alright Ma'am, I think I've got everything."
+    player_name "Tudo bem senhora, acho que tenho tudo ".
     show player 1
     show okita 3
-    okita "... You think?"
+    okita "... Você pensa?"
     show okita 1
     show player 533 with dissolve
-    player_name "Well, there is one little issue..."
+    player_name "Bem, há um pequeno problema ... "
     show okita 3
     show player 532
-    okita "... Is that {b}Chicken Stock{/b}?"
+    okita "... É aquele {b}Caldo de galinha{/b}?"
     show player 533
     show okita 1
-    player_name "Yeah. It's all {b}Consumr{/b} had..."
-    player_name "I thought, maybe the {b}Chicken Stock{/b} would still work?"
+    player_name "Sim. É tudo {b}Consumr{/b} teve..."
+    player_name "Eu pensei, talvez o {b}Caldo de galinha{/b} ainda funcionaria? "
     show player 532
     show okita 2b
-    okita "Hah, yeah. That should be fine..."
+    okita "Hah, sim. Isso deveria estar bem..."
     show player 11 with dissolve
     show okita 6
     player_name "..."
     show okita 7
-    okita "Looks like everything else is in order."
-    okita "Meet me in my office this evening and we'll start mixing."
+    okita "Parece que tudo está em ordem. "
+    okita "Encontre-me no meu escritório esta noite e começaremos a mixar."
     show player 10
     show okita 6
-    player_name "Tonight?"
+    player_name "Esta noite?"
     show player 11
     show okita 3
-    okita "Problem?"
+    okita "Problema?"
     show player 10
     show okita 4
-    player_name "No! ... No. I'll see you then."
+    player_name "Não! ... Não. Vejo você então. "
 
     return
 
@@ -102,11 +102,11 @@ label button_okita_extract_cum:
     scene location_school_science_closeup
     show player 10 at left
     show okita 4 at right
-    player_name "So we have everything we need to make your serum?"
+    player_name "Então, temos tudo o que precisamos para fazer seu soro? "
     show player 11
     show okita 5
-    okita "... Uhh, yeah. Isn't that what I just told you?!"
-    okita "{b}Meet me in my office this evening{/b} and so we can work on it."
+    okita "... Sim. Não foi isso que eu te disse ?! "
+    okita "{b}Encontre-me no meu escritório esta noite{/b} e para que possamos trabalhar nisso ".
     show okita 4
     show player 10
     player_name "... O-okay."
@@ -117,44 +117,44 @@ label button_okita_dose_smith:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "You still haven't dosed {b}Principal Smith{/b}?!"
+    okita "Você ainda não administrou {b}Principal Smith{/b}?!"
     show player 5
     show okita 4
     player_name "..."
     show okita 5
-    okita "What are you waiting for?"
+    okita "O que você está esperando?"
     show player 12
     show okita 4
-    player_name "This isn't exactly easy you know!"
-    player_name "Can't you give me some advice or something?!"
+    player_name "Isso não é exatamente fácil, você sabe! "
+    player_name "Você não pode me dar alguns conselhos ou algo assim ?!"
     show player 16
     show okita 3
-    okita "Here's some advice: Hurry up and do it already!"
+    okita "Aqui estão alguns conselhos: Apresse-se e faça já! "
     show okita 5
-    okita "All you have to do is {b}slip it into her food or something{/b}."
+    okita "Tudo que você tem a fazer é {b}colocá-lo em sua comida ou algo assim{/b}."
     show player 12
     show okita 4
-    player_name "Alright, alright. I'll be back."
+    player_name "Tudo bem, tudo bem. Eu voltarei."
     return
 
 label button_okita_wait_for_smith_serum:
     scene location_school_science_closeup
     show player 2 at left
     show okita 6 at right
-    player_name "Alright, {b}Miss Okita{/b}. It's done."
+    player_name "Tudo bem, {b}Miss Okita{/b}. Está feito."
     show player 1
     show okita 7
-    okita "Wonderful!"
-    okita "Now we just wait to see the effects..."
+    okita "Maravilhoso!"
+    okita "Agora esperamos para ver os efeitos ..."
     show player 10
     show okita 6
-    player_name "How long should it take?"
+    player_name "Quanto deve demorar?"
     show player 11
     show okita 7
-    okita "It'll work fast. Why don't you stick around and we'll check on her after class?"
+    okita "Vai funcionar rápido. Por que você não fica por aqui e a veremos depois da aula? "
     show player 2
     show okita 6
-    player_name "Sure."
+    player_name "Certo."
     pause 1
     hide player
     hide okita
@@ -168,25 +168,25 @@ label button_okita_wait_for_smith_serum:
     okita "*ahem*"
     show okita 4f
     show principal 32 with dissolve
-    smi "Hmm? Oh, hello there Tori..."
-    smi "How's little Miss Knowitall today?"
+    smi "Hmm? Oh, olá Tori ... "
+    smi "Como está a pequena senhorita Knowitall hoje?"
     show principal 31
     okita "... Hmmph."
     show okita 3f
-    okita "I was just checking on the status of my office?"
+    okita "Eu estava apenas checando o status do meu escritório? "
     show okita 4f
     show principal 32
-    smi "Your office?"
+    smi "Seu escritório?"
     show okita 5f
     show principal 31
-    okita "Well, the other day you seemed pretty adament about changing the locks."
+    okita "Bem, outro dia você parecia bastante adoravel em mudar as fechaduras. "
     show okita 4f
     show principal 32
-    smi "Was I?"
-    smi "That's funny... I don't recall."
+    smi "Eu estava? "
+    smi "Isso é engraçado ... não me lembro."
     show okita 3f
     show principal 31
-    okita "Oh, really?"
+    okita "Sério?"
     smi "..."
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "Bawk bawk."
@@ -195,19 +195,19 @@ label button_okita_wait_for_smith_serum:
     show player 10
     okita "..."
     show okita 3f
-    okita "... Are you alright?"
+    okita "... Você está bem?"
     show okita 4f
     show principal 32
-    smi "... Huh?"
-    smi "I'm fine, why?"
+    smi "... Hã?"
+    smi "Eu estou bem, por quê?"
     show player 11
     show okita 5f
     show principal 31
-    okita "You were saying something, regarding the lock on my office?"
+    okita "Você estava dizendo alguma coisa, a respeito da fechadura do meu escritório? "
     show okita 4f
     show principal 32
-    smi "Was I?"
-    smi "That's funny... I don't-"
+    smi "Eu estava? "
+    smi "Isso é engraçado ... eu não-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "BAWK!!! Bawk bawk bawk..."
     show principal 31 at right with dissolve
@@ -218,38 +218,38 @@ label button_okita_wait_for_smith_serum:
     show player 11
     okita "Shh!"
     show principal 33 with dissolve
-    okita "Don't interrupt us {b}[firstname]{/b}."
+    okita "Não nos interrompa {b}[firstname]{/b}."
     show okita 4f
     show principal 32 with dissolve
-    smi "... This coffee tastes funny."
+    smi "... Este café tem um gosto engraçado. "
     show principal 31
     player_name "..."
     show okita 7f
-    okita "Did I tell you about the new invention I was working on?"
+    okita "Eu contei sobre a nova invenção em que estava trabalhando? "
     show okita 6f
     show principal 32
-    smi "Invention?"
-    smi "No, I don't think yo-"
+    smi "Invenção?"
+    smi "Não, eu não acho que você-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "Bawk bawk..."
     smi "Bawk bawk BAWK!!"
     show principal 31 at right with dissolve
     show okita 7f
-    okita "I'll have to bring it by your office sometime. It's really fascinating!"
+    okita "Vou ter que levá-lo ao seu escritório algum dia. É realmente fascinante! "
     show principal 32
     show okita 6f
-    smi "Sure, okay!"
+    smi "Claro, tudo bem! "
     show okita 7f
     show principal 31
-    okita "Oh my, look at the time."
-    okita "We should really be going."
+    okita "Oh meu Deus, olha a hora. "
+    okita "Nós realmente deveríamos ir."
     show okita 7 at Position(xpos=0.05, ypos=1.0) with dissolve
-    okita "Come along, {b}[firstname]{/b}."
+    okita "Venha comigo, {b}[firstname]{/b}."
     hide okita with dissolve
     player_name "..."
     show principal 32
 
-    smi "... This coffee tastes funny."
+    smi "... Este café tem um gosto engraçado. "
 
 
     hide principal
@@ -260,91 +260,91 @@ label button_okita_wait_for_smith_serum:
     scene location_school_science_closeup
     show player 11 at left
     show okita 7 at right
-    okita "So, I guess that {b}Chicken Stock{/b} created a bit of a side effect after all..."
+    okita "Então eu acho que {b}Caldo de galinha{/b} criou um efeito colateral, afinal ... "
     show okita 2b
     okita "Pffft, hahaha!!"
     show player 12
     show okita 6
-    player_name "How is this funny?!"
-    player_name "We screwed with her head and she's in there clucking like a chicken!"
+    player_name "Como isso é engraçado ?! "
+    player_name "Nós ferramos com a cabeça dela e ela está lá cacarejando como uma galinha!"
     show player 11
     show okita 2b
-    okita "Yeah she is! Hahaha!"
+    okita "Sim, ela é! Hahaha! "
     show player 16
     show okita 7
-    okita "Oh, would you relax?"
-    okita "It's only temporary."
+    okita "Oh, você relaxaria? "
+    okita "É apenas temporário."
     show okita 9
-    okita "... I think."
+    okita "... Eu acho que."
     show player 12
     show okita 6
-    player_name "You think?!"
+    player_name "Você pensa?!"
     show player 16
     show okita 9
-    okita "I mean, I'm pretty sure."
+    okita "Quero dizer, tenho certeza. "
     show okita 7
-    okita "Look the important thing here is that the serum worked!"
-    okita "She's completely impartial to my experiments now!"
-    okita "... And she didn't even remember wanting to lock me out of my office!"
+    okita "Quero dizer, tenho certeza: "Veja o importante aqui é que o soro funcionou!"
+    okita "Ela é completamente imparcial com meus experimentos agora!"
+    okita "... E ela nem se lembrava de querer me trancar fora do meu escritório!"
     show player 12
     show okita 6
-    player_name "Yeah, but she's clucking like a chicken!"
+    player_name "Sim, mas ela está cacarejando como uma galinha! "
     show player 16
     show okita 2b
     okita "Pffftt, hahahaaaah!"
     show player 12
-    player_name "Well I'm glad you think it's so funny..."
+    player_name "Bem, eu estou feliz que você acha isso tão engraçado ... "
     show okita 6
-    player_name "So what now?"
+    player_name "E agora?"
     show player 16
     show okita 7
-    okita "Now, I need some time to study the effects of the other serum."
+    okita "Agora, preciso de um tempo para estudar os efeitos do outro soro ".
     show player 10
     show okita 6
-    player_name "Oh, I completely forgot about the other serum!"
-    player_name "Are you feeling any different?"
+    player_name "Ah, eu esqueci completamente do outro soro! "
+    player_name "Você está se sentindo diferente?"
     show player 11
     show okita 7
-    okita "Mmm, maybe..."
+    okita "Mmm, talvez ... "
     show okita 2b
     okita "Hehehe!"
     show player 10
-    player_name "You do seem kinda, different."
+    player_name "Você parece meio diferente. "
     show player 11
     show okita 7
-    okita "How so?"
+    okita "Como assim?"
     show player 10
     show okita 6
-    player_name "You're like... Giddy."
+    player_name "Você é como ... Giddy. "
     show player 11
     show okita 2b
-    okita "Hehehe! I'm just happy."
+    okita "Hehehe! Estou apenas feliz."
     show player 10
-    player_name "It's kinda freaking me out to be honest."
+    player_name "Está meio que me assustando para ser honesto. "
     show player 11
     show okita 7
-    okita "... And hot."
+    okita "... E quente."
     show okita 3
-    okita "Are you hot? It's hot in here!"
+    okita "Você é gostosa? Está quente aqui!"
     show player 10
     show okita 6
-    player_name "No, I'm fine."
+    player_name "Não, eu estou bem."
     show player 11
     show okita 7
-    okita "Alright, well I'm gonna head up to my office and get some work done."
-    okita "Come see me in a few days."
+    okita "Tudo bem, bem, eu vou para o meu escritório e fazer algum trabalho. "
+    okita "Venha me ver em alguns dias."
     show player 10
     show okita 6
-    player_name "Umm, okay."
+    player_name "Umm, ok. "
     show player 11
     show okita 2b
-    okita "Byeee, {b}[firstname]{/b}!"
+    okita "Tchau, {b}[firstname]{/b}!"
     okita "Hehehehe..."
     hide okita with dissolve
     hide player
     show player 10f
     with dissolve
-    player_name "I hope she's gonna be okay..."
+    player_name "Espero que ela fique bem ... "
     return
 
 label button_okita_wait_for_okita_serum:
@@ -352,36 +352,36 @@ label button_okita_wait_for_okita_serum:
     show player 10 at left
     show okita 6 at right
     with dissolve
-    player_name "You doing okay, Ma'am?"
-    player_name "Notice any side effects with your serum yet?"
+    player_name "Você está bem, senhora? "
+    player_name "Você já notou algum efeito colateral com o seu soro?"
     show player 11
     show okita 7
-    okita "I'm still testing."
-    okita "... I appreciate you checking in with me though."
+    okita "Eu ainda estou testando. "
+    okita "... eu agradeço que você tenha me consultado."
     show player 10
     show okita 6
-    player_name "... You do?"
+    player_name "... Você faz?"
     show okita 7
     show player 11
-    okita "Of course!"
+    okita "Claro!"
     show okita 2b
-    okita "It makes me feel all warm and fuzzy!"
+    okita "Isso me faz sentir quente e confuso! "
     show player 11
     show okita 6
     player_name "..."
     show player 10
-    player_name "Okay, seriously! You are acting really weird!"
+    player_name "Ok, sério! Você está agindo muito estranho! "
     show player 11
     show okita 7
-    okita "Am I?"
+    okita "Sou eu? "
     show okita 2b
-    okita "I don't know what to tell you. I feel great!"
+    okita "Eu não sei o que te dizer. Eu me sinto ótimo!"
     show player 10
     show okita 6
-    player_name "Okay, well just be careful, I guess."
+    player_name "Ok, bem, tenha cuidado, eu acho. "
     show player 11
     show okita 7
-    okita "Will do, Handsome!"
+    okita "Vai fazer, bonito! "
     show okita 2b
     okita "Hehehe!"
     player_name "..."
@@ -392,54 +392,54 @@ label button_okita_serum_effects:
     show player 10 at left
     show okita 6 at right
     with dissolve
-    player_name "Any results from the serum yet?"
+    player_name "Algum resultado do soro ainda? " 
     show player 11
     show okita 7
-    okita "Actually, {b}[firstname]{/b}, I was hoping you could help me test my newest invention?"
+    okita "Na realidade, {b}[firstname]{/b}, Eu estava esperando que você pudesse me ajudar a testar minha mais nova invenção? "
     show player 10
     show okita 6
-    player_name "Oh man, you want me to build something else?"
+    player_name "Oh cara, você quer que eu construa outra coisa? "
     show player 11
     show okita 3
-    okita "Hmm? No, no!"
+    okita "Hmm? Não não!"
     show okita 7
-    okita "I built this one myself. It's revolutionary!"
+    okita "Eu mesmo construí este. É revolucionário! "
     show player 10
     show okita 6
-    player_name "You built it?"
-    player_name "But building is monkey work. I thought you didn't do monkey work?"
+    player_name "Você construiu? "
+    player_name "Mas construir é trabalho de macaco. Pensei que você não fizesse trabalho de macaco."
     show player 11
     show okita 7
-    okita "I made an exception this time because..."
-    okita "Well, I made this invention for you; As a surprise."
+    okita "Desta vez fiz uma exceção porque ... "
+    okita "Bem, eu fiz esta invenção para você; como uma surpresa."
     show player 10
     show okita 6
-    player_name "For me?"
+    player_name "Para mim?"
     show player 11
     show okita 7
-    okita "Yeah, come to my office this evening after school and I'll show you."
+    okita "Sim, venha ao meu escritório hoje à noite depois da escola e eu mostro a você. "
     show player 10
     show okita 7
-    player_name "This is starting to worry me..."
-    player_name "What are you up to?"
+    player_name "Isso está começando a me preocupar ... "
+    player_name "O que você está fazendo?"
     show player 11
     show okita 2b
-    okita "Don't be a baby! You have to come and see!"
+    okita "Não seja um bebê! Você tem que vir e ver! "
     show player 10
     show okita 6
-    player_name "Fine."
+    player_name "Bem."
     show player 11
     show okita 7
-    okita "You promise?"
+    okita "Você promete? "
     show player 10
     show okita 6
-    player_name "Uhh, yeah."
-    player_name "... I promise."
+    player_name "Uhh, sim. "
+    player_name "... eu prometo."
     show player 11
     show okita 2b
     okita "Yay!"
     show okita 7
-    okita "See you soon, {b}[firstname]{/b}!"
+    okita "Te vejo em breve, {b}[firstname]{/b}!"
     hide okita with dissolve
     hide player
     show player 11f
@@ -450,12 +450,12 @@ label button_okita_serum_effects:
 label button_okita_generic_after_q3:
     call expression game.dialog_select("button_okita_generic_after_q3_intro")
     menu:
-        "New Invention." if M_okita.is_state(S_okita_is_hypersexual):
+        "Nova invenção." if M_okita.is_state(S_okita_is_hypersexual):
             call expression game.dialog_select("button_okita_generic_after_q3_new_invention")
 
-        "Are traps gay?" if False:
+        "As armadilhas são gays?" if False:
             call expression game.dialog_select("button_okita_are_traps_gay")
-        "Nothing.":
+        "Nada.":
 
             call expression game.dialog_select("button_okita_generic_after_q3_leave")
     return
@@ -465,12 +465,12 @@ label button_okita_generic_before_q3:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}."
+    player_name "Ei, {b}Miss Okita{/b}."
     show player 1
     show okita 5
-    okita "What is it, {b}[firstname]{/b}?"
+    okita "O que é isso, {b}[firstname]{/b}?"
     show player 11
-    okita "I'm very busy..."
+    okita "Eu estou muito ocupado..."
     show okita 4
     return
 
@@ -479,47 +479,47 @@ label button_okita_generic_after_q3_intro:
     show player 2 at left
     show okita 6 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}."
+    player_name "Ei, {b}Miss Okita{/b}."
     show player 1
     show okita 2b
     okita "{b}[firstname]{/b}!"
     show okita 7
-    okita "How nice of you to visit!"
-    okita "What can I help you with?"
+    okita "Que gentileza sua em visitar! "
+    okita "Em que posso ajudá-lo?"
     show okita 6
     return
 
 label button_okita_generic_after_q3_new_invention:
     show player 2
-    player_name "So you've been working on a new invention, huh?"
+    player_name "Então você está trabalhando em uma nova invenção, hein? "
     show player 1
     show okita 7
-    okita "Oh, yes!"
-    okita "It's revolutionary! You absolutely have to come and see it!"
+    okita "Ai sim!"
+    okita "É revolucionário! Você absolutamente tem que vir e ver!"
     show player 2
     show okita 6
-    player_name "Heh, okay! I'll {b}meet you in your office this evening.{/b}"
+    player_name "Heh, ok! eu vou {b}encontrar você no seu escritório esta noite.{/b}"
     show okita 2b
     show player 1
-    okita "You have to promise you'll come and see!"
+    okita "Você tem que prometer que virá e verá! "
     show okita 6
     show player 11
     player_name "..."
     show player 10
-    player_name "... Yeah. I promise."
+    player_name "... Sim. Eu prometo."
     show okita 2b
     show player 11
-    okita "I can't wait!"
+    okita "Mal posso esperar! "
     return
 
 label button_okita_generic_after_q3_leave:
     show player 3
-    player_name "Nothing, I just wanted to say hi!"
+    player_name "Nada, eu só queria dizer oi! "
     show okita 5
-    okita "That's nice of you"
+    okita "Isso é legal da sua parte"
     show player 2
-    okita "Though, I'm busy working on some new designs at the moment."
+    okita "No entanto, estou ocupado trabalhando em alguns novos designs no momento ".
     show okita 7
-    okita "Come see me in my {b}classroom{/b} if you want to help me."
+    okita "Venha me ver na minha {b}Sala de aula{/b} se você quer me ajudar. "
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,21 +1,21 @@
 label dewitt_dialogue_dewitt_eve_meet_up:
     scene music_classroom_c
     show player 10 with dissolve
-    player_name "I should give her some space for the time being."
-    player_name "And I should also visit {b}Eve{/b} in the {b}park at night{/b}."
+    player_name "Eu deveria dar a ela algum espaço por enquanto. "
+    player_name "E eu também deveria visitar {b}Eve{/b} no {b}park at night{/b}."
     return
 
 label dewitt_dialogue_dewitt_science_adhesive:
     scene music_classroom_c
     show player 17 with dissolve
-    player_name "{b}Kevin{/b} was going to make some adhesive in {b}Miss Okita's{/b} classroom."
-    player_name "I should see what he's up to."
+    player_name "{b}Kevin{/b} ia fazer algum adesivo em {b}Miss Okita's{/b} Sala de aula."
+    player_name "Eu deveria ver o que ele está fazendo. "
     return
 
 label dewitt_dialogue_dewitt_school_sneak_mission_help:
     scene music_classroom_c
     show player 10 with dissolve
-    player_name "Maybe {b}Erik{/b} will help me {b}sneak into the school tonight{/b}."
+    player_name "Talvez {b}Erik{/b} Me ajudará {b}esgueirar-se para a escola hoje à noite{/b}."
     return
 
 label dewitt_dialogue_dewitt_office_night_visit_delay:
@@ -23,20 +23,20 @@ label dewitt_dialogue_dewitt_office_night_visit_delay:
     show player 13 at left
     show dewitt 19f at right
     with dissolve
-    dewitt "Remember, I have one more surprise for you."
+    dewitt "Lembre-se, tenho mais uma surpresa para você. "
     hide player
     show dewitt 6f at left
     with dissolve
-    dewitt "You'll have to come to my office {b}tomorrow{/b} after school if you want it..."
+    dewitt "Você terá que vir ao meu escritório {b}amanhã{/b} depois da escola, se você quiser ... "
     show player 29 at left
     show dewitt 18f at Position (xpos=300)
     with dissolve
-    player_name "O-okay..."
+    player_name "Ok..."
     player_name "I'll be there."
     show player 13 with dissolve
     show dewitt 19f
-    dewitt "Mmm, I can't wait!"
-    dewitt "See you then, {b}[firstname]{/b}."
+    dewitt "Mmm, eu mal posso esperar!"
+    dewitt "Vejo você então, {b}[firstname]{/b}."
     hide dewitt with dissolve
     show player 18
     player_name "..."
@@ -47,20 +47,20 @@ label dewitt_dialogue_dewitt_office_night_visit:
     show player 13 at left
     show dewitt 19f at right
     with dissolve
-    dewitt "Remember, I have one more surprise for you."
+    dewitt "Lembre-se, eu tenho mais uma surpresa para você."
     hide player
     show dewitt 6f at left
     with dissolve
-    dewitt "You'll have to come to my office after school if you want it..."
+    dewitt "Você terá que vir ao meu escritório depois da escola, se quiser ..."
     show player 29 at left
     show dewitt 18f at Position (xpos=300)
     with dissolve
-    player_name "O-okay..."
-    player_name "I'll be there."
+    player_name "Ok..."
+    player_name "eu estarei lá."
     show player 13 with dissolve
     show dewitt 19f
-    dewitt "Mmm, I can't wait!"
-    dewitt "See you then, {b}[firstname]{/b}."
+    dewitt "Mmm, eu mal posso esperar!"
+    dewitt "Vejo você então, {b}[firstname]{/b}."
     hide dewitt with dissolve
     show player 18
     player_name "..."
@@ -71,104 +71,104 @@ label dewitt_dialogue_dewitt_end:
     show player 13f at right
     show dewitt 2 at left
     with dissolve
-    dewitt "Thanks again for everything, sugar!"
+    dewitt "Mais uma vez obrigado por tudo, querida! "
     show dewitt 1
     show player 14f
-    player_name "My pleasure, {b}Miss Dewitt{/b}."
+    player_name "O prazer é meu, {b}Miss Dewitt{/b}."
     show player 13f
     show dewitt 19 with dissolve
-    dewitt "Remember, my door is always open for you."
+    dewitt "Lembre-se, minha porta está sempre aberta para você. "
     show dewitt 18
     show player 17f
-    player_name "Yes, Ma'am."
+    player_name "Sim, senhora."
     return
 
 label dewitt_dialogue_intro:
     scene music_classroom_c
     show dewitt 1 at left
     show player 2f at right
-    player_name "Hi, {b}Miss Dewitt{/b}."
+    player_name "Oi, {b}Miss Dewitt{/b}."
     show dewitt 2
     show player 1f
-    dewitt "Hello, {b}[firstname]{/b}!"
-    dewitt "Ready to groove with us today?"
+    dewitt "Olá, {b}[firstname]{/b}!"
+    dewitt "Pronto para curtir conosco hoje? "
     show dewitt 1
     show player 33f
-    player_name "Of course!"
+    player_name "É claro!"
     show dewitt 2
     show player 13f
-    dewitt "Is there anything you want to talk about?"
+    dewitt "Quer falar sobre algo? "
     show dewitt 1
     show player 34f
     return
 
 label dewitt_dialogue_dewitt_find_flute:
     show player 10f
-    player_name "Where should I start looking for the flute?"
+    player_name "Onde devo começar a procurar a flauta?"
     show player 5f
     show dewitt 2
-    dewitt "Did you {b}check the instrument checkout sheet in the classroom locker{/b}?"
+    dewitt "Você {b} verificou a folha de pagamento do instrumento no armário da sala de aula {/b}?"
     show dewitt 1
     show player 14f
-    player_name "Oh yeah!"
-    player_name "I'll look there for a clue!"
+    player_name "Oh sim!"
+    player_name "Vou procurar lá uma pista!"
     show player 13f
     show dewitt 2
-    dewitt "Bye, sugar!"
+    dewitt "Tchau, docinho!"
     return
 
 label dewitt_dialogue_dewitt_make_new_flute:
     show player 10f
-    player_name "About the flute-"
+    player_name "Sobre a flauta-"
     show player 11f
     show dewitt 2
-    dewitt "Did you find the flute yet?"
+    dewitt "Você já encontrou a flauta?"
     show dewitt 1
     show player 3f at Position (xoffset=-8) with dissolve
     player_name "..."
     show player 10f with dissolve
-    player_name "Not yet."
+    player_name "Ainda não."
     show player 5f
     show dewitt 2
-    dewitt "I hope it's not lost."
+    dewitt "Espero que não esteja perdido."
     show dewitt 1
     show player 14f
-    player_name "Don't worry! I'm on it!"
+    player_name "Não se preocupe! Estou nisso!"
     show player 13f
     show dewitt 2
-    dewitt "Thanks, {b}[firstname]{/b}!"
+    dewitt "Obrigado, {b}[firstname]{/b}!"
     hide dewitt with dissolve
     show player 4f with dissolve
-    player_name "( {b}Erik{/b} said I should be able to make one. )"
+    player_name "( {b}Erik{/b} disse que eu deveria ser capaz de fazer um. )"
     return
 
 label dewitt_dialogue_talent_show_help:
     show player 10f
-    player_name "How many people do you need for the talent show again?"
+    player_name "Quantas pessoas você precisa para o show de talentos de novo?"
     show player 5f
     show dewitt 5
-    dewitt "I was hoping for at least {b}two more{/b}."
-    dewitt "Any less and I'm afraid we'll have to cancel."
+    dewitt "Eu esperava pelo menos {b}mais dois{/b}."
+    dewitt "Menos e tenho medo de cancelar."
     show dewitt 4
     show player 14f
-    player_name "Alright, no worries, {b}Ms. Dewitt{/b}! I'll find someone!"
+    player_name "Tudo bem, não se preocupe, {b}Ms. Dewitt{/b}! Eu vou encontrar alguém!"
     show player 13f
     show dewitt 5
-    dewitt "Aww thanks, sugar!"
+    dewitt "Aww obrigada, docinho!"
     return
 
 label dewitt_dialogue_leave:
     show player 10f
-    player_name "Not really..."
-    player_name "Just hoping I can catch up."
+    player_name "Na verdade não..."
+    player_name "Só espero que eu possa me recuperar."
     show dewitt 2
     show player 5f
-    dewitt "Oh, honey. You'll be just fiiine!"
+    dewitt "Oh, querida. Você vai ficar bem!"
     show player 13f
-    dewitt "Pick an instrument and take a seat!"
-    dewitt "We'll get you back in the groove..."
+    dewitt "Escolha um instrumento e sente-se!"
+    dewitt "Nós o colocaremos de volta ..."
     show dewitt 1
     show player 14f
-    player_name "Thanks, {b}Miss Dewitt{/b}..."
+    player_name "Obrigado, {b}Miss Dewitt{/b}..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

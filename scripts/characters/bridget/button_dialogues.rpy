@@ -4,15 +4,15 @@ label coach_bridget_dialogue_office_intro:
     show bridget f_angry_talk at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "What are you doing in here?"
+    bri "O que você esta fazendo aqui?"
     show player 32
     show bridget a_dressed_crossed f_angry
-    player_name "Sorry, Ma'am!!!"
-    player_name "I just had some questions!"
+    player_name "Desculpe, senhora!!!"
+    player_name "Eu só tinha algumas perguntas!"
     show player 31
     show bridget f_angry_talk
-    bri "Questions?!"
-    bri "Like what?"
+    bri "Questões?!"
+    bri "Como o quê?"
     show bridget a_dressed_crossed f_angry
     return
 
@@ -22,44 +22,44 @@ label coach_bridget_dialogue_courtyard_intro:
     show bridget f_angry_talk at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "You better be training your ass off at the {b}Gym{/b}, or I'm going to shove my foot up your ass!!"
+    bri "É melhor você estar treinando sua bunda na {b}Gym{/b}, ou vou enfiar meu pé na sua bunda!!"
     show player 32
     show bridget a_dressed_crossed f_angry
-    player_name "Yes, Ma'am!!!"
+    player_name "Sim, senhora!!!"
     show player 31
     show bridget f_angry_talk
-    bri "Got any questions?!"
+    bri "Tem alguma dúvida?!"
     show bridget a_dressed_crossed f_angry
     return
 
 label coach_bridget_dialogue_training_advice:
     show player 10
     show bridget a_dressed_crossed f_normal
-    player_name "I... Well, where should I train?"
+    player_name "Eu ... Bem, onde devo treinar?"
     show bridget a_dressed_crossed f_angry
     show player 5
     bri "..."
     show player 22
     show bridget f_angry_talk
-    bri "I just told you!"
+    bri "eu acabei de te dizer!"
     show bridget a_dressed_crossed f_angry_yell
-    bri "At the {b}GYM{/b}!!!"
+    bri "No {b}GYM{/b}!!!"
     show player 10
     show bridget a_dressed_crossed f_angry
-    player_name "But... What should I train?"
+    player_name "Mas ... O que devo treinar?"
     show player 11
     show bridget f_angry_talk
-    bri "You have to work on your {b}strength{/b} and {b}dexterity{/b} if you want to make it!"
-    bri "You'll be competing in the {b}110m hurdle{/b} race to qualify this {b}school{/b} and your team into the {b}state championship{/b}!"
+    bri "Você tem que trabalhar no seu {b}strength{/b} e {b}dexterity{/b} se você quiser fazer!"
+    bri "Você estará competindo no {b}110m com obstáculo{/b} corrida para qualificar isso {b}school{/b} e sua equipe no {b}state championship{/b}!"
     show player 10
     show bridget a_dressed_crossed f_angry
-    player_name "That's... A lot of pressure."
+    player_name "Isso é ... Muita pressão."
     show player 23
     show bridget f_angry_talk
-    bri "...And you better NOT fail me!"
+    bri "...E é melhor você não me deixar!"
     show player 32
     show bridget a_dressed_crossed f_angry
-    player_name "Yes, Ma'am!!!"
+    player_name "Sim, senhora!!!"
     hide bridget
     hide player
     with dissolve
@@ -68,15 +68,15 @@ label coach_bridget_dialogue_training_advice:
 label coach_bridget_dialogue_leave:
     show player 10
     show bridget a_dressed_crossed f_normal
-    player_name "I... I forgot."
+    player_name "Eu esqueci."
     show player 11
     show bridget f_angry_talk
-    bri "Forgot? Boy you are the saddest piece of meat I've ever seen!"
+    bri "Esqueceu? Garoto, você é o pedaço de carne mais triste que eu já vi!"
     show player 22
     show bridget a_dressed_crossed f_angry_yell
-    bri "Now get out of here and get to {b}WORK{/b}!!"
+    bri "Agora saia daqui e vá para {b}WORK{/b}!!"
     show player 32
     show bridget a_dressed_crossed f_angry
-    player_name "Yes, Ma'am!!!"
+    player_name "Sim, senhora!!!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

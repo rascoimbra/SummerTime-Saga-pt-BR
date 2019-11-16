@@ -7,53 +7,53 @@ label angelica_dialogue_ross_get_linens_pre:
 
 label angelica_dialogue_ross_get_linens:
     show player 2
-    player_name "Umm, I'm doing an art project for school and we need some white linens."
-    player_name "My friend {b}Mia{/b} said you might be willing to spare some."
+    player_name "Estou fazendo um projeto de arte para a escola e precisamos de roupas de cama brancas.Minha amiga"
+    player_name "Minha amiga {b}Mia{/b} disse que você pode estar disposto a poupar."
     show player 1
     show ang 2
-    ang "Hmm, {b}Mia{/b} sent you?"
-    ang "She's such a devout young woman."
-    ang "I suppose I could give you some of our old Baptismal Robes. They're fraying anyways..."
+    ang "Hmm, {b}Mia{/b} enviei a você?"
+    ang "Ela é uma jovem tão devota."
+    ang "Suponho que poderia lhe dar algumas de nossas velhas vestes batismais. Eles estão se desgastando de qualquer maneira..."
     show player 2
     show ang 1
-    player_name "That should work just fine! Thank you so very much."
+    player_name "Isso deve funcionar muito bem! Muito obrigada."
     show player 1
     show ang 2
-    ang "If you want to thank me, start showing up for service on Sundays."
+    ang "Se você quiser me agradecer, comece a aparecer para o serviço aos domingos."
     show player 11
     show ang 1
     player_name "..."
     show ang 2
-    ang "Now wait here while I go and get them."
+    ang "Agora espere aqui enquanto eu vou buscá-los."
     hide ang
     with dissolve
     show player 10
-    player_name "Huh, well that was easy."
+    player_name "Bem, isso foi fácil."
     show player 11
     player_name "..."
     show player 10
-    player_name "I thought for sure she'd want something in return..."
+    player_name "Eu tinha certeza que ela iria querer algo em troca..."
     show player 11
     pause
     show ang 40 at right with dissolve
     pause
     show ang 41
-    ang "Here ya go."
+    ang "Aqui está."
     show ang 2
     show player 592
     with dissolve
-    ang "Tell {b}Mia{/b} I expect to see her early for next service! She's long past due for confession."
+    ang "Contar {b}Mia{/b} Espero vê-la cedo para o próximo serviço! Ela está muito atrasada devido a confissão."
     show player 593
     show ang 1
-    player_name "O-okay, I'll let her know."
+    player_name "Tudo bem, eu vou informá-la."
     show player 592
     ang "Hmm!"
     hide ang
     hide player
     show player 591 at Position (xpos=0.25, ypos=1.0)
     with dissolve
-    player_name "... {b}Mia{/b} might end up fronting the bill on this one."
-    player_name "I'd better get these {b}Linens{/b} back to {b}Miss Ross{/b}."
+    player_name "... {b}Mia{/b} pode acabar enfrentando a conta nesse caso."
+    player_name "É melhor eu pegar esses {b}Lençóis{/b} de volta a {b}Miss Ross{/b}."
     return
 
 label angelica_dialogue_change_pre:
@@ -61,28 +61,28 @@ label angelica_dialogue_change_pre:
     show player 10 at left
     show ang 1 at right
     with dissolve
-    player_name "Hi, {b}Sister Angelica{/b}."
+    player_name "Oi, {b}Sister Angelica{/b}."
     show player 5
     show ang 2
-    ang "You, again."
-    ang "What do you want?"
+    ang "Você novamente."
+    ang "O que você quer?"
     show ang 1
     return
 
 label angelica_dialogue_change_talk:
     show player 10
-    player_name "I just want to talk."
+    player_name "Eu só quero conversar"
     show player 5
     show ang 2
-    ang "Quiet."
+    ang "Quieto."
     show ang 1
     show player 24
     player_name "Oh..."
     show ang 2
-    ang "If you want to talk, come visit me at night in my chambers..."
+    ang "Se você quer conversar, venha me visitar à noite nos meus aposentos..."
     show ang 1
     show player 25
-    player_name "Okay, then. Sorry."
+    player_name "Está bem então. Desculpa."
     hide player
     hide ang
     with dissolve
@@ -90,44 +90,44 @@ label angelica_dialogue_change_talk:
 
 label angelica_dialogue_change_graveyard:
     show player 10
-    player_name "How do you access the graveyard?"
+    player_name "Como você acessa o cemitério?"
     show player 5
     show ang 2
-    ang "It is off limits."
-    ang "Although, it is locked and still pesky kids keep finding ways to {b}sneak through the fence{/b}."
+    ang "Está fora dos limites."
+    ang "Embora, ele esteja trancado e as crianças ainda chatas continuem encontrando maneiras de {b}esgueirar-se através da cerca{/b}."
     show ang 1
     show player 12
-    player_name "But my dad is buried in there."
+    player_name "Mas meu pai está enterrado lá."
     show player 5
     ang "..."
     show ang 2
-    ang "I'm sure he is."
+    ang "Tenho certeza que ele é."
     show ang 1
     show player 12
-    player_name "But-"
+    player_name "Mas-"
     show player 16
     show ang 2
-    ang "Begone. You are wasting my time."
+    ang "Começa. Você está desperdiçando o meu tempo."
     hide ang
     hide player
     show player 16
     with dissolve
     player_name "..."
     show player 12
-    player_name "Maybe I can find {b}a way through the fence{/b} too."
+    player_name "Talvez eu possa encontrar {b}um caminho através da cerca{/b} também."
     hide player with dissolve
     return
 
 label angelica_dialogue_change_leave:
     show player 10
-    player_name "Nevermind. I have to go."
+    player_name "Deixa pra lá. Eu tenho que ir."
     show player 5
     ang "..."
     show ang 2
-    ang "Don't waste my time like that again."
+    ang "Não perca meu tempo assim novamente."
     show ang 1
     show player 25
-    player_name "You're right, I'm sorry..."
+    player_name "Você está certo, me desculpe..."
     hide player
     hide ang
     with dissolve
@@ -138,26 +138,26 @@ label angelica_dialogue_pre:
     show ang 2 at right
     show player 1 at left
     with dissolve
-    ang "Are you from this Parish, young man?"
+    ang "Você é desta paróquia, jovem?"
     show ang 1
     show player 14
-    player_name "Hi, I was wo-"
+    player_name "Olá, eu estava"
     show ang 2
     show player 11
-    ang "Are you from this Parish, young man?"
+    ang "Você é desta paróquia, jovem?"
     show ang 1
     show player 14
-    player_name "Uhh... Not really."
+    player_name "Uhh ... Na verdade não."
     show ang 2
     show player 11
-    ang "Do you believe in God?"
+    ang "Você acredita em Deus?"
     show ang 1
     show player 10
-    player_name "Well..."
+    player_name "Bem..."
     show ang 2
     show player 11
-    ang "I'm sorry."
-    ang "I can only help those who share the faith of our lord!"
+    ang "Eu sinto Muito."
+    ang "Só posso ajudar aqueles que compartilham a fé de nosso senhor!"
     hide player
     hide ang
     with dissolve

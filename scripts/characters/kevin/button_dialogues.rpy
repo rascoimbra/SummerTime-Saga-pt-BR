@@ -1,25 +1,25 @@
 label button_kevin_shift_cover_has_favor:
     show kevin 2
-    kev "You {b}talk with Erik about covering for me{/b} yet?"
+    kev "Você {b}já falou com Erik sobre me cobrir{/b}?"
     show kevin 1
     show player 17
-    player_name "I did."
-    player_name "He's gonna do it."
+    player_name "Eu falei".
+    player_name "Ele vai fazer isso."
     show player 13
     show kevin 2b with dissolve
-    kev "HELL!"
-    kev "YEAH!"
+    kev "INFERNO!"
+    kev "Sim!"
     kev "BRO!"
     show kevin 2c with dissolve
-    kev "You are the freaking man!"
+    kev "Você é o homem doido!"
     show kevin 6 with dissolve
-    kev "Finally I can get back to my two-a-days!"
+    kev "Finalmente posso voltar aos meus dois por dia!"
     show kevin 5
     show player 14
-    player_name "Heh, so I guess I'll see you at the gym in the {b}Morning{/b}?"
+    player_name "Heh, então acho que vou vê-lo na academia {b}de manhã{/b}?"
     show player 13
     show kevin 9b with dissolve
-    kev "You know it, bro!"
+    kev "Você sabe, mano!"
     hide kevin
     hide player
     with dissolve
@@ -27,93 +27,93 @@ label button_kevin_shift_cover_has_favor:
 
 label button_kevin_shift_cover_no_favor:
     show kevin 2
-    kev "You {b}talk with Erik about covering for me{/b} yet?"
+    kev "Você {b}já falou com Erik sobre me cobrir{/b}?"
     show kevin 1
     show player 29 with dissolve
-    player_name "No, not yet."
+    player_name "Não, ainda não."
     show player 3
     show kevin 2
-    kev "Ugh, you gotta hurry, bro!"
+    kev "Ugh, você tem que se apressar, mano!"
     show kevin 2b with dissolve
-    kev "My muscles are wasting away in here!"
+    kev "Meus músculos estão perdendo força aqui!"
     show kevin 1 with dissolve
     show player 14 with dissolve
-    player_name "Heh, just relax."
-    player_name "I'll talk with him."
+    player_name "Heh, apenas relaxe."
+    player_name "Eu vou falar com ele."
     show player 13
     return
 
 label button_kevin_cafeteria_duty_repeat:
     show player 14
-    player_name "You any closer to getting out of here?"
+    player_name "Você está mais perto de sair daqui?"
     show player 13
     show kevin 2
-    kev "Hell no."
-    kev "I'm gonna be stuck in here all semester, I just know it!"
+    kev "Inferno não".
+    kev "Eu vou ficar preso aqui o semestre inteiro, eu apenas sei disso!"
     show kevin 1
     return
 
 label button_kevin_cafeteria_duty_first:
     show player 14
-    player_name "How much longer are you stuck doing this?"
+    player_name "Há quanto tempo você fica preso fazendo isso?"
     show player 13
     show kevin 2d with dissolve
-    kev "{b}*Sigh*{/b} Until I get my science grade up, bro..."
-    kev "Honestly, it could take all semester."
+    kev "{b}*Suspiro*{/b} Até eu conseguir minha nota de ciências, mano ..."
+    kev "Honestamente, pode demorar todo o semestre."
     show kevin 2e
     show player 14
-    player_name "Seriously?"
+    player_name "Sério?"
     show player 13
     show kevin 2d
-    kev "Yeah."
+    kev "Sim".
     show kevin 2e
     show player 14
-    player_name "That does suck man."
-    player_name "I need you at the gym to spot me."
+    player_name "Isso é péssimo para o homem."
+    player_name "Eu preciso de você na academia para me encontrar."
     show player 13
     show kevin 2 with dissolve
-    kev "Ah, don't get me all depressed..."
-    kev "You know I wanna be in there helping my bro get ripped!"
+    kev "Ah, não me deixe deprimido ..."
+    kev "Você sabe que eu quero estar lá ajudando meu irmão a ser rasgado!"
     show kevin 1
     pause
     show kevin 4
-    kev "Tsk, you know what..."
+    kev "Tsk, você sabe o que ..."
     show kevin 2
-    kev "I wonder if I could sneak outta here?"
+    kev "Será que eu poderia sair daqui?"
     show kevin 1
     show player 5
     player_name "Hmm?"
     show kevin 2
-    kev "I mean, if we could {b}find someone to cover for me{/b}..."
-    kev "... Like in the mornings."
-    kev "It could totally work, bro!"
+    kev "Quero dizer, se pudéssemos {b}encontrar alguém para me cobrir{/b}..."
+    kev "... Como de manhã."
+    kev "Poderia funcionar totalmente, mano!"
     show kevin 1
     show player 10
-    player_name "What do you mean?"
+    player_name "Como assim?"
     show player 5
     show kevin 2
-    kev "Well, {b}Mrs. Smith{/b} never comes in here in the morning."
-    kev "So as long as the work got done, it wouldn't really matter who was doing it."
+    kev "Bem, {b}Mrs. Smith{/b} nunca vem aqui de manhã."
+    kev "Desde que o trabalho seja feito, não importa realmente quem o está fazendo."
     show kevin 1
     show player 14
-    player_name "So we just need to {b}find someone to cover for you{/b}?"
+    player_name "Então, precisamos apenas {b}encontrar alguém para cobrir você{/b}?"
     show player 13
     show kevin 2
-    kev "Yeah, you got any ideas?"
+    kev "Sim, você tem alguma idéia?"
     show kevin 1
     show player 4
     pause
     show player 14
-    player_name "Hmm, I might be able to convice {b}Erik{/b} to do it."
+    player_name "Hmm, talvez eu consiga convencer {b}Erik{/b} a fazer isso."
     show player 13
     show kevin 2
-    kev "Oh, that would be awesome, bro!"
+    kev "Oh, isso seria demais, mano!"
     show kevin 1
     show player 14
-    player_name "I'll {b}ask him{/b} about it."
+    player_name "Vou {b}perguntar a ele{/b} sobre isso."
     show player 13
     show kevin 2
-    kev "Hell yeah!"
+    kev "Inferno, sim!"
     show kevin 1
     return
 
@@ -122,132 +122,132 @@ label button_kevin_intro_pre_favor:
     show player 13 at left
     show kevin 2 at right
     with dissolve
-    kev "Sup, bro?!"
+    kev "mano?!"
     show kevin 1
     show player 14
-    player_name "Hey, {b}Kevin{/b}."
+    player_name "Ei {b}Kevin{/b}."
     show player 13
     show kevin 2
-    kev "You here to scrub some pots?"
+    kev "Você está aqui para esfregar alguns potes?"
     show kevin 1
     show player 17
-    player_name "Heh, no way man!"
+    player_name "Heh, de jeito nenhum cara!"
     show player 13
     show kevin 2
-    kev "Ugh, this cafeteria duty sucks dick, bro!"
+    kev "Ugh, esse serviço de cafeteria é péssimo, mano!"
     show kevin 1
     pause
     show kevin 2
-    kev "... And not the cool kind, either."
+    kev "... E não do tipo legal, também."
     show kevin 1
     show player 29 with dissolve
-    player_name "Eh, right..."
+    player_name "Eh, certo ..."
     show player 5 with dissolve
     return
 
 label button_kevin_used_panties_repeat:
     show player 10
-    player_name "I can't believe this guy has me stealing {b}used panties{/b}..."
+    player_name "Não acredito que esse cara me roubou uma {b}calcinha usada{/b}..."
     show player 5
     show kevin magic 2
-    kev "It's not that big a deal, bro!"
-    kev "Just swipe a pair from home."
+    kev "Não é grande coisa, mano!"
+    kev "Basta deslizar um par de casa."
     show kevin magic 1
     show player 37 with dissolve
     player_name "Yeah, yeah."
-    player_name "I'll {b}check around my house{/b} and see if I can find a pair of {b}[deb_name]'s{/b} or {b}[jen_name]'s{/b}."
+    player_name "Vou {b}verificar a minha casa{/b} e ver se consigo encontrar um par de {b}[deb_name]'s{/b} ou {b}[jen_name]'s{/b}."
     show player 13 with dissolve
     return
 
 label button_kevin_used_panties_first:
     show player 10 at left
     show kevin magic 1 at right
-    player_name "So I met that new {b}Muay Thai{/b} trainer you were going on about."
+    player_name "Então eu conheci o novo treinador de {b}Muay Thai{/b} sobre o qual você estava falando."
     show player 5
     show kevin magic 2
-    kev "Right on, bro!"
-    kev "He's pretty awesome, right?!"
+    kev "Certo, mano!"
+    kev "Ele é bem legal, né ?!"
     show kevin magic 1
     show player 12
-    player_name "He's a total crackpot!"
+    player_name "Ele é um total louco!"
     show player 5
     show kevin magic 2
     kev "Huh?"
     show kevin magic 1
     show player 12
-    player_name "Yeah, he said he won't teach me unless I bring him {b}used panties{/b}!"
+    player_name "Sim, ele disse que não vai me ensinar, a menos que eu traga uma {b}calcinha usada{/b}!"
     show player 5
     show kevin magic 2
-    kev "Oh, that..."
+    kev "Oh, isso ..."
     show kevin magic 3 with dissolve
     kev "Umm."
     show kevin magic 4
     show player 10
-    player_name "Wait a second..."
+    player_name "Espere um segundo ..."
     show player 14
-    player_name "You brought him a pair, didn't you?!"
+    player_name "Você trouxe um par para ele, não foi ?!"
     show player 13
     show kevin magic 3
-    kev "Eh, yeeeeah."
+    kev "Eh, sim."
     show kevin magic 4
     show player 14
-    player_name "Dude, seriously?"
+    player_name "Cara, sério?"
     show player 13
     show kevin magic 2 with dissolve
-    kev "Well, I heard all this awesome stuff about him and I was curious..."
-    kev "Once you get past the panties thing, he's like totally legit!"
+    kev "Bem, eu ouvi todas essas coisas incríveis sobre ele e fiquei curioso ..."
+    kev "Depois que você passa pela coisa da calcinha, ele é totalmente legítimo!"
     show kevin magic 1
     show player 11
     player_name "..."
     show kevin magic 2
-    kev "I'm serious!"
-    kev "He really knows his shit, bro."
+    kev "Estou falando sério!"
+    kev "Ele realmente conhece suas coisas, mano."
     show kevin magic 1
     show player 14
-    player_name "Where did you get a pair of {b}used panties{/b}?"
+    player_name "Onde você conseguiu um par de {b}calcinha usada{/b}?"
     show player 13
     show kevin magic 3 with dissolve
-    kev "Oh, eh... I kinda... Snatched a pair of {b}my mom's{/b}, outta the dirty clothes basket."
+    kev "Ah, eh ... eu meio que ... Arranquei um par de {b}minha mãe{/b}, do cesto de roupas sujas."
     show kevin magic 4
     show player 12
-    player_name "Dude..."
+    player_name "Cara ..."
     show player 5
     show kevin magic 2 with dissolve
-    kev "What?!"
-    kev "It's not THAT weird."
-    kev "I just took one pair and it's not like I was taking them for me."
-    kev "I gave them to {b}Master Somrak{/b}."
+    kev "O que ?!"
+    kev "Não é tão estranho assim."
+    kev "Acabei de pegar um par e não é como se estivesse pegando para mim."
+    kev "Eu os entreguei ao {b}Master Somrak{/b}."
     show kevin magic 1
     show player 14
-    player_name "It's pretty weird {b}Kevin{/b}."
+    player_name "É muito estranho {b}Kevin{/b}."
     show player 13
     show kevin magic 2
-    kev "Nah, bro."
-    kev "You're getting hung up on trivial stuff..."
-    kev "You've got a couple girls at your house don't you?"
+    kev "Nah, mano."
+    kev "Você está ficando preso em coisas triviais ..."
+    kev "Você tem duas garotas em sua casa, não é?"
     show kevin magic 1
     show player 10
-    player_name "Yeah but-"
+    player_name "Sim, mas-"
     show player 11
     show kevin magic 2
-    kev "Well, there ya go! Just snag one pair and you're in!"
-    kev "It's really not a big deal, bro."
+    kev "Bem, aí está! Apenas pegue um par e você estará dentro!"
+    kev "Realmente não é grande coisa, mano."
     show kevin magic 1
     show player 35
-    player_name "Hmm, I dunno..."
+    player_name "Hmm, eu não sei ..."
     show player 34
     show kevin magic 2
-    kev "Just do it, {b}[firstname]{/b}."
-    kev "{b}Master Somrak's{/b} teachings will change your life, I'm telling ya!"
+     kev "Apenas faça, {b}[firstname]{/b}."
+    kev "Os ensinamentos do{b}Master Somrak's{/b} mudarão sua vida, estou lhe dizendo!"
     show kevin magic 1
     show player 33
-    player_name "I guess I could take one pair..."
+    player_name "Acho que eu poderia pegar um par ..."
     show player 13
     show kevin magic 2
-    kev "See, there ya go!"
+    kev "Veja, lá vai você!"
     show kevin magic 1
     show player 14
-    player_name "I'll {b}check around my house{/b} and see if I can find a pair of {b}[deb_name]'s{/b} or {b}[jen_name]'s{/b} panties."
+    player_name "Eu vou {b}verificar a minha casa{/b} e ver se consigo encontrar um par de {b}[deb_name]'s{/b} ou {b}[jen_name]'s{/b} calcinha."
     show player 13
     return
 
@@ -255,52 +255,52 @@ label kevin_dialogue_ross_find_magazines:
     show player 2 at left
     show kevin 29b at right
     with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Ei, {b}Kevin{/b}!"
     show player 1
     show kevin 30
-    kev "What's up, {b}[firstname]{/b}?"
+    kev "O que há, {b}[firstname]{/b}?"
     show player 2
     show kevin 29b
-    player_name "Not much. What are you reading?"
+    player_name "Não muito. O que você está lendo?"
     show player 1
     show kevin 30b
-    kev "Oh, just some work out magazines I got from the gym."
+    kev "Oh, apenas algumas revistas de exercícios que recebi da academia."
     show player 2
     show kevin 29b
-    player_name "Cool, you trying a new work out or something?"
+    player_name "Legal, você está tentando fazer um novo exercício ou algo assim?"
     show player 1
     show kevin 30
-    kev "No, why?"
+    kev "Não, por quê?"
     show player 11
     show kevin 29
     player_name "..."
     show kevin 31 with dissolve
-    kev "Come check out this beefcake, {b}[firstname]{/b}!"
+    kev "Venha conferir este bolo, {b}[firstname]{/b}!"
     show player 10
     show kevin 31b
-    player_name "... beefcake?"
+    player_name "... bolo de carne?"
     show player 11
     player_name "..."
     show player 10
-    player_name "Uh, right... You think, I could take some of these magazines?"
+    player_name "Uh, certo ... Você acha que eu poderia pegar algumas dessas revistas?"
     show player 11
     show kevin 30 with dissolve
-    kev "Heh, I didn't know you were a fellow connoisseur of the masculine form..."
+    kev "Heh, eu não sabia que você era um conhecedor da forma masculina ..."
     show player 10
     show kevin 29
-    player_name "Actually, I'm making a collage."
+    player_name "Na verdade, estou fazendo uma colagem."
     show player 11
     show kevin 30b
-    kev "Oh, right. Collage."
+    kev "Oh, certo. Colagem."
     show kevin 31 with dissolve
-    kev "I gotcha, Bro! Say no more!"
-    kev "Take all you need! This one will keep me busy for awhile."
+    kev "Eu peguei você, irmão! Não diga mais nada!"
+    kev "Pegue tudo que você precisa! Este aqui vai me manter ocupado por um tempo."
     show player 2
     show kevin 31b
-    player_name "Awesome! Thanks, uhh, Bro..."
+    player_name "Incrível! Obrigado, irmão ..."
     show player 1
     show kevin 31c
-    kev "Daaaamn, he's glistening..."
+    kev "Daaaamn, ele está brilhando ..."
     show player 10
     player_name "..."
     return
@@ -308,112 +308,112 @@ label kevin_dialogue_ross_find_magazines:
 label kevin_dialogue_ross_ask_model:
     show player 2 at left
     show kevin 1 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Estou trabalhando em um projeto para a {b}Miss Ross{/b} e isso requer um modelo ativo."
+    player_name "Você estaria interessado?"
     show kevin 2
     show player 1
-    kev "Modeling. Like I just have to stand there?"
+    kev "Modelagem. Como se eu apenas tivesse que ficar lá?"
     show player 2
     show kevin 1
-    player_name "Yeah, you just have to stand there."
+    player_name "Sim, você só precisa ficar lá."
     show player 10
-    player_name "Naked."
+    player_name "Nu".
     show kevin 3
     show player 11
-    kev "Naked!?"
-    kev "Oh, man. I dunno, Bro."
-    kev "Is it just gonna be you there drawing?"
+    kev "Nu !?"
+    kev "Oh, cara. Eu não sei, irmão."
+    kev "Será só você desenhando?"
     show player 10
     show kevin 1
-    player_name "Well, {b}Mia{/b} and I will both be drawing."
-    player_name "{b}Miss Ross{/b} will be there too."
+     player_name "Bem, {b}Mia{/b} e eu estaremos desenhando."
+    player_name "{b}Miss Ross{/b} também estará lá."
     show player 11
     show kevin 4
-    kev "Ugh, pass..."
+    kev "Ugh, passei ..."
     show kevin 3
-    kev "I don't want girls to see me naked, Bro. That's kinda gross."
+    kev "Não quero que as garotas me vejam nu, irmão. Isso é meio nojento."
     show kevin 1
     player_name "..."
     show player 10
-    player_name "O-okay."
+    player_name "Tudo bem."
     return
 
 label kevin_dialogue_intro:
     show kevin 23 at right
     show player 14 at left
     with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Ei, {b}Kevin{/b}!"
     show player 13
     show kevin 9b
-    kev "Hello, {b}[firstname]{/b}."
+    kev "Olá, {b}[firstname]{/b}."
     show kevin 23
     show player 14
-    player_name "What's up?"
+    player_name "O que houve?"
     show player 13
     show kevin 9b
-    kev "Not much. Yesterday was glutes day for me."
-    kev "My ass is sore!"
-    kev "Feel how tight it is though!"
+    kev "Não muito. Ontem foi dia de glúteos para mim."
+    kev "Minha bunda está dolorida!"
+    kev "Sinta como está apertado!"
     show kevin 23
     show player 10
-    player_name "Uhhh... No thanks dude."
+    player_name "Uhhh ... Não, obrigado cara."
     show player 13
     show kevin 9b
-    kev "Your loss!"
+    kev "Sua perda!"
     return
 
 label kevin_dialogue_erik_favor_2_completed:
-    kev "I'd better see you at the gym later today!"
+    kev "É melhor te ver na academia hoje mais tarde!"
     show kevin 23
     show player 14
-    player_name "Maybe..."
+    player_name "Talvez ..."
     show player 13
     show kevin 9b
     return
 
 label kevin_dialogue_dewitt_kevin_give_guitar:
     show player 14
-    player_name "I found a guitar for you!"
+    player_name "Encontrei um violão para você!"
     show player 13
     show kevin 24
-    kev "Really?"
+    kev "Sério?"
     show kevin 23
     show player 239_240 with dissolve
     pause
     show player 577 with dissolve
-    player_name "What do you think?"
+    player_name "O que você acha?"
     show player 13 with dissolve
     show kevin 16f with dissolve
-    kev "Holy crap! Where did you get this thing?"
-    kev "This thing is really high end!"
+    kev "Puta merda! Onde você conseguiu essa coisa?"
+    kev "Essa coisa é realmente de ponta!"
     show kevin 14f
     show player 10
-    player_name "It is?"
+    player_name "É?"
     show player 5
     show kevin 15f
-    kev "Uhh, yeah Bro!"
-    kev "I hope you didn't steal it or something."
+    kev "Uhh, sim, mano!"
+    kev "Espero que você não tenha roubado ou algo assim."
     show kevin 14f
     show player 14
-    player_name "Borrowed it actually, from a friend of mine. So be careful with it, yeah?"
+    player_name "Foi emprestado de verdade por um amigo meu. Portanto, tenha cuidado com isso, sim?"
     hide player
     show kevin 27 at left
     with dissolve
-    kev "No problems there!"
-    kev "I'll treat this beauty with the respect it deserves!"
+    kev "Não há problemas!"
+    kev "Vou tratar essa beleza com o respeito que ela merece!"
     show kevin 28
-    player_name "Cool, so you're down to play it for the talent show."
+    player_name "Legal, então você vai jogar no show de talentos."
     show kevin 27
-    kev "I'm down!"
+    kev "Estou triste!"
     show kevin 28
-    player_name "Awesome! I'll see you in {b}Ms. Dewitt's{/b} class soon for practice then!"
+    player_name "Incrível! Vejo você na aula da {b}Ms. Dewitt's{/b} em breve para o treino!"
     show kevin 27
-    kev "Sounds good, Bro!"
+    kev "Parece bom, mano!"
     show player 13 at left
     show kevin 16 at right
     with dissolve
-    kev "I'm gonna call you... Devin"
-    kev "Would you like that beautiful?"
+    kev "Eu vou te ligar... Devin"
+    ev "Você gostaria que bonito?"
     show player 11
     hide kevin with dissolve
     player_name "..."
@@ -421,105 +421,105 @@ label kevin_dialogue_dewitt_kevin_give_guitar:
 
 label kevin_dialogue_talent_show_help:
     show player 10
-    player_name "I'm helping {b}Ms. Dewitt{/b} find volunteers for the talent show."
-    player_name "Didn't you used to play the guitar?"
+    player_name "Estou ajudando a {b}Ms. Dewitt{/b} a encontrar voluntários para o show de talentos."
+    player_name "Você não tocava violão?"
     show player 5
     show kevin magic 2
-    kev "Yeah, I used to."
+    kev "Sim, eu costumava."
     show kevin magic 1
     show player 10
-    player_name "What happened?"
+    player_name "O que aconteceu?"
     show player 5
     show kevin magic 2
-    kev "Ah, my ex kinda smashed it after I broke up with him."
+    kev "Ah, meu ex meio que quebrou depois que eu terminei com ele."
     show kevin magic 1
     show player 12
-    player_name "Him?"
+    player_name "Ele?"
     show player 11
     show kevin magic 3 with dissolve
-    kev "Did I say him? Sorry, I meant her."
-    kev "... Yeah, SHE smashed it to pieces."
+    kev "Eu disse a ele? Desculpe, eu quis dizer ela."
+    kev "... Sim, ela quebrou em pedaços."
     show kevin magic 1 with dissolve
     show player 14
-    player_name "Huh, you got a thing for the crazy girls, huh?"
+    player_name "Hein, você gosta de garotas malucas, não é?"
     show player 13
     show kevin magic 3 with dissolve
-    kev "Heh, you know it! Crazy girls, I'm waaaaay into them! Totally..."
+    kev "Heh, você sabe disso! Garotas loucas, estou apaixonada por elas! Totalmente ..."
     show kevin magic 1 with dissolve
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Então, se você tivesse um violão, tocaria no show de talentos?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Sim, eu não me importaria."
+    kev "Onde eu vou conseguir um violão? Eles são super caros!"
     show kevin magic 1
     show player 35
-    player_name "Hmm, maybe I can find you one..."
+    player_name "Hmm, talvez eu encontre um para você ..."
     show player 34
-    player_name "( {b}Erik{/b} has a bunch in his basement. Maybe I can borrow one? )"
+    player_name "( {b}Erik{/b} em um monte no porão. Talvez eu possa pegar um emprestado?)"
     show player 14
-    player_name "I'll be back!"
+    player_name "Já Volto!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Tudo bem."
     return
 
 label kevin_dialogue_talent_show_replace_guitar:
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Então, se você tivesse um violão, tocaria no show de talentos?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Sim, eu não me importaria."
+    kev "Onde eu vou conseguir um violão? Eles são super caros!"
     show kevin magic 1
     show player 34
-    player_name "( I need to switch my custom-made guitar with one in {b}Erik's{/b} basement! )"
+    player_name "( preciso trocar meu violão personalizada por uma no {b}Erik's{/b} basement! )"
     show player 14
-    player_name "I'll be back!"
+    player_name "Já Volto!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Tudo bem."
     return
 
 label kevin_dialogue_talent_show:
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Então, se você tivesse um violão, tocaria no show de talentos?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Sim, eu não me importaria."
+    kev "Onde eu vou conseguir um violão? Eles são super caros!"
     show kevin magic 1
     show player 35
-    player_name "Hmm, maybe I can find you one..."
+    player_name "Hmm, talvez eu encontre um para você ..."
     show player 34
-    player_name "( {b}Erik{/b} has a bunch in his basement. Maybe I can borrow one? )"
+    player_name "( {b}Erik{/b} tem um monte no porão. Talvez eu possa pegar um emprestado?)"
     show player 14
-    player_name "I'll be back!"
+    player_name "Já Volto!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Tudo bem."
     return
 
 label kevin_dialogue_dewitt_science_adhesive:
     show player 10
-    player_name "What do we need for that {b}adhesive{/b} again?"
+    player_name "O que precisamos para esse {b}adesivo{/b} novamente?"
     show player 13
     show kevin 2
-    kev "Just meet me in the {b}science lab after class{/b}."
-    kev "I'll take care of the rest."
+    kev "Encontre-me no {b}laboratório de ciências depois da aula{/b}."
+   kev "Eu vou cuidar do resto."
     show kevin 1
     show player 14
-    player_name "Awesome! Thanks, {b}Kevin{/b}!"
+    player_name "Incrível! Obrigado, {b}Kevin{/b}!"
     return
 
 label kevin_dialogue_leave:
     show player 14
-    player_name "Anyways, I gotta go."
-    player_name "Keep your spirits up, man."
+    player_name "De qualquer forma, tenho que ir."
+    player_name "Mantenha seu ânimo, cara."
     show player 13
     show kevin 2
-    kev "Yeah, alright bro."
-    kev "See ya around."
+    kev "Sim, tudo bem mano."
+    kev "Vejo você por aí."
     hide kevin
     hide player
     with dissolve

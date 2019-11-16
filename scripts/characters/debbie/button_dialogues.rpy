@@ -16,7 +16,7 @@ label debbie_dialogue_jenny_pool_talk:
     player_name "Eu vou agora."
     show player f_normal
     show debbie f_normal_talk
-    deb "Obrigado querido                                                                                                      uj."
+    deb "Obrigado querido."
     show debbie f_normal
     show player f_normal_talk
     player_name "Sem problema."
@@ -382,42 +382,42 @@ label debbie_dialogue_mom_not_revealing:
 label debbie_dialogue_ask_about_dad:
     show player 10 at left
     show debbie 1 at right
-    player_name "{b}[deb_name]{/b}, do you know what happened to my {b}Dad{/b}?"
+    player_name "{b}[deb_name]{/b}, você sabe o que aconteceu com o meu {b}Dad{/b}?"
     show player 11
     show debbie 60 at Position (xoffset=-28) with dissolve
-    deb "Oh... Sweetie, I..."
+    deb "Oh... Querido, eu..."
     show debbie 59 at Position (xoffset=-28)
     show player 10
-    player_name "Please, I want to know the truth!"
+    player_name "Por favor, eu quero saber a verdade!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "I'm sorry, sweetie. I don't have any answers for you."
-    deb "The police investigation came up with nothing..."
-    deb "In fact, It's my understanding that the case is on hold due to lack of evidence."
+    deb "Sinto muito, querido. Não tenho respostas para você."
+    deb "A investigação policial não resultou em nada..."
+    deb "De fato, entendo que o caso está em espera devido à falta de evidências."
     show debbie 59 at Position (xoffset=-28)
     show player 10
-    player_name "Yeah but they're gonna find something, right? I mean it's their job!"
+    player_name "Sim, mas eles vão encontrar algo, certo? Quero dizer, é o trabalho deles!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "We can only hope."
+    deb "Só podemos esperar."
     show debbie 59 at Position (xoffset=-28)
     pause
     show debbie 60 at Position (xoffset=-28)
-    deb "Sweetie..."
-    deb "I want closure on this whole thing too..."
-    deb "... But your {b}Father{/b} wouldn't want us obsessing over this."
+    deb "Querido...
+    deb "Eu quero fechar essa coisa toda também..."
+    deb "... Mas o seu {b} Father {/ b} não gostaria que ficássemos obcecados com isso."
     show debbie 63 at Position (xoffset=-28)
-    deb "You're a young man and you need to focus on living your life"
-    deb "Do it for your {b}Dad{/b}."
+    deb "Você é jovem e precisa se concentrar em viver sua vida"
+    deb "Faça isso pelo seu {b}Dad{/b}."
     show player 10
     show debbie 59 at Position (xoffset=-28)
-    player_name "Yeah. I'll try."
+    player_name "Sim. Vou tentar."
     show player 14
     show debbie 61 at Position (xoffset=-28)
-    player_name "Thanks, {b}[deb_name]{/b}."
+    player_name "Obrigado, {b}[deb_name]{/b}."
     show player 1
     show debbie 2 with dissolve
-    deb "Anything else you need?"
+    deb "Qualquer outra coisa que você precisa?"
     show debbie 1
     show player 1
     return
@@ -425,121 +425,121 @@ label debbie_dialogue_ask_about_dad:
 label debbie_dialogue_ask_about_money_problems:
     show debbie 1
     show player 10
-    player_name "{b}[deb_name]{/b}, about what you said on the phone..."
+    player_name "{b}[deb_name]{/b}, sobre o que você disse no telefone..."
     show debbie 13
     show player 11
-    deb "I told you not to worry about that."
-    deb "Everything is going to be fine!"
+    deb "Eu disse para você não se preocupar com isso."
+    deb "Tudo ficará bem!"
     show debbie 14
     show player 14
-    player_name "Okay, but what if I wanted to help you?"
-    player_name "What if I got a real job?"
+    player_name "Ok, mas e se eu quisesse ajudá-lo?"
+    player_name "E se eu conseguisse um emprego real?"
     show player 10
-    player_name "I feel somewhat responsible for all this stress..."
+    player_name "Eu me sinto um pouco responsável por todo esse estresse..."
     show debbie 52 at Position (xoffset=1)
     show player 11
-    deb "You can help me by staying in school!"
-    deb "Your {b}Father{/b} would roll over in his grave if I let you get a full time job..."
-    deb "He wanted you to finish your education."
+    deb "Você pode me ajudar ficando na escola!"
+    deb "Seu {b}Father{/b} rolaria em seu túmulo se eu deixasse você conseguir um emprego em tempo integral..."
+    deb "Ele queria que você terminasse sua educação."
     show debbie 51 at Position (xoffset=1)
     show player 10
-    player_name "... But I can work after school and on the weekends?"
+    player_name "... Mas eu posso trabalhar depois da escola e nos fins de semana?"
     show debbie 53 at Position (xoffset=-18) with dissolve
     show player 13
-    deb "{b}*Sigh*{/b} You're so stubborn, just like your {b}Father{/b}..."
+    deb "{b}*Suspiro * {/ b} Você é tão teimoso, assim como seu {b}Pai{/b}..."
     show debbie 59 at Position (xoffset=-28) with dissolve
     deb "Hmm..."
     show debbie 63 at Position (xoffset=-28)
-    deb "Why don't you go check the {b}mail box{/b}?"
-    deb "I think I saw some job postings there."
-    deb "Perhaps one of those will peak your interest?"
+    deb "Por que você não verifica a {b} caixa de correio {/ b}?"
+    deb "Acho que vi algumas ofertas de emprego lá."
+    deb "Talvez um desses atinja seu interesse?"
     show debbie 61 at Position (xoffset=-28)
     show player 18
-    player_name "Alright, I'll take a look."
+    player_name "Tudo bem, vou dar uma olhada."
     show debbie 62 at Position (xoffset=-28)
     show player 1
-    deb "Anything else you wanted to talk about, sweetie?"
+    deb "Mais alguma coisa sobre a qual você queria falar, querida?"
     show debbie 1 with dissolve
     return
 
 label debbie_dialogue_ask_about_men_in_suits:
     show player 10
-    player_name "{b}[deb_name]{/b}, I wanted to talk about what that guy in the suit said..."
+    player_name "{b}[deb_name]{/b}, eu queria falar sobre o que aquele cara de terno disse..."
     show debbie 59 at Position (xoffset=-28) with dissolve
-    player_name "Was my {b}Dad{/b} involved with them?"
+    player_name "Meu {b} pai {/ b} esteve envolvido com eles?"
     show player 11
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Sigh*{/b} I suppose, I can't keep you in the dark forever..."
-    deb "Your {b}Father{/b} was a good man, {b}[firstname]{/b}."
-    deb "... But he had a weakness for gambling."
-    deb "He always told me it was nothing to concern myself over and that he had it all in hand."
-    deb "... But now he's gone and it seems there's a lot he didn't share with me."
+    deb "{b} * Suspiro * {/ b} Suponho que não posso mantê-lo no escuro para sempre ..."
+    deb "Seu {b} Pai {/ b} era um homem bom, {b} [primeiro nome] {/ b}."
+    deb "... Mas ele tinha uma fraqueza por jogar."
+    deb "Ele sempre me disse que não havia nada para me preocupar e que ele tinha tudo em mãos."
+    deb "... Mas agora ele se foi e parece que ele não compartilhou muito comigo."
     show debbie 60 at Position (xoffset=-28) with dissolve
-    deb "Your {b}Father{/b} owed those men a lot of money and they are still trying to collect."
+    deb "Seu {b} Pai {/ b} devia muito dinheiro a esses homens e eles ainda estão tentando arrecadar."
     show player 10
     show debbie 59 at Position (xoffset=-28)
-    player_name "We should just tell the police about this!"
+    player_name "Devemos contar à polícia sobre isso!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "NO! I'm afraid of what might happen if I involve the authorities in this!"
+    deb "NÃO! Eu tenho medo do que pode acontecer se envolver as autoridades nisso!"
     show player 10
     show debbie 59 at Position (xoffset=-28)
-    player_name "So what, you're just going to pay those scumbags?!"
+    player_name "E daí, você só vai pagar esses babacas?!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "I've done my best but I'm afraid I just don't have the money to cover it all, sweetie."
+    deb "Eu fiz o meu melhor, mas tenho medo de não ter dinheiro para cobrir tudo, querida."
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Sigh*{/b} Maybe you and I should just disappear and start over somewhere else."
+    deb "{b} * Suspiro * {/ b} Talvez você e eu devêssemos desaparecer e começar de novo em outro lugar."
     show player 1
     show debbie 63 at Position (xoffset=-28) with dissolve
     deb "Heh, that would be an adventure, wouldn't it?"
     show debbie 51 at Position (xoffset=1)
     show player 2
-    player_name "Yeah, I suppose."
+    player_name "Sim, suponho."
     show debbie 2 with dissolve
     show player 1
-    deb "Is there anything else you wanted to talk about?"
+    deb "Há mais alguma coisa sobre a qual você gostaria de falar?"
     show debbie 1
     return
 
 label debbie_dialogue_paint:
     show player 10
-    player_name "Wasn't there some paint in the garage?"
+    player_name "Não havia tinta na garagem?"
     show player 5
     show debbie 13
-    deb "Paint? What do you want with old paint?"
+    deb "Pintar? O que você quer com tinta velha??"
     show debbie 1
     show player 10
-    player_name "I was going to try and make... something."
+    player_name "Eu tentaria fazer ... alguma coisa."
     show player 5
     show debbie 2
-    deb "Oh, well, {b}Diane{/b} said she'd get rid of them for me."
+    deb "Ah, bem, {b}Diane{/b} disse que se livraria deles por mim."
     show debbie 1
     show player 12
-    player_name "Really?"
-    player_name "Well, I'd better see if I can pick them up before she throws them away!"
-    player_name "Thanks, {b}[deb_name]{/b}! Bye, {b}[deb_name]{/b}!"
+    player_name "Sério?"
+    player_name "Bem, é melhor eu ver se consigo pegá-los antes que ela os jogue fora!"
+    player_name "Obrigado, {b} [deb_name] {/ b}! Tchau, {b} [deb_name] {/ b}!"
     hide player with dissolve
     show debbie 2
-    deb "Bye!"
+    deb "Tchau!"
     return
 
 label debbie_dialogue_help_mow_lawn:
     show player 10
-    player_name "Did you need help with anything?"
+    player_name "Você precisou de ajuda com alguma coisa?"
     show player 5
     show debbie 2
-    deb "Did you finish mowing the yard?"
+    deb "Você terminou de cortar a grama no quintal?"
     show debbie 1
     show player 10
-    player_name "Oh, right!"
-    player_name "I'll get on that."
+    player_name "Ah, certo!"
+    player_name "Vou tratar disso."
     show player 13
     show debbie 2
-    deb "I'd really appreciate it, sweetie."
+    deb "Eu realmente aprecio isso, querida."
     show debbie 1
     show player 14
-    player_name "No problem!"
+    player_name "Não tem problema!"
     hide player
     hide debbie
     with dissolve
@@ -547,130 +547,130 @@ label debbie_dialogue_help_mow_lawn:
 
 label debbie_dialogue_help_fix_broken_pipe:
     show player 4
-    player_name "( I gotta fix the {b}bathroom sink{/b} somehow... )"
+    player_name "( eu tenho que consertar a {b} pia do banheiro {/ b} de alguma forma... )"
     return
 
 label debbie_dialogue_help_chores_pre:
     show player 14
-    player_name "Anything else you need help with?"
+    player_name "Mais alguma coisa com a qual você precise de ajuda?"
     show player 13
     show debbie 2
     return
 
 label debbie_dialogue_help_chores_later:
-    deb "No. Not right now, sweetie."
-    deb "Maybe later, if you're still available."
+    deb "Não. Agora não, querida."
+    deb "Talvez mais tarde, se você ainda estiver disponível."
     return
 
 label debbie_dialogue_help_chores_tomorrow:
-    deb "No. Not today, sweetie."
-    deb "Maybe tomorrow, if you're still available."
+    deb "Não. Hoje não, querida."
+    deb "Talvez amanhã, se você ainda estiver disponível."
     return
 
 label debbie_dialogue_help_chores_after:
     show debbie 3
-    deb "Thanks for asking!"
+    deb "Obrigado por perguntar!"
     show debbie 1
     show player 14
-    player_name "You're welcome, {b}[deb_name]{/b}."
+    player_name "De nada, {b}[deb_name]{/b}."
     return
 
 label debbie_dialogue_help_check_car:
     show player 4
-    player_name "( I should go check the {b}car{/b} like {b}[deb_name]{/b} asked me to. )"
+    player_name "( devo verificar o {b} carro {/ b} como {b}[deb_name]{/b} me pediu. )"
     return
 
 label debbie_dialogue_help_fix_car:
     show player 4
-    player_name "( I have to visit the {b}car dealership{/b}. Maybe they can fix {b}[deb_name]'s{/b} car... )"
+    player_name "( tenho que visitar a {b} concessionária de carros {/ b}. Talvez eles possam consertar o carro de{b}[deb_name]'s{/b}... )"
     return
 
 label debbie_dialogue_help_nothing:
     show player 2
-    player_name "Hey, {b}[deb_name]{/b}, anything I can do to help around the house?"
+    player_name "Ei, {b}[deb_name]{/b}, qualquer coisa que eu possa fazer para ajudar em casa?"
     show player 1
     deb "Hmm..."
     show debbie 2
-    deb "Nothing I can think of right now, no."
+    deb "Nada que eu possa pensar agora, não."
     show debbie 1
     show player 2
-    player_name "Cool. Let me know if something comes up."
+    player_name "Legal. Deixe-me saber se algo acontecer."
     return
 
 label debbie_dialogue_lotion_fun_had_sex:
     show player 14
-    player_name "Need me to rub some more lotion on...your legs?"
+    player_name "Precisa que eu esfregue um pouco mais de loção nas suas pernas?"
     show player 13
     show debbie 2
-    deb "That sounds wonderful, sweetie."
-    deb "I could really use your gentle touch right about now."
+    deb "Isso parece maravilhoso, querida."
+    deb "Eu realmente poderia usar seu toque gentil agora."
     return
 
 label debbie_dialogue_lotion_fun:
     show player 10
-    player_name "Need me to rub some more lotion on... your legs?"
+    player_name "Precisa que eu esfregue um pouco mais de loção nas suas pernas?"
     show player 5
     show debbie 13
-    deb "Oh... again? Well, I..."
+    deb "Ah ... de novo? Bem, eu ..."
     show debbie 14
     show player 10
-    player_name "Did I do a bad job?"
+    player_name "Eu fiz um trabalho ruim?"
     show player 5
     show debbie 13
-    deb "Oh, no, sweetie. It was... really good."
+    deb "Oh, não, querida. Foi ... muito bom."
     show debbie 14
     pause
     show debbie 13
-    deb "Sure, I guess I could use a break."
+    deb "Claro, acho que poderia fazer uma pausa."
     show debbie 1
     show player 14
-    player_name "Great!"
+    player_name "Ótimo!"
     show player 13
     show debbie 2
     return
 
 label debbie_dialogue_lotion_fun_after:
-    deb "Go and grab the {b}lotion from my bedroom dresser{/b}."
+    deb "Vá e pegue a {b} loção da cômoda do meu quarto {/b}."
     show debbie 1
     show player 14
-    player_name "Alright!"
+    player_name "Tudo bem!"
     return
 
 label debbie_dialogue_shopping:
     scene location_home_kitchen_day_blur
     show player 2 at left
     show debbie 1 at right
-    player_name "Remember when you asked me to go shopping with you?"
+    player_name "Lembra quando você me pediu para fazer compras com você?"
     show player 1
     show debbie 2
     deb "Yeah."
     show player 2
     show debbie 1
-    player_name "Well I'm free now. Do you still wanna go?"
+    player_name "Bem, eu estou livre agora. Você ainda quer ir?"
     show player 1
     show debbie 3
-    deb "Really?! Great!"
+    deb "Really?! Ótimo!"
     show debbie 2
-    deb "Just let me get ready and I'll meet you in the car, okay?!"
+    deb "Deixe-me me arrumar e eu te encontro no carro, ok?!"
     show debbie 1
     show player 2
-    player_name "Alright."
+    player_name "Tudo bem."
     return
 
 label debbie_dialogue_shower_basement:
     show player 2
     show debbie 1
-    player_name "So uhh.."
-    player_name "I was thinking we could maybe... Take a shower together?"
+    player_name "Então uhh .."
+    player_name "Eu estava pensando que talvez pudéssemos ... Tomar banho juntos?"
     show player 13
     show debbie 2
     deb "Right now?"
     show debbie 1
     deb "Hmm..."
     show debbie 3
-    deb "I suppose I could go for a shower."
+    deb "Suponho que eu poderia tomar um banho."
     show debbie 2
-    deb "Let me just finish putting this load of laundry in and I'll meet you upstairs."
+    deb "Deixe-me terminar de colocar essa carga de roupa e eu te encontro lá em cima."
     scene shower_closeup
     show debbies 27
     with dissolve
@@ -678,24 +678,24 @@ label debbie_dialogue_shower_basement:
     show debbies 28 at Position(xpos=487,ypos=768) with dissolve
     pause
     show debbies 34 with dissolve
-    deb "Hope you're not almost done..."
-    deb "I was hoping we could spend some time in here."
+    deb "Espero que você não esteja quase pronto ..."
+    deb "Eu esperava que pudéssemos passar algum tempo aqui."
     return
 
 label debbie_dialogue_shower_kitchen:
     show player 2
     show debbie 1
-    player_name "Hey, {b}[deb_name]{/b}!"
-    player_name "I was wondering..."
+    player_name "Ei, {b}[deb_name]{/b}!"
+    player_name "Eu estava pensando..."
     show player 21
-    player_name "Would you like to take a shower with me?"
+    player_name "Gostaria de tomar um banho comigo?"
     show player 14
     show debbie 2
-    deb "It is getting pretty hot in the house..."
+    deb "Está ficando muito quente em casa.."
     show debbie 3
-    deb "Sure! A shower sounds lovely right now."
+    deb "SClaro! Um banho parece adorável no momento."
     show debbie 2
-    deb "Give me a minute. I'll join you after I'm done here."
+    deb "Me dê um minuto. Eu me juntarei a você depois que terminar aqui."
     scene shower_closeup
     show debbies 27
     with dissolve
@@ -703,45 +703,45 @@ label debbie_dialogue_shower_kitchen:
     show debbies 28 at Position(xpos=487,ypos=768) with dissolve
     pause
     show debbies 34 with dissolve
-    deb "Sorry to keep you waiting, sweetie..."
+    deb "Desculpe te deixar esperando, querida..."
     return
 
 label debbie_dialogue_sex_in_debbies_room_basement:
     show player 14
-    player_name "Would you like to join me in your room?"
+    player_name "Gostaria de se juntar a mim no seu quarto?"
     show player 13
     show debbie 3
-    deb "Right now?"
+    deb "Agora?"
     show debbie 1
     show player 10
-    player_name "Absolutely!"
+    player_name "Absolutamente!"
     show player 5
     show debbie 2
-    deb "Heh, alright..."
+    deb "Heh, tudo bem..."
     show player 13
-    deb "... Just make sure, {b}[jen_name]{/b} doesn't see us."
+    deb "... Apenas verifique se, {b}[jen_name]{/b} não está nos vendo."
     show debbie 1
     show player 14
-    player_name "I will."
+    player_name "Eu irei."
     show player 13
     show debbie 2
     deb "Hehehe..."
-    deb "You're going to wear me out!"
+    deb "Você vai me desgastar!"
     show debbie 1
     show player 14
-    player_name "I'm just making sure you get plenty of exercise!"
+    player_name "Estou apenas garantindo que você faça bastante exercício!"
     show player 13
     show debbie 3
     deb "Ha Ha Ha."
     show debbie 2
-    deb "Get your butt upstairs and get those clothes off!"
+    deb "Suba sua bunda e tire essas roupas!"
     scene debbie_bedroom_closeup2
 
     label sex_mom_bed_intro_1:
         show debbie 86 at left
         show player 434f at right
         with dissolve
-        deb "The bed sheets are so nice and soft... Why don't you come lay with me..."
+        deb "TOs lençóis são tão agradáveis ​​e macios ... Por que você não vem deitar comigo..."
         show debbie 84
         show player 8f with dissolve
         pause
@@ -749,25 +749,25 @@ label debbie_dialogue_sex_in_debbies_room_basement:
         pause
         show debbie 85
         show player 263 with dissolve
-        deb "Naughty boy."
+        deb "Garoto travesso."
         show debbie 84
         show player 262
-        player_name "What?"
+        player_name "O quê?"
         show player 263
         show debbie 85
-        deb "You truly are insatiable."
+        deb "Você realmente é insaciável."
         show debbie 84
         show player 262
-        player_name "You can just lay on your back and I can do the rest."
+        player_name "Você pode apenas ficar deitado de costas e eu posso fazer o resto."
         show player 263
         show debbie 86
-        deb "Well where's the fun in that?"
+        deb "Bem, onde está a graça nisso?"
         show debbie 84
         show player 262
-        player_name "Heh, don't worry. I'll make it fun!"
+        player_name "Heh, não se preocupe. Vou torná-lo divertido!"
         show player 263
         show debbie 84
-        deb "Mmm, I have no doubt about that!"
+        deb "Mmm, não tenho dúvidas sobre isso!"
         show debbie 89 with dissolve
         if not store._in_replay == None:
             call expression game.dialog_select("debbie_dialogue_sex_in_debbies_room_after")
@@ -776,15 +776,15 @@ label debbie_dialogue_sex_in_debbies_room_basement:
 
 label debbie_dialogue_sex_in_debbies_room_kitchen:
     show player 14
-    player_name "Would you like to join me in your room?"
+    player_name "Gostaria de se juntar a mim no seu quarto?"
     show player 13
     show debbie 2
-    deb "Right now?"
-    deb "Absolutely!"
-    deb "Let's just make sure, {b}[jen_name]{/b} doesn't see us."
+    deb "Agora?"
+    deb "Absolutamente!"
+    deb "Vamos apenas garantir que, {b}[jen_name]{/b} não nos veja."
     show debbie 1
     show player 14
-    player_name "Yup."
+    player_name "Sim."
     show player 13
     scene debbie_bedroom_closeup2
 
@@ -792,26 +792,26 @@ label debbie_dialogue_sex_in_debbies_room_kitchen:
         show player 434f at right
         show debbie 86 at left
         with dissolve
-        deb "I was hoping you'd bring me in here for this today!"
+        deb "Eu esperava que você me trouxesse aqui hoje hoje!"
         show debbie 84
         show player 435f
-        player_name "You were really thinking about it?"
+        player_name "Você estava realmente pensando nisso?"
         show player 434f
         show debbie 86
-        deb "Does that really surprise you?"
-        deb "I'm always thinking about that big cock of yours..."
+        deb "Isso realmente surpreende você?"
+        deb "Estou sempre pensando naquele seu grande pau ..."
         show debbie 84
         show player 435f
-        player_name "Heh, I think about it a lot too... Especially when you're wearing that robe of yours."
+        player_name "Heh, eu penso muito sobre isso ... Especialmente quando você está usando esse roupão."
         show player 434f
         show debbie 89 with dissolve
-        deb "You mean this old thing?"
+        deb "Você quer dizer essa coisa velha?"
         show debbie 90
         show player 435f
-        player_name "... Oh, yeah."
+        player_name "... Ah, sim."
         show player 434f
         show debbie 89
-        deb "Hehe, why don't you take off those clothes and come play with me?"
+        deb "Hehe, por que você não tira essas roupas e vem brincar comigo?"
         show debbie 90
         show player 8f with dissolve
         pause
@@ -828,7 +828,7 @@ label debbie_dialogue_sex_in_debbies_room_kitchen:
     return
 
 label debbie_dialogue_sex_in_debbies_room_after:
-    deb "Come and get me, big boy!"
+    deb "Venha me pegar, garotão!"
     hide player
     show debbie 104 at left
     with dissolve
@@ -838,57 +838,57 @@ label debbie_dialogue_sex_in_debbies_room_after:
 
 label debbie_dialogue_sex_in_my_room:
     show player 2
-    player_name "You wanna sleep in my room tonight?"
+    player_name "Você quer dormir no meu quarto hoje à noite?"
     show player 1
     show debbie 2
-    deb "Mmm, I would love that, sweetie."
+    deb "Mmm, eu adoraria isso, querida."
     show player 2
     show debbie 1
-    player_name "Great! I'll wait up for you then."
+    player_name "Ótimo! Vou esperar por você então."
     show player 1
     show debbie 2
-    deb "Can't wait!"
+    deb "Mal posso esperar!"
     return
 
 label debbie_dialogue_sex_in_car:
     show player 14
-    player_name "{b}[deb_name]{/b}, would you come with me for a second?"
+    player_name "{b}[deb_name]{/b}, você poderia vir comigo por um segundo?"
     show player 13
     show debbie 2
     deb "Hmm?"
     show debbie 1
     show player 14
-    player_name "Just follow me."
+    player_name "Apenas me siga."
     show player 13
     show debbie 2
-    deb "Hehe, What are you up to?"
+    deb "Hehe, o que você está fazendo?"
     show debbie 2
     deb "..."
     show debbie 3
-    deb "You're planning something!"
+    deb "Você está planejando algo!"
     show debbie 2
     deb "Hehe!"
-    deb "Is it a surprise?"
-    deb "... I love surprises!"
+    deb "É uma surpresa?"
+    deb "... eu amo surpresas!"
     show debbie 1
     show player 14
-    player_name "Heh, I know you do."
-    player_name "I wouldn't really call it a surprise though..."
+    player_name "eh, eu sei que você faz."
+    player_name "Eu realmente não chamaria isso de surpresa ..."
     show player 13
     show debbie 3
     deb "Hehe!"
     show debbie 2
-    deb "Well what would you call it then?"
+    deb "Bem, como você chamaria então?"
     show debbie 1
     deb "..."
     show debbie 2
-    deb "Is this something naughty?"
+    deb "Isso é algo impertinente?"
     deb "..."
     show debbie 1
     show player 14
-    player_name "Maaaaybe."
+    player_name "Talvez."
     show debbie 2
-    deb "Hehe, Alright. Let's go quickly while {b}[jen_name]{/b} is upstairs."
+    deb "Hehe, tudo bem. Vamos rapidamente enquanto {b} [jen_name] {/b} está lá em cima."
     hide player
     hide debbie
     scene black
@@ -897,58 +897,58 @@ label debbie_dialogue_sex_in_car:
 
 label debbie_dialogue_watch_movie:
     show player 2
-    player_name "I was thinking, maybe we should watch another movie tonight. Interested?"
+    player_name "Eu estava pensando, talvez devêssemos assistir outro filme hoje à noite. Interessado?"
     show player 1
     show debbie 2
-    deb "Mmm, a movie night, huh?"
-    deb "That sounds like a great idea, Sweetheart!"
+    deb "Mmm, uma noite de cinema, hein?"
+    deb "Parece uma ótima idéia, querida!"
     show player 2
     show debbie 1
-    player_name "Awesome!"
-    player_name "I'll see you {b}tonight{/b} in the {b}living room{/b} then?"
+    player_name "Incrível!"
+    player_name "Vejo você {b} hoje à noite {/b} na {b} sala de estar {/b}, então?"
     show player 1
     show debbie 2
-    deb "I can't wait..."
+    deb "Mal posso esperar..."
     return
 
 label debbie_dialogue_laundry_sex_basement:
     scene home_basement
     show debbie 122 at right
     show player 14 at left
-    player_name "Are you almost done with the laundry?"
+    player_name "Você está quase acabando com a roupa?"
     show player 13
     show debbie 123
-    deb "Almost. I just have to move this load into the dryer."
-    deb "Why, what's up, sweetie?"
+    deb "Quase. Eu só tenho que mover essa carga para a secadora."
+    deb "Por que, querida?"
     show player 14
     show debbie 122
-    player_name "I just thought you might like to go for a ride?"
+    player_name "Eu apenas pensei que você gostaria de dar uma volta?"
     show player 13
     show debbie 123
-    deb "Oh, feeling a bit naughty are we?"
+    deb "Oh, estamos nos sentindo um pouco malcriados?"
     show player 8 with dissolve
     pause
     show player 261f with dissolve
     pause
     show debbie 123
-    deb "Hehe, I'll take that as a yes!"
+    deb "Hehe, vou aceitar isso como um sim!"
     show player 263f with dissolve
     deb "..."
     show debbie 121
     show player 432
-    player_name "Absolutely!"
+    player_name "Absolutamente!"
     show player 431
     pause
     show debbie 123
-    deb "Get those clothes off and get on the washer!"
+    deb "Tire essas roupas e entre na lavadora!"
     scene home_basement_sex_01
     show player 271 at Position(xpos=655,ypos=768)
     show debbie 107 zorder 0 at Position(xpos=200)
     with dissolve
     pause
     show debbie 108
-    deb "My turn..."
-    deb "Mmm, I've been waiting all morning for this!"
+    deb "Minha vez ..."
+    deb "Mmm, eu estive esperando a manhã toda por isso!"
     show debbie 109
     pause
     show debbie 110
@@ -961,11 +961,11 @@ label debbie_dialogue_laundry_sex_basement:
     pause
     show debbie 114
     pause
-    player_name "You look beautiful, {b}[deb_name]{/b}."
+    player_name "Você está linda, {b}[deb_name]{/b}."
     show debbie 115
-    deb "Just sit back and relax, sweetie."
-    deb "I'll take care of everything..."
-    deb "...Just make sure you hold on to me."
+    deb "Sente-se e relaxe, querida."
+    deb "Eu vou cuidar de tudo ..."
+    deb "... Apenas certifique-se de me segurar."
     hide player
     hide debbie
     show debbies 124 at Position(xpos=650)
@@ -988,41 +988,41 @@ label debbie_dialogue_laundry_sex_basement:
 
 label debbie_dialogue_laundry_sex_basement_random_true:
     deb "Mmmm..."
-    deb "I can barely fit you all in."
+    deb "Eu mal consigo encaixar todos vocês."
     return
 
 label debbie_dialogue_laundry_sex_basement_random_false:
     deb "Ahh..."
     player_name "( !!! )"
-    player_name "You're so warm..."
+    player_name "Você é tão quente..."
     return
 
 label debbie_dialogue_laundry_sex_kitchen:
     show player 14
-    player_name "Hey, {b}[deb_name]{/b}... Do you want to hang out in the basement for some quick fun?"
+    player_name "Ei, {b}[deb_name]{/b}... Deseja ficar no porão para se divertir rapidamente?"
     show player 13
     show debbie 2
     deb "Oh?"
     show debbie 1
     show player 14
-    player_name "I figured we could turn on the dryer and you could be as loud as you wanted..."
+    player_name "Imaginei que poderíamos ligar a máquina de secar e você poderia estar tão alto quanto quisesse..."
     show player 13
     show debbie 3
     deb "Ha Ha."
     show debbie 2
-    deb "That's quite naughty, sweetie."
+    deb "Isso é muito travesso, querida."
     show debbie 1
     pause
     show debbie 2
-    deb "Hmm... Alright!"
-    deb "I have some free time and I could use some... attention."
+    deb "Hmm ... tudo bem!"
+    deb "Eu tenho um tempo livre e posso usar um pouco de atenção."
     show debbie 1
     show player 14
-    player_name "Really?"
+    player_name "Sério?"
     show player 13
     show debbie 2
-    deb "Sure!"
-    deb "Just meet me down there in a minute..."
+    deb "Claro!"
+    deb "Apenas me encontre lá em um minuto ..."
     hide debbie
     hide player
     with dissolve
@@ -1031,123 +1031,123 @@ label debbie_dialogue_laundry_sex_kitchen:
 label debbie_dialogue_kiss:
     show player 10 at left
     show debbie 1 at right
-    player_name "Hey... Umm, {b}[deb_name]{/b}?"
+    player_name "Ei ... Umm, {b}[deb_name]{/b}?"
     show player 5
     show debbie 2
-    deb "Yes, sweetie?"
+    deb "Sim, querido?"
     show player 10
     show debbie 1
-    player_name "Could I ask you something?"
+    player_name "Posso lhe perguntar uma coisa?"
     show player 5
     show debbie 3
-    deb "Of course! You can ask me anything."
+    deb "Claro! Você pode me perguntar qualquer coisa."
     show player 10
     show debbie 1
-    player_name "Well, it's kinda... Embarrassing."
+    player_name "em, é meio ... embaraçoso."
     show player 5
     show debbie 13
-    deb "Oh? Well that's okay, {b}[firstname]{/b}."
-    deb "There's no need to feel embarrassed."
-    deb "Not with me..."
+    deb "Oh? Bem, tudo bem, {b}[firstname]{/b}."
+    deb "Não há necessidade de se sentir envergonhado."
+    deb "Não comigo ..."
     show debbie 14
     show player 10
-    player_name "Okay."
+    player_name "Ok."
     return
 
 label debbie_dialogue_kiss_teach:
     show player 10 at left
     show debbie 14 at right
-    player_name "I was wondering if you could..."
-    player_name "Well..."
+    player_name "Eu queria saber se você poderia ..."
+    player_name "Bem ..."
     show player 5
     show debbie 13
-    deb "If I could what, Sweetheart?"
+    deb "Se eu pudesse o quê, querida?"
     show player 10
     show debbie 14
-    player_name "Err... Remember the other day at the mall?"
+    player_name "Err ... Lembra do outro dia no shopping?"
     show player 5
     show debbie 14b
     player_name "..."
     show debbie 13
-    deb "... Yes?"
+    deb "... Sim?"
     show player 10
     show debbie 14b
-    player_name "Well... I was hoping you could teach me more, you know, about kissing?"
+    player_name "Bem ... eu esperava que você pudesse me ensinar mais sobre beijos?"
     show player 5
     show debbie 13
-    deb "What?!"
+    deb "O que?!"
     show debbie 14b
     player_name "..."
     show debbie 13
-    deb "That was a mistake, sweetie. I should never have..."
-    deb "What are you hoping I'd teach you anyways?"
+    deb "Isso foi um erro, querida. Eu nunca deveria ter ..."
+    deb "O que você está esperando que eu lhe ensine de qualquer maneira?"
     show player 10
     show debbie 14b
-    player_name "You know, like, how to do it."
-    player_name "I thought, maybe, you could show me what women like?"
+    player_name "Você sabe como fazê-lo."
+    player_name "Pensei que talvez você pudesse me mostrar o que as mulheres gostam?"
     show player 5
     show debbie 13
-    deb "Hmm, well I could certainly tell you what women like."
-    deb "... But I don't think showing you is a good idea. It would be kind of inappropriate..."
+    deb "Hmm, bem, eu certamente poderia dizer o que as mulheres gostam."
+    deb "... Mas eu não acho que mostrar a você é uma boa idéia. Seria meio inapropriado ..."
     show debbie 14b
     return
 
 label debbie_dialogue_kiss_teach_stat_fail:
     show player 10 at left
     show debbie 14b at right
-    player_name "[chr_warn]Are you sure?"
-    player_name "[chr_warn]I'd really like to practice with you."
+    player_name "[chr_warn]Você tem certeza?"
+    player_name "[chr_warn]Eu realmente gostaria de praticar com você."
     show player 5
     deb "..."
     show debbie 13
-    deb "It's just not a good idea, sweetie."
+    deb "Não é uma boa ideia, querida."
     show player 10
     show debbie 14b
-    player_name "[chr_warn]Oh... A-alright."
+    player_name "[chr_warn]Oh ... tudo bem."
     show player 5
     show debbie 13
-    deb "Sorry, Sweetheart."
+    deb "Desculpe, querida."
     show player 10
     show debbie 14b
-    player_name "[chr_warn]It's okay, {b}[deb_name]{/b}."
+    player_name "[chr_warn]Está tudo bem, {b}[deb_name]{/b}."
     return
 
 label debbie_dialogue_kiss_leave:
     show player 10 at left
     show debbie 14 at right
-    player_name "... Actually."
-    player_name "Never mind."
+    player_name "... Na verdade."
+    player_name "Deixa pra lá."
     show debbie 13
     show player 5
-    deb "Are you sure?"
-    deb "You can always talk to me, {b}[firstname]{/b}."
+    deb "Você tem certeza?"
+    deb "Você sempre pode falar comigo, {b}[firstname]{/b}."
     show player 10
     show debbie 14
-    player_name "Yeah, it's nothing."
-    player_name "Sorry to bug you."
+    player_name "Sim, não é nada."
+    player_name "Desculpe incomodá-lo."
     show player 5
     show debbie 13
-    deb "You never bug me, sweetie."
+    deb "Você nunca me incomoda, querida."
     return
 
 label debbie_dialogue_kiss_practice:
     show player 2 at left
     show debbie 1 at right
-    player_name "Do you think we could practice again?"
-    player_name "You know... Kissing?"
+    player_name "Você acha que poderíamos praticar de novo?"
+    player_name "Você sabe ... Beijando?"
     show player 1
     show debbie 13
-    deb "Again?"
+    deb "Novamente?"
     show player 2
     show debbie 14b
-    player_name "Y-yeah. I think I'm getting better!"
+    player_name "Sim. Acho que estou melhorando!"
     show player 1
     show debbie 13
-    deb "... Alright."
-    deb "But just a little!"
+    deb "... Tudo bem."
+    deb "Mas só um pouco!"
     show player 2
     show debbie 14
-    player_name "Okay, sure."
+    player_name "Ok, claro."
     hide player
     show debbie 79 at Position(xpos=0.70, ypos=1.0) with dissolve
     pause
@@ -1159,11 +1159,11 @@ label debbie_dialogue_kiss_practice:
     show player 233 at Position(xpos=0.30, ypos=1.0) with dissolve
     pause
     show debbie 77
-    deb "Wow... I'd say you're definitely getting better."
-    deb "... and you were already so good to begin with!"
+    deb "Uau ... eu diria que você definitivamente está melhorando."
+    deb "... e você já era tão bom para começar!"
     show player 232
     show debbie 76
-    player_name "Thanks {b}[deb_name]{/b}!"
+    player_name "Obrigado {b}[deb_name]{/b}!"
     show player 231
     show debbie 74
     pause
@@ -1171,21 +1171,21 @@ label debbie_dialogue_kiss_practice:
     pause
     show player 232
     show debbie 76
-    player_name "Sorry about the... You know."
+    player_name "Desculpe pelo ... Você sabe."
     show player 231
     show debbie 75
-    deb "Hehe, it's alright, Sweetheart."
-    deb "Perfectly natural."
-    deb "The girls in this town are in trouble."
+    deb "Hehe, está tudo bem, querida."
+    deb "Perfeitamente natural."
+    deb "As garotas desta cidade estão com problemas."
     show player 232
     show debbie 72
-    player_name "Hah, you bet!"
+    player_name "Hah, você apostou!"
     show player 231
     show debbie 73
-    deb "Go get em, sweetie!"
+    deb "Vá pegá-los, querida!"
     show player 232
     show debbie 72
-    player_name "Yes, ma'am!"
+    player_name "Sim, senhora!"
     return
 
 label debbie_dialogue_leave:

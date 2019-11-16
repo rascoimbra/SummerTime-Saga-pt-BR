@@ -3,46 +3,46 @@ label judith_dialogue_start:
     show player 1 at left
     show judith 5 at right
     with dissolve
-    jud "Hey {b}[firstname]{/b}!"
+    jud "Ei {b}[firstname]{/b}!"
     show player 2 at left
     show judith 4 at right
-    player_name "Hey {b}Judith{/b}, how's it going?"
+    player_name "Ei {b}Judith{/b}, como está indo?"
     show player 1 at left
     show judith 5 at right
-    jud "Oh, I'm great!"
+    jud "Oh, eu estou ótima!"
     show judith 2 at right
-    jud "I... I just wanted to thank you."
+    jud "Eu ... eu só queria te agradecer."
     show judith 4 at right
     show player 21 at left
-    player_name "Oh. For what?"
+    player_name "Oh. Por quê?"
     show judith 3 at right
     show player 13 at left
-    jud "In the {b}boys locker room{/b}... You made me feel... safe."
+    jud "No {bVestiario dos meninos{/b}... Você me fez sentir ... segura."
     show judith 4 at right
     show player 11 at left
     player_name "Oh..."
     show judith 5 at right
-    jud "And, you know... you stood up to {b}Annie{/b}. I think that was very brave."
+     jud "E, você sabe ... você enfrentou Annie. Acho que isso foi muito corajoso."
     show judith 4 at right
     show player 29 at left
-    player_name "It's fine, {b}Judith{/b}. I was just trying to do the right thing."
-    player_name "I should be the sorry one... for showing you my... you know..."
+    player_name "Está tudo bem, {b}Judith{/b}. Eu estava apenas tentando fazer a coisa certa."
+    player_name "Eu deveria me desculpar ... por mostrar minha ... você sabe ..."
     show judith 5 at right
     show player 11 at left
-    jud "Oh that's fine!! I enjoyed-"
+    jud "Oh, tudo bem! Eu gostei-"
     show judith 3 at right
-    jud "I mean... I didn't mind, at all."
+    jud "Quero dizer ... eu não me importei."
     show judith 5 at right
-    jud "We just got to... know each other a little better!"
+   jud "Nós apenas ... nos conhecemos um pouco melhor!"
     show judith 4 at right
     show player 21 at left
-    player_name "Haha. Yeah. I suppose so..."
+    player_name "Haha. Sim. Suponho que sim ..."
     show judith 5 at right
     show player 1 at left
-    jud "I have to go! I'll see you in class then!"
+    jud "Eu tenho que ir! Vejo você na aula então!"
     show player 14 at left
     show judith 4 at right
-    player_name "See you later!"
+    player_name "Até mais!"
     return
 
 label judith_dialogue_left_hallway_intro:
@@ -50,19 +50,19 @@ label judith_dialogue_left_hallway_intro:
     show judith 1 at right
     show player 14 at left
     with dissolve
-    player_name "Hey, {b}Judith{/b}!"
+    player_name "Ei, {b}Judith{/b}!"
     show player 13
     show judith 5
-    jud "Oh, hey, {b}[firstname]{/b}."
-    jud "How are you doing?"
+    jud "Oh, Ei, {b}[firstname]{/b}."
+    jud "Como você está?"
     show judith 4
     show player 14
-    player_name "Pretty good. How are you?"
+    player_name "Muito bom. E como vai você?"
     show player 13
     show judith 6
     jud "..."
     show judith 2
-    jud "Alright I guess."
+    jud "Tudo bem, eu acho."
     show judith 1
     return
 
@@ -74,383 +74,383 @@ label judith_dialogue_art_classroom_intro:
     show xtra 23 as basket zorder 0 at Position (ypos = 635)
     show xtra 24 as fruit zorder 0 at Position (ypos = 565)
     with dissolve
-    player_name "Enjoying art, {b}Judith{/b}?"
+    player_name "Apreciando arte, {b}Judith{/b}?"
     show player 13
     show judith 5
-    jud "Yeah!"
-    jud "It's one of my favorite subjects."
+    jud "Sim!"
+    jud "É um dos meus assuntos favoritos."
     show judith 4
     show player 14
-    player_name "Yeah, mine too!"
+    player_name "Sim, o meu também!"
     show player 13
     show judith 5
-    jud "I like it because no matter how bad my drawings are, it's still considered art!"
+    jud "Gosto porque, por mais ruins que sejam meus desenhos, ainda é considerado arte!"
     show judith 4
     show player 17
-    player_name "Heh, good one."
+    player_name "Heh, bom."
     show judith 1
     return
 
 label judith_dialogue_bathroom_fun:
     show player 2
-    player_name "Say, would you like to sneak into the {b}girls locker room{/b} for a little... You know?"
+    player_name "Diga, você gostaria de entrar no {b}vestiario dass meninas{/b} por um tempo ... Você sabe?"
     show player 1
     show judith 5
-    jud "... You really want to..."
-    jud "... W-with me?"
+    jud "... Você realmente quer ..."
+    jud "... comigo?"
     show player 2
     show judith 4
-    player_name "I mean, yeah!"
-    player_name "If that's okay?"
+    player_name "Quero dizer, sim!"
+    player_name "Se estiver tudo bem?"
     show player 1
     show judith 5
-    jud "Oh, definitely!"
-    jud "Let's go!"
+    jud "Oh, definitivamente!"
+    jud "Vamos lá!"
     return
 
 label judith_dialogue_dictionary_return:
     show player 14
-    player_name "Hey, {b}Judith{/b}! Here's your book back."
+    player_name "Ei, {b}Judith{/b}! Aqui está seu livro de volta."
     show player 239_240 with dissolve
     pause
     show player 522 with dissolve
-    player_name "Thanks again!"
+    player_name "Obrigado novamente!"
     show player 13
     show judith 43
     with dissolve
-    jud "Oh good, I was starting to worry..."
+    jud "Oh, bom, eu estava começando a me preocupar ..."
     show judith 4 with dissolve
     show player 14
-    player_name "No need to worry. It's in tip top shape... See."
+    player_name "Não precisa se preocupar. Está na melhor forma ... Veja."
     show player 13
     show judith 5
-    jud "Thanks for being careful with it, {b}[firstname]{/b}."
-    jud "I dunno why I worry so much..."
+    jud "Obrigado por ter cuidado com isso, {b}[firstname]{/b}."
+    jud "Não sei por que me preocupo tanto ..."
     show judith 4
     show player 14
-    player_name "Thanks for letting me borrow it!"
+    player_name "Obrigado por me emprestar!"
     show player 13
     show judith 5
-    jud "Anything for yo-"
+    jud "Qualquer coisa para você-"
     show judith 3
-    jud "I mean... A-anytime!"
+    jud "Quero dizer ... a qualquer momento!"
     show judith 1
     show player 10
-    player_name "Okay, well I'll see ya around."
+    player_name "Ok, bem, eu vou te ver por aí."
     show player 5
     show judith 3
-    jud "Bye, {b}[firstname]{/b}."
+    jud "Tchau, {b}[firstname]{/b}."
     return
 
 label judith_dialogue_bissette_find_full_dictionary:
     show player 14
-    player_name "Hey there, {b}Judith{/b}! Got a minute?"
+    player_name "Olá, {b}Judith{/b}! Tem um minuto?"
     show player 13
     show judith 5
-    jud "Sure, {b}[firstname]{/b}."
+    jud "Claro, {b}[firstname]{/b}."
     show judith 4
     show player 14
-    player_name "I was hoping I could borrow your French dictionary."
-    player_name "I need to make a quick copy of some pages and I'll return it."
+    player_name "Eu esperava poder emprestar seu dicionário de francês."
+    player_name "Preciso fazer uma cópia rápida de algumas páginas e vou devolvê-la."
     show player 13
     show judith 3
-    jud "My French dictionary?"
+    jud "Meu dicionário de francês?"
     show judith 5
-    jud "Absolutely! So long as you promise to be careful with it?"
+    jud "Absolutamente! Contanto que você prometa ter cuidado com isso?"
     show judith 4
     show player 11
-    player_name "( What is with women and their French dictionaries? )"
+    player_name "(O que há com as mulheres e seus dicionários franceses?)"
     show player 10
-    player_name "Yeah, I'll be really careful and you won't even notice it's gone."
+    player_name "Sim, vou tomar muito cuidado e você nem notará que ele se foi."
     show player 13
     show judith 5
-    jud "Okay, I trust you, {b}[firstname]{/b}."
+    jud "Ok, eu confio em você, {b}[firstname]{/b}."
     pause
     show judith 43 with dissolve
-    jud "Here it is..."
+    jud "Aqui está ..."
     show judith 4
     show player 522
     with dissolve
-    player_name "Thanks {b}Judith{/b}! I totally owe you one!"
+    player_name "Obrigado {b}Judith{/b}! Eu te devo uma!"
     hide judith with dissolve
     show player 13
-    player_name "( Alright, now to {b}head to the computer lab{/b} and copy these missing pages. )"
+    player_name "(Tudo bem, agora vá ao {b}laboratório de informática{/b} e copie essas páginas ausentes.)"
     return
 
 label judith_dialogue_dewitt_find_flute:
     show player 10
-    player_name "Do you still have the school's flute?"
-    player_name "I need it for the talent show."
+    player_name "Você ainda tem a flauta da escola?"
+    player_name "Eu preciso disso para o show de talentos."
     show player 5
     show judith 2
     jud "Oh, umm..."
     show judith 1
     show player 10
-    player_name "The instrument sign-out sheet had your name next to the flute."
+    player_name "A folha de assinatura do instrumento tinha seu nome ao lado da flauta."
     show player 5
     show judith 2
-    jud "*Sigh*"
+    jud "*Suspiro*"
     show judith 3
-    jud "I do have it. It's in my locker."
+    jud "Eu tenho. Está no meu armário."
     show judith 1
     show player 12
-    player_name "I have a feeling there is a \"but\" coming?"
+    player_name "Tenho a sensação de que há um \" mas \ "vindo?"
     show player 5
     show judith 3
-    jud "BUT, I kinda broke it..."
+    jud "MAS, eu meio que quebrei ..."
     show judith 1
     show player 1
-    player_name "You broke it!?"
-    player_name "How did that happen?!"
+    player_name "Você quebrou !?"
+    player_name "Como isso aconteceu ?!"
     show player 5
     show judith 5
-    jud "Heh, well I accidentally kinda..."
+    jud "Heh, bem, eu acidentalmente meio que ..."
     show judith 6
     show player 11
     player_name "..."
     show judith 2
-    jud "... Sat on it."
+    jud "... sentei nele."
     show judith 1
     show player 10
-    player_name "You sat on it?"
+    player_name "Você sentou nele?"
     show player 11
     show judith 3
-    jud "... Yeah."
+    jud "... sim."
     show judith 5
-    jud "Which sucks cause I was really enjoying it!"
+    jud "O que é péssimo, porque eu estava gostando muito!"
     show judith 4
     show player 10
-    player_name "I didn't know you could play the flute?"
+    player_name "Eu não sabia que você podia tocar flauta?"
     show player 5
     show judith 5
-    jud "Oh, I can't play it."
+    jud "Oh, eu não posso jogar."
     show judith 4
     show player 12
-    player_name "Well then I don't understand how you were enjoying it?"
+    player_name "Bem, então eu não entendo como você estava gostando?"
     show player 5
     jud "..."
     show judith 5
-    jud "Heh, nevermind."
+    jud "Heh, deixa pra lá."
     show judith 2
-    jud "I was hoping no one would ask about it..."
+    jud "Eu esperava que ninguém perguntasse sobre isso ..."
     show judith 1
     show player 10
-    player_name "Maybe I can fix it?"
+    player_name "Talvez eu conserte!"
     show player 5
     show judith 4
     jud "..."
     show judith 5
-    jud "You can try."
+    jud "Você pode tentar."
     show judith 4
     show player 12
-    player_name "Is it still in your locker?"
+    player_name "Ainda está no seu armário?"
     show player 5
     show judith 5
-    jud "Yup."
+    jud "Sim."
     show judith 4
     show player 10
-    player_name "Alright, thanks, {b}Judith{/b}."
+    player_name "Tudo bem, obrigado, {b}Judith{/b}."
     return
 
 label judith_dialogue_talent_show_help:
     show player 10
-    player_name "I was wondering if you wanted to participate in the upcoming talent show?"
+    player_name "Eu queria saber se você gostaria de participar do próximo show de talentos?"
     show player 5
     show judith 3
-    jud "No thanks, {b}[firstname]{/b}. I don't really know how to play an instrument."
+    jud "Não, obrigada, {b}[firstname]{/b}. Eu realmente não sei tocar um instrumento."
     show judith 2
-    jud "... And I'm way too embarrassed to get up on stage in front of the entire school."
+    jud "... E eu tenho vergonha de subir no palco na frente de toda a escola."
     show judith 1
     show player 10
-    player_name "Well what if we played together?"
+    player_name "Bem, e se tocássemos juntos?"
     show player 5
     show judith 5
-    jud "You and me?"
+    jud "Você e eu?"
     show judith 4
     show player 14
-    player_name "Sure, why not?"
+    player_name "Claro, por que não?"
     show player 13
     show judith 6
     jud "Hmm..."
     show judith 2
-    jud "No, I'm sorry, {b}[firstname]{/b}."
+    jud "Não, desculpe, {b}[firstname]{/b}."
     show judith 3
-    jud "As much as I'd enjoy playing with you; Just the thought of being in the spotlight like that..."
+    jud "Por mais que eu goste de brincar com você; apenas o pensamento de estar no centro das atenções assim ..."
     show judith 8f at Position (xoffset=2) with dissolve
     show player 11
     jud "..."
     show judith 9f at Position (xoffset=-4) with dissolve
-    jud "Excuse me, I need to go use the restroom!"
+    jud "Com licença, preciso ir ao banheiro!"
     hide judith with dissolve
     show player 12
-    player_name "Dang, I thought for a second she was going to agree."
+    player_name "Porra, pensei por um segundo que ela concordaria."
     show player 10
-    player_name "Guess I'd better keep looking..."
+    player_name "Acho que é melhor eu continuar procurando ..."
     return
 
 label judith_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "Judith, are you farsighted or nearsighted?"
+    player_name "Judith, você tem míopia ou astigmatismo?"
     show player 1
     show judith 2
-    jud "Uhh, well."
+    jud "Uhh, bem."
     show judith 3
-    jud "Both..."
+    jud "Ambos ..."
     show player 2
     show judith 1
-    player_name "Really?!"
+    player_name "Sério ?!"
     show player 1
     show judith 2
-    jud "Yeah. I'm blind without my glasses..."
+    jud "Sim. Eu sou cega sem meus óculos ..."
     show judith 3
-    jud "Pretty dorky. I know..."
+    jud "Muito idiota. Eu sei ..."
     show player 2
     show judith 1
-    player_name "No, it's great!"
+    player_name "Não, é ótimo!"
     show player 1
     show judith 3
-    jud "It is?"
+    jud "É?"
     show player 29 with dissolve
     show judith 1
-    player_name "Well I mean, no. It sucks that you can't see without them."
+    player_name "Bem, quero dizer, não. É péssimo que você não possa ver sem eles."
     show player 2 with dissolve
-    player_name "... But it's also a good thing, cause I'm looking for a pair of Varifocal lenses."
+    player_name "... Mas também é uma coisa boa, porque estou procurando um par de lentes Varifocal."
     show player 1
     show judith 5
-    jud "Oh. Well, you found some."
+    jud "Oh. Bem, você encontrou alguns."
     show player 2
     show judith 4
-    player_name "You wouldn't happen to have a spare set would you?"
+    player_name "Você não teria um conjunto sobressalente, teria?"
     show player 1
     show judith 5
-    jud "Sure."
+    jud "Claro".
     show player 2
     show judith 4
-    player_name "Awesome! Could I have them?"
+    player_name "Incrível! poderia me dar?"
     show player 1
     show judith 2
-    jud "Hmm, you want me to just give you my spare set?"
+    jud "Hmm, você quer que eu te dê meu conjunto de reposição?"
     show player 10
     show judith 1
-    player_name "... Yes?"
+    player_name "... Sim?"
     show player 11
     show judith 3
-    jud "How about a trade?"
+    jud "Que tal uma troca?"
     show player 2
     show judith 1
-    player_name "Yeah, okay. What do you want?"
+    player_name "Sim, tudo bem. O que você quer?"
     show player 1
     show judith 2
-    jud "Umm, it's kinda embarrassing..."
+    jud "Umm, é meio embaraçoso ..."
     show judith 1
     player_name "..."
     show judith 2
-    jud "Well, you see, some of the other girls have been giving me a hard time..."
+    jud "Bem, veja bem, algumas das outras garotas estão me incomodando ..."
     show judith 3
-    jud "... because I've never had a boyfriend."
+    jud "... porque eu nunca tive namorado."
     show player 10
     show judith 1
-    player_name "That sucks."
+    player_name "Isso é péssimo."
     show player 11
     show judith 2
-    jud "Yeah."
-    jud "I was kinda wondering..."
+    jud "Sim".
+    jud "Eu estava pensando ..."
     show judith 3
-    jud "... Well, I was hoping you would pretend to be my boyfriend."
+    jud "... Bem, eu esperava que você fingisse ser meu namorado."
     show player 23
     show judith 1
     player_name "( !!! )" with hpunch
     show player 10
-    player_name "You want me to pretend to be your boyfriend?"
+    player_name "Você quer que eu finja ser seu namorado?"
     show player 11
     show judith 3
-    jud "Just long enough to take a couple pictures!"
+    jud "Apenas o tempo suficiente para tirar algumas fotos!"
     show player 10
     show judith 1
-    player_name "Pictures?!"
+    player_name "fotos?!"
     show player 11
     show judith 2
-    jud "Yeah."
+    jud "Sim".
     show judith 3
-    jud "You meet me in the park, we take a couple pictures like we're boyfriend and girlfriend, and then I'll give you my spare set."
-    jud "Deal?"
+    jud "Você me encontra no parque, tiramos algumas fotos como se fossem namorado e namorada, e depois eu darei a você o meu conjunto de reposição."
+    jud "Fechado?"
     show player 10
     show judith 1
-    player_name "I uhh..."
+    player_name "Eu uhh ..."
     show player 11
     show judith 3
-    jud "Pleeeease? It would be such a huge help!"
+    jud "Por favor? Seria uma ajuda enorme!"
     show player 2
     show judith 1
-    player_name "Yeah, alright, I suppose I can do that."
+    player_name "Sim, tudo bem, acho que posso fazer isso."
     show player 1
     show judith 5
-    jud "You will?!"
-    jud "Okay, meet me at the park! I'll be there in the {b}afternoons{/b}."
+    jud "Você vai ?!"
+    jud "Ok, encontre-me no parque! Estarei lá nas {b}tardes{/b}."
     show player 2
     show judith 4
-    player_name "{b}The park, in the afternoon.{/b} Got it!"
+    player_name "{b}O parque, à tarde.{/b} Entendi!"
     show player 1
     show judith 5
-    jud "Great! See you there!"
+    jud "Ótimo! Vejo você lá!"
     return
 
 label judith_dialogue_okita_take_picture_judith:
     show player 2
-    player_name "Where did you want to take that picture again?"
+    player_name "Onde você quer tirar essa foto novamente?"
     show player 1
     show judith 3
-    jud "Oh umm, at the park."
+    jud "Oh hum, no parque."
     show player 2
     show judith 1
-    player_name "Alright."
+    player_name "Tudo bem."
     show player 1
     show judith 3
-    jud "You aren't having second thoughts, are you?"
+    jud "Você não está tendo dúvidas, está?"
     show judith 2
-    jud "Cause it's okay, we don't hav-"
+    jud "Porque está tudo bem, não temos-"
     show player 2
     show judith 1
-    player_name "No, {b}Judith{/b}. It's fine, really!"
+    player_name "Não, {b}Judith{/b}. Está tudo bem, sério!"
     show judith 4
-    player_name "I'll meet you there!"
+    player_name "Encontro você lá!"
     show player 1
     show judith 5
-    jud "... Thanks, {b}[firstname]{/b}."
+    jud "... Obrigado, {b}[firstname]{/b}."
     return
 
 label judith_dialogue_ross_ask_model:
     show player 2
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Estou trabalhando em um projeto para a {b}Miss Ross{/b} e isso requer um modelo ativo."
+    player_name "Você estaria interessada?"
     show player 1
     show judith 5
-    jud "You want me to model for you?"
+    jud "Você quer que eu seja modelo para você?"
     show player 2
     show judith 4
-    player_name "Yeah, that would be awesome!"
+    player_name "Sim, isso seria incrível!"
     show player 10
-    player_name "It's nude modeling though..."
+    player_name "É modelagem nua embora ..."
     show player 11
     show judith 3
     jud "... Oh."
     show judith 1
     jud "..."
     show judith 3
-    jud "... You really want me to?"
+    jud "... Você realmente quer que eu faça?"
     show player 10
     show judith 1
-    player_name "Of course!"
+    player_name "Claro!"
     show player 11
     show judith 5
-    jud "Then I'll do it! For you, {b}[firstname]{/b}!"
+    jud "Então eu farei isso! Para você, {b}[firstname]{/b}!"
     show player 2
     show judith 4
-    player_name "Thanks {b}Judith{/b}! That's really awesome of you!"
-    player_name "Just meet me in the Art class."
+    player_name "Obrigado {b}Judith{/b}! Isso é realmente incrível da sua parte!"
+    player_name "Apenas me encontre na sala de arte."
     show player 1
     show judith 5
-    jud "Alright."
+    jud "Tudo bem."
     return
 
 label judith_dialogue_left_hallway_leave:
@@ -459,17 +459,17 @@ label judith_dialogue_left_hallway_leave:
     show judith 6
     jud "..."
     show player 29 with dissolve
-    player_name "Well... I'd better get going!"
+    player_name "Bem ... é melhor eu ir em frente!"
     show player 3
     show judith 5
-    jud "See you later, {b}[firstname]{/b}."
+    jud "Até mais, {b}[firstname]{/b}."
     return
 
 label judith_dialogue_art_classroom_leave:
     show player 14
-    player_name "See you later, {b}Judith{/b}."
+    player_name "Até mais, {b}Judith{/b}."
     show player 13
     show judith 5
-    jud "Bye, {b}[firstname]{/b}."
+    jud "Tchau, {b}[firstname]{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -2,17 +2,17 @@ label button_mrsj_greetings:
     show player 14 at left
     show mrsj 14 at right
     with dissolve
-    player_name "Hi, {b}Mrs. Johnson{/b}!"
+    player_name "Oi, {b}Mrs. Johnson{/b}!"
     show player 1
     show mrsj 17
-    mrsjo "Hey, {b}[firstname]{/b}!"
-    mrsjo "How are you?"
+    mrsjo "Ei, {b}[firstname]{/b}!"
+    mrsjo "Como você está?"
     show player 14
     show mrsj 14
-    player_name "I'm good, thanks!"
+    player_name "Estou bem, obrigado! "
     show player 1
     show mrsj 17
-    mrsjo "Is there anything I can do for ya?"
+    mrsjo "Existe algo que eu possa fazer por você? "
     show mrsj 14
     return
 
@@ -23,16 +23,16 @@ label button_mrsj_sex_ed_intro:
     show player 11 zorder 2 at left
     show erik 1f zorder 1 at Position(xpos=300)
     with dissolve
-    mrsjo "Hey, boys..."
+    mrsjo "Ei, rapazes..."
     show mrsj 41
     show player 21
-    player_name "H-hi, {b}Mrs. Johnson{/b}!"
+    player_name "O-Oi, {b}Mrs. Johnson{/b}!"
     show player 13
     show erik 4f
-    eri "You're... very pretty, {b}Mrs. Johnson{/b}."
+    eri "Você é muito bonita, {b}Mrs. Johnson{/b}."
     show erik 1f
     show mrsj 40b with fastdissolve
-    mrsjo "Well, are you just gonna keep staring at me or do you want to ask me something?"
+    mrsjo "Bem, você só vai ficar me encarando ou quer me perguntar uma coisa? "
     show mrsj 39
     return
 
@@ -41,105 +41,105 @@ label button_mrsj_private_yoga_intro:
     show mrsj 54 at Position(xpos=734,ypos=650)
     show player 433 zorder 2 at left
     with dissolve
-    mrsjo "Hello, {b}[firstname]{/b}..."
+    mrsjo "Olá, {b}[firstname]{/b}..."
     show mrsj 53
     player_name "!!!"
     show mrsj 54
-    mrsjo "Is there something wrong?"
+    mrsjo "Há algo de errado?"
     show player 435
     show mrsj 53
-    player_name "You.. you're naked, {b}Mrs. Johnson{/b}."
+    player_name "Você .. você está nu, {b}Mrs. Johnson{/b}."
     show player 434
     show mrsj 54
-    mrsjo "I like to feel... comfortable in my room..."
-    mrsjo "Weren't you about to ask me something?"
+    mrsjo "Eu gosto de me sentir ... confortável no meu quarto ... "
+    mrsjo "Você não estava prestes a me perguntar uma coisa? "
     show mrsj 53
     return
 
 label button_mrsj_about_erik:
     show player 14 at left
     show mrsj 14 at right
-    player_name "I wanted to talk about {b}Erik{/b}..."
+    player_name "Eu queria falar sobre {b}Erik{/b}..."
     show player 1
     show mrsj 19
-    mrsjo "Oh, is he okay?"
+    mrsjo "Oh, ele está bem? "
     show player 14
     show mrsj 19c
-    player_name "Yeah, he's fine."
-    player_name "I was talking to him about what happened the other night..."
+    player_name "Sim, ele está bem. "
+    player_name "Eu estava conversando com ele sobre o que aconteceu na outra noite ... "
     show player 11
     show mrsj 19
-    mrsjo "Is he upset?"
+    mrsjo "Ele está chateado? "
     show player 14
     show mrsj 19c
-    player_name "No, not at all."
+    player_name "Não, de jeito nenhum. "
     show player 10
-    player_name "He's just not sure about what he wants..."
+    player_name "Ele só não tem certeza do que quer ... "
     show player 11
     show mrsj 19
-    mrsjo "How so?"
+    mrsjo "Como assim?"
     show player 10
     show mrsj 19c
-    player_name "I think he's given up on meeting girls."
-    player_name "I could try and help him get a girlfriend, but I think he likes you more..."
+    player_name "Eu acho que ele desistiu de conhecer garotas. "
+    player_name "Eu poderia tentar ajudá-lo a conseguir uma namorada, mas acho que ele gosta mais de você ..."
     show player 13
     show mrsj 19
-    mrsjo "Oh, my..."
+    mrsjo "Oh meu..."
     show mrsj 20
-    mrsjo "Have I really sheltered him too much?"
+    mrsjo "Eu realmente o abriguei demais? "
     show mrsj 19
-    mrsjo "What do you think I should do?"
+    mrsjo "O que você acha que eu deveria fazer?"
     show mrsj 19c
     return
 
 label button_mrsj_route_sex_ed:
     show player 14 at left
     show mrsj 19c at right
-    player_name "I think it's best if you give him the attention he needs..."
+    player_name "Eu acho que é melhor se você der a atenção que ele precisa ... "
     show mrsj 19
     show player 1
-    mrsjo "You really think so?"
+    mrsjo "Você realmente acha? "
     show mrsj 19c
     show player 14
-    player_name "Well, I don't think he wants to see any other girls..."
-    player_name "... And he really likes you!"
+    player_name "Bem, acho que ele não quer ver outras garotas ... "
+    player_name "... E ele realmente gosta de você!"
     show mrsj 19
     show player 1
-    mrsjo "He's always been close to me..."
+    mrsjo "Ele sempre esteve perto de mim ... "
     show mrsj 19c
     show player 14
-    player_name "We had such a great time the other night!"
-    player_name "I've never seen {b}Erik{/b} this happy."
+    player_name "Nos divertimos muito na outra noite! "
+    player_name "eu nunca vi {b}Erik{/b} tão feliz. "
     show mrsj 19
     show player 11
-    mrsjo "Do you think...you boys would like more of that kind of...attention?"
+    mrsjo "Você acha que ... vocês gostariam mais desse tipo de atenção? "
     show mrsj 19c
     show player 21
-    player_name "I...I think so!"
+    player_name "Eu ... acho que sim! "
     show mrsj 20
     show player 13
-    mrsjo "If none of the girls from school will give him the attention he needs..."
+    mrsjo "Se nenhuma das meninas da escola lhe der a atenção que ele precisa ... "
     show mrsj 19
-    mrsjo "...Maybe I should be the one?"
+    mrsjo "...Talvez eu devesse ser o único? "
     show mrsj 14
     show player 14
-    player_name "I think he would like that."
+    player_name "Eu acho que ele gostaria disso. "
     show mrsj 49
     show player 11
-    mrsjo "What If I gave you guys some...personal sex education?"
+    mrsjo "E se eu desse a vocês um pouco de ... educação sexual pessoal? "
     show mrsj 50
     player_name "!!!" with vpunch
     show mrsj 49
-    mrsjo "It's only for educational purposes of course..."
+    mrsjo "É apenas para fins educacionais, é claro ... "
     show mrsj 50
     show player 29
-    player_name "Oh, I emm... I wouldn't mind at all!"
+    player_name "Ah, eu acho ... eu não me importaria! "
     show mrsj 49
     show player 13
-    mrsjo "I'd have to think it over first, though."
+    mrsjo "Eu teria que pensar primeiro, no entanto. "
     show mrsj 50
     show player 14
-    player_name "Sure, {b}Mrs. Johnson{/b}!"
+    player_name "Certo, {b}Mrs. Johnson{/b}!"
     show mrsj 14
     show player 1
     return
@@ -147,79 +147,79 @@ label button_mrsj_route_sex_ed:
 label button_mrsj_route_gf:
     show player 14 at left
     show mrsj 19c
-    player_name "I think we should try and find him a girlfriend."
+    player_name "Acho que devemos tentar encontrar uma namorada para ele ".
     show player 1
     show mrsj 19
-    mrsjo "You really think so?"
+    mrsjo "Você realmente acha? "
     show player 14
     show mrsj 19c
-    player_name "Well, I think he would be happier..."
-    player_name "... and it'd build up his confidence!"
+    player_name "Bem, acho que ele ficaria mais feliz ... "
+    player_name "... e isso aumentaria sua confiança!"
     show player 1
     show mrsj 20
-    mrsjo "He does need to go out more..."
+    mrsjo "Ele precisa sair mais ... "
     show player 10
     show mrsj 19c
-    player_name "Don't get me wrong, we had a lot of fun the other night..."
+    player_name "Não me interpretem mal, nos divertimos muito na outra noite ... "
     show player 14
-    player_name "... but I think {b}Erik{/b} needs to meet other girls."
+    player_name "... mas eu acho {b}Erik{/b}que você  precisa conhecer outras garotas. "
     show player 13
     show mrsj 20
-    mrsjo "You're right..."
+    mrsjo "Você está certo..."
     show player 11
     show mrsj 19
-    mrsjo "But what about... me?"
+    mrsjo "Mas e quanto a mim? "
     show player 10
     show mrsj 19c
-    player_name "What do you mean?"
+    player_name "O que você quer dizer?"
     show player 11
     show mrsj 19
-    mrsjo "Well..."
-    mrsjo "If {b}Erik{/b} finds a girlfriend... What will I do?"
+    mrsjo "Bem..."
+    mrsjo "Se {b}Erik{/b} encontra uma namorada ... O que vou fazer? "
     show mrsj 20
-    mrsjo "I won't have anyone to give my attention to..."
+    mrsjo "Não terei ninguém para dar atenção a ... "
     show player 21
     show mrsj 19c
-    player_name "Oh, I'm sure you will find someone {b}Mrs. Johnson{/b}!"
+    player_name "Oh, eu tenho certeza que você encontrará alguém {b}Mrs. Johnson{/b}!"
     show mrsj 14
-    player_name "You're very... attractive, and loving!"
+    player_name "Você é muito ... atraente e amoroso! "
     show player 13
     show mrsj 17
-    mrsjo "Aww, that's very sweet of you to say."
+    mrsjo "Aww, é muito gentil da sua parte dizer ".
     show mrsj 50
     mrsjo "Hmm..."
     show mrsj 49
     show player 1
-    mrsjo "I have a different idea!"
-    mrsjo "What If I took that attention..."
+    mrsjo "Eu tenho uma ideia diferente! "
+    mrsjo "E se eu tomasse essa atenção ..."
     show player 11
-    mrsjo "... and gave it to {b}you{/b}?"
+    mrsjo "...e der para {b}você{/b}?"
     show mrsj 50
     player_name "!!!" with vpunch
     show mrsj 49
-    mrsjo "What's wrong?"
-    mrsjo "Only if you wanted to, is what I meant to say..."
+    mrsjo "O que há de errado?"
+    mrsjo "Só se você quiser, é o que eu quis dizer ..."
     show player 21
     show mrsj 50
-    player_name "I-I wouldn't mind at all!"
-    player_name "But, only as long as {b}Erik{/b} is okay with it."
+    player_name "Eu-eu não me importaria! "
+    player_name "Mas, apenas enquanto {b}Erik{/b} está bem com isso ".
     show player 1
     show mrsj 49
-    mrsjo "Just ask him!"
-    mrsjo "I'm sure he would be okay with that..."
+    mrsjo "Apenas pergunte a ele! "
+    mrsjo "Tenho certeza que ele ficaria bem com isso ..."
     show player 13
-    mrsjo "... especially if he's too busy playing with another girl! Ha ha."
+    mrsjo "... especialmente se ele está muito ocupado brincando com outra garota! Ha ha "
     show player 29
     show mrsj 50
-    player_name "I suppose so, ha ha."
+    player_name "Suponho que sim, ha ha. "
     show player 14
-    player_name "I'll try and find someone for him..."
+    player_name "Vou tentar encontrar alguém para ele ... "
     show player 13
     show mrsj 49
-    mrsjo "Come back and let me know what happens."
+    mrsjo "Volte e me diga o que acontece. "
     show player 17
     show mrsj 50
-    player_name "Sure, {b}Mrs. Johnson{/b}!"
+    player_name "Certo, {b}Mrs. Johnson{/b}!"
     show mrsj 14
     show player 1
     return
@@ -227,17 +227,18 @@ label button_mrsj_route_gf:
 label button_mrsj_sex_ed_prep:
     show mrsj 14 at right
     show player 10 at left
-    player_name "How can we help you get ready for our sex education again?"
+    player_name "Como podemos ajudá-lo a se preparar para nossa educação sexual novamente? "
+
     show player 5
     show mrsj 17
-    mrsjo "I'll need a good instructional book, like {b}Kama Sutra{/b}."
-    mrsjo "And some {b}birth control pills{/b}!"
+    mrsjo "Vou precisar de um bom livro de instruções, como{b}Kama Sutra{/b}."
+    mrsjo "E alguns{b}birth control pillspílulas anticoncepcionais{/b}!"
     show mrsj 49
-    mrsjo "You can never be too careful..."
+    mrsjo "Você nunca pode ter muito cuidado ... "
     show mrsj 50
     show player 14
-    player_name "Alright."
-    player_name "I'll try and find them..."
+    player_name "Tudo bem."
+    player_name "Vou tentar encontrá-los ..."
     hide player
     hide mrsj
     with dissolve
@@ -245,45 +246,45 @@ label button_mrsj_sex_ed_prep:
 
 label button_mrsj_erik_got_gf:
     show player 14
-    player_name "I think I was able to introduce {b}Erik{/b} to a girl at school!"
+    player_name "Acho que fui capaz de apresentar {b}Erik{/b} para uma garota da escola! "
     show player 1
     show mrsj 17
-    mrsjo "Really?!"
+    mrsjo "Realmente?!"
     show player 14
     show mrsj 14
-    player_name "Yeah!"
-    player_name "They have so much in common, they would be perfect for each other!"
+    player_name "Sim!"
+    player_name "Eles têm muito em comum, seriam perfeitos um para o outro!"
     show mrsj 17
     show player 17
-    player_name "I think it's going to work out for sure!"
+    player_name "Eu acho que vai dar certo com certeza! "
     show player 1
     show mrsj 18
-    mrsjo "That's wonderful!!"
+    mrsjo "Isso é maravilhoso!!"
     show mrsj 17
-    mrsjo "I can't believe you've been so good to {b}Erik{/b}."
+    mrsjo "Eu não posso acreditar que você tem sido tão bom em {b}Erik{/b}."
     show mrsj 49
-    mrsjo "I think it's time for me to give you a little reward..."
+    mrsjo "Acho que está na hora de lhe dar uma pequena recompensa ... "
     show player 21
     show mrsj 50
-    player_name "A... A reward?"
+    player_name "... Uma recompensa?"
     show player 11
     show mrsj 49
-    mrsjo "How about I give you some... {b}private{/b} yoga lessons..."
-    mrsjo "The kind you don't get to see in the gym."
+    mrsjo "HComo eu te dou um pouco de...aulas de yoga {b}privada{/b}..."  
+    mrsjo "O tipo que você não vê na academia. "
     show mrsj 50
     show player 21
-    player_name "That would be awesome, {b}Mrs. Johnson{/b}!"
+    player_name "Isso seria incrível, {b}Mrs. Johnson{/b}!"
     show player 13
     show mrsj 49
-    mrsjo "Just come visit me at night in my room... make sure you're well rested!"
+    mrsjo "Apenas venha me visitar à noite no meu quarto ... verifique se você está bem descansado! "
     show player 11
-    mrsjo "It can be... quite exhausting."
+    mrsjo "Pode ser ... bastante cansativo. "
     show player 21
     show mrsj 50
-    player_name "Y-yes, {b}Mrs. Johnson{/b}."
+    player_name "Sim, {b}Mrs. Johnson{/b}."
     show player 13
     show mrsj 49
-    mrsjo "See you later, I'll be waiting!"
+    mrsjo "Até mais, estarei esperando! "
     hide player
     hide mrsj
     with dissolve
@@ -292,85 +293,85 @@ label button_mrsj_erik_got_gf:
 label button_mrsj_erik_stole_gf:
     show mrsj 19c at right
     show player 10 at left
-    player_name "I don't think it's going to work out with {b}June{/b}..."
+    player_name "Eu não acho que vai dar certo {b}June{/b}..."
     show player 11
     show mrsj 19
-    mrsjo "The girl from school?"
+    mrsjo "A garota da escola? "
     show player 10
     show mrsj 19c
-    player_name "Yeah."
+    player_name "Sim."
     show player 5
     show mrsj 19
-    mrsjo "That's such a shame..."
-    mrsjo "What happened?"
+    mrsjo "Que pena ... "
+    mrsjo "O que aconteceu?"
     show player 10
     show mrsj 19c
-    player_name "She's just not interested, and..."
+    player_name "Ela simplesmente não está interessada e ... "
     show mrsj 51
-    player_name "... she might be coming over to my house later to hang with me."
+    player_name "... ela pode vir mais tarde para minha casa para ficar comigo ".
     show player 5
     show mrsj 52
-    mrsjo "Oh my..."
-    mrsjo "Is {b}Erik{/b} okay with this?"
+    mrsjo "Oh meu..."
+    mrsjo "E {b}Erik{/b} está bem com isso? "
     show player 10
     show mrsj 51
-    player_name "I'm not sure... probably not?"
+    player_name "Não tenho certeza ... provavelmente não? "
     show player 5
     show mrsj 52
-    mrsjo "I have to say... I'm a little disappointed in you, {b}[firstname]{/b}."
+    mrsjo "Eu tenho que dizer ... Estou um pouco decepcionado com você, {b}[firstname]{/b}."
     show mrsj 51
     player_name "..."
     show mrsj 52
-    mrsjo "You knew {b}Erik{/b} liked her..."
-    mrsjo "... I thought he was your friend!"
+    mrsjo "Você sabia {b}Erik{/b} gostava dela ... "
+    mrsjo "... Eu pensei que ele era seu amigo! "
     show player 10
     show mrsj 51
-    player_name "I'm sorry, {b}Mrs. Johnson{/b}."
-    player_name "I'll head home now."
+    player_name "Eu sinto Muito, {b}Mrs. Johnson{/b}."
+    player_name "Eu vou para casa agora. "
     hide mrsj
     hide player
     return
 
 label button_mrsj_erik_introduce_june:
     show player 14
-    player_name "There's this girl at school that I think {b}Erik{/b} likes."
+    player_name "Tem essa garota na escola que eu acho {b}Erik{/b} gosta."
     show player 1
     show mrsj 17
-    mrsjo "Really?"
+    mrsjo "Realmente?"
     show mrsj 18
-    mrsjo "That's wonderful!"
+    mrsjo "Isso é maravilhoso!"
     show mrsj 17
-    mrsjo "Do you know her? What is she like?!"
+    mrsjo "Você conhece ela? Como ela é?!"
     show mrsj 14
     show player 14
-    player_name "No, I haven't spoken to her yet."
-    player_name "She's from a different class, I think."
+    player_name "Não, eu ainda não falei com ela. "
+    player_name "Ela é de uma classe diferente, eu acho."
     show mrsj 17
     show player 1
-    mrsjo "Oh, I see."
+    mrsjo "Ah eu vejo."
     show player 11
-    mrsjo "Is {b}Erik{/b} speaking to her?"
+    mrsjo "E {b}Erik{/b} falando com ela? "
     show mrsj 14
     show player 10
-    player_name "I don't think so... He says he's too shy."
-    player_name "I told him I would find out more about her and let him know what she's like."
+    player_name "Eu acho que não ... Ele diz que é muito tímido. "
+    player_name "Eu disse a ele que iria descobrir mais sobre ela e que ele soubesse como ela é."
     show mrsj 18
     show player 13
-    mrsjo "That's so nice of you!!"
+    mrsjo "Isso é tão agradável de você!!"
     show mrsj 17
-    mrsjo "He's very lucky to have you as a friend..."
+    mrsjo "Ele tem muita sorte de ter você como amigo ... "
     show mrsj 14
     show player 14
-    player_name "Oh, I'm sure he would do the same for me!"
+    player_name "Ah, tenho certeza que ele faria o mesmo por mim! "
     show mrsj 49
     show player 1
-    mrsjo "Tell you what, let me know how all of this goes..."
+    mrsjo "Vou lhe dizer como é que tudo isso acontece ... "
     show player 11
-    mrsjo "If you can find {b}Erik{/b} a girlfriend, there's a special reward waiting for you..."
+    mrsjo "Se você pode encontrar {b}Erik{/b} uma namorada, há uma recompensa especial esperando por você ... "
     show mrsj 50
     player_name "..."
     show player 21
-    player_name "Sure, {b}Mrs. Johnson{/b}!"
+    player_name "Certo, {b}Mrs. Johnson{/b}!"
     show player 1
     show mrsj 14
     return
@@ -378,45 +379,45 @@ label button_mrsj_erik_introduce_june:
 label button_mrsj_breastfeeding:
     show mrsj 38 at right
     show player 12 at left
-    player_name "So how long have you...been breastfeeding {b}Erik{/b}?"
+    player_name "Então, há quanto tempo você ... está amamentando {b}Erik{/b}?"
     show player 5
     show mrsj 52
-    mrsjo "Oh..."
-    mrsjo "Listen, it's not what you might think."
-    mrsjo "I just always nurtured him like this."
+    mrsjo "Ah ... "
+    mrsjo "Escute, não é o que você pode pensar."
+    mrsjo "Eu sempre o nutrei assim."
     show mrsj 38
     show player 11
     mrsjo "..."
     show mrsj 52
-    mrsjo "You know he doesn't get much attention from the girls at school."
-    mrsjo "I felt so bad for him!"
-    mrsjo "I just wanted {b}Erik{/b} to experience and see what women are all about!"
+    mrsjo Você sabe que ele não recebe muita atenção das meninas da escola."
+    mrsjo "Eu me senti tão mal por ele!"
+    mrsjo "eu só queria {b}Erik{/b} experimentar e ver do que se trata as mulheres! "
     show mrsj 20
-    mrsjo "But maybe I...I over did it?"
+    mrsjo "Mas talvez eu ... eu acabei de fazer isso? "
     show mrsj 19c
     show player 5
     player_name "..."
     show player 12
-    player_name "It's great that you care so much and give him attention!"
+    player_name "É ótimo que você se importe tanto e dê atenção a ele! "
     show mrsj 14
     show player 10
-    player_name "I think he's very lucky..."
+    player_name "Eu acho que ele tem muita sorte ... "
     show player 11
     show mrsj 18
     mrsjo "Oh, ha ha!"
     show mrsj 17
-    mrsjo "Well, thank you..."
-    mrsjo "I think nice young men like yourselves need all the attention you can..."
+    mrsjo "Bem, obrigada ... "
+    mrsjo "Eu acho que jovens legais como vocês precisam de toda a atenção que puder ..."
     show mrsj 14
     show player 13
     player_name "..."
     show mrsj 49
-    mrsjo "I mean, thanks for understanding, {b}[firstname]{/b}."
+    mrsjo "Quero dizer, obrigado pela compreensão, {b}[firstname]{/b}."
     show mrsj 52
-    mrsjo "Just...remember to keep this between us, okay?"
+    mrsjo "Apenas ... lembre-se de manter isso entre nós, ok? "
     show mrsj 14
     show player 14
-    player_name "Yes, {b}Mrs. Johnson{/b}."
+    player_name "Sim, {b}Mrs. Johnson{/b}."
     hide player
     hide mrsj
     with dissolve
@@ -424,75 +425,75 @@ label button_mrsj_breastfeeding:
 
 label button_mrsj_yoga_help_repeat:
     show player 10
-    player_name "What did you need me to help with?"
+    player_name "Em que você precisava de minha ajuda? "
     show player 5
     show mrsj 19
-    mrsjo "I need someone to go and {b}teach my yoga class for me tonight{/b}."
+    mrsjo "Ipreciso de alguém para ir e {b}teach my yoga class for me tonightensinar minha aula de ioga para mim hoje à noite{/b}."
     show mrsj 49
-    mrsjo "Do you think you could help your... favorite neighbor??"
+    mrsjo "Você acha que poderia ajudar seu ... vizinho favorito? "
     show mrsj 50
     show player 14
-    player_name "Of course!"
+    player_name "Claro!"
     show player 13
     show mrsj 17
-    mrsjo "Remember to {b}study those yoga moves from that list{/b} I gave!"
+    mrsjo "Lembrar de {b}estudar os movimentos de ioga dessa lista{/b} Eu dei!"
     return
 
 label button_mrsj_youre_so_fit:
     show mrsj 14 at right
     show player 29 at left
-    player_name "I have to say, {b}Mrs. Johnson{/b}, you are really fit!"
-    player_name "Do you exercise a lot?"
+    player_name "Tenho que dizer, {b}Mrs. Johnson{/b}, você está realmente em forma! "
+    player_name "Você se exercita muito? "
     show mrsj 18 at right
     show player 13 at left
-    mrsjo "Aw... You're so nice!"
+    mrsjo "Ah ... você é tão legal! "
     show mrsj 17 at right
-    mrsjo "Well, I try to use the Gym as often as I can..."
-    mrsjo "...I also go jogging! And I do yoga in my room at night as well..."
+    mrsjo "Bem, eu tento usar o ginásio sempre que posso ... "
+    mrsjo "... eu também vou correr! E eu faço yoga no meu quarto à noite também ..."
     show mrsj 19 at right
     show player 21 at left
-    player_name "Well, it's working!"
+    player_name "Bem, está funcionando! "
     show player 13 at left
-    mrsjo "You think?"
+    mrsjo "Você pensa?"
     show mrsj 15 at right
     show player 11 at left
-    mrsjo "My {b}butt{/b} is still a bit big..."
+    mrsjo "Minha {b}bunda{/b} ainda é um pouco grande ... "
     show mrsj 16 at right
     show player 23 at left
-    mrsjo "...And my {b}boobs{/b} are not like the used to..."
+    mrsjo "...E meu {b}peitos{/b} não são como os que costumavam ... "
     player_name "..."
     show player 28 at left
     show mrsj 19 at right
-    player_name "*gulp*"
+    player_name "*gole*"
     show player 1 at left
     show mrsj 18 at right
-    mrsjo "Is there anything else you wanted to talk about?"
+    mrsjo "Você gostaria de falar sobre mais alguma coisa? "
     return
 
 label button_mrsj_invite_poker:
-    player_name "I was wondering if you'd like to join {b}Erik{/b} and me for poker?"
+    player_name "Fiquei me perguntando se você gostaria de participar {b}Erik{/b} e eu no poker? "
     show player 1
     show mrsj 17
-    mrsjo "Right now?"
+    mrsjo "Agora mesmo?"
     show player 14
     show mrsj 14
-    player_name "Yeah... I mean, you don't have to!"
-    player_name "{b}Erik{/b} and I are just looking for a third player..."
+    player_name "Sim ... quero dizer, você não precisa! "
+    player_name "{b}Erik{/b} e eu estou apenas procurando por um terceiro jogador ... "
     show player 1
     show mrsj 17
-    mrsjo "He's waiting downstairs?"
+    mrsjo "Ele está esperando lá embaixo? "
     show player 14
     show mrsj 14
-    player_name "Yeah, we'd like to play now, if you're free?"
+    player_name "Sim, gostaríamos de jogar agora, se você estiver livre? "
     show player 1
     mrsjo "Hmm..."
     show mrsj 17
-    mrsjo "I guess I could play a game or two."
+    mrsjo "Eu acho que eu poderia jogar um jogo ou dois. "
     show mrsj 18
     show player 13
-    mrsjo "Alright, I'll meet you two downstairs in a bit!"
+    mrsjo "Tudo bem, eu vou encontrar vocês dois lá embaixo daqui a pouco! "
     show player 18
     show mrsj 14
-    player_name "Awesome! Thanks, {b}Mrs. Johnson{/b}!"
+    player_name "Impressionante! obrigado, {b}Mrs. Johnson{/b}!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -3,33 +3,33 @@ label micoe_dialogue_blowjob:
     show player 10 at left
     show micoe at flip
     with dissolve
-    player_name "Remember when you helped me... Umm, extract my sample for testing."
+    player_name "Lembra quando você me ajudou ... Umm, extraia minha amostra para testar. "
     show player 5
     show micoe f_sexy_talk
-    micoe "You mean, when I sucked your cock in the bathroom?"
+    micoe "Quer dizer, quando eu chupei seu pau no banheiro? "
     show micoe f_sexy
     show player 11
     player_name "!!!"
     show player 29 with dissolve
-    player_name "Y-yeah."
+    player_name "S-sim. "
     show player 3
     show micoe f_laugh
-    micoe "Hehehe, I think we're past being shy, {b}[firstname]{/b}."
+    micoe "Hehehe, acho que já passamos de tímido, {b}[firstname]{/b}."
     show micoe f_sexy_talk
-    micoe "You here to let me have another taste?"
+    micoe "Você está aqui para me deixar ter outro gosto? "
     show micoe f_sexy
     show player 17 with dissolve
     player_name "Uh huh."
     hide player
     show micoe b_pulling f_empty a_empty
     with dissolve
-    micoe "C'mon cutie."
+    micoe "Vamos, gracinha. "
     scene expression "backgrounds/location_hospital_bathroom.jpg"
     show player 13f at right
     show micoe f_sexy_talk
     with dissolve
-    micoe "What are you waiting for?"
-    micoe "Get that cock out!"
+    micoe "O que você está esperando?"
+    micoe "Tire esse pau daqui!"
     show micoe f_sexy
     show player 14f
     player_name "O-okay."
@@ -40,7 +40,7 @@ label micoe_dialogue_blowjob:
     with dissolve
     pause
     show micoe knees_talk
-    micoe "Mmm, I'll suck this beautiful cock anytime you want, {b}[firstname]{/b}!"
+    micoe "Mmm, eu vou chupar esse pau lindo quando quiser, {b}[firstname]{/b}!"
     $ M_micoe.set('sex speed', .12)
     $ anim_toggle = True
     $ animated = True
@@ -48,30 +48,30 @@ label micoe_dialogue_blowjob:
     show expression AnimatedImage("micoe_bj", [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], M_micoe) as micoe_bj at Position(xalign = 0.0, yoffset = 0)
     with dissolve
     micoe "{b}*Slurp*{/b}"
-    player_name "Oh, god..."
-    player_name "That feels amazing, {b}Micoe{/b}."
+    player_name "Oh Deus..."
+    player_name "Isso é incrível, {b}Micoe{/b}."
     micoe "Mmhmm!"
     return
 
 label micoe_dialogue_goodbye:
     show player 14 at left
     show micoe f_normal at flip
-    player_name "Just saying hello."
+    player_name "Apenas dizendo olá."
     show player 13
     show micoe f_sad_talk
-    micoe "Oh, well that's disappointing..."
+    micoe "Oh, bem, isso é decepcionante ... "
     show micoe f_sexy_talk
-    micoe "I thought maybe you were here to have a little fun."
+    micoe "Eu pensei que talvez você estivesse aqui para se divertir um pouco. "
     show micoe f_sexy
     show player 14
-    player_name "Sorry."
+    player_name "Desculpa."
     show player 13
     pause
     show player 14
-    player_name "I'll see you around, okay?"
+    player_name "Vejo você por aí, ok? "
     show player 13
     show micoe f_normal_talk
-    micoe "Alright, cutie."
+    micoe "Tudo bem, gracinha. "
     hide player
     hide micoe
     with dissolve
@@ -81,8 +81,8 @@ label micoe_dialogue_intro:
     scene expression player.location.background_blur with None
     show player 13 at left
     show micoe f_normal_talk at flip
-    micoe "Hey there, cutie."
-    micoe "What brings you back to see me?"
+    micoe "Olá, gracinha. "
+    micoe "O que faz você voltar para me ver? "
     show micoe f_normal
     return
 
@@ -90,185 +90,185 @@ label micoe_dialogue_increase_chance_of_conception:
     show micoe at flip
     show player 10 at left
     with dissolve
-    player_name "Is there anything more I could be doing to help my fri-"
-    player_name "{b}*Ahem*{/b} I mean, help my girlfriend conceive a baby?"
+    player_name "Há algo mais que eu possa estar fazendo para ajudar meus amigos "
+    player_name "{b}*Ahem*{/b} Quero dizer, ajudar minha namorada a conceber um bebê? "
     show player 5
     show micoe f_normal_talk
-    micoe "Hmm, is she stressing out about it?"
+    micoe "Hmm, ela está estressada com isso? "
     show micoe f_normal
     show player 10
-    player_name "Ehh, not really..."
-    player_name "I just want to make sure I'm doing everything I can to help her."
+    player_name "Ehh, na verdade não ... "
+    player_name "Eu só quero ter certeza de que estou fazendo tudo o que posso para ajudá-la."
     show player 5
     show micoe f_laugh
-    micoe "Aww, you're so sweet!"
+    micoe "Você é tão doce!"
     show player 13
     show micoe f_normal_talk
-    micoe "Well, are you two having lots of sex?"
+    micoe "Bem, vocês dois estão fazendo muito sexo? "
     show micoe f_normal
     show player 29 with dissolve
-    player_name "Y-yeah."
+    player_name "S-sim. "
     show player 13 with dissolve
     show micoe f_normal_talk
-    micoe "... And what position are you using?"
+    micoe "... E qual posição você está usando? "
     show micoe f_normal
     show player 10
-    player_name "... Position?"
+    player_name "... Posição?"
     show player 5
     show micoe f_sexy_talk
-    micoe "Yeah, what position are you having sex in?"
+    micoe "Sim, em que posição você está transando? "
     show micoe f_sexy
     show player 10
-    player_name "Err, I dunno."
+    player_name "Err, eu não sei. "
     show player 14
-    player_name "I guess, I'm usually behind her..."
+    player_name "Eu acho que geralmente estou atrás dela ... "
     show player 13
     show micoe f_sexy_talk
-    micoe "Doggy style?"
+    micoe "Estilo cachorrinho? "
     show micoe f_sexy
     show player 5
     player_name "..."
     show micoe f_laugh
-    micoe "Hehe, you're so cute!"
+    micoe "Hehe, você é tão fofa! "
     show micoe f_normal_talk
-    micoe "Doggy style should work fine for conception."
+    micoe "O estilo cachorrinho deve funcionar bem para a concepção ".
     show player 13
-    micoe "A lot of doctors recommend it, because it allows for the deepest penetration."
+    micoe "Muitos médicos recomendam, porque permite a penetração mais profunda ".
     show micoe f_wink
     pause
     show micoe f_sexy_talk
-    micoe "Though, with what you're packing, deep penetration isn't going to be issue."
+    micoe "No entanto, com o que você está embalando, a penetração profunda não será problema. "
     show micoe f_sexy
     show player 29 with dissolve
-    player_name "Heh, y-yeah..."
+    player_name "Heh, sim-sim ... "
     show player 13 with dissolve
     show micoe f_normal_talk
-    micoe "You might try the missionary position."
+    micoe "Você pode tentar a posição missionária. "
     show micoe f_normal
     show player 10
-    player_name "What's that?"
+    player_name "O que é isso?"
     show player 13
     show micoe f_normal_talk
-    micoe "It's when the woman lays on her back and you're on top."
-    micoe "In that position, gravity will help carry your semen to the cervix."
+    micoe "É quando a mulher deita de costas e você está por cima. "
+    micoe "Nessa posição, a gravidade ajudará a transportar seu sêmen para o colo do útero."
     show micoe f_normal
     show player 17
-    player_name "Ohh, I get it! Normal style."
+    player_name "Ohh, entendi! Estilo normal ".
     show player 18
     show micoe f_sad
     pause
     show player 14
-    player_name "That makes sense."
+    player_name "Isso faz sentido."
     show player 13
     pause
     show player 14
-    player_name "Anything else?"
+    player_name "Algo mais?"
     show player 13
     show micoe f_normal
     micoe "Hmm."
     show micoe f_normal_talk
-    micoe "Not really."
-    micoe "Unfortunately, the biggest hurdle in your situation is your girlfriend's age."
+    micoe "Na verdade não."
+    micoe "Infelizmente, o maior obstáculo na sua situação é a idade da sua namorada."
     show micoe f_normal
     show player 10
-    player_name "Yeah."
+    player_name "Sim."
     show player 5
     pause
     show player 10
-    player_name "Are you sure there's nothing else I can do to help?"
+    player_name "Tem certeza de que não posso fazer mais nada para ajudar? "
     show player 5
     show micoe f_normal_talk
-    micoe "Well..."
+    micoe "Bem..."
     show micoe f_look_back
     pause
     show micoe f_normal_talk
-    micoe "There is one thing... But I'm really not supposed to talk about it."
+    micoe "Há uma coisa ... Mas eu realmente não devo falar sobre isso. "
     show micoe f_normal
     show player 12
-    player_name "Huh?"
-    player_name "How come?"
+    player_name "Hã?"
+    player_name "Como é que é?"
     show player 5
     pause
     show player 14
-    player_name "If there's a chance it will help, I really have to know!"
-    player_name "{b}Diane{/b} really has her heart set on getting pregnant."
+    player_name "Se houver uma chance de ajudar, eu realmente preciso saber! "
+    player_name "{b}Diane{/b} realmente tem o coração definido para engravidar. "
     show player 13
     pause
     show player 18
-    player_name "Please?"
+    player_name "Por favor?"
     show micoe f_laugh
-    micoe "Ngh, you're just so sweet!"
+    micoe "Ngh, você é tão doce! "
     show player 13
     show micoe f_normal_talk
-    micoe "Alright, I'll tell you... But you didn't hear this from me!"
-    micoe "Understand?"
+    micoe "Tudo bem, eu vou te dizer ... Mas você não ouviu isso de mim! "
+    micoe "Entendeu?"
     show micoe f_normal
     show player 14
-    player_name "Y-yeah, I understand!"
+    player_name "S-sim, eu entendo! "
     show player 13
     show micoe f_normal_talk
-    micoe "There's a new drug that's been showing a lot of promise when it comes to increasing conception rates."
-    micoe "They're calling it {b}Pregnax{/b}."
+    micoe "Há uma nova droga que tem mostrado muitas promessas quando se trata de aumentar as taxas de concepção ".
+    micoe "Eles estão chamando {b}Pregnax{/b}."
     show micoe f_normal
     show player 14
-    player_name "That sounds perfect!"
+    player_name "Isso parece perfeito! "
     show player 12
-    player_name "What's the catch?"
+    player_name "Qual é o problema? "
     show player 5
     show micoe f_normal_talk
-    micoe "Well, the catch is that they're still in the testing phase with it."
+    micoe "Bem, o problema é que eles ainda estão na fase de testes. "
     show micoe f_normal
     pause
     show player 14
-    player_name "That's alright, I don't mind helping you test it."
+    player_name "Tudo bem, não me importo de ajudá-lo a testá-lo. "
     show player 13
     show micoe f_laugh
-    micoe "Hehe, you'll have to talk with {b}Dr. Singh{/b} about that."
+    micoe "Hehe, você terá que conversar com {b}Dr. Singh{/b} sobre isso."
     show micoe f_normal
     show player 10
     player_name "{b}Dr. Singh{/b}?"
     show player 5
     show micoe f_normal_talk
-    micoe "Yeah, {b}Singh's{/b} this new fancy pants doctor they shipped in from somewhere overseas."
-    micoe "Works up on the {b}third floor{/b}."
-    micoe "Been developing {b}Pregnax{/b} for years now."
+    micoe "Sim, {b}Singh's{/b} esse novo médico de fantasia que eles enviaram de algum lugar no exterior ".
+    micoe "Funciona no {b}terceiro andar{/b}."
+    micoe "Desenvolvido {b}Pregnax{/b} há anos. "
     show micoe f_normal
     show player 14
-    player_name "Okay, so I'll just go and talk with with him!"
+    player_name "Ok, então eu vou falar com ele! "
     show player 13
     show micoe f_sad_talk
-    micoe "Heh, I wish it were that easy."
-    micoe "Unfortunately, the {b}third floor{/b} is a restricted area."
-    micoe "Even I don't have access to it."
+    micoe "Heh, eu gostaria que fosse assim tão fácil. "
+    micoe "Infelizmente, o {b}terceiro andar{/b} é uma área restrita ".
+    micoe "Mesmo eu não tenho acesso a isso. "
     show micoe f_normal
     show player 12
-    player_name "So how do I get access?"
+    player_name "Então, como obtenho acesso? "
     show player 5
     show micoe f_normal_talk
-    micoe "I can't really help you there, cutie."
-    micoe "Not many people in the clinic have the credentials to get up on the {b}third floor{/b}."
+    micoe "Eu realmente não posso ajudá-lo lá, gracinha. "
+    micoe "Muitas pessoas na clínica não têm credenciais para se levantar {b}terceiro andar{/b}."
     show micoe f_normal
     show player 24
-    player_name "Crap."
+    player_name "Porcaria."
     pause
     show player 10
-    player_name "Alright, thanks for the info {b}Micoe{/b}."
+    player_name "Tudo bem, obrigado pela informação {b}Micoe{/b}."
     show player 5
     show micoe f_laugh
-    micoe "No problem, cutie!"
+    micoe "Não tem problema, gracinha! "
     show micoe f_sexy_talk
-    micoe "Feel free to come and see me if you have anymore questions..."
+    micoe "Sinta-se livre para vir me ver se tiver mais perguntas ... "
     show player 13
     show micoe f_wink
     pause
     show micoe f_sexy_talk
-    micoe "... Or you feel like having a bit of naughty fun!"
+    micoe "... Ou você sente vontade de se divertir um pouco!
     show micoe f_sexy
     show player 29 with dissolve
-    player_name "Y-yeah, okay."
+    player_name "S-sim, tudo bem."
     show player 3
     show micoe f_sexy_talk
-    micoe "Mmm, so adorable..."
+    micoe "Mmm, tão adorável ... "
     hide player
     hide micoe
     with dissolve
@@ -279,34 +279,34 @@ label micoe_dialogue_pregnax:
     show player 10 at left
     show micoe f_normal at flip
     with dissolve
-    player_name "Where can I find that fertility drug again?"
+    player_name "Onde posso encontrar esse medicamento para fertilidade novamente? "
     show player 5
     show micoe f_sad_talk a_dressed_shh at Position (xoffset=-175) with dissolve
     micoe "Shh!"
-    micoe "Not so loud!"
+    micoe "Não tão alto!"
     show micoe f_normal a_dressed_front with dissolve
     show player 10
-    player_name "Oh, sorry."
+    player_name "Oh, desculpe."
     show player 5
     show micoe f_normal_talk
-    micoe "They keep it up on the {b}third floor{/b}."
+    micoe "Eles continuam no {b}terceiro andar{/b}."
     show micoe f_normal
     show player 14
-    player_name "{b}Third floor{/b}, got it!"
+    player_name "{b}Terceiro andar{/b}, Entendi!"
     show player 13
     show micoe f_normal_talk
-    micoe "Hold on, you can't just waltz up there."
-    micoe "You'll have to {b}find someone with access{/b} to take you."
+    micoe "Espere, você não pode simplesmente valsar lá em cima. "
+    micoe "Você terá que {b}encontre alguém com acesso{/b} Para levá-lo."
     show micoe f_normal
     show player 10
-    player_name "Hmm, who could I ask?"
+    player_name "Hmm, quem eu poderia perguntar? "
     show player 5
     show micoe f_normal_talk
-    micoe "Sorry cutie, I can't help you with that."
-    micoe "Just remember, you didn't hear any of this from me!"
+    micoe "Desculpe gracinha, eu não posso te ajudar com isso. "
+    micoe "Lembre-se, você não ouviu nada disso de mim!"
     show micoe f_normal
     show player 14
-    player_name "Don't worry, I won't tell."
+    player_name "Não se preocupe, não vou contar. "
     show player 18
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

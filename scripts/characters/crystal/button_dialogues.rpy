@@ -2,78 +2,78 @@ label button_crystal_preamble:
     show player 5 at left
     show crystal 3 at right
     with dissolve
-    crys "It's my little girl's boyfriend again."
+    crys "É o namorado da minha garotinha de novo."
     show crystal 1 with dissolve
     show player 10
-    player_name "I told you we're not-"
+    player_name "Eu te disse que não estamos-"
     show player 5
     show crystal 2
-    crys "Whatever you say, young man."
+    crys "Tudo o que você diz, jovem."
     show crystal 4 with dissolve
     crys "*Gulp*"
     show crystal 2 with dissolve
-    crys "So what do you want?"
+    crys "Então o que você quer?"
     return
 
 label button_crystal_roxxys_dad:
     show player 10
-    player_name "Where's {b}Roxxy's... father{/b}?"
+    player_name "Onde está {b}O pai de Roxxy{/b}?"
     show player 11
     show crystal 2
-    crys "Hah! She don't have no father!"
-    crys "I raised her myself."
+    crys "Hah! Ela não tem pai!"
+    crys "Eu a criei."
     show crystal 1
     show player 10
-    player_name "I see."
+    player_name "Entendo."
     show player 11
     show crystal 2
-    crys "To tell you the truth, I don't remember which one it was..."
+    crys "Para dizer a verdade, não me lembro qual era..."
     show crystal 4 with dissolve
     crys "*Gulp*"
     show crystal 2 with dissolve
-    crys "...So her daddy could be anyone, for all I know."
+    crys "...Então o pai dela poderia ser qualquer um, pelo que sei."
     show crystal 1
     show player 22
     player_name "!!!"
     show crystal 2
-    crys "Anything else you'd like to talk about?"
+    crys "Qualquer outra coisa sobre a qual você gostaria de falar?"
     show player 5
     show crystal 1
     return
 
 label button_crystal_roxxy:
     show player 10
-    player_name "Do you know where I could find {b}Roxxy{/b}?"
+    player_name "Você sabe onde eu poderia encontrar {b}Roxxy{/b}?"
     show player 5
     show crystal 3 with dissolve
-    crys "Hah! You think I babysit my daughter?"
+    crys "Hah! Você acha que eu babá minha filha?"
     show crystal 1 with dissolve
     show player 10
     player_name "Hmm..."
     show player 5
     show crystal 2
-    crys "She's always out doing stuff..."
-    crys "...But, usually she's at {b}school{/b} or at {b}the beach{/b}."
+    crys "Ela está sempre fora fazendo coisas..."
+    crys "...Mas, geralmente ela está {b}school{/b} ou em {b}the beach{/b}."
     show crystal 1
     show player 14
-    player_name "Oh. I see. Thanks!"
+    player_name "Oh Eu vejo. obrigado!"
     show player 13
     show crystal 2
-    crys "Anything else?"
+    crys "Algo mais?"
     show crystal 1
     return
 
 label button_crystal_nothing:
     show player 10
-    player_name "Oh, nothing."
-    player_name "I was just passing by..."
+    player_name "Oh nada."
+    player_name "Eu só estava passando..."
     show player 11
     show crystal 2
-    crys "Well I got a visitor coming soon, so why don't you move along."
+    crys "Bem, eu tenho um visitante em breve, então por que você não se move."
     show crystal 1
     show player 10
-    player_name "I'm sorry. I'll get going then."
-    player_name "Bye!"
+    player_name "Eu sinto Muito. Eu vou indo então."
+    player_name "Tchau!"
     hide player
     hide crystal
     with dissolve
@@ -85,25 +85,25 @@ label button_crystal_roxxy_go_to_picnic:
     show player_wet at left
     show crystal 3 at right
     with dissolve
-    crys "Mmm, you know I can help you out of them wet clothes if you want?"
+    crys "Mmm, você sabe que eu posso ajudá-lo com essas roupas molhadas, se você quiser?"
     show crystal 1 with dissolve
     show player 10
-    player_name "Uhh... I..."
+    player_name "Uhh ... eu..."
     show player 5
     player_name "..."
     show crystal 2
-    crys "Don't be shy now."
-    crys "Handsome man, like yourself. You deserve some special attention, don't ya?"
+    crys "Não seja tímido agora."
+    crys "Homem bonito, como você. Você merece atenção especial, não é??"
     show crystal 1
     show player 3 with dissolve
     player_name "..."
-    rox "{b}Mom{/b}, leave {b}[firstname]{/b} alone!"
+    rox "{b}Mamãe{/b}, sair {b}[firstname]{/b} sozinho!"
     show crystal 2
-    crys "Hehehe, I'm just teasin' the boy a bit."
+    crys "Hehehe, só estou provocando um pouco o garoto."
     show crystal 1
-    rox "Well, stop!"
+    rox "Bem, pare!"
     show crystal 4 with dissolve
-    rox "{b}[firstname]{/b}, get in here!"
+    rox "{b}[firstname]{/b}, entre aqui!"
     show crystal 1
     player_name "..."
     hide crystal
@@ -117,19 +117,19 @@ label button_crystal_rox8_11_evening:
     show player 5 at left
     show crystal 6 at right
     with dissolve
-    crys "You lost, handsome?"
+    crys "Você perdeu bonito?"
     show crystal 5
     show player 10
-    player_name "Huh?!"
+    player_name "Hã?!"
     show player 5
     show crystal 6
-    crys "Oh, yer {b}Roxxy's{/b} new man."
+    crys "Ah sim {b}Roxxy's{/b} novo homem."
     show crystal 5
     show player 12
-    player_name "N-no, I'm-"
+    player_name "não sou"
     show player 5
     show crystal 6
-    crys "She's inside."
+    crys "Ela está dentro."
     show crystal 5
     return
 
@@ -138,19 +138,19 @@ label button_crystal_rox8_11_day:
     show player 5 at left
     show crystal 2 at right
     with dissolve
-    crys "You lost, handsome?"
+    crys "Você perdeu bonito?"
     show crystal 1
     show player 10
-    player_name "Huh?!"
+    player_name "Hã?!"
     show player 5
     show crystal 2
-    crys "Oh, yer {b}Roxxy's{/b} new man."
+    crys "Ah sim {b}Roxxy's{/b} novo homem."
     show crystal 1
     show player 10
-    player_name "N-no, I'm-"
+    player_name "não sou-"
     show player 5
     show crystal 2
-    crys "She ain't here."
+    crys "Ela não está aqui."
     show crystal 4 with dissolve
     return
 
@@ -159,20 +159,20 @@ label button_crystal_final_evening:
     show player 13 at left
     show crystal 6 at right
     with dissolve
-    crys "Mmm, now there's a nice capable man!"
+    crys "Mmm, agora há um bom homem capaz!"
     show crystal 5
     show player 14
-    player_name "Heh, hi {b}Crystal{/b}..."
+    player_name "Oi {b}Crystal{/b}..."
     show player 13
     show crystal 6
-    crys "Why don't you grab a beer and come sit with me?"
-    crys "You can show off that silver tongue some more..."
+    crys "Por que você não pega uma cerveja e vem sentar comigo?"
+    crys "Você pode mostrar essa língua de prata um pouco mais..."
     show crystal 5
     show player 14
-    player_name "Oh, I dunno... {b}Roxxy{/b} wouldn't-"
+    player_name "Oh, eu não sei... {b}Roxxy{/b} não-"
     show player 5
     show crystal 6
-    crys "Yer here to call on {b}Roxxy{/b} then?"
+    crys "Você está aqui para chamar {b}Roxxy{/b} então?"
     show crystal 5
     return
 
@@ -181,38 +181,38 @@ label button_crystal_final_day:
     show player 13 at left
     show crystal 2 at right
     with dissolve
-    crys "Mmm, now there's a nice capable man!"
+    crys "Mmm, agora há um bom homem capaz!"
     show crystal 1
     show player 14
-    player_name "Heh, hi {b}Crystal{/b}..."
+    player_name "Oi {b}Crystal{/b}..."
     show player 13
     show crystal 2
-    crys "Why don't you grab a beer and come sit with me?"
-    crys "You can show off that silver tongue some more..."
+    crys "Por que você não pega uma cerveja e vem sentar comigo?"
+    crys "Você pode mostrar essa língua de prata um pouco mais..."
     show crystal 1
     show player 14
-    player_name "Oh, I dunno... {b}Roxxy{/b} wouldn't-"
+    player_name "Oh, eu não sei... {b}Roxxy{/b} não-"
     show player 5
     show crystal 2
-    crys "{b}Roxxy{/b} ain't here."
+    crys "{b}Roxxy{/b} não está aqui."
     show crystal 1
     return
 
 label button_crystal_sorry_to_bother:
     show player 10
-    player_name "Sorry to bother you."
+    player_name "Desculpe incomodá-lo."
     show player 5
     show crystal 6
-    crys "Psh, talkin' don't bother me none..."
-    crys "In fact, why don't you run on down to the store and buy me a fresh twelve pack?"
-    crys "You do that and we can talk 'til yer ears fall off."
+    crys "Psh, falando, não me incomode..."
+    crys "De fato, por que você não corre para a loja e me compra um pacote de doze?"
+    crys "Você faz isso e podemos conversar até que seus ouvidos caiam."
     show crystal 5
     show player 17
-    player_name "Heh, nah that's okay."
-    player_name "I should get inside and see {b}Roxxy{/b}."
+    player_name "Heh, nah tudo bem."
+    player_name "Eu deveria entrar e ver {b}Roxxy{/b}."
     show player 13
     show crystal 6
-    crys "Suit yerself."
+    crys "Se adequar."
     hide player
     hide crystal
     with dissolve
@@ -221,18 +221,18 @@ label button_crystal_sorry_to_bother:
 label button_crystal_roxxy_rox8_rox11:
     show crystal 1 with dissolve
     show player 10
-    player_name "Do you know where she is?"
+    player_name "Você sabe onde ela está?"
     show player 5
     show crystal 2
-    crys "Psh, ain't got a clue..."
-    crys "I can't never keep track of that gal."
+    crys "Psh, não tenho idéia..."
+    crys "Eu nunca posso acompanhar essa garota."
     show crystal 1
     show player 10
-    player_name "Really?"
+    player_name "Realmente?"
     show player 5
     show crystal 2
-    crys "Ungrateful brat don't tell me nothin'."
-    crys "She needs a whoopin'! What she needs..."
+    crys "Pirralho ingrato, não me diga nada."
+    crys "Ela precisa de um whoopin '! O que ela precisa..."
     show crystal 1
     player_name "..."
     return
@@ -240,86 +240,86 @@ label button_crystal_roxxy_rox8_rox11:
 label button_crystal_roxxy_final:
     show crystal 4 with dissolve
     show player 12
-    player_name "Where's she at?"
+    player_name "Onde ela está?"
     show player 5
     show crystal 2 with dissolve
-    crys "Heck if I know."
-    crys "If she ain't {b}at school{/b}, then I reckon she's probably {b}at the beach.{/b}"
-    crys "I swear, that girl is half mermaid!"
+    crys "Heck, se eu souber."
+    crys "Se ela não é {b}at school{/b}, então eu acho que ela provavelmente {b}at the beach.{/b}"
+    crys "Eu juro, essa menina é meia sereia!"
     show crystal 1
     show player 17
-    player_name "Heh, yeah maybe..."
+    player_name "Heh, sim, talvez..."
     show player 13
     return
 
 label button_crystal_roxxys_mom:
     show crystal 1 with dissolve
     show player 10
-    player_name "So you're {b}Roxxy's mom{/b}?"
+    player_name "Então você é {b}Roxxy's mom{/b}?"
     show player 5
     show crystal 2
-    crys "That's right."
-    crys "Can't you see the resemblance?"
+    crys "Está certo."
+    crys "Você não pode ver a semelhança?"
     show crystal 1
     menu:
-        "Yeah, I suppose.":
+        "Sim, suponho.":
             show player 12
-            player_name "Now that you mention it, you two do look a lot alike."
+            player_name "Agora que você mencionou, vocês dois se parecem muito."
             show player 5
             show crystal 2
-            crys "Yeah, she really lucked out, takin' after me."
-            crys "Her father was ugly as sin!"
+            crys "Sim, ela realmente teve sorte, tomando atrás de mim."
+            crys "O pai dela era feio como o pecado!"
             show crystal 1
             player_name "..."
             show crystal 2b
             crys "Hahaha!"
             show crystal 1
             jump roxmom_dialogue_repeat
-        "You look so young though!":
+        "Você parece tão jovem!":
             show player 12
-            player_name "I see the resemblance but you look way too young to be {b}Roxxy's{/b} mom."
+            player_name "Eu vejo a semelhança, mas você parece jovem demais para ser {b}Roxxy's{/b} mamãe."
             show player 10
-            player_name "Are you sure you're not her sister?"
+            player_name "Tem certeza de que não é a irmã dela?"
             show player 5
             show crystal 2
-            crys "Well now, if you ain't got a silver tongue on you!"
-            crys "I reckon that's how you dun got my daughter's attention, huh?"
+            crys "Bem, agora, se você não tem uma língua de prata em você!"
+            crys "Eu acho que foi assim que você chamou a atenção da minha filha, hein?"
             show crystal 1
             show player 10
-            player_name "Well, I-"
+            player_name "Bem eu-"
             show player 5
             show crystal 2
-            crys "Hate to break it to ya there, slick... But it's gonna take more than fancy talk to keep hold of her."
-            crys "I brought her up right, you see?"
-            crys "Showed her that the worth of a man is in his actions and not his words!"
+            crys "Odeio quebrá-lo para você lá, liso ... Mas vai demorar mais do que conversa chique para mantê-la."
+            crys "Eu a criei certo, você vê?"
+            crys "Mostrou a ela que o valor de um homem está em suas ações e não em suas palavras!"
             show crystal 1
             player_name "..."
             show crystal 2
-            crys "Iffin' you can't take proper care of my girl then you best be movin' on, kiddo."
+            crys "Se você não pode cuidar bem da minha garota, é melhor seguir em frente, garoto."
             show crystal 1
             jump roxmom_dialogue_repeat
     return
 
 label button_crystal_roxxy_busy:
     show player 29 with dissolve
-    player_name "Is {b}Roxxy{/b} busy?"
+    player_name "Is {b}Roxxy{/b} ocupada?"
     show player 3
     show crystal 6
-    crys "Psh, I doubt it..."
-    crys "She's probably just in there yappin' on that damn phone of hers."
+    crys "Psh, duvido..."
+    crys "Ela provavelmente está lá, gritando naquele maldito telefone dela."
     show crystal 5
     show player 12 with dissolve
-    player_name "So I can just go in and see her?"
+    player_name "Então eu posso simplesmente ir vê-la?"
     show player 5
     show crystal 11
-    crys "... You expectin' me to stop ya or something?."
+    crys "... Você espera que eu pare você ou algo assim?."
     show crystal 10
     show player 10
-    player_name "I don't-"
+    player_name "Eu não-"
     show player 11
     show crystal 6
-    crys "Good grief, kiddo."
-    crys "Grow a pair and get in there already!"
+    crys "Bom sofrimento, garoto."
+    crys "Crescer um par e chegar lá já!"
     hide crystal
     hide player
     with dissolve
@@ -327,21 +327,21 @@ label button_crystal_roxxy_busy:
 
 label button_crystal_happy_home:
     show player 10
-    player_name "Are you happy to be home?"
+    player_name "Você está feliz por estar em casa??"
     show player 5
     show crystal 2
-    crys "Darn tootin' I am!"
-    crys "This place might be a shithole but it beats the hell outta that jail cell, I'll tell ya that for free!"
-    crys "I reckon, I got you to thank for gettin' me outta there, huh?"
+    crys "Maldito tootin eu sou!"
+    crys "Este lugar pode ser um buraco de merda, mas supera essa cela da prisão, eu vou te dizer isso de graça!"
+    crys "Eu acho que tenho que agradecer por me tirar de lá, hein?"
     show crystal 4 with dissolve
     show player 14
-    player_name "Oh, no thanks needed. I was just happy to help."
+    player_name "Oh, não, obrigado obrigado. Fiquei feliz em ajudar."
     show player 13
     show crystal 2 with dissolve
-    crys "Heh, yeah... Okay."
-    crys "If you say so, slick."
-    crys "The offer stands iffin' you change yer mind..."
-    crys "I can be REAL thankful... Know what I mean?"
+    crys "Heh, sim ... Ok."
+    crys "Se você diz, liso."
+    crys "A oferta permanece se você mudar de idéia..."
+    crys "Eu posso ser realmente grato ... Saiba o que eu quero dizer?"
     show crystal 1
     show player 5
     player_name "... {b}*Gulp*{/b}"
@@ -351,44 +351,44 @@ label button_crystal_happy_home:
 
 label button_crystal_should_go_evening:
     show player 14
-    player_name "I should probably get in there..."
+    player_name "Eu provavelmente deveria entrar lá..."
     show player 13
     show crystal 6
-    crys "Yeah, I reckon yer right about that."
-    crys "Take good care of my girl now, ya hear?"
+    crys "Sim, eu acho certo sobre isso."
+    crys "Cuide bem da minha garota agora, você ouve?"
     show crystal 5
     show player 14
-    player_name "Yes, ma'am."
+    player_name "Sim, senhora."
     hide player with dissolve
     pause
     show crystal 6
-    crys "Hahaha, \"ma'am...\""
-    crys "That kills me every time!"
+    crys "Hahaha, "senhora ...\""
+    crys "Isso me mata toda vez!"
     hide crystal with dissolve
     return
 
 label button_crystal_should_go_day:
     show player 14
-    player_name "I should probably go and find {b}Roxxy{/b}."
+    player_name "Eu provavelmente deveria ir e encontrar {b}Roxxy{/b}."
     show player 13
     show crystal 2
-    crys "Well, you don't have to go runnin' off now..."
-    crys "I'm more than happy to keep you company 'til she gets home."
+    crys "Bem, você não precisa sair correndo agora..."
+    crys "Estou mais do que feliz em lhe fazer companhia até que ela chegue em casa."
     show crystal 1
     show player 14
-    player_name "Heh, no that's alright. I'd hate to be a bother."
+    player_name "Heh, não, está tudo bem. Eu odiaria ser um incômodo."
     show player 13
     show crystal 2
-    crys "Psh, ain't no bother."
-    crys "I know a few ways we could pass the time..."
+    crys "Psh, não há problema."
+    crys "Eu sei algumas maneiras pelas quais podemos passar o tempo..."
     show crystal 1
     show player 3 with dissolve
     player_name "{b}*Gulp*{/b}"
     show player 29
-    player_name "I'll uhh... See you later, {b}Crystal{/b}."
+    player_name "Eu vou ... Até mais tarde, {b}Crystal{/b}."
     show player 3
     show crystal 2
-    crys "Suit yerself."
+    crys "Se adequar."
     hide player
     hide crystal
     with dissolve
@@ -396,16 +396,16 @@ label button_crystal_should_go_day:
 
 label button_crystal_she_here:
     show player 14
-    player_name "Yeah, is she here?"
+    player_name "Sim, ela está aqui?"
     show player 13
     show crystal 6
-    crys "Oh, yeah she's in there..."
+    crys "Oh, sim, ela está lá..."
     show crystal 11
-    crys "Probably yappin' on her phone, as usual."
-    crys "If I didn't know better, I'd swear that thing was glued to the side of that girls head..."
+    crys "Provavelmente yappin 'em seu telefone, como de costume."
+    crys "Se eu não soubesse melhor, eu juraria que aquela coisa estava colada ao lado da cabeça daquela garota..."
     show crystal 5
     show player 17
-    player_name "Heh, yeah."
+    player_name "Heh, sim."
     show player 13
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

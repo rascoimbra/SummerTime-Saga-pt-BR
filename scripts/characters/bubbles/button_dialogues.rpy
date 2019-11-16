@@ -3,31 +3,31 @@ label bubbles_button_intro:
     show bubbles f_normal_talk o_desk at flip
     show player at flip
     with dissolve
-    bub "Welcome to {b}CineSaga Theater{/b}, my name is {b}Bubbles{/b}."
-    bub "How can I help you?"
+    bub "Bem-vindo ao {b}CineSaga Theater{/b}, Meu nome é {b}Bubbles{/b}."
+    bub "Como posso ajudá-lo?"
     show bubbles f_normal
     return
 
 label bubbles_movie_select_pre:
     show player f_normal_talk
-    player_name "I'd like to see a movie."
+    player_name "Eu gostaria de ver um filme."
     show player f_normal
     show bubbles f_normal_talk
-    bub "Sure."
-    bub "Tickets are {b}Fifty dollars{/b} and all you have to do is select the one you want to see..."
+    bub "Certo."
+    bub "Os ingressos são {b}Fifty dollars{/b} e tudo o que você precisa fazer é selecionar o que deseja ver..."
     show bubbles f_normal
     show player f_normal_talk
-    player_name "Cool!"
+    player_name "Legal!"
     show player f_normal
     return
 
 label bubbles_button_nevermind:
     show player f_normal_talk
-    player_name "I'm just looking around, thanks."
+    player_name "Só estou olhando, obrigado."
     show player f_normal
     show bubbles f_normal_talk
-    bub "Alright."
-    bub "Just let me know if you wanna watch something."
+    bub "Tudo bem."
+    bub "Deixe-me saber se você quer assistir algo."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

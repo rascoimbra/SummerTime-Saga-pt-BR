@@ -1,18 +1,18 @@
 label kevin_gym_take_it_easy:
     show player 14
-    player_name "I'm gonna get out of here man."
+    player_name "Eu vou sair daqui, cara. "
     show player 13
     show kevin 11b with dissolve
-    kev "Already, bro?"
+    kev " Já , mano ?"
     show kevin 11c
     show player 14
-    player_name "Yeah, I've got some other stuff I need to do."
+    player_name " Sim , eu tenho algumas outras coisas que eu preciso para fazer."
     show player 13
     show kevin 9 with dissolve
-    kev "Ah, alright."
+    kev "Ah, tudo bem ."
     show kevin 8
     show player 14
-    player_name "Catch you later, {b}Kevin{/b}."
+    player_name " Até mais, {b}Kevin{/b}."
     hide kevin
     hide player
     with dissolve
@@ -20,13 +20,13 @@ label kevin_gym_take_it_easy:
 
 label kevin_gym_lets_lift:
     show player 14
-    player_name "Let's just lift."
+    player_name " Vamos apenas levantar ."
     show player 13
     show kevin 9
-    kev "Oh, you're ready to pump some iron?"
+    kev "Oh, você está pronto para levantar um pouco de ferro ?"
     show kevin 10 with dissolve
-    kev "Right on, bro."
-    kev "Let's do this!"
+    kev " Direito em , bro ."
+    kev " Vamos fazer isso !"
     hide kevin
     hide player
     with dissolve
@@ -37,20 +37,20 @@ label kevin_gym_intro:
     show player 13 at left
     show kevin 9 at right
     with dissolve
-    kev "Hey, bro!"
+    kev " Ei , mano !"
     show kevin 8
     show player 14
-    player_name "What's up, {b}Kevin{/b}?"
+    player_name " O que é para cima, {b}Kevin{/b}?"
     show player 13
     show kevin 9
-    kev "I've been working on my glutes all morning!"
+    kev " Eu venho trabalhando em meus glúteos toda manhã !"
     show kevin 13b with dissolve
-    kev "Feel how tight these bad boys are!"
+    kev " Sinta o quão apertados esses meninos maus são!"
     show player 10b with dissolve
-    player_name "Eh, no thanks..."
+    player_name " Eh , não, obrigado ..."
     show player 5b
-    kev "You sure, bro?"
-    kev "You don't know what you're missing!"
+    kev " Você tem certeza , mano ?"
+    kev " Você não sabe o que está perdendo !"
     show kevin 8 with dissolve
     show player 29 with dissolve
     player_name "Heh."

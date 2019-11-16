@@ -2,141 +2,141 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     show player 14 at left
     show mia 7 at right
     with dissolve
-    player_name "Hey, {b}Mia{/b}! What are you up to?"
+    player_name "Oi, {b}Mia{/b}! O que está rolando?"
     show player 13
     show mia 10
-    mia "Oh, hello, {b}[firstname]{/b}! I was just about to study for the upcoming chemistry test."
+    mia "Olá, {b}[firstname]{/b}!estava prestes a estudar para o próximo teste de química ".
     show mia 7
     show player 12
-    player_name "I thought your mom didn't allow you to do anything after school?"
+    player_name "Eu pensei que sua mãe não permitiu que você fizesse nada depois da escola? "
     show player 13
     show mia 12
-    mia "She usually doesn't but..."
+    mia "Ela geralmente não, mas ... "
     show mia 10
-    mia "I told her that {b}Miss Okita{/b} might write me a college recommendation if I impressed her by doing well on our next test."
+    mia "Eu disse a ela que {b}Miss Okita{/b} pode me escrever uma recomendação da faculdade se eu a impressionar indo bem em nosso próximo teste. "
     show mia 7
-    player_name "Will she really do that?"
+    player_name "Ela realmente fará isso? "
     show mia 10
-    mia "Probably not but it doesn't hurt to try, right?"
-    mia "And I actually get to hang out with {b}Judith{/b} outside of my house too!"
-    show mia 7
-    show player 14
-    player_name "Yeah, I suppose not."
-    show player 13
-    show mia 10
-    mia "What are you doing here?"
+    mia "Provavelmente não, mas não custa tentar, certo? "
+    mia "E eu realmente saio com {b}Judith{/b} fora da minha casa também! "
     show mia 7
     show player 14
-    player_name "{b}Miss Bissette{/b} gave me an assignment. I thought maybe I could get some inspiration here."
+    player_name "Sim, suponho que não. "
     show player 13
     show mia 10
-    mia "Oh yeah? What's the assignment?"
+    mia "O que você está fazendo aqui?"
+    show mia 7
+    show player 14
+    player_name "{b}Miss Bissette{/b} me deu uma tarefa. Pensei que talvez pudesse me inspirar aqui. "
+    show player 13
+    show mia 10
+    mia "Oh sim? Qual é a tarefa? "
     show mia 7
     show player 10
-    player_name "Well, it's kinda embarrassing..."
+    player_name "Bem, é meio embaraçoso ... "
     show player 5
     show mia 9
-    mia "Hehe, really?! Well, you have to tell me now!"
+    mia "Hehe, sério ?! Bem, você tem que me dizer agora! "
     show mia 7
     show player 10
-    player_name "*Sigh* I'm supposed to write a romantic poem in French."
+    player_name "* Suspiro * Eu devo escrever um poema romântico em francês. "
     show player 5
     show mia 10
-    mia "That's not embarrassing!"
+    mia "Isso não é embaraçoso! "
     show mia 7
     show player 12
-    player_name "No?"
+    player_name "Não?"
     show player 5
     show mia 10
-    mia "No! We all had to do that!"
+    mia "Não! Todos nós tivemos que fazer isso! "
     show mia 12
-    mia "Well, everyone but {b}Roxxy{/b}... She never does the homework."
+    mia "Bem, todos menos {b}Roxxy{/b}... Ela nunca faz a lição de casa. "
     show mia 7
     show player 14
-    player_name "I didn't know. What was your poem about?"
+    player_name "Eu não sabia Qual foi o seu poema? ​​"
     show player 13
     show mia 12
-    mia "Oh, I..."
+    mia "Ah eu ... "
     show mia 56 with dissolve
-    mia "...You know, this and that, hehe..."
+    mia "...Você sabe, isso e aquilo, hehe ... "
     show mia 55
     show player 14
-    player_name "Aha! See, it is embarrassing!"
+    player_name "Aha! Veja, é embaraçoso! "
     show player 13
     show mia 10 with dissolve
-    mia "Yeah, I guess it is a little bit."
+    mia "Sim, acho que é um pouco. "
     show mia 7
     show player 10
-    player_name "I don't even know how to begin writing this thing!"
-    player_name "I should probably look around for a book on {b}French Romance{/b}..."
+    player_name "Eu nem sei como começar a escrever essa coisa! "
+    player_name "Eu provavelmente deveria procurar um livro sobre {b}Romance francês{/b}..."
     show player 13
     show mia 10
-    mia "You know, {b}Judith{/b} and I found a really informative one."
+    mia "Você sabe, {b}Judith{/b} e eu achei um realmente informativo ".
     show mia 7
     show player 10
-    player_name "Oh really?"
+    player_name "Sério?"
     show player 13
     show mia 10
-    mia "Yeah, it was pretty graphic though..."
+    mia "Sim, era bastante gráfico ... "
     show mia 7
     show player 12
-    player_name "Do you remember what it was called?"
+    player_name "Você se lembra como foi chamado? "
     show player 13
     show mia 12
-    mia "Hmm, no, not really."
+    mia "Hmm, não, na verdade não. "
     show mia 10
-    mia "{b}Judith{/b} had it last. She was using it {b}in the back room{/b} there, I think."
+    mia "{b}Judith{/b} teve por último. Ela estava usando {b}na sala dos fundos{/b} lá, eu acho. "
     show mia 7
     show player 10
-    player_name "Huh, you think she might have left it in there?"
+    player_name "Huh, você acha que ela pode ter deixado lá? "
     show player 13
     show mia 10
-    mia "Maybe."
+    mia "Talvez."
     show mia 7
     show player 14
-    player_name "I guess I'll go take a look then. Thanks for the help, {b}Mia{/b}!"
+    player_name "Acho que vou dar uma olhada então. Obrigado pela ajuda, {b}Mia{/b}!"
     show player 13
     show mia 10
-    mia "No problem! Good luck, {b}[firstname]{/b}!"
+    mia "Sem problemas! Boa sorte, {b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "You too!"
+    player_name "Você também!"
     return
 
 label mia_library_dialogue_bissette_mia_book_feedback:
     show mia 10 at right
     show player 13 at left
     with dissolve
-    mia "Any luck finding it?"
+    mia "Alguma sorte em encontrá-lo? "
     show mia 7
     show player 10
-    player_name "Yeah, I found it..."
+    player_name "Sim, eu achei ... "
     show player 14
-    player_name "You weren't kidding, it's really graphic!"
+    player_name "Você não estava brincando, é realmente gráfico! "
     show player 13
     show mia 56 with dissolve
-    mia "...Yeah."
+    mia "...Sim!"
     show mia 55
     show player 10
-    player_name "I wonder what {b}Judith{/b} was doing with it back there by herself."
+    player_name "eu imagino o que {b}Judith{/b} estava fazendo isso lá atrás sozinha ".
     show player 5
     show mia 56
-    mia "Heh, y-yeah, I dunno..."
-    mia "...I should really get back to studying."
+    mia "Heh, sim, eu não sei ... "
+    mia "... eu realmente deveria voltar a estudar. "
     show mia 55
     show player 14
-    player_name "Oh, right! Sorry!"
-    player_name "Thanks again, {b}Mia{/b}."
+    player_name "Oh, certo! Desculpa!"
+    player_name "obrigado novamente, {b}Mia{/b}."
     show player 13
     show mia 56
-    mia "No problem, {b}[firstname]{/b}."
+    mia "Sem problemas, {b}[firstname]{/b}."
     hide mia with dissolve
     show player 14
-    player_name "Alright, I had better take this home to {b}my computer{/b} and get to writing on that poem for {b}Miss Bissette{/b}."
+    player_name "Tudo bem, é melhor eu levar essa casa para {b}meu computador{/b} e começar a escrever sobre esse poema para {b}Miss Bissette{/b}."
     return
 
 label mia_library_dialogue_do_not_disturb:
     show player 10 with dissolve
-    player_name "No, I should let her study in peace..."
+    player_name "Não, eu deveria deixá-la estudar em paz ... "
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

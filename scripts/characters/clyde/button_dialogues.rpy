@@ -4,7 +4,7 @@ label button_clyde_pink_beaver:
     show clyde 1 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
-    player_name "Hey, about that beaver you wanted."
+    player_name "Ei, sobre o castor que você queria."
     show player 13f
     show clyde 2
     clyde "Yah?"
@@ -12,84 +12,84 @@ label button_clyde_pink_beaver:
     show player 239_240f
     pause
     show player 709f
-    player_name "Is this it?"
+    player_name "É isso?"
     show player 708f
     show clyde 30
     clyde "!!!"
     show clyde 4 with dissolve
-    clyde "Well butter my butt and call me a biscuit, you actually got it!"
+    clyde "Bem, bata manteiga na minha bunda e me chame de biscoito, você realmente conseguiu!"
     show clyde 3
     show player 709f
-    player_name "I thought this might be it."
+    player_name "Eu pensei que poderia ser isso."
     show clyde 34
     show player 13f
     with dissolve
     pause
     show clyde 35
-    clyde "How the heck did you win dis thing?!"
+    clyde "Como diabos você ganhou essa coisa?!"
     show clyde 33 with dissolve
-    clyde "The fair ain't even gon' be here for another 2 months!"
+    clyde "A feira nem vai ficar aqui por mais 2 meses!"
     show clyde 32
     show player 12f
-    player_name "I bought it at the shopping mall, {b}Clyde{/b}."
+    player_name "Eu comprei no shopping, {b}Clyde{/b}."
     show player 5f
     show clyde 2 with dissolve
-    clyde "The mall?"
-    clyde "Ah, shoot."
-    clyde "I ain't never been in 'dere."
-    clyde "Where's that dog run off to now?"
-    clyde "C'mon, girl!"
+    clyde "O Shopping?"
+    clyde "Ah, atire."
+    clyde "Eu nunca estive aqui antes."
+    clyde "Para onde esse cachorro fugiu agora?"
+    clyde "Vamos garota!"
     show clyde 1
     pause
     show player 10f
-    player_name "Wait. You've never been to the mall?"
+    player_name "Esperar. Você nunca esteve no shopping?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "No, sir."
+    clyde "Não senhor."
     show clyde 3
     show player 10f
-    player_name "Where do you buy your groceries then?"
+    player_name "Onde você compra suas compras então?"
     show player 5f
     show clyde 4
-    clyde "Pfft, you city folk and yer groceries..."
-    clyde "I ain't payin' nobody fer stuff dat's free right here in the woods!"
+    clyde "Pfft, seu povo da cidade e suas compras..."
+    clyde "Eu não estou pagando ninguém por essas coisas que são gratuitas aqui na floresta!"
     show clyde 3
     show player 10f
     player_name "... Huh?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "I hunt fer mah food, buddy."
+    clyde "Eu caço comida, amigo."
     show clyde 4 with dissolve
-    clyde "Speakin' of, I got a nice pot of squirrel stewin' back in mah shack."
-    clyde "You oughta come by fer dinner!"
+    clyde "Falando nisso, eu tenho um belo pote de guisado de esquilo lá em mah shack."
+    clyde "Você deveria vir para o jantar!"
     show clyde 3
     show player 12f
-    player_name "Eugh, no thanks."
+    player_name "Eugh, não, obrigado."
     show player 5f
     pig "{b}*Squeeeeee*{/b}"
     show clyde 4
-    clyde "There you are!"
+    clyde "Aí está você!"
     if M_clyde.get("cletus"):
         show clyde_hat down
     show clyde 36
     with dissolve
-    clyde "Where you been girl?!"
+    clyde "Onde você esteve garota?!"
     if M_clyde.get("cletus"):
         show clyde_hat
     show clyde 38
     with dissolve
     pig "*{b}Oink{/b}*"
     show clyde 37
-    clyde "Look what {b}[firstname]{/b} brought fer ya!"
+    clyde "Olha o que {b}[firstname]{/b} trouxe!"
     show clyde 38
     pig "{b}*SQUEE SQUEE*{/b}"
     show clyde 37
-    clyde "Hehehe, look how happy she is!"
+    clyde "Hehehe, olha como ela está feliz!"
     if M_clyde.get("cletus"):
         show clyde_hat down
     show clyde 36
     with dissolve
-    clyde "You go and have some fun now!"
+    clyde "Você vai se divertir agora!"
     if M_clyde.get("cletus"):
         show clyde_hat
     show clyde 3
@@ -97,290 +97,290 @@ label button_clyde_pink_beaver:
     pig "{b}*Snort*{/b}"
     pause
     show clyde 4
-    clyde "Now dat is one happy dog."
-    clyde "Alright feller..."
+    clyde "Agora esse é um cão feliz."
+    clyde "Tudo bem feller..."
     show clyde 9 with dissolve
-    clyde "I gotta repay you fer dis somehow."
+    clyde "Eu tenho que pagar você de alguma forma."
     show clyde 3 with dissolve
     show player 12f
-    player_name "Don't worry about it."
-    player_name "Just consider it a gift."
+    player_name "Não se preocupe com isso."
+    player_name "Apenas considere um presente."
     show player 5f
     show clyde 4
-    clyde "Now hold on, just a second."
+    clyde "Agora espere, só um segundo."
     show clyde 1 with dissolve
     pause
     show clyde 9 with dissolve
     clyde "Oh!"
-    clyde "I got just the thing!"
+    clyde "Eu tenho exatamente o que!"
     hide clyde
     hide clyde_hat
     with dissolve
     show player 10f
-    player_name "Where are you going?!"
+    player_name "Onde você vai?!"
     show player 5f
-    clyde "Wait there!"
+    clyde "Espere aí!"
     pause
-    clyde "Don't you move a muscle!"
+    clyde "Não mexa um músculo!"
     show player 25f
-    player_name "Oh, man."
-    player_name "R-really, it's okay..."
-    player_name "I don't nee-"
+    player_name "Oh, cara."
+    player_name "R-realmente, está tudo bem..."
+    player_name "Eu não preciso-"
     show player 11f
     show clyde 40 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
     with dissolve
-    clyde "Check it out!"
+    clyde "Confira!"
     show clyde 39
     if player.has_item("mysterious_statue_1"):
         show player 23f
         player_name "!!!"
         show player 30f
         if M_clyde.get("cletus"):
-            player_name "{b}Clyde{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+            player_name "{b}Clyde{/b}, Eu pensei que você disse que não sabia nada sobre a estátua do seu avô!"
         else:
-            player_name "{b}Cletus{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+            player_name "{b}Cletus{/b}, Eu pensei que você disse que não sabia nada sobre a estátua do seu avô!"
         show player 90f
         show clyde 40
-        clyde "Oh, right."
-        clyde "I did say that, didn't I?"
+        clyde "Oh, certo."
+        clyde "Eu disse isso, não disse?"
         show clyde 39
         pause
         show clyde 11 with dissolve
-        clyde "Well, I was lyin'."
+        clyde "Bem, eu estava mentindo'."
         show clyde 12
         show player 12f
-        player_name "Why?!"
+        player_name "Por quê?!"
         show player 90f
     else:
 
         player_name "!!!"
         show player 30f
-        player_name "What the heck is that?"
+        player_name "Que raio é aquilo?"
         show player 5f
         show clyde 40
-        clyde "Well, it used to belong to my grandpappy."
+        clyde "Bem, costumava pertencer ao meu avô."
         show clyde 39
         show player 10f
-        player_name "You're grandpappy?!"
+        player_name "Seu avô?!"
         show player 5f
         show clyde 9 with dissolve
-        clyde "That's right!"
-        clyde "Ole' {b}Jebediah Delmont{/b} himself!"
+        clyde "Está certo!"
+        clyde "Ole' {b}Jebediah Delmont{/b} ele mesmo!"
         show clyde 3
         pause
         player_name "..."
         show clyde 2 with dissolve
-        clyde "You've never heard of {b}Jebadiah Delmont{/b}?"
+        clyde "Você nunca ouviu falar de {b}Jebadiah Delmont{/b}?"
         show clyde 1
         show player 10f
-        player_name "No?"
+        player_name "Não?"
         show player 5f
         show clyde 2
-        clyde "{b}*Sigh*{/b} Good grief."
+        clyde "{b}*Sigh*{/b} Minha nossa."
         show clyde 4 with dissolve
-        clyde "He used to be perty famous 'round these parts for his cows and their delicious milk!"
-        clyde "He won all sorts of contests."
+        clyde "Ele costumava ser famoso em todas essas partes por suas vacas e seu delicioso leite!"
+        clyde "Ele ganhou todos os tipos de concursos."
         show clyde 3
         show player 10f
-        player_name "He was a dairy farmer?"
+        player_name "Ele era um fazendeiro?"
         show player 5f
         show clyde 4
-        clyde "Well, he didn't just do dairy farmin'."
-        clyde "He had all sorts of animals."
+        clyde "Bem, ele não fez apenas fazendas de laticínios'."
+        clyde "Ele tinha todos os tipos de animais."
         show clyde 9 with dissolve
-        clyde "You shoulda seen the chicken eggs he'd bring to fair."
-        clyde "They was as big as a football!"
+        clyde "Você deveria ter visto os ovos de galinha que ele traria para a feira."
+        clyde "Eles eram do tamanho de uma bola de futebol!"
         show clyde 3 with dissolve
         show player 10f
-        player_name "For real?"
+        player_name "Sério?"
         show player 5f
         show clyde 4
-        clyde "Heh, yeah buddy!"
+        clyde "Heh, sim amigo!"
         show clyde 3
         pause
         show player 17f
-        player_name "That sounds awesome!"
+        player_name "Isso parece incrível!"
         show player 14f
-        player_name "Tell me more."
+        player_name "Me diga mais."
         show player 13f
         show clyde 11 with dissolve
-        clyde "Oh, no. I uhh-"
-        clyde "{b}*Ahem*{/b} I really don't wanna get into all that..."
+        clyde "Ah não. Eu-"
+        clyde "{b}*Ahem*{/b} Eu realmente não quero entrar nisso tudo..."
         show clyde 12
         show player 10f
-        player_name "Huh, why not?"
+        player_name "Huh, porque não?"
         show player 5f
     show clyde 11
-    clyde "Look buddy, my grandpappy ain't exactly the pride of the {b}Delmont family{/b}..."
-    clyde "We don't like talkin' bout it!"
+    clyde "Olha amigo, meu avô não é exatamente o orgulho do {b}Delmont family{/b}..."
+    clyde "Nós não gostamos de falar sobre isso!"
     show clyde 12
     show player 10f
-    player_name "How come?"
+    player_name "Por quê?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "{b}*Sigh*{/b} Let's just say ole' {b}Jebediah{/b} was a little, touched in the head, alright?"
+    clyde "{b}*Sigh*{/b} Vamos apenas dizer' {b}Jebediah{/b} foi um pouco, tocou na cabeça, tudo bem?"
     show clyde 1
     show player 10f
-    player_name "Touched in the head?"
+    player_name "Tocada na cabeça?"
     show player 5f
     show clyde 2
-    clyde "You know."
-    clyde "He had a few screws loose."
+    clyde "Você sabe."
+    clyde "Ele tinha alguns parafusos soltos."
     show clyde 1
     show player 10f
     player_name "Uhh..."
     show player 5f
     show clyde 9 with dissolve
-    clyde "His wheel was turning but the hamster was dead."
+    clyde "Sua roda estava girando, mas o hamster estava morto."
     show clyde 3 with dissolve
     show player 10f
-    player_name "I don't..."
+    player_name "Eu não..."
     show player 5f
     show clyde 4
-    clyde "He was a few cards short of a full deck."
+    clyde "Ele tinha poucas cartas abaixo do baralho completo."
     show clyde 3
     show player 12f
-    player_name "What are you talking about?!"
+    player_name "Do que você está falando?!"
     show player 5f
     show clyde 26 with dissolve
-    clyde "Tch, he was nuttier than a porta potty at a peanut festival, alright?!"
+    clyde "Tch, ele era mais maluco do que um potty de porta em um festival de amendoim, tudo bem?!"
     show clyde 25
     show player 12f
-    player_name "You mean he was crazy?"
+    player_name "Você quer dizer que ele era louco?"
     show player 5f
     show clyde 26
-    clyde "That's what I've been tryin' to tell ya..."
+    clyde "Isso é o que eu tenho tentado lhe dizer..."
     show clyde 25
     show player 10f
     player_name "Oh."
     show player 5f
     show clyde 2
-    clyde "Yeah."
-    clyde "Mama says he was always a bit eccentric."
-    clyde "Folk in the holler used to call him the hillbilly wizard."
+    clyde "Sim."
+    clyde "Mamãe diz que ele sempre foi um pouco excêntrico."
+    clyde "O pessoal do gritador costumava chamá-lo de mago caipira."
     show clyde 1
     show player 10f
-    player_name "He was a wizard?"
+    player_name "Ele era um mago?"
     show player 5f
     show clyde 2
-    clyde "Yeah, but he wasn't a very good one."
-    clyde "I remember, he tried turnin' me into a toad one time, cause I had gone and got my head stuck in the stairs."
+    clyde "Sim, mas ele não era muito bom."
+    clyde "Eu lembro, ele tentou me transformar em sapo uma vez, porque eu tinha ido e fiquei com a cabeça presa nas escadas."
     show clyde 1
     show player 10f
-    player_name "You got your head stuck in the stairs?!"
+    player_name "Você ficou com a cabeça presa nas escadas?!"
     show player 5f
     show clyde 2
-    clyde "My brother told me there was a leprechaun livin' under the stairs and I wanted to see him."
+    clyde "Meu irmão me disse que havia um duende morando embaixo da escada e eu queria vê-lo."
     show clyde 1
     show player 17f
     player_name "Pfft, hahaha!"
     show player 13f
     show clyde 2
-    clyde "Anyways, his spell didn't work."
+    clyde "De qualquer forma, seu feitiço não funcionou."
     show clyde 11 with dissolve
-    clyde "So Mama had to grease me up with bacon fat and slide me out."
+    clyde "Então mamãe teve que me untar com gordura de bacon e me tirar."
     show clyde 12
     show player 17f
     player_name "Haha!"
     show player 13f
     show clyde 4
-    clyde "Then there was this one time, I was failin' the second grade..."
-    clyde "... And grandpappy, he said, \"Don't you worry none little {b}Clyde{/b}. Grandpappy will fix it right up fer ya.\""
+    clyde "Então houve uma vez, eu estava reprovando na segunda série..."
+    clyde "... E avô, ele disse: "Não se preocupe {b}Clyde{/b}. O avô vai consertar isso para você.\""
     show clyde 3
     pause
     show player 14f
-    player_name "Okay, so what happened?"
+    player_name "Ok, então o que aconteceu?"
     show player 13f
     show clyde 2 with dissolve
-    clyde "Well, I don't rightly know. They found him in the school house, in the middle of the night, buck naked and covered in chicken blood."
+    clyde "Bem, eu não sei com razão. Eles o encontraram na casa da escola, no meio da noite, nu e coberto de sangue de galinha."
     show clyde 1
     show player 23f
-    player_name "Chicken blood?!"
+    player_name "Sangue de galinha?!"
     show player 11f
     show clyde 2
-    clyde "Yeah, he said he was performin' some kinda ritual thingy to help me with my schoolin'."
-    clyde "Apparently he was a hootin' and a hollerin' and a carryin' on."
+    clyde "Sim, ele disse que estava realizando uma espécie de ritual para me ajudar com minha escola'."
+    clyde "Aparentemente, ele estava piando e gritando e carregando."
     show clyde 1
     show player 10f
-    player_name "Yeah, he does sound a little crazy, {b}Clyde{/b}."
+    player_name "Sim, ele parece um pouco louco, {b}Clyde{/b}."
     show player 12f
     show clyde 2
-    clyde "Yeah, I reckon he was."
-    clyde "He was a sweet ole' feller though."
-    clyde "It's too bad all dem evil spirits got mad at him."
+    clyde "Sim, eu acho que ele era."
+    clyde "Ele era um homem doce e velho."
+    clyde "É uma pena que todos os espíritos malignos ficaram bravos com ele."
     show clyde 1
     show player 10f
-    player_name "Evil spirits?"
+    player_name "Espiritos malignos?"
     show player 11f
     show clyde 2
-    clyde "Yeah, he told me all about it right after he broke this here statue and hid the pieces."
-    clyde "Said they was coming fer him and he wanted her to be safe."
+    clyde "Sim, ele me contou tudo logo depois que ele quebrou esta estátua aqui e escondeu os pedaços."
+    clyde "Disse que eles estavam vindo atrás dele e ele queria que ela estivesse segura."
     show clyde 1
     show player 10f
-    player_name "Her?"
+    player_name "Dela?"
     show player 5f
     show clyde 40 with dissolve
-    clyde "The lady in the statue, of course!"
-    clyde "He was real tore up about hiding her away."
-    clyde "She was his good luck charm after all."
+    clyde "A senhora da estátua, é claro!"
+    clyde "Ele estava realmente chateado por escondê-la."
+    clyde "Ela era seu amuleto de boa sorte, afinal."
     show clyde 39
     show player 12f
-    player_name "Weird."
+    player_name "Esquisita."
     show player 5f
     show clyde 9 with dissolve
-    clyde "Then we caught him fornicatin' with the livestock and Mama sent him off to the nut house."
+    clyde "Então nós o pegamos fornicando com o gado e mamãe o mandou para a casa de nozes."
     show clyde 3 with dissolve
     show player 22f
     player_name "!!!" with hpunch
     show player 23f
-    player_name "You mean he-"
-    player_name "W-with animals?!"
+    player_name "Você quer dizer que ele-"
+    player_name "com animais?!"
     show player 37f
     show clyde 11
     with dissolve
-    clyde "{b}*Sigh*{/b} Yup, crying like a baby too."
-    clyde "Them spirits musta really done a number on him, poor feller."
+    clyde "{b}*Sigh*{/b} Sim, chorando como um bebê também."
+    clyde "Aqueles espíritos devem realmente ter um número com ele, pobre companheiro."
     show clyde 12
     show player 10f with dissolve
-    player_name "So uhh..."
-    player_name "... Is your grandpa still living at the nut house then?"
+    player_name "Então uhh..."
+    player_name "... Seu avô ainda está morando na casa da castanha?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Ah, nah."
-    clyde "About two weeks after Mama sent him there, his room caught on fire and he burnt up in it."
+    clyde "Ah não."
+    clyde "Cerca de duas semanas depois que a mãe o mandou para lá, seu quarto pegou fogo e ele ardeu nele.."
     show clyde 1
     show player 24f
     player_name "Jesus..."
     show clyde 2
-    clyde "They not sure how the fire started but I reckon them spirits finally got him."
+    clyde "Eles não sabem como o fogo começou, mas eu acho que os espíritos finalmente o pegaram."
     show clyde 1
-    player_name "I don't even..."
+    player_name "Eu nem..."
     player_name "..."
     show clyde 30
-    clyde "Yeah, it was real sad..."
+    clyde "Sim, foi muito triste..."
     show clyde 29
     pause
     show player 11f
     show clyde 2
-    clyde "Anyways!"
+    clyde "Enfim!"
     show player 5f
     show clyde 40 with dissolve
-    clyde "I reckon he wouldn't mind me giving you this piece of the statue."
-    clyde "Seein' as you helped me and all."
-    clyde "Who knows, maybe it'll bring you luck too."
+    clyde "Eu acho que ele não se importaria de eu lhe dar este pedaço da estátua."
+    clyde "Vendo como você me ajudou e tudo."
+    clyde "Quem sabe, talvez isso lhe traga sorte também."
     show clyde 39
     show player 10f
-    player_name "R-right."
-    player_name "Thanks, I guess..."
+    player_name "direita."
+    player_name "Obrigado eu acho..."
     show player 715f
     show clyde 9
     with dissolve
-    clyde "Don't mention it, buddy!"
+    clyde "Não mencione, amigo!"
     show player 5f with dissolve
-    clyde "Now if you'll excuse me."
-    clyde "I wanna watch my dog give that ole' beaver what fer!"
+    clyde "Agora, se você me der licença."
+    clyde "Eu quero ver meu cachorro dar a esse velho castor o que!"
     hide clyde
     hide clyde_hat
     with dissolve
@@ -388,9 +388,9 @@ label button_clyde_pink_beaver:
     show player 239_240f with dissolve
     pause
     show player 715f with dissolve
-    player_name "( You know, this actually explains quite a lot about {b}Clyde{/b} and why he is the way he is... )"
+    player_name "( Você sabe, isso realmente explica bastante sobre {b}Clyde{/b} e por que ele é do jeito que é... )"
     pause
-    player_name "( I guess I should keep an eye out for the other pieces of this statue. )"
+    player_name "( Eu acho que eu deveria ficar de olho nas outras peças desta estátua. )"
     hide player with dissolve
     return
 
@@ -402,70 +402,70 @@ label button_clyde_mysterious_statue_1:
         show clyde_hat at left
     pause
     show player 688cf
-    player_name "You know anything about this {b}Clyde{/b}?"
+    player_name "Você sabe alguma coisa sobre isso {b}Clyde{/b}?"
     show player 688bf
     show clyde 30
-    clyde "{b}*Gasp*{/b} Where in the world did you find that?!"
+    clyde "{b}*Gasp*{/b} Onde no mundo você achou isso?!"
     show clyde 29
     show player 688cf
-    player_name "It was buried under my friends house."
+    player_name "Foi enterrado sob a casa dos meus amigos."
     show player 688bf
     pause
     show player 688cf
-    player_name "The name {b}Delmont{/b} is etched in the bottom."
+    player_name "O nome {b}Delmont{/b} está gravado no fundo."
     show player 688bf
     show clyde 2
-    clyde "Yeah."
+    clyde "Sim."
     show clyde 4 with dissolve
-    clyde "It's part of my grandpappy's good luck charm."
+    clyde "Faz parte do amuleto de boa sorte do meu avô."
     show clyde 3
     show player 688cf
-    player_name "Grandpappy?"
-    player_name "You mean your grandfather?"
+    player_name "Avô?"
+    player_name "Você quer dizer seu avô?"
     show player 13f with dissolve
     show clyde 4
     clyde "Uh huh, {b}Jebadiah Delmont{/b}."
-    clyde "He was real famous in these parts many years ago for the milk his cows produced."
+    clyde "Ele era muito famoso nessas partes há muitos anos pelo leite produzido por suas vacas."
     show clyde 3
     show player 10f
-    player_name "Cow milk?"
+    player_name "Leite de vaca?"
     show player 5f
     clyde "Mmhmm."
     show clyde 4
-    clyde "It was delicious!"
-    clyde "Won a bunch of contests with it."
+    clyde "Estava uma delícia!"
+    clyde "Ganhou um monte de concursos com ele."
     show clyde 3
     show player 14f
-    player_name "That's pretty cool."
+    player_name "Isso é bem legal."
     show player 13f
     show clyde 4
-    clyde "He had some amazing chicken eggs too."
-    clyde "They was big as a football!"
+    clyde "Ele também tinha ovos de galinha incríveis."
+    clyde "Eles eram grandes como uma bola de futebol!"
     show clyde 3
     pause
     show player 12f
-    player_name "Right..."
+    player_name "Direita..."
     show player 5f
     pause
     show player 10f
-    player_name "So uhh..."
-    player_name "Do you know where the rest of this statue might be?"
+    player_name "Tão uhh..."
+    player_name "Você sabe onde o resto desta estátua pode estar?"
     show player 5f
     show clyde 11 with dissolve
-    clyde "Nope!"
+    clyde "Não!"
     show clyde 12
     pause
     show player 10f
-    player_name "Oh, cause I just thought-"
+    player_name "Oh, porque eu apenas pensei-"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Sorry feller, can't help ya!"
-    clyde "I dun know squat!"
+    clyde "Desculpe companheiro, não posso ajudá-lo!"
+    clyde "Eu sei agachamento!"
     show clyde 3 with dissolve
     show player 10f
-    player_name "Alright..."
+    player_name "Tudo bem..."
     show player 24f
-    player_name "Thanks anyways, I guess."
+    player_name "Obrigado de qualquer maneira, eu acho."
     show player 5f
     show clyde 1 with dissolve
     return
@@ -478,29 +478,29 @@ label button_clyde_mysterious_statue_2:
         show clyde_hat at left
     pause
     show player 715bf with dissolve
-    player_name "Any idea where I can find more of this statue?"
+    player_name "Alguma idéia de onde posso encontrar mais desta estátua?"
     show player 715cf
     show clyde 2
-    clyde "Erm, not really."
-    clyde "Knowin' grandpappy, that last piece will probably {b}find you{/b}."
+    clyde "Erm, na verdade não."
+    clyde "Conhecendo o avô, essa última peça provavelmente {b}encontrar-te{/b}."
     show clyde 1
     show player 10f with dissolve
-    player_name "What do you mean?"
+    player_name "O que você quer dizer?"
     show player 5f
     show clyde 2
-    clyde "Yeah, I reckon I'd prolly jus' {b}find a nice comfy place to relax{/b}..."
-    clyde "... {b}somewheres near the beach, maybe{/b}."
+    clyde "Sim, eu acho que prolly jus' {b}encontre um lugar agradável e confortável para relaxar{/b}..."
+    clyde "... {b}sperto da praia, talvez{/b}."
     show clyde 1
     pause
     show clyde 2
-    clyde "I betcha' {b}that head will pop up all on it's own{/b}."
+    clyde "Eu aposto' {b}essa cabeça vai aparecer por si só{/b}."
     show clyde 1
     show player 10f with dissolve
-    player_name "Ehh, right..."
-    player_name "Well, thanks. I guess..."
+    player_name "Ehh certo..."
+    player_name "Bem, obrigado. eu acho..."
     show player 5f
     show clyde 9 with dissolve
-    clyde "No problem, buddy."
+    clyde "Não tem problema, amigo."
     show clyde 1 with dissolve
     return
 
@@ -511,57 +511,57 @@ label button_clyde_your_dog:
     show clyde 1 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
-    player_name "So, about your dog..."
+    player_name "Então, sobre o seu cachorro..."
     show player 5f
     show clyde 4 with dissolve
-    clyde "Ah yeah, she's a good girl ain't she?"
+    clyde "Ah sim, ela é uma boa garota, não é??"
     show clyde 3
     show player 10f
-    player_name "Okay, sure."
+    player_name "OK, claro."
     show player 12f
-    player_name "You realize she isn't a dog though, right?"
+    player_name "Você percebe que ela não é um cachorro, certo?"
     show player 5f
     show clyde 4
-    clyde "Best dog I ever had!"
+    clyde "Melhor cachorro que já tive!"
     show clyde 3
     show player 24f
     player_name "{b}*Sigh*{/b}"
     show player 5f
     show clyde 4
-    clyde "That's why I'm practicin' so hard, to win her one of dem {b}stuffed beavers{/b} at the fair."
+    clyde "É por isso que estou praticando tanto, para conquistá-la como uma {b}castores recheados{/b} na feira."
     show clyde 3
     show player 12f
-    player_name "Yeah, you mentioned that."
+    player_name "Sim, você mencionou isso."
     show player 10f
-    player_name "Why don't you just buy her one?"
+    player_name "Por que você não compra um para ela?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Psh, now you'se talkin' crazy..."
-    clyde "What, you think {b}Pink beavers{/b} jus' be growin' on trees or somethin'?"
+    clyde "Psh, agora você está falando louco..."
+    clyde "O que você acha {b}Castores-de-rosa{/b} apenas crescer em árvores ou algo assim'?"
     show clyde 3 with dissolve
     show player 10f
-    player_name "Does the color really matter?"
+    player_name "A cor realmente importa?"
     show player 5f
     show clyde 4
-    clyde "Heck ya it matters!"
-    clyde "{b}Pink beavers{/b} is the best beavers."
+    clyde "Caramba, isso importa!"
+    clyde "{b}Castores-de-rosa{/b} são os melhores castores."
     show clyde 9 with dissolve
-    clyde "Ever'body knows dat!"
+    clyde "Todo mundo sabe disso!"
     show clyde 3 with dissolve
     show player 402f
-    player_name "... Right."
+    player_name "... Direito."
     show player 10f
-    player_name "Okay, well good luck with all that I guess..."
+    player_name "Ok, boa sorte com tudo o que eu acho..."
     show player 5f
     show clyde 4
-    clyde "\"Luck\" is my middle name, brother."
+    clyde "\"Sorte\" é meu nome do meio, irmão."
     show clyde 3
     pause
     show clyde 2 with dissolve
-    clyde "Actually it's Cornelius."
+    clyde "Na verdade, é Cornelius."
     show clyde 1
     show player 12f
-    player_name "Huh?"
+    player_name "Hã?"
     show player 5f
     show clyde 2
     if M_clyde.get("cletus"):
@@ -570,22 +570,22 @@ label button_clyde_your_dog:
         clyde "{b}Clyde Cornelius Delmont{/b}."
     show clyde 1
     show player 10f
-    player_name "You're middle name is Cornelius?"
+    player_name "Você é o nome do meio é Cornelius?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Yeah buddy."
-    clyde "Like that prospector fella on the flyin' Reindeer show."
+    clyde "Sim amigo."
+    clyde "Como aquele prospector no show de renas voando."
     show clyde 4
-    clyde "You seen dat one?!"
+    clyde "Você viu esse?!"
     show clyde 3
     show player 10f
-    player_name "I don't think so..."
+    player_name "Acho que não..."
     show player 5f
     show clyde 4
-    clyde "Maaan, das a great one!"
+    clyde "Maaan, das uma ótima!"
     show clyde 3
     show player 10f
-    player_name "You're a weird guy, {b}Clyde{/b}."
+    player_name "Você é um cara estranho, {b}Clyde{/b}."
     show player 5f
     show clyde 4
     clyde "Uh huh!"
@@ -597,39 +597,39 @@ label button_clyde_roxxy_get_evidence_intro:
     show clyde 1 at left
     show player 12f at right
     with dissolve
-    player_name "We need to talk about this situation with {b}Crystal{/b}."
+    player_name "Precisamos conversar sobre essa situação com {b}Crystal{/b}."
     show player 5f
     show clyde 22
-    clyde "I'd rather not..."
+    clyde "eu prefiro que nao..."
     show clyde 21
     show player 10f
-    player_name "{b}Clyde{/b}, they're gonna send her away to prison and take the trailer away!"
+    player_name "{b}Clyde{/b}, eles vão mandá-la embora para a prisão e levar o trailer embora!"
     show player 5f
     show clyde 26
-    clyde "Look 'chere! You think I dun know that!"
-    clyde "I feel bad but there ain't nothin' I can do to stop it!"
+    clyde "Olha lá! Você acha que eu não sei disso!"
+    clyde "Eu me sinto mal, mas não há nada que eu possa fazer para impedir isso!"
     show clyde 25
     show player 12f
-    player_name "You could turn yourself in..."
+    player_name "Você pode se entregar..."
     show player 5f
     show clyde 22
-    clyde "Yeah right..."
-    clyde "Then we'd both end up behind bars!"
+    clyde "Okay, certo..."
+    clyde "Então nós dois acabamos atrás das grades!"
     show clyde 21
     show player 10f
-    player_name "Not if you tell them that {b}Crystal{/b} had no idea you hid the drugs there."
+    player_name "Não se você lhes disser que {b}Crystal{/b} não tinha ideia de que você escondeu as drogas lá."
     show player 5f
     clyde "..."
     show clyde 2
-    clyde "... And why would I do that?"
+    clyde "... E por que eu faria isso?"
     show clyde 1
     show player 12f
-    player_name "... Because it's the right thing to do!"
+    player_name "... Porque é a coisa certa a fazer!"
     show player 90f
     show clyde 2
     clyde "Pfft."
-    clyde "I can't be going away to prison!"
-    clyde "Handsome feller like me, those animals will eat me alive in 'dere."
+    clyde "Eu não posso ir para a prisão!"
+    clyde "Feller bonito como eu, esses animais vão me comer vivo aqui."
     show clyde 1
     return
 
@@ -639,89 +639,89 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 1 at left
     clyde "..."
     show player 10f
-    player_name "Look, man. She took the fall for you because she's your family."
-    player_name "... But this is way worse than she thinks it is!"
-    player_name "She's gonna go away for a long time and {b}Roxxy{/b} is gonna lose her {b}Mom{/b} and her home."
+    player_name "Olha cara. Ela levou a queda por você, porque ela é sua família."
+    player_name "...Mas isso é muito pior do que ela pensa que é!"
+    player_name "Ela vai embora por um longo tempo e {b}Roxxy{/b} vai perdê-la {b}Mom{/b} e a casa dela."
     show player 12f
-    player_name "{b}Roxxy{/b} didn't do anything to deserve that!"
+    player_name "{b}Roxxy{/b} não fez nada para merecer isso!"
     show player 5f
     show clyde 21
     clyde "..."
     show clyde 22
-    clyde "... Aww, shit! You're right."
-    clyde "{b}Roxanne{/b} shouldn't have to suffer on my account..."
-    clyde "... But I ain't goin' back to prison! ... No sir!"
+    clyde "... Aww, merda! Você está certo."
+    clyde "{b}Roxanne{/b} não deveria ter que sofrer por minha conta..."
+    clyde "... Mas eu não vou voltar para a prisão! ... Não senhor!"
     show clyde 21
     player_name "..."
     show player 14f
-    player_name "What if you sent your confession in with a letter?"
-    player_name "Tell them about your shack and let them come find the evidence."
-    player_name "If you do things right, you can be long gone before they start searching for you."
+    player_name "E se você enviou sua confissão com uma carta?"
+    player_name "Conte a eles sobre seu barraco e deixe-os encontrar as evidências."
+    player_name "Se você fizer as coisas certas, poderá demorar muito antes que elas comecem a procurá-lo."
     show player 13f
     clyde "..."
     show clyde 22
-    clyde "I suppose I could go on back to the holler..."
-    clyde "They ain't never gonna find me there."
-    clyde "... I sure would miss {b}Auntie Crystal{/b} though..."
+    clyde "Suponho que poderia voltar ao gritador..."
+    clyde "Eles nunca vão me encontrar lá."
+    clyde "... Com certeza sentiria falta {b}Auntie Crystal{/b} Apesar..."
     show clyde 21
     show player 10f
-    player_name "You'd be saving her from prison, man."
+    player_name "Você a salvaria da prisão, cara."
     show player 5f
     show clyde 22
-    clyde "Hmm, I reckon' you got a good plan."
+    clyde "Hmm, eu acho que você tem um bom plano."
     show player 13f
-    clyde "So I do this and she gets off scot free?"
+    clyde "Então eu faço isso e ela sai livre?"
     show clyde 21
     show player 12f
-    player_name "... We'd still have to come up with bail money for her but it's a good start."
+    player_name "... Ainda teríamos que pagar uma fiança para ela, mas é um bom começo."
     show player 5f
     show clyde 22
-    clyde "How much money you need?"
+    clyde "Quanto dinheiro você precisa?"
     show clyde 21
     show player 12f
     player_name "$50,000..."
     show player 5f
     show clyde 2
     clyde "... Huh."
-    clyde "Well I can do that!"
+    clyde "Bem, eu posso fazer isso!"
     show clyde 1
     show player 10f
-    player_name "What?!" with hpunch
-    player_name "You can't be serious..."
-    player_name "You have $50,000 laying around somewhere?"
+    player_name "O que ?! "com soco."
+    player_name "Você não pode estar falando sério..."
+    player_name "Você tem $ 50.000 espalhados por algum lugar?"
     show player 11f
     show clyde 2
-    clyde "Not exactly."
+    clyde "Não exatamente."
     show clyde 4 with dissolve
-    clyde "... But I got a whole mess of that Meth."
-    clyde "Enough to clear $100,000 to the right buyer, I imagine."
+    clyde "... Mas eu tenho uma bagunça toda essa metanfetamina."
+    clyde "O suficiente para liberar US $ 100.000 para o comprador certo, imagino."
     show clyde 3
     show player 10f
-    player_name "That's nuts!"
-    player_name "Can you really sell it?"
+    player_name "Isso é loucura!"
+    player_name "Você pode realmente vendê-lo?"
     show player 5f
     show clyde 4
-    clyde "Pfft! C'mon buddy..."
-    clyde "Dontcha know who yer talkin' to?"
-    clyde "I could sell a ketchup popsicle to a gal wearin' white gloves!"
+    clyde "Pfft! Vamos amigo..."
+    clyde "Você não sabe com quem está falando?"
+    clyde "Eu poderia vender um picolé de ketchup para uma garota usando luvas brancas!"
     show clyde 3
     show player 11f
     player_name "..."
     show player 12f
-    player_name "... Ketchup popsicle?"
+    player_name "... Picolé de ketchup?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Yeah, buddy!"
+    clyde "Sim amigo!"
     show clyde 3 with dissolve
     show player 14f
-    player_name "... When can you do it?"
+    player_name "...Quando você pode fazer isso?"
     show player 13f
     show clyde 4
-    clyde "Hmm, I'll have to call up mah buyer."
-    clyde "... But perty soon, I reckon'."
+    clyde "Hmm, eu vou ter que ligar para mah comprador."
+    clyde "... Mas perty logo, eu acho'."
     show clyde 3
     show player 14f
-    player_name "I'm gonna go tell {b}Roxxy{/b} the good news!"
+    player_name "Eu vou contar {b}Roxxy{/b} as boas notícias!"
     hide player
     hide clyde
     with dissolve
@@ -731,19 +731,19 @@ label button_clyde_roxxy_get_evidence_about_roxxy_fail:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "[chr_warn]You're a coward!"
+    player_name "[chr_warn]Você é um covarde!"
     show player 90f
     show clyde 26
-    clyde "[chr_warn]Hey now, don't you be calling {b}ME{/b} no coward!"
-    clyde "[chr_warn]You got no idea what it's like in the slammer fer someone like me!"
-    clyde "[chr_warn]I dun been there once and I'll be damned if I'm goin' back!"
+    clyde "[chr_warn]Ei agora, você não está ligando {b}ME{/b} sem covarde!"
+    clyde "[chr_warn]Você não tem ideia de como é o que bate com violência para alguém como eu!"
+    clyde "[chr_warn]Eu já estive lá uma vez e serei amaldiçoado se vou voltar!"
     show clyde 25
     show player 15f
-    player_name "[chr_warn]Whatever... {b}COWARD{/b}!"
+    player_name "[chr_warn]Tanto faz... {b}COWARD{/b}!"
     show player 16f
     show clyde 26
-    clyde "[chr_warn]Screw you!"
-    clyde "[chr_warn]I dun hafta take this!"
+    clyde "[chr_warn]Dane-se!"
+    clyde "[chr_warn]Eu não tenho que tomar isso!"
     hide clyde
     hide player
     with dissolve
@@ -751,11 +751,11 @@ label button_clyde_roxxy_get_evidence_about_roxxy_fail:
 
 label button_clyde_roxxy_get_evidence_nevermind:
     show player 12f
-    player_name "Ugh, forget it!"
+    player_name "Ugh, esqueça!"
     show player 90f
     show clyde 22
-    clyde "Yeah, that's exactly what I plan on doin'!"
-    clyde "I reckon' thars a whole mess of forgettin' at the bottom of these here beer cans!"
+    clyde "Sim, é exatamente isso que pretendo fazer'!"
+    clyde "Eu acho que é uma bagunça toda esquecendo no fundo dessas latas de cerveja aqui!"
     hide clyde
     hide player
     with dissolve
@@ -766,18 +766,18 @@ label button_clyde_roxxy_selling_meth_ask_roxxy:
     show clyde 1 at left
     show player 10f at right
     with dissolve
-    player_name "When can you sell that Meth?"
+    player_name "Quando você pode vender esse Meth?"
     show player 5f
     show clyde 2
-    clyde "Hold yer horses, buddy!"
-    clyde "These things take time."
+    clyde "Segure seus cavalos, amigo!"
+    clyde "Essas coisas levam tempo."
     show clyde 1
     player_name "..."
     show clyde 2
-    clyde "You just go on and tell my sweet {b}cousin{/b} that {b}Clyde{/b} is gon take care of everthang!"
+    clyde "Você apenas continua e diz ao meu doce {b}cousin{/b} naquele {b}Clyde{/b}vai cuidar do everthang!"
     show clyde 1
     show player 14f
-    player_name "... Right."
+    player_name "... Direito."
     hide player
     hide clyde
     with dissolve
@@ -787,57 +787,57 @@ label button_clyde_roxxy_selling_meth:
     scene expression player.location.background_blur
     show clyde 3 at left
     show player 10f at right
-    player_name "You get in touch with your buyer yet?"
+    player_name "Você já entrou em contato com seu comprador?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Yeah, buddy!"
+    clyde "Sim amigo!"
     show player 13f
-    clyde "I'm fixin' to make a killin' on dis here deal!"
+    clyde "Estou me preparando para matar um negócio aqui!"
     show clyde 3
     show player 12f
-    player_name "{b}Roxxy{/b} says you've never sold Meth before!"
+    player_name "{b}Roxxy{/b} diz que você nunca vendeu Meth antes!"
     show player 90f
     show clyde 26 with dissolve
-    clyde "What?!"
-    clyde "She dun know nuthin'!"
-    clyde "I been in on plenty of these here deals!"
+    clyde "o que?!"
+    clyde "Ela não sabe nada'!"
+    clyde "Eu estive em muitas dessas ofertas aqui!"
     show clyde 25
     show player 12f
-    player_name "You've actually dealt with the buyers before?"
+    player_name "Você já lidou com os compradores antes?"
     show player 5f
     show clyde 1
     clyde "..."
     show clyde 22
-    clyde "Well, I watched {b}Auntie Crystal{/b} do it a hundert times!"
+    clyde "Bem, eu assisti {b}Auntie Crystal{/b} faça isso um hundert vezes!"
     show clyde 1
     show player 37f with dissolve
     player_name "..."
-    player_name "{b}*Sigh*{/b} I'm coming with you."
+    player_name "{b}*Sigh*{/b} eu vou contigo."
     show player 90f with dissolve
     show clyde 2
-    clyde "Huh?"
-    clyde "What do you know about selling drugs?!"
+    clyde "Hã?"
+    clyde "O que você sabe sobre a venda de medicamentos?!"
     show clyde 1
     show player 12f
-    player_name "Not a damn thing."
-    player_name "... But I know you and you're definitely not competent enough to do this alone."
+    player_name "Não é uma coisa maldita."
+    player_name "... Mas eu conheço você e você definitivamente não é competente o suficiente para fazer isso sozinho."
     show player 90f
     show clyde 22
-    clyde "Well, that's not... Wait a second, what's campito mean?!"
+    clyde "Bem, isso não é ... Espere um segundo, o que significa campito?!"
     show clyde 1
     show player 12f
-    player_name "... Exactly."
+    player_name "... Exatamente."
     show player 90f
     show clyde 2
-    clyde "Tch, Whatever, buddy."
-    clyde "Come or don't come. It don't matter none to me!"
+    clyde "Tch, tanto faz, amigo."
+    clyde "Venha ou não venha. Não importa para mim!"
     show clyde 26
-    clyde "... But iffin' you are comin', you'd best {b}meet me at the trailer, tonight{/b}."
+    clyde "... Mas se você está vindo, é melhor {b}encontre-me no trailer, hoje à noite{/b}."
     clyde "You got that?"
     show clyde 1
     show player 12f
-    player_name "Yeah, I got it."
-    player_name "I'll see you {b}tonight at Roxxy's trailer{/b}."
+    player_name "É, eu entendi."
+    player_name "Eu vou te ver {b}tonight at Roxxy's trailer{/b}."
     hide player
     hide clyde
     with dissolve
@@ -847,15 +847,15 @@ label button_clyde_roxxy_meeting_buyer:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "We still good to sell that Meth?"
+    player_name "Ainda é bom vender esse Meth?"
     show player 90f
     show clyde 4 with dissolve
-    clyde "Sure 'nuff."
-    clyde "Just be here {b}tonight{/b} iffin' your plan is to tag along."
+    clyde "Claro que nada."
+    clyde "Apenas esteja aqui {b}esta noite{/b} Se o seu plano é definir junto."
     show clyde 3
     show player 12f
-    player_name "Yeah, I got it."
-    player_name "I'll see you {b}tonight{/b}."
+    player_name "É, eu entendi."
+    player_name "Eu vou te ver {b}esta noite{/b}."
     hide player
     hide clyde
     with dissolve
@@ -865,52 +865,52 @@ label button_clyde_roxxy_meeting_buyer_dark:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "You ready to go?"
+    player_name "Você está pronto para ir?"
     show player 90f
     show clyde 1
     clyde "..."
     show clyde 2
-    clyde "You wearing dat?"
+    clyde "Você está usando esse?"
     show clyde 1
     show player 5f
     player_name "..."
     show player 10f
-    player_name "What's wrong with what I'm wearing?"
+    player_name "O que há de errado com o que estou vestindo?"
     show player 5f
     show clyde 2
-    clyde "Eugh... I dunno, buddy. You look awfully suspicious..."
-    clyde "I sure as heck wouldn't buy no drugs off somebody lookin' like you."
+    clyde "Eugh ... não sei, amigo. Você parece muito desconfiado..."
+    clyde "Eu com certeza não compraria drogas de alguém parecendo você."
     show clyde 1
     show player 10f
-    player_name "Well, I didn't bring any other clothes..."
+    player_name "Bem, eu não trouxe nenhuma outra roupa..."
     show player 5f
     clyde "..."
     show clyde 2
-    clyde "Hold on a second. I gots somethin' fer you to wear!"
+    clyde "Espere um segundo. Eu tenho algo para você vestir!"
     hide clyde with dissolve
     show player 12f
-    player_name "... This should be interesting."
+    player_name "... Isso deveria ser interessante."
     scene black with fade
     pause
     scene park_bench
     show clyde 4 at left
     with dissolve
-    clyde "C'mon now, buddy..."
-    clyde "You gon make us late!"
+    clyde "Vamos agora, amigo..."
+    clyde "Você vai nos atrasar!"
     show clyde 3
     show player 12f at right
     show player_outfit bb 638ef at Position (xpos=866)
     with dissolve
-    player_name "I can't believe I let you talk me into wearing this..."
-    player_name "I feel ridiculous!"
+    player_name "Não acredito que deixei você me convencer a usar isso..."
+    player_name "Me sinto ridículo!"
     show player 90f
     show clyde 4
-    clyde "Psh, dun be silly."
-    clyde "You look like the real deal!"
+    clyde "Psh, não seja bobo."
+    clyde "Você parece o verdadeiro negócio!"
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "The buyer should be here any second now."
+    clyde "O comprador deve estar aqui a qualquer momento."
     hide clyde
     hide player
     hide player_outfit
@@ -928,97 +928,97 @@ label button_clyde_cletus_introduce:
     clyde "!!!"
     show clyde 21
     show player 10f
-    player_name "When did you get back into town?!"
+    player_name "Quando você voltou para a cidade?!"
     show player 5f
     show clyde 2
-    clyde "Ehh, sorry buddy."
-    clyde "You got the wrong feller..."
+    clyde "Ehh, desculpe amigo."
+    clyde "Você entendeu errado..."
     show clyde 1
     show player 10f
-    player_name "Huh?"
+    player_name "Hã?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Name's {b}Cletus{/b}!"
-    clyde "Pleasure to meet ya!"
+    clyde "Nome {b}Cletus{/b}!"
+    clyde "Prazer em conhecê-lo!"
     show clyde 3
     player_name "..."
     show player 12f
-    player_name "What are you talking about, {b}Clyde{/b}?"
+    player_name "Do que você está falando, {b}Clyde{/b}?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "{b}*Ahem*{/b} Again..."
-    clyde "The names not {b}Clyde{/b}... It's {b}Cletus{/b}."
+    clyde "{b}*Ahem*{/b} Novamente..."
+    clyde "Os nomes não {b}Clyde{/b}... Está {b}Cletus{/b}."
     show clyde 1
     show player 12f
-    player_name "... But you look just like {b}Roxxy's{/b} cousin {b}Clyde{/b}."
+    player_name "... Mas você parece {b}Roxxy's{/b} prima {b}Clyde{/b}."
     show player 5f
     show clyde 2
-    clyde "Hmm, well sorry. I don't know this {b}Clyde{/b} person."
+    clyde "Hmm, desculpe. Eu não sei isso {b}Clyde{/b} pessoa."
     show clyde 9 with dissolve
-    clyde "He sure does sound like a handsome son bitch though!"
+    clyde "Ele com certeza soa como um belo filho da puta!"
     show clyde 3 with dissolve
     player_name "..."
     show player 17f
-    player_name "Are you joking with me right now?!"
+    player_name "Você está brincando comigo agora?!"
     show player 13f
     show clyde 4
-    clyde "Let me ask you this..."
-    clyde "Did this {b}Clyde{/b} wear a hat?"
+    clyde "Deixe-me perguntar isso..."
+    clyde "Fez isso {b}Clyde{/b} usar um chapéu?"
     show clyde 3
     show player 10f
-    player_name "... No."
+    player_name "... Não."
     show player 5f
     show clyde 4
-    clyde "Well, then there ya go!"
-    clyde "As you can see... {b}Cletus{/b} never goes nowhere, without his trusty hat!"
+    clyde "Bem, então lá vai você!"
+    clyde "Como você pode ver... {b}Cletus{/b} nunca vai a lugar nenhum, sem o chapéu de confiança!"
     show clyde 3
     player_name "..."
     show player 25f
-    player_name "This is weird."
+    player_name "Isso é estranho."
     show player 12f
-    player_name "I'm gonna go."
+    player_name "eu vou."
     show player 5f
     show clyde 4
-    clyde "Alright. Well, it was nice meetin' ya, {b}[firstname]{/b}!"
+    clyde "Tudo bem. Bem, foi um prazer conhecê-lo, {b}[firstname]{/b}!"
     show clyde 3
     player_name "..."
     show player 92f
-    player_name "I didn't tell you my name!"
+    player_name "Eu não te disse meu nome!"
     show player 91f
     show clyde 22
     clyde "!!!" with hpunch
     clyde "Oh, err..."
-    clyde "... Well, I..."
+    clyde "... Bem eu..."
     show clyde 11 with dissolve
-    clyde "Umm... Telepathy!"
+    clyde "Umm... Telepatia!"
     show clyde 12
     show player 10f
-    player_name "Huh?!"
+    player_name "Hã?!"
     show player 5f
     show clyde 11
-    clyde "I, {b}Cletus{/b}... Am a telepath."
+    clyde "I, {b}Cletus{/b}... Sou um telepata."
     show clyde 4 with dissolve
-    clyde "... And I dun read yer thoughts with mah mind bullets!"
+    clyde "... E eu leio seus pensamentos com balas mentais!"
     show clyde 3
     show player 10f
-    player_name "Mind bullets?"
+    player_name "Balas mentais?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Dat's right, buddy!"
+    clyde "Dat está certo, amigo!"
     show clyde 4 with dissolve
-    clyde "So don't go tellin' people that I'm here."
-    clyde "Cause I'll know..."
-    clyde "Especially, if those people are the fuzz."
+    clyde "Então não diga às pessoas que estou aqui."
+    clyde "Porque eu vou saber..."
+    clyde "Especialmente, se essas pessoas são o fuzz."
     show clyde 3
     player_name "..."
     show player 25f
-    player_name "I..."
-    player_name "... Just..."
-    player_name "... Bye."
+    player_name "Eu..."
+    player_name "... Somente..."
+    player_name "... Tchau."
     hide player with dissolve
     pause
     show clyde 4
-    clyde "So long, buddy!"
+    clyde "Até mais, amigo!"
     hide clyde
     hide clyde_hat
     with dissolve
@@ -1028,37 +1028,37 @@ label button_clyde_intro_0:
     show clyde 2 at left
     show player 5f at right
     with dissolve
-    clyde "Can I help you with somethin'?"
+    clyde "Posso ajudá-lo com algo'?"
     show clyde 1
     show player 10f
-    player_name "Uhh, no?"
+    player_name "Uhh, não?"
     show player 5f
     show clyde 22
-    clyde "Oh, man. Are you one of dem door to door, jesus loves ya, people?"
+    clyde "Oh cara. Você é um dos dem porta a porta, jesus te ama, pessoas?"
     show clyde 21
     show player 12f
-    player_name "What?! No!"
+    player_name "O que?! Não!"
     show player 5f
     show clyde 26
-    clyde "{b}*Gasp*{/b} Are you a cop?!"
-    clyde "You have to tell me now, it's the law!"
+    clyde "{b}*Gasp*{/b} Você é um policial?!"
+    clyde "Você tem que me dizer agora, é a lei!"
     show clyde 25
     show player 12f
-    player_name "No, man... We met just the other night!"
+    player_name "Não, cara ... Nos conhecemos na outra noite!"
     show player 5f
     clyde "..."
     show player 10f
-    player_name "I was helping {b}Roxxy{/b} with her homework?"
+    player_name "Eu estava ajudando {b}Roxxy{/b} com a lição de casa?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Oh, shit yeah!"
-    clyde "Yer {b}Roxanne's{/b} new boyfriend!"
+    clyde "Oh, merda, sim!"
+    clyde "Yer {b}Roxanne's{/b} novo namorado!"
     show clyde 3
     show player 10f
-    player_name "No, we're just fr-"
+    player_name "Não, nós somos apenas-"
     show player 5f
     show clyde 4
-    clyde "How's it goin', brother?!"
+    clyde "Como vai, irmão?!"
     show clyde 3
     player_name "..."
     return
@@ -1067,13 +1067,13 @@ label button_clyde_intro_1:
     show clyde 4 at left
     show player 5f at right
     with dissolve
-    clyde "What's up, brother?!"
+    clyde "O que há, irmão?!"
     show clyde 3
     show player 14f
-    player_name "Oh, hey {b}Clyde{/b}..."
+    player_name "Oh, ei {b}Clyde{/b}..."
     show player 5f
     show clyde 4
-    clyde "Whatchu doin' out here?!"
+    clyde "O que você está fazendo aqui??!"
     show clyde 3
     return
 
@@ -1082,104 +1082,104 @@ label button_cletus_intro:
     show clyde 3 at left
     show clyde_hat at left
     with dissolve
-    player_name "So {b}Cletus{/b}, right?"
+    player_name "assim {b}Cletus{/b}, direita?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Dat's right, buddy!"
+    clyde "Dat está certo, amigo!"
     show clyde 4 with dissolve
-    clyde "What can I do ya fer?!"
+    clyde "O que posso fazer??!"
     show clyde 3
     return
 
 label button_clyde_how_are_you:
     show player 37f with dissolve
-    player_name "{b}*Sigh*{/b} I'm good."
-    player_name "How are you doing?"
+    player_name "{b}*Sigh*{/b} Eu estou bem."
+    player_name "Como vai você?"
     show player 5f with dissolve
     show clyde 9 with dissolve
-    clyde "More like, who ain't I doin'!"
-    clyde "Hahah, know what I mean, brother?!"
+    clyde "Mais como, quem não sou eu!"
+    clyde "Hahah, sabe o que eu quero dizer, irmão?!"
     show clyde 3 with dissolve
     show player 24f
     player_name "..."
     show clyde 11 with dissolve
-    clyde "'Cause I'm havin' all the sex... With the ladies..."
-    clyde "{b}*Ahem*{/b} Human ladies."
+    clyde "'Porque eu estou tendo todo o sexo ... Com as mulheres..."
+    clyde "{b}*Ahem*{/b} Senhoras humanas."
     show clyde 12
     show player 12f
-    player_name "Yeah, I get it, {b}Clyde{/b}..."
+    player_name "Sim, entendi, {b}Clyde{/b}..."
     show clyde 9 with dissolve
-    clyde "Heh, yeah you do!"
+    clyde "Heh, sim você faz!"
     show clyde 3 with dissolve
     return
 
 label button_clyde_where_are_you_from:
     show player 10f
-    player_name "I've never heard anybody talk the way you do, {b}Clyde{/b}..."
+    player_name "Eu nunca ouvi alguém falar do jeito que você faz, {b}Clyde{/b}..."
     show player 12f
-    player_name "Where are you from anyways?"
+    player_name "De onde você é??"
     show player 5f
     show clyde 4
-    clyde "Dat's cause all you city folk be talkin' weird!"
-    clyde "Down in the Holler, we all talk like dis..."
+    clyde "Isso porque todos vocês da cidade estão falando esquisitos!"
+    clyde "Lá no Holler, todos falamos como dis..."
     show clyde 3
     show player 10f
-    player_name "... The Holler?"
+    player_name "... O Holler?"
     show player 5f
     show clyde 4
-    clyde "Yeah."
+    clyde "Sim."
     show clyde 3
     show player 10f
-    player_name "What is that?!"
+    player_name "O que é isso?!"
     show player 5f
     show clyde 4
-    clyde "Uhh, where I growed up. Duh!"
+    clyde "Uhh, onde eu cresci!"
     show clyde 3
     show player 11f
     player_name "..."
     show clyde 4
-    clyde "It's just a few counties North of here."
-    clyde "Up in the hills."
+    clyde "São apenas alguns condados ao norte daqui."
+    clyde "Nas colinas."
     show clyde 3
     show player 10f
-    player_name "I thought it was all woods up north?"
+    player_name "Eu pensei que era tudo bosques no norte?"
     show player 5f
     show clyde 4
-    clyde "Yeah, perty much..."
+    clyde "Sim, bastante..."
     show clyde 3
     show player 12f
-    player_name "People live up there?"
+    player_name "As pessoas moram lá em cima?"
     show player 5f
     show clyde 4
-    clyde "Psh, most my family still livin' dere."
-    clyde "I thought I'd move up here with {b}Auntie Crystal{/b} fer a spell."
-    clyde "Give city life a fair shake."
+    clyde "Psh, a maioria da minha família ainda vive aqui."
+    clyde "Eu pensei em subir aqui com {b}Auntie Crystal{/b} para um feitiço."
+    clyde "Dê um toque justo à vida da cidade."
     show clyde 3
     show player 10f
-    player_name "How's that working out?"
+    player_name "Como isso está funcionando?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Ehh, it's got its ups and downs."
-    clyde "I miss the moonshine from back home and all the weed."
+    clyde "Ehh, tem seus altos e baixos."
+    clyde "Eu sinto falta do luar de volta para casa e toda a erva."
     show clyde 1
     player_name "..."
     show clyde 4 with dissolve
-    clyde "... But I'm makin' a killin' cookin' up here!"
+    clyde "... Mas eu estou fazendo uma cozinhando aqui!"
     show clyde 22 with dissolve
     clyde "!!!"
     show clyde 21
     show player 12f
-    player_name "What are you cooking?"
+    player_name "O que você está cozinhando?"
     show player 5f
     show clyde 22
     clyde "Ehh... "
     show clyde 21
     clyde "..."
     show clyde 22
-    clyde "Chicken!"
+    clyde "Frango!"
     show clyde 4 with dissolve
-    clyde "Heh, yeah! I'm cookin' buttloads of fried chicken!"
-    clyde "You city folk just can't get enough..."
+    clyde "Heh, sim! Estou cozinhando tiras de frango frito!"
+    clyde "Vocês da cidade simplesmente não conseguem o suficiente..."
     show clyde 3
     show player 4f with dissolve
     player_name "..."
@@ -1189,11 +1189,11 @@ label button_clyde_where_are_you_from:
 
 label button_clyde_see_ya:
     show player 36f with dissolve
-    player_name "I should get going..."
+    player_name "Eu deveria ir..."
     show player 5f with dissolve
     show clyde 4
-    clyde "Yeah, okay."
-    clyde "Keep on rockin', brother!"
+    clyde "Sim, ok."
+    clyde "Continue balançando, irmão!"
     clyde "Wooo!!"
     show clyde 3
     show player 30f
@@ -1205,44 +1205,44 @@ label button_clyde_see_ya:
 
 label button_clyde_whats_going_on:
     show player 12f
-    player_name "What have you got going on in there?"
+    player_name "O que você tem aí??"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Ehh, sorry brother."
-    clyde "The shack is strictly off limits!"
+    clyde "Ehh, desculpa irmão."
+    clyde "O barraco está estritamente fora dos limites!"
     show clyde 9 with dissolve
-    clyde "Unless you got lady parts?!"
+    clyde "A menos que você tenha peças femininas?!"
     show clyde 3 with dissolve
     show player 30f
-    player_name "... Nope."
+    player_name "... Não."
     show player 5f
     show clyde 4
-    clyde "Heh, well remember this... If the shack is a rockin', best not be knockin'!"
+    clyde "Heh, lembre-se disso ... Se o barraco estiver balançando, é melhor não estar batendo'!"
     show clyde 9 with dissolve
-    clyde "Know what I mean?!"
+    clyde "Sabe o que eu quero dizer?!"
     show clyde 3
     show player 401f
-    player_name "... Yeah. I wish I didn't though..."
+    player_name "... Sim. Eu gostaria de não ter..."
     show player 403f
     return
 
 label button_clyde_nice_tractor:
     show player 14f
-    player_name "Nice tractor."
+    player_name "Agradavel trator."
     show player 13f
     show clyde 4
-    clyde "Oh, yeah!"
-    clyde "Dat 'dere is {b}Big Bertha{/b}!"
-    clyde "Ain't she a beauty?!"
+    clyde "Oh, sim!"
+    clyde "É você {b}Big Bertha{/b}!"
+    clyde "Ela não é uma beleza?!"
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "I built her up from scraps, myself."
-    clyde "31.2 horsepower, 2500 rpm, 8.5 gallon tank..."
-    clyde "... And just look at that ruby red finish!"
-    clyde "Mmm! She's the sexiest thing on four wheels!"
+    clyde "Eu a construí a partir de sucatas, eu mesma."
+    clyde "31,2 cavalos de potência, 2500 rpm, tanque de 8,5 galões..."
+    clyde "... E basta olhar para esse acabamento vermelho rubi!"
+    clyde "Mmm! Ela é a coisa mais sexy de quatro rodas!"
     show clyde 9 with dissolve
-    clyde "Know what I mean?"
+    clyde "Sabe o que eu quero dizer?"
     show clyde 3 with dissolve
     show player 5f
     player_name "..."
@@ -1250,12 +1250,12 @@ label button_clyde_nice_tractor:
 
 label button_clyde_nevermind:
     show player 10f
-    player_name "Actually, nevermind."
-    player_name "... Maybe some other time?"
+    player_name "Na verdade, deixa pra lá."
+    player_name "... Talvez outra hora?"
     show player 5f
     show clyde 4
-    clyde "Psh, hell yeah, Brother!"
-    clyde "You know where to find me."
+    clyde "Psh, inferno sim, irmão!"
+    clyde "Você sabe onde me encontrar."
     hide player
     hide clyde
     hide clyde_hat
@@ -1264,37 +1264,37 @@ label button_clyde_nevermind:
 
 label button_clyde_know_youre_clyde:
     show player 15f
-    player_name "C'mon, {b}Clyde{/b}! I know it's you!"
+    player_name "Vamos lá, {b}Clyde{/b}! Eu sei que é você!"
     show player 16f
     show clyde 4
-    clyde "I don't know what yer talkin' bout..."
+    clyde "Eu não sei o que você está falando..."
     show clyde 3
     show player 15f
-    player_name "This is stupid, I'm not gonna tell anybody you're back..."
+    player_name "Isso é estúpido, não vou contar a ninguém que você voltou..."
     show player 16f
     show clyde 4
-    clyde "Whatchu been smokin', buddy?"
+    clyde "O que você está fumando, amigo?"
     show player 428f
-    clyde "The names {b}Cletus{/b} and this is my first time being here."
-    clyde "Ever."
+    clyde "Os nomes {b}Cletus{/b} e esta é minha primeira vez aqui."
+    clyde "Sempre."
     show clyde 3
     show player 403f
     player_name "..."
     show player 402f with dissolve
-    player_name "It still says {b}Clyde{/b} above your text box!"
+    player_name "Ainda diz {b}Clyde{/b} acima da sua caixa de texto!"
     show player 403f
     show clyde 2 with dissolve
-    clyde "Hey now!"
-    clyde "Don't go breakin' the fourth wall!"
-    clyde "That's cheatin'!"
-    clyde "The name is {b}Cletus{/b}!!!"
+    clyde "Ei agora!"
+    clyde "Não vá quebrar a quarta parede!"
+    clyde "Isso é trapaça'!"
+    clyde "O nome é {b}Cletus{/b}!!!"
     show clyde 26
-    clyde "Say it!"
+    clyde "Diz!"
     show clyde 25
     show player 90f
     player_name "..."
     show clyde 2
-    clyde "C'mon, you know you wanna say it..."
+    clyde "Vamos lá, você sabe que quer dizer..."
     show clyde 1
     show player 24f
     player_name "{b}*Sigh*{/b}"
@@ -1302,8 +1302,8 @@ label button_clyde_know_youre_clyde:
     player_name "{b}Cletus{/b}."
     show player 24f
     show clyde 4 with dissolve
-    clyde "There ya go!"
-    clyde "That weren't so hard now, was it?!"
+    clyde "Lá vai você!"
+    clyde "Isso não era tão difícil agora, era??!"
     show clyde 3
     player_name "..."
     return

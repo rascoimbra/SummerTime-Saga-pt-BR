@@ -1,7 +1,7 @@
 label aqua_dialogue_night:
     show player 10 with dissolve
-    player_name "It's getting late..."
-    player_name "I should find my way out of this underwater cavern before it gets too dark."
+    player_name "Está ficando tarde..."
+    player_name "Eu deveria encontrar o caminho para sair desta caverna subaquática antes que fique muito escuro."
     hide player with dissolve
     return
 
@@ -11,110 +11,110 @@ label aqua_dialogue_aqua_found:
     show player 16 zorder 2 at Position(xpos=.125, ypos=1.0) with dissolve
     show aqua 1
     aqua "(!!!)" with hpunch
-    aqua "You!!"
+    aqua "Você!!"
     show player 15
     show aqua 2
-    player_name "That's right! Me!"
-    player_name "You said I had to come get it. Well here I am!"
-    player_name "Now give me back the shiny!"
+    player_name "Está certo! Eu!"
+    player_name "Você disse que eu tinha que vir buscá-lo. Bem, aqui estou eu!"
+    player_name "Agora me devolva o brilho!"
     show player 16
     show aqua 1
-    aqua "Hahahaha! You funny human!"
-    aqua "You come long way. You mussst be good ssswimmer, like Aqua!"
+    aqua "Hahahaha! Seu humano engraçado!"
+    aqua "Você percorre um longo caminho. Você deve ser um bom nadador, como Aqua!"
     show player 24
     show aqua 2
-    player_name "*cough* I guess..."
+    player_name "*tosse * eu acho..."
     show player 30
-    player_name "What is this place anyways?"
+    player_name "De qualquer forma, que lugar é esse?"
     show player 16
     show aqua 1
-    aqua "Thisss Aqua's nessst!"
+    aqua "Ninho deste Aqua!"
     show player 12
     show aqua 2
-    player_name "You live here?"
+    player_name "Você vive aqui?"
     show player 11
     show aqua 1
-    aqua "Yesss."
+    aqua "Sim."
     show player 10
     show aqua 2
-    player_name "By yourself?"
+    player_name "Por você mesmo?"
     show player 11
     show aqua 4
-    aqua "Yesss."
+    aqua "Sim."
     show player 10
     show aqua 3
-    player_name "Are there more of you?"
+    player_name "Há mais de você?"
     show player 11
     show aqua 4
-    aqua "More... of me?"
+    aqua "Mais ... de mim?"
     show player 10
     show aqua 3
-    player_name "You know, other nests with other... Umm, Aquas?"
+    player_name "Você sabe, outros ninhos com outros ... Hum, Aquas?"
     show player 11
     show aqua 4
-    aqua "Oooh, no."
+    aqua "Oooh, não."
     show aqua 5
-    aqua "No othersss. Just Aqua. Lassst of kind."
+    aqua "Nenhum outross. Apenas Aqua. ultimo do tipo."
     show player 10
     show aqua 3
-    player_name "Aww, well that's kinda sad. Sounds lonely."
+    player_name "Aww, bem, isso é meio triste. Soa solitário."
     show player 5
     show aqua 1
-    aqua "Not lonely. Have fishies!"
+    aqua "Não sozinho. Tem peixe!"
     show aqua 2b
-    aqua "Fishies you steals!"
+    aqua "Peixe que você rouba!"
     show player 15
     show aqua 1b
-    player_name "I told you that wasn't me! It's {b}CAPTAIN Terry{/b}."
+    player_name "Eu te disse que não era eu! Está {b}CAPTAIN Terry{/b}."
     show player 16
     show aqua 4
     aqua "Caplan Terry? Hmm..."
     show aqua 5
     pause
     show aqua 4
-    aqua "Maybe you tell truth..."
+    aqua "Talvez você diga a verdade..."
     show player 12
     show aqua 3
-    player_name "I'm telling the truth, Aqua. I promise."
+    player_name "Estou falando a verdade, Aqua. eu prometo."
     show player 16
     show aqua 2b
-    aqua "Well what Aqua do then? Fishies keep getting steals!"
+    aqua "Bem, o que o Aqua faz então? Fishies continuam recebendo roubos de bola!"
     show aqua 4
-    aqua "If fishies all gone, who Aqua talk to?"
+    aqua "Se todos os peixes desaparecerem, com quem Aqua conversará?"
     show player 11
     show aqua 5
-    aqua "Aqua go crazy before find mate."
+    aqua "Aqua enlouquece antes de encontrar companheiro."
     show player 10
     show aqua 3
-    player_name "Mate?"
+    player_name "Companheira?"
     show player 11
     show aqua 4
-    aqua "Yesss, Aqua waiting for Mate. Make baby Aquasss."
+    aqua "Sim, Aqua esperando por Mate. Faça Aquasss bebê."
     show player 10
     show aqua 5
-    player_name "Really? How long have you been waiting?"
+    player_name "Realmente? Há quanto tempo você está esperando?"
     show aqua 4
     show player 11
-    aqua "Aqua dunno. Looooong time. Nobody come. Nobody find Aqua."
+    aqua "Aqua duno. Muito tempo. Ninguém vem. Ninguém encontra Aqua."
     show player 10
     show aqua 5
-    player_name "Hmm... Well I found you."
+    player_name "Hmm ... Bem, eu te encontrei."
     show player 13
     show aqua 1
-    aqua "Yesss! You find Aqua!"
+    aqua "Sim! Você encontra Aqua!"
     show aqua 2
     aqua "..."
     show aqua 9
-    aqua "If you talk true and promissse not steals fishies. Me give you back Shiny."
+    aqua "Se você fala a verdade e promete não rouba peixes. Me devolver brilhante."
     show player 14
     show aqua 8
-    player_name "Yes! Thank you Aqua."
+    player_name "Sim! Obrigado Aqua."
     show player 13
     show aqua 9
-    aqua "You promissse?"
+    aqua "Você promete?"
     show player 14
     show aqua 8
-    player_name "I promise, I won't steal 'fishies.'"
+    player_name "Eu prometo, não vou roubar peixes.'"
     show player 13
     show aqua 9
     aqua "Ookaay."
@@ -125,10 +125,10 @@ label aqua_dialogue_aqua_found:
     show popup_lure zorder 3 at truecenter with dissolve
     pause
     hide popup_lure with dissolve
-    player_name "Phew... Thank you Aqua!"
+    player_name "Ufa ... Obrigado Aqua!"
     show player 470
     show aqua 1
-    aqua "Just remember not to steal Aqua's fishies..."
+    aqua "Lembre-se de não roubar os peixes do Aqua..."
     hide player
     hide aqua
     with dissolve
@@ -151,35 +151,35 @@ label aqua_sex_pre_first:
     scene location_lair_mount
     show aqua 2 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Aqua, I have some good news!"
+    player_name "Aqua, tenho boas notícias!"
     show player 1
     show aqua 1
-    aqua "*Gasp* You learn to breathe underwater, like Aqua?!"
+    aqua "*Suspiro * Você aprende a respirar debaixo d'água, como o Aqua?!"
     show player 12
     show aqua 2
-    player_name "What? ... No."
+    player_name "O que? ... Não."
     show player 1
     show aqua 7
-    aqua "Oh. Ookaay. What news then?"
+    aqua "Oh OK. Que notícias então?"
     show player 2
     show aqua 6
-    player_name "I convinced {b}Captain Terry{/b} to stop fishing!"
+    player_name "eu convenci {b}Captain Terry{/b} parar de pescar!"
     show player 1
     show aqua 7
-    aqua "You mean fishies safe!?"
-    aqua "No more {b}Captain Terry{/b}!?"
+    aqua "Você quer dizer peixes seguros!?"
+    aqua "Não mais {b}Captain Terry{/b}!?"
     show player 17
     show aqua 6
-    player_name "Hey, you said it right that time!"
+    player_name "Ei, você disse certo nessa hora!"
     show player 1
     show aqua 7
-    aqua "Huh?"
+    aqua "Hã?"
     show player 2
     show aqua 6
-    player_name "You said '{b}Captain Terry{/b}' correctly that time."
+    player_name "Você disse '{b}Captain Terry{/b}' corretamente esse tempo."
     show player 1
     show aqua 7
-    aqua "Yesss. Caplan Terry!"
+    aqua "Sim. Caplan Terry!"
     show player 90
     show aqua 6
     player_name "..."
@@ -187,44 +187,44 @@ label aqua_sex_pre_first:
     aqua "..."
 
     show player 37
-    player_name "... Just nevermind."
+    player_name "... Apenas não importa."
     show player 2
-    player_name "Your fish should be safe now."
+    player_name "Seu peixe deve estar seguro agora."
     show player 1
     show aqua 7
-    aqua "Oh thank you! Thank you! Thank you!"
+    aqua "Oh obrigado! Obrigado! Obrigado!"
     show aqua 14
-    aqua "You good human! Strong human!"
+    aqua "Você é bom humano! Humano forte!"
     show player 29
     show aqua 13
-    player_name "You're welcome, Aqua..."
+    player_name "De nada, Aqua..."
     show player 1
     show aqua 11
     aqua "..."
     show aqua 12
-    aqua "Is... human ready to mate with Aqua?"
+    aqua "É ... humano pronto para acasalar com o Aqua?"
     show player 21
     show aqua 13
-    player_name "R-right now?"
+    player_name "Agora?"
     show player 297
     show aqua 14
-    aqua "Yesss. Aqua wait long enough. Mate take her ssstrongly in water!"
+    aqua "Sim. Aqua espere o suficiente. Companheiro levá-la fortemente na água!"
     show player 10
     show aqua 13
-    player_name "In the water?"
+    player_name "Na água?"
     show player 11
     show aqua 14
-    aqua "Yesss. Come!"
+    aqua "Sim. Venha!"
     return
 
 label aqua_sex_pre:
     scene location_lair_cutscene
     with fade
-    show text "Aqua's touch was soft and gentle as she took my hand and started towards the luminescent pool." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "O toque de Aqua foi suave e gentil quando ela pegou minha mão e se dirigiu para a piscina luminescente." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I struggled to keep pace, fumbling with my clothes." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Eu lutei para manter o ritmo, mexendo nas minhas roupas." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "But she didn't seem to notice, her excitement palpable as she lead her mate into the water." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Bmas ela não pareceu notar, sua excitação palpável enquanto guia seu companheiro na água." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -236,46 +236,46 @@ label aqua_sex_after_first:
     show pswim 1 at right
     pause
     show aswim 2
-    aqua "Ooh, mate has good body."
+    aqua "Ooh, companheiro tem bom corpo."
     show aswim 1
     show pswim 2
-    player_name "Thanks Aqua..."
+    player_name "Obrigado Aqua..."
     show aswim 3
     show pswim 1
     pause
     show aswim 2
-    aqua "Your eel isss sleeping."
+    aqua "Sua enguia está dormindo."
     show aswim 1
     show pswim 2
-    player_name "Huh?"
+    player_name "Hã?"
     show aswim 3
     pause
     show pswim 3
     pause
     show pswim 2
-    player_name "Oh. Yeah..."
+    player_name "Oh Sim..."
     show aswim 2
     show pswim 1
-    aqua "Does mate like Aqua's body?"
+    aqua "O companheiro gosta do corpo de Aqua?"
     show aswim 1
     show pswim 2
-    player_name "Yes... Umm, 'mate' likes Aqua's body very much."
+    player_name "Sim ... Umm, 'companheiro' gosta muito do corpo de Aqua."
     show aswim 2
     show pswim 1
-    aqua "Good. Aqua's body belong to you now."
-    aqua "Mate's eel can play inssside Aqua whenever it wants."
+    aqua "Boa. O corpo de Aqua pertence a você agora."
+    aqua "A enguia do companheiro pode jogar Aqua inssside sempre que quiser."
     show aswim 3
     pause
     show aswim 2
-    aqua "It's warm inssside Aqua..."
+    aqua "É quente por dentro Aqua..."
     show aswim 3
     pause
     show aswim 2
-    aqua "... and soft..."
+    aqua "... e macio..."
     show aswim 3
     pause
     show aswim 2
-    aqua "... and wet."
+    aqua "... e umida."
     show pswim 3
     pause
     show aswim 3
@@ -288,51 +288,51 @@ label aqua_sex_after_first:
     pause
     show aswim 2
     show pswim 6
-    aqua "Ooh, eel likes this, yes?!"
+    aqua "Oh, enguia gosta disso, sim?!"
     show aswim 3
     show pswim 7
-    player_name "Y-yes..."
+    player_name "S-sim..."
     show aswim 4
-    aqua "Mmm, good. Aqua wantsss it."
+    aqua "MMM bom. Aqua quer."
     show aswim 3
     show pswim 8
     player_name "..."
     show aswim 4
-    aqua "Aqua wantsss it now!"
+    aqua "Aqua quer agora!"
     hide pswim
     show aswim 5 with dissolve
     pause
     show aswim 6 at right with dissolve
     player_name "*Gulp*"
-    aqua "Aaah, yessss. Come eel, you play inssside Aqua."
-    aqua "Give Aqua ssstrong babies..."
-    player_name "Oh wow!"
+    aqua "Aaah, sim. Venha enguia, você joga inssside Aqua."
+    aqua "Dê a Aqua bebês fortes..."
+    player_name "Oh uau!"
     aqua "Mmm..."
     return
 
 label aqua_sex_after:
     scene location_lair_watersex
     show aquas 1 at Position(xalign = 1.0, yalign = 1.0)
-    aqua "{b}Aqua{/b} needs it inssside her!"
-    aqua "Hurry my mate!"
+    aqua "{b}Aqua{/b} precisa dele por dentro dela!"
+    aqua "Apresse meu companheiro!"
     player_name "..."
     show aquas 2
-    aqua "Hissss."
-    aqua "Your eel sssooo big!"
-    aqua "Take me ssstrong!"
+    aqua "Dele."
+    aqua "Sua enguia tão grande!"
+    aqua "Me leve forte!"
     $ M_aqua.set("sex speed", .175)
     show expression AnimatedImage("aquas", [3,4,5,6,7], M_aqua) as aquas
     with fade
     aqua "Ooohh!."
     pause
-    aqua "So ssstrong!"
+    aqua "Tão forte!"
     pause
-    aqua "and deep!"
+    aqua "e profundo!"
     $ M_aqua.set("sex speed", .125)
     aqua "Aaahh!"
     pause
-    aqua "Mmm, my mate."
-    aqua "Faster!"
+    aqua "Mmm, meu companheiro."
+    aqua "Mais rápido!"
     $ M_aqua.set("sex speed", .075)
     pause
     return
@@ -369,7 +369,7 @@ label aqua_hscene_dialog:
         aqua "Ahhhh!!!{p=1}{nw}"
 
     elif animcounter == 3:
-        aqua "Take me!!!{p=1}{nw}"
+        aqua "Leve-me!!!{p=1}{nw}"
         player_name "Uhhh...{p=1}{nw}"
     return
 
@@ -389,20 +389,20 @@ label aqua_sex_cum:
     $ game.main()
 
 label aqua_sex_cum_pre:
-    player_name "This is unbelievable!"
-    player_name "{b}Aqua{/b}, I'm gonna..."
-    aqua "Yesss... YESSS MY MATE!"
-    aqua "Give {b}Aqua{/b} your ssseeeeeeds!"
-    aqua "HISSSSS!!!"
+    player_name "Isto é inacreditável!"
+    player_name "{b}Aqua{/b}, Eu vou..."
+    aqua "Sim ... Sim, meu companheiro!"
+    aqua "Dar {b}Aqua{/b} suas sementes!"
+    aqua "DELE!!!"
     show aquas 8 with flash
     player_name "UHHH!!"
     aqua "AAAAHHH!!!!"
     pause
     show aquas 9
-    player_name "Wow!"
-    player_name "That was incredible!"
-    aqua "Yesss..."
-    aqua "... {b}Aqua{/b} can feel strong babies swimming inssside her!"
+    player_name "Uau!"
+    player_name "Isso foi incrível!"
+    aqua "Sim..."
+    aqua "... {b}Aqua{/b} pode sentir bebês fortes nadando por dentro dela!"
     pause
     scene black with fade
     return
@@ -411,36 +411,36 @@ label aqua_sex_cum_first:
     scene location_lair_mount
     show aqua 11 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "So you enjoyed that?"
+    player_name "Então você gostou disso?"
     show player 1
     show aqua 12
-    aqua "Yesss. Aqua enjoy much! Ssstill feel tingle dancing in legs!"
+    aqua "Sim. Aqua aproveite muito! Ainda sinto formigamento dançando nas pernas!"
     show player 2
     show aqua 11
-    player_name "You were incredible! I've never felt anything like that before."
+    player_name "Você foi incrível! Eu nunca senti nada assim antes."
     show player 1
     show aqua 14
-    aqua "Yesss, this Aqua's first time too."
+    aqua "Sim, a primeira vez deste Aqua também."
     show aqua 12
-    aqua "... But Aqua wants more."
+    aqua "... Mas o Aqua quer mais."
     show aqua 14
-    aqua "Mate comes back, give Aqua more ssseed. Yes?"
+    aqua "O companheiro volta, dá mais água ao Aqua. sim?"
     show player 2
     show aqua 13
-    player_name "Absolutely, I'll come back really soon!"
+    player_name "Absolutamente, voltarei muito em breve!"
     show player 1
     show aqua 14
-    aqua "Mate promissse?"
+    aqua "Promessa de companheiro?"
     show player 2
     show aqua 13
-    player_name "Oh, I promise!"
+    player_name "Oh, eu prometo!"
     show player 1
     show aqua 12
-    aqua "Good. Aqua want much more!"
+    aqua "Boa. Aqua quer muito mais!"
     show aqua 14
-    aqua "Come back sssoon, Human."
+    aqua "Volte em breve, Humano."
     show aqua 11
-    aqua "Aqua wait here until tingle ssstop dancing..."
+    aqua "Aqua, espere aqui, até formigar, parar de dançar..."
     return
 
 label aqua_dialogue_pre:
@@ -449,65 +449,65 @@ label aqua_dialogue_pre:
     player_name "Hi, Aqua!"
     show player 1
     show aqua 1
-    aqua "Yess..."
+    aqua "Sim..."
     show player 2
     show aqua 2
-    player_name "I wanted to speak with you."
+    player_name "Eu queria falar com voce."
     show player 1
     show aqua 4
-    aqua "What doesss human boy want?"
+    aqua "O que menino humano quer?"
     return
 
 label aqua_dialogue_the_others:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 10 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Aqua, what happened to the rest of your kind?"
+    player_name "Aqua, o que aconteceu com o resto da sua espécie?"
     show player 11
     show aqua 4
-    aqua "Hmm, Aqua not sssure. They just gone one day. Aqua lassst one."
+    aqua "Hmm, Aqua não é certo. Eles acabaram de sair um dia. Aqua."
     show aqua 5
     show player 10
-    player_name "Aww, I'm sorry Aqua."
+    player_name "Aww, me desculpe Aqua."
     show player 11
     show aqua 1
-    aqua "You asssk more quessstions?"
+    aqua "Você faz mais perguntas?"
     show aqua 2
     return
 
 label aqua_dialogue_how_are_you:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Aqua, how are you?"
+    player_name "Aqua, como você está?"
     show player 1
     show aqua 4
-    aqua "How am I?"
+    aqua "Como eu estou?"
     show player 2
     show aqua 3
-    player_name "Yes, how are you feeling?"
+    player_name "Sim, como você está se sentindo??"
     show player 1
     show aqua 5
-    aqua "Hmm, Aqua okay. Lonely with so few fishies..."
+    aqua "Hmm, Aqua está bem. Solitário com tão poucos peixes..."
     show aqua 4
-    aqua "... but likes that human boy come visssit."
+    aqua "... mas gosta daquele garoto humano vem visitar."
     show player 2
     show aqua 3
-    player_name "I like talking with you too Aqua."
+    player_name "Eu também gosto de conversar com você Aqua."
     show player 1
     show aqua 1
-    aqua "Yesss, like talking."
-    aqua "You asssk more quessstions?"
+    aqua "Sim, como falar."
+    aqua "Você faz mais perguntas?"
     show aqua 2
     return
 
 label aqua_dialogue_mating_pre:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 10 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Aqua, what kind of mate are you looking for?"
+    player_name "Aqua, que tipo de companheiro você está procurando?"
     show player 11
     show aqua 4
-    aqua "Man. Ssstrong man. Make Aqua ssstrong babies."
+    aqua "Cara. homem forte. Faça bebês fortes do Aqua."
     show aqua 1
-    aqua "you know man like this?"
+    aqua "você conhece homem assim?"
     show player 34
     show aqua 3
     player_name "Hmm."
@@ -516,142 +516,142 @@ label aqua_dialogue_mating_pre:
 label aqua_dialogue_mating_stat_fail:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 29 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "[chr_warn]How about me?"
+    player_name "[chr_warn]E quanto a mim?"
     show player 3
     show aqua 4
-    aqua "[chr_warn]You ssstrong man?"
+    aqua "[chr_warn]Seu homem forte?"
     show player 29
     show aqua 3
-    player_name "[chr_warn]Yes?"
+    player_name "[chr_warn]Sim?"
     show player 3
     show aqua 5
     aqua "..."
     aqua "Hmm..."
     pause
     show aqua 4
-    aqua "[chr_warn]Aqua thinks... No. Bad idea."
+    aqua "[chr_warn]Aqua pensa ... Não. Má ideia."
     show player 24
     show aqua 3
-    player_name "[chr_warn]Bummer..."
+    player_name "[chr_warn]Vadio..."
     return
 
 label aqua_dialogue_mating_stat_pass:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Maybe I could help?"
+    player_name "Talvez eu possa ajudar?"
     show player 1
     show aqua 7
-    aqua "You?"
+    aqua "Você?"
     show player 2
     show aqua 6
-    player_name "Well I mean, I did swim all the way down here to find you."
+    player_name "Bem, quero dizer, eu nadei até aqui para encontrar você."
     show player 1
     show aqua 7
-    aqua "You did."
+    aqua "Você fez."
     show player 2
     show aqua 6
-    player_name "... And I fought a very mean squid along the way."
+    player_name "... E eu lutei com uma lula muito má ao longo do caminho."
     show player 1
     show aqua 7 with hpunch
-    aqua "You fight Inky?!"
+    aqua "Você luta com tinta?!"
     show player 2
     show aqua 6
-    player_name "Inky? Yes. I fight Inky."
+    player_name "Tinta? Sim. Eu luto com tinta."
     show aqua 7
-    aqua "Oooh, Inky ssstrong!"
+    aqua "Oooh, tinta forte!"
     show aqua 12
     pause
     show aqua 11
-    aqua "Maybe you do give Aqua ssstrong babies."
+    aqua "Talvez você dê a Aqua bebês fortes."
     show player 14
     show aqua 13
-    player_name "Really?!"
+    player_name "Realmente?!"
     show player 1
     show aqua 14
-    aqua "Yesss. But no mate yet. First you prove strength."
+    aqua "Sim. Mas sem companheiro ainda. Primeiro você prova a força."
     show player 10
     show aqua 13
-    player_name "Prove my strength? How am I supposed to do that?"
+    player_name "Prove minha força? Como eu devo fazer isso?"
     show player 1
     show aqua 7
-    aqua "You sssay Caplan Terry steals fishies, yesss?"
+    aqua "Você diz que Caplan Terry rouba peixinhos, sim?"
     show player 12
     show aqua 6
-    player_name "{b}CAPTAIN Terry{/b}. Yes, he's the guy who's been fishing off the dock."
+    player_name "{b}CAPTAIN Terry{/b}. Sim, ele é o cara que está pescando na doca."
     show player 11
     show aqua 7
-    aqua "Hmm, you go make Caplan Terry ssstop."
+    aqua "Hmm, você vai fazer Caplan Terry parar."
     show aqua 11
-    aqua "You do this and then you mate with Aqua."
+    aqua "Você faz isso e depois acasala com o Aqua."
     show player 10
     show aqua 13
-    player_name "Well I suppose I can give it a shot."
+    player_name "Bem, acho que posso tentar."
     show player 11
     show aqua 14
-    aqua "Good. You go then. Sssave fishies!"
+    aqua "Boa. Você vai então. salvar peixes!"
     return
 
 label aqua_dialogue_mating_hint:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 12 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "What do I need to do again, Aqua? To prove my strength?"
+    player_name "O que preciso fazer de novo, Aqua? Para provar minha força?"
     show player 11
     show aqua 7
-    aqua "You sssave fishies from Caplan Terry!"
+    aqua "Você salva peixes de Caplan Terry!"
     show player 10
     show aqua 6
-    player_name "Oh, right. {b}CAPTAIN Terry{/b}."
+    player_name "Oh, certo. {b}CAPTAIN Terry{/b}."
     show player 11
     show aqua 7
-    aqua "That's what Aqua say! Caplan Terry!"
+    aqua "É o que o Aqua diz! Caplan Terry!"
     show player 12
     show aqua 6
-    player_name "CAPT- Nevermind. I guess I should go try and talk to him."
+    player_name "CAPT- Deixa pra lá. Acho que devo tentar falar com ele."
     show player 5
     show aqua 7
-    aqua "Yesss. You go, sssave fishies!"
+    aqua "Sim. Você vai, salvar peixes!"
     return
 
 label aqua_dialogue_mate:
     show aqua 2 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 21 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "I thought maybe you would like to... Get in the water again?"
+    player_name "Eu pensei que talvez você gostaria de ... Entre na água novamente?"
     show player 26
     show aqua 3
     aqua "..."
     show aqua 1
-    aqua "Oh! You want make babies?"
+    aqua "Oh! Você quer fazer bebês?"
     show player 21
     show aqua 12
-    player_name "I, err... Sure?"
+    player_name "Eu, err ... Claro?"
     show player 26
     show aqua 11
-    aqua "Hahaha! Funny Human. You Aqua's mate now."
+    aqua "Hahaha! Humano engraçado. Você companheiro do Aqua agora."
     show aqua 14
-    aqua "Aqua always ready for more ssseeds! Mate take her ssstrongly in water whenever he wants."
+    aqua "Aqua sempre pronto para mais sementes! Companheiro levá-la fortemente na água sempre que ele quer."
     return
 
 label aqua_dialogue_nothing:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 36 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Nothing, I was just saying hi!"
+    player_name "Nada, eu só estava dizendo oi!"
     show player 1
     show aqua 4
-    aqua "Human boy isss... Funny..."
+    aqua "Menino humano é ... engraçado..."
     show aqua 1
-    aqua "...I like human boy..."
+    aqua "...Eu gosto de menino humano..."
     show player 21
     show aqua 2
-    player_name "I err... Like you too!"
+    player_name "Eu errei ... como você também!"
     show player 13
     aqua "..."
     show player 29
-    player_name "Anwyay, I should get going."
+    player_name "E sim, eu deveria ir."
     show player 3
     show aqua 1
-    aqua "You come back, see Aqua sssoon."
+    aqua "Você volta, vê Aqua em breve."
     show player 17
     show aqua 2
-    player_name "You bet!"
+    player_name "Pode apostar!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
